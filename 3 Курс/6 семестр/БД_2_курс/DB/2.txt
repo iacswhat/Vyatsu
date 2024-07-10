@@ -1,0 +1,83 @@
+do language plpgsql $$
+declare
+	_id_team bigint;
+	_id_player bigint;
+	
+begin
+
+	insert into team(name, place)
+		values ('Huston Rockets', 3)
+		returning id into _id_team;
+
+	insert into player(id_team, name, age, position)
+		values (_id_team, 'Джеймс Харден', '29', 'shooting guard')
+		returning id into _id_player;
+	
+	insert into result(id_player, id_team, point)
+		values (_id_player, _id_team, 135);
+	
+	insert into trainer(name, phone_number, id_team)
+		values ('Стивен Сайлас', NULL, _id_team);
+	
+	insert into activity(id_player, name_act)
+		values (_id_player, 'conference'); 
+		
+end;
+$$;
+
+
+
+SELECT * FROM player
+
+
+
+SELECT tr.name, te.name, te.place
+FROM team te
+JOIN trainer tr
+ON te.id = tr.id_team;
+
+
+
+create or replace view player_res as
+select p.name, p.position, r.point
+from player p join result r on p.id = r.id_player;
+
+
+
+
+create or replace view player_result_stat as
+	(select 'Минимальное значение', point, id_player from result
+ORDER BY point desc LIMIT 1)
+union all
+	(select 'Максимальное значение', point, id_player from result
+ORDER BY point LIMIT 1)
+union all
+select 'Среднее значение', avg(r.point), null from result r;
+
+
+
+
+EXPLAIN (format xml) select * from team
+join trainer on team.id = trainer.id_team;
+
+EXPLAIN (format JSON) select * from team
+join trainer on team.id = trainer.id_team;
+
+EXPLAIN (format YAML) select * from team
+join trainer on team.id = trainer.id_team;
+
+
+set enable_mergejoin = off;
+set enable_hashjoin = off;
+explain (format json)
+select * from player join team on player.id_team = id_team;
+
+
+set enable_hashjoin = on;
+explain (format json)
+select * from player join team on player.id_team = id_team;
+
+set enable_mergejoin = on;
+set enable_hashjoin = off;
+explain (format json)
+select * from player join team on player.id_team = id_team;

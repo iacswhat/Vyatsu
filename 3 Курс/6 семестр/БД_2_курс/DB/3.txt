@@ -1,0 +1,152 @@
+CREATE OR REPLACE FUNCTION save_team (
+	_id BIGINT,
+	_name VARCHAR(50),
+	_place int
+)
+RETURNS BIGINT
+AS $$
+DECLARE
+	used_id BIGINT;
+BEGIN
+	IF _id IS NULL THEN
+		INSERT INTO team (name, place)
+		VALUES (_name, _place)
+		RETURNING id
+		INTO used_id;
+	ELSE
+		UPDATE team SET
+			name = _name,
+			place = _place
+		WHERE id = _id;
+		
+		used_id := _id;
+	END IF;
+	
+	RETURN used_id;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT save_team(null, 'Celtics', 4);
+
+------------------------------------------
+
+CREATE OR REPLACE FUNCTION delete_team (
+	_id BIGINT
+)
+RETURNS VOID
+AS $$
+BEGIN
+	DELETE FROM team WHERE id = _id;
+	
+EXCEPTION
+	WHEN foreign_key_violation THEN
+		RAISE EXCEPTION 'Невозможно выполить удаление, 
+		так как есть внешние ссылки.';
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT delete_team(6)
+
+------------------------------------------
+
+CREATE OR REPLACE FUNCTION filter_player_by_age (
+	min_val BIGINT
+)
+RETURNS SETOF player
+AS $$
+BEGIN
+ RETURN QUERY (SELECT * FROM player WHERE age >= min_val);
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT * FROM filter_player_by_age(29)
+
+------------------------------------------
+
+CREATE TYPE t_team AS (
+ id BIGINT,
+ name VARCHAR(50),
+ place INTEGER
+);
+
+
+CREATE OR REPLACE FUNCTION filter_array_of_team (
+	arr t_team[],
+	filter_var INTEGER
+)
+RETURNS t_team[]
+AS $$
+BEGIN
+ RETURN ARRAY( /* Преобразуем выборку в массив */
+ SELECT (id, name, place)::t_team /* Создаем таблицу из элементов
+массива */
+ FROM unnest(arr)
+ WHERE place >= filter_var
+ );
+END;
+$$ LANGUAGE plpgsql
+
+SELECT filter_array_of_team(
+ array(SELECT (id, name, place)::t_team FROM team), 2
+ );
+
+------------------------------------------
+
+CREATE TABLE log_team (
+	id BIGSERIAL PRIMARY KEY,
+	team_id BIGINT REFERENCES team(id),
+	change_datetime TIMESTAMP DEFAULT NOW(),
+ 	old_value INT DEFAULT NULL,
+ 	new_value INT DEFAULT NULL
+);
+
+
+CREATE OR REPLACE FUNCTION trigger_func()
+RETURNS TRIGGER
+AS $$
+DECLARE
+	old_val INT;
+BEGIN
+ 	/* Определяем "старое" значение */
+ 	IF (TG_OP = 'UPDATE') THEN
+ 		old_val := OLD.place;
+ 	ELSIF (TG_OP = 'INSERT') THEN
+ 		old_val := NULL;
+ 	end if;
+ 	/* Производим запрос */
+ 	INSERT INTO log_team
+ 	(team_id, old_value, new_value)
+ 	VALUES
+ 	(NEW.id, old_val, NEW.place);
+ 	RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER commit_team_change
+AFTER UPDATE OR INSERT
+ON team
+FOR EACH ROW
+EXECUTE PROCEDURE trigger_func()
+
+insert into team (name, place) values ('Celtics', 4);
+update team set place = 5 where id = 6;
+
+------------------------------------------
+
+CREATE OR REPLACE FUNCTION get_value_by_id (
+ 	tableName VARCHAR,
+ 	columnName VARCHAR,
+ 	id BIGINT
+)
+RETURNS TEXT
+AS $$
+DECLARE
+ 	result TEXT;
+BEGIN
+ 	EXECUTE 'SELECT '|| columnName ||' FROM '|| tableName ||' WHERE id = $1' USING id 
+INTO result;
+ 	RETURN result;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT get_value_by_id('team', 'name', 1);

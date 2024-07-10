@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b93dfb14-fa92-43ae-94ca-a9af0b20b037": {
+      "ProjectGuid": "b93dfb14-fa92-43ae-94ca-a9af0b20b037",
+      "DisplayName": "L4_C",
+      "ColorIndex": 0
+    },
+    "87b6ab90-0e6d-4973-a82c-464254af5e82": {
+      "ProjectGuid": "87b6ab90-0e6d-4973-a82c-464254af5e82",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

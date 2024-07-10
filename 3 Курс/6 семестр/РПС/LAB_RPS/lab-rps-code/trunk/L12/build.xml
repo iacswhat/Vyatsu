@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <project name = "BigFraction" default="run" basedir=".">
+                <target name="create">
+                        <mkdir dir="build"/>
+                </target>
+
+                <target name="compile" depends="create">
+                    <mkdir dir="build/classes"/>
+                    <javac srcdir="L1/src" destdir="build/classes" includeantruntime="false"/>
+                </target>
+
+                <target name="jar" depends="compile">
+                 <mkdir dir="build/jar"/>
+                <jar destfile="build/jar/myProject.jar" basedir="build/classes">
+                        <manifest>
+                            <attribute name="Main-Class" value="Main"/>
+                        </manifest>
+                    </jar>
+                </target>
+                <target name="run" depends="jar">
+                    <java jar="build/jar/myProject.jar" fork="true"/>
+                </target>
+        </project>
