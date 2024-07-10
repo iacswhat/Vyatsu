@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Digital_Device_1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Digital_Device_1|ALU:inst4|CASCADE_RG4_block:inst12|MS3:inst1|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_u7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Digital_Device_1|ALU:inst4|CASCADE_RG4_block:inst12|MS3:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_u7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Digital_Device_1|ALU:inst4|CASCADE_RG4_block:inst12|RG4_alu:inst|lpm_mux0:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_u7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Digital_Device_1|PLL1:inst3|altpll:altpll_component" CBX_FILE_NAME="PLL1_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

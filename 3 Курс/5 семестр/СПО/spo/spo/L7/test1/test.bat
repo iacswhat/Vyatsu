@@ -1,0 +1,1 @@
+D:\masm32\bin\ml.exe /c /coff test1.asm

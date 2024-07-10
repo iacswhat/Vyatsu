@@ -1,0 +1,185 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -14.053
+TNS   : -1101.362
+
+Type  : Slow 1200mV 85C Model Setup 'block_name:inst14|y[25]'
+Slack : -1.924
+TNS   : -1.924
+
+Type  : Slow 1200mV 85C Model Setup 'block_name:inst14|y[26]'
+Slack : -1.419
+TNS   : -1.419
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'block_name:inst14|y[26]'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'block_name:inst14|y[25]'
+Slack : 2.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'block_name:inst14|y[25]'
+Slack : -1.963
+TNS   : -1.963
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.789
+TNS   : -0.789
+
+Type  : Slow 1200mV 85C Model Recovery 'block_name:inst14|y[26]'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'block_name:inst14|y[26]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'block_name:inst14|y[25]'
+Slack : 2.512
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -199.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'block_name:inst14|y[26]'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'block_name:inst14|y[25]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -12.631
+TNS   : -976.452
+
+Type  : Slow 1200mV 0C Model Setup 'block_name:inst14|y[25]'
+Slack : -1.708
+TNS   : -1.708
+
+Type  : Slow 1200mV 0C Model Setup 'block_name:inst14|y[26]'
+Slack : -1.277
+TNS   : -1.277
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'block_name:inst14|y[26]'
+Slack : 0.536
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'block_name:inst14|y[25]'
+Slack : 2.214
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'block_name:inst14|y[25]'
+Slack : -1.677
+TNS   : -1.677
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.648
+TNS   : -0.648
+
+Type  : Slow 1200mV 0C Model Recovery 'block_name:inst14|y[26]'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'block_name:inst14|y[26]'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.255
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'block_name:inst14|y[25]'
+Slack : 2.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -199.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'block_name:inst14|y[26]'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'block_name:inst14|y[25]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -7.717
+TNS   : -553.196
+
+Type  : Fast 1200mV 0C Model Setup 'block_name:inst14|y[25]'
+Slack : -1.182
+TNS   : -1.182
+
+Type  : Fast 1200mV 0C Model Setup 'block_name:inst14|y[26]'
+Slack : -0.864
+TNS   : -0.976
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'block_name:inst14|y[26]'
+Slack : 0.776
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'block_name:inst14|y[25]'
+Slack : 1.864
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'block_name:inst14|y[25]'
+Slack : -0.746
+TNS   : -0.746
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'block_name:inst14|y[26]'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'block_name:inst14|y[26]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.663
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'block_name:inst14|y[25]'
+Slack : 1.424
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -216.846
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'block_name:inst14|y[26]'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'block_name:inst14|y[25]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

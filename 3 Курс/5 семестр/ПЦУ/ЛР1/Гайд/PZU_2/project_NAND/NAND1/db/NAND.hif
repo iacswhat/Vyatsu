@@ -1,0 +1,858 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+10
+700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+d:|pzu_1|cursachv2|
+d:|pzu_1|project_nand|
+d:|pzu_1|usb_and_other|
+d:|pzu_1|cursachv2|
+d:|2|oa+ua+quartus|ua|elements|
+d:|2|ua3|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+My_NAND_24
+# storage
+db|NAND.(0).cnf
+db|NAND.(0).cnf
+# case_insensitive
+# source_file
+|users|Кирилл|desktop|Гайд|pzu_2|cursachv2|my_nand_24.bdf
+1fac4ce38c1a55f9cc82fcac62334e0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff1
+# storage
+db|NAND.(1).cnf
+db|NAND.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_dff1.vhd
+574dec8d90bc41b28a3d95f940f9f538
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+lpm_dff1:inst3
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|NAND.(2).cnf
+db|NAND.(2).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_ff.tdf
+6f1796a38d8b519cf7b8f38b5da1ac5b
+7
+# user_parameter {
+LPM_WIDTH
+20
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+DFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q19
+-1
+3
+q18
+-1
+3
+q17
+-1
+3
+q16
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data19
+-1
+3
+data18
+-1
+3
+data17
+-1
+3
+data16
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_dff1:inst3|lpm_ff:lpm_ff_component
+}
+# macro_sequence
+
+# end
+# entity
+AND24
+# storage
+db|NAND.(3).cnf
+db|NAND.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|users|Кирилл|desktop|Гайд|pzu_2|cursachv2|and24.vhd
+c725a83fc91ef8e11974ec49d98ae74
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+AND24:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+LPM_AND
+# storage
+db|NAND.(4).cnf
+db|NAND.(4).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_and.tdf
+dae67a4b94d163e024adf962885fdb7
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+24
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+2
+PARAMETER_SIGNED_DEC
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+RESULT9
+-1
+3
+RESULT8
+-1
+3
+RESULT7
+-1
+3
+RESULT6
+-1
+3
+RESULT5
+-1
+3
+RESULT4
+-1
+3
+RESULT3
+-1
+3
+RESULT23
+-1
+3
+RESULT22
+-1
+3
+RESULT21
+-1
+3
+RESULT20
+-1
+3
+RESULT2
+-1
+3
+RESULT19
+-1
+3
+RESULT18
+-1
+3
+RESULT17
+-1
+3
+RESULT16
+-1
+3
+RESULT15
+-1
+3
+RESULT14
+-1
+3
+RESULT13
+-1
+3
+RESULT12
+-1
+3
+RESULT11
+-1
+3
+RESULT10
+-1
+3
+RESULT1
+-1
+3
+RESULT0
+-1
+3
+DATA1_9
+-1
+3
+DATA1_8
+-1
+3
+DATA1_7
+-1
+3
+DATA1_6
+-1
+3
+DATA1_5
+-1
+3
+DATA1_4
+-1
+3
+DATA1_3
+-1
+3
+DATA1_23
+-1
+3
+DATA1_22
+-1
+3
+DATA1_21
+-1
+3
+DATA1_20
+-1
+3
+DATA1_2
+-1
+3
+DATA1_19
+-1
+3
+DATA1_18
+-1
+3
+DATA1_17
+-1
+3
+DATA1_16
+-1
+3
+DATA1_15
+-1
+3
+DATA1_14
+-1
+3
+DATA1_13
+-1
+3
+DATA1_12
+-1
+3
+DATA1_11
+-1
+3
+DATA1_10
+-1
+3
+DATA1_1
+-1
+3
+DATA1_0
+-1
+3
+DATA0_9
+-1
+3
+DATA0_8
+-1
+3
+DATA0_7
+-1
+3
+DATA0_6
+-1
+3
+DATA0_5
+-1
+3
+DATA0_4
+-1
+3
+DATA0_3
+-1
+3
+DATA0_23
+-1
+3
+DATA0_22
+-1
+3
+DATA0_21
+-1
+3
+DATA0_20
+-1
+3
+DATA0_2
+-1
+3
+DATA0_19
+-1
+3
+DATA0_18
+-1
+3
+DATA0_17
+-1
+3
+DATA0_16
+-1
+3
+DATA0_15
+-1
+3
+DATA0_14
+-1
+3
+DATA0_13
+-1
+3
+DATA0_12
+-1
+3
+DATA0_11
+-1
+3
+DATA0_10
+-1
+3
+DATA0_1
+-1
+3
+DATA0_0
+-1
+3
+}
+# hierarchies {
+AND24:inst|LPM_AND:lpm_and_component
+}
+# macro_sequence
+
+# end
+# entity
+MS8
+# storage
+db|NAND.(5).cnf
+db|NAND.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ms8.vhd
+52645bc021b87dd61c3563d4e92963
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+MS8:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+LPM_MUX
+# storage
+db|NAND.(6).cnf
+db|NAND.(6).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+1
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_SIGNED_DEC
+USR
+CBXI_PARAMETER
+mux_g6e
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+SEL0
+-1
+3
+RESULT7
+-1
+3
+RESULT6
+-1
+3
+RESULT5
+-1
+3
+RESULT4
+-1
+3
+RESULT3
+-1
+3
+RESULT2
+-1
+3
+RESULT1
+-1
+3
+RESULT0
+-1
+3
+DATA1_7
+-1
+3
+DATA1_6
+-1
+3
+DATA1_5
+-1
+3
+DATA1_4
+-1
+3
+DATA1_3
+-1
+3
+DATA1_2
+-1
+3
+DATA1_1
+-1
+3
+DATA1_0
+-1
+3
+DATA0_7
+-1
+3
+DATA0_6
+-1
+3
+DATA0_5
+-1
+3
+DATA0_4
+-1
+3
+DATA0_3
+-1
+3
+DATA0_2
+-1
+3
+DATA0_1
+-1
+3
+DATA0_0
+-1
+3
+}
+# hierarchies {
+MS8:inst2|LPM_MUX:lpm_mux_component
+}
+# macro_sequence
+
+# end
+# entity
+mux_g6e
+# storage
+db|NAND.(7).cnf
+db|NAND.(7).cnf
+# case_insensitive
+# source_file
+db|mux_g6e.tdf
+dbb934acc33597c37f1beb60c6667e2
+7
+# used_port {
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+MS8:inst2|LPM_MUX:lpm_mux_component|mux_g6e:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+My_OR24
+# storage
+db|NAND.(8).cnf
+db|NAND.(8).cnf
+# case_insensitive
+# source_file
+|users|Кирилл|desktop|Гайд|pzu_2|cursachv2|my_or24.bdf
+d7a782d457b59b54aedb3d623f6f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+My_OR24:inst26
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,8 @@
+(
+	result_sig
+) = KS4	(
+	.data[][] = data_sig[][]
+)
+RETURNS (
+	.result
+);

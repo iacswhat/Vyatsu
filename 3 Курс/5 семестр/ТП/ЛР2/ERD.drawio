@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T11:04:30.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36" etag="WagTAf_JksVSt_tcGjiU" version="22.0.2" type="device">
+  <diagram name="Страница — 1" id="liRHNMy-RcqnLXorFNyl">
+    <mxGraphModel dx="1626" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Идентификатор&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Дата начала&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Дата конца&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Название&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Статус&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="160" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+            <mxPoint x="220" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-4" value="ЧЕМПИОНАТ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="300" y="240" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="CV9vWBdYDUUY76Jrt16P-10" vertex="1">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CV9vWBdYDUUY76Jrt16P-10" source="CV9vWBdYDUUY76Jrt16P-5" target="CV9vWBdYDUUY76Jrt16P-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="30" as="sourcePoint" />
+            <mxPoint x="170" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-7" value="ЧАРТ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-10" vertex="1">
+          <mxGeometry x="70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-8" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Идентификатор&lt;br&gt;&lt;/span&gt;идентификатор чемпионата&lt;br&gt;Флаг командный/одиночный&lt;br&gt;Результат&lt;br&gt;Название&lt;br&gt;Ссылка" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-10" vertex="1">
+          <mxGeometry x="4" y="25" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="20" y="400" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="CV9vWBdYDUUY76Jrt16P-11" vertex="1">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CV9vWBdYDUUY76Jrt16P-11" source="CV9vWBdYDUUY76Jrt16P-12" target="CV9vWBdYDUUY76Jrt16P-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="30" as="sourcePoint" />
+            <mxPoint x="170" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-14" value="КОМАНДА" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-11" vertex="1">
+          <mxGeometry x="55" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-15" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Идентификатор&lt;br&gt;&lt;/span&gt;Идентификатор чарта&lt;br&gt;Название&lt;br&gt;Водители" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-11" vertex="1">
+          <mxGeometry x="4" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CV9vWBdYDUUY76Jrt16P-5" target="CV9vWBdYDUUY76Jrt16P-12" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590" y="220" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="CV9vWBdYDUUY76Jrt16P-17" vertex="1">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CV9vWBdYDUUY76Jrt16P-17" source="CV9vWBdYDUUY76Jrt16P-18" target="CV9vWBdYDUUY76Jrt16P-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="30" as="sourcePoint" />
+            <mxPoint x="170" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-20" value="Этап" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-17" vertex="1">
+          <mxGeometry x="70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-21" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Идентификатор&lt;br&gt;&lt;/span&gt;Идентификатор чарта&lt;br&gt;Название&lt;br&gt;Дата" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-17" vertex="1">
+          <mxGeometry x="4" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-25" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CV9vWBdYDUUY76Jrt16P-5" target="CV9vWBdYDUUY76Jrt16P-18" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="sourcePoint" />
+            <mxPoint x="590" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="615" />
+              <mxPoint x="200" y="600" />
+              <mxPoint x="290" y="440" />
+              <mxPoint x="280" y="440" />
+              <mxPoint x="230" y="550" />
+              <mxPoint x="220" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-26" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="550" y="420" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="CV9vWBdYDUUY76Jrt16P-26" vertex="1">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CV9vWBdYDUUY76Jrt16P-26" source="CV9vWBdYDUUY76Jrt16P-27" target="CV9vWBdYDUUY76Jrt16P-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="30" as="sourcePoint" />
+            <mxPoint x="170" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-29" value="ВОДИТЕЛЬ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-26" vertex="1">
+          <mxGeometry x="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-30" value="Идентификатор&lt;br&gt;Идентификатор чарта&lt;br&gt;Город&lt;br&gt;Страна&lt;br&gt;Имя&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CV9vWBdYDUUY76Jrt16P-26" vertex="1">
+          <mxGeometry x="4" y="30" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CV9vWBdYDUUY76Jrt16P-31" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="CV9vWBdYDUUY76Jrt16P-5" target="CV9vWBdYDUUY76Jrt16P-27" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="340" as="sourcePoint" />
+            <mxPoint x="250" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="625" />
+              <mxPoint x="480" y="400" />
+              <mxPoint x="210" y="610" />
+              <mxPoint x="300" y="450" />
+              <mxPoint x="290" y="450" />
+              <mxPoint x="240" y="560" />
+              <mxPoint x="230" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QF3nO5ZTLQ6JtLJVCuJQ-1" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CV9vWBdYDUUY76Jrt16P-2" target="CV9vWBdYDUUY76Jrt16P-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="210" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="555" />
+              <mxPoint x="-30" y="540" />
+              <mxPoint x="60" y="380" />
+              <mxPoint x="50" y="380" />
+              <mxPoint y="490" />
+              <mxPoint x="-10" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,105 @@
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1711\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1711_v2\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\1911v2\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2011\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2111\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2111 _v3\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+C:\Users\Romas\source\repos\2211\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2211\Dbproject\Dbproject\obj\Debug\Dbproject.pdb
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\bin\Debug\Dbproject.exe.config
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\bin\Debug\Dbproject.exe
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\bin\Debug\Dbproject.pdb
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.AssemblyReference.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.SuggestedBindingRedirects.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.EditForm2.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.Form1.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.Properties.Resources.resources
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.GenerateResource.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.csproj.CoreCompileInputs.cache
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.exe
+D:\ЛЕКЦИИ\LP\3 Курс\Практика\2.2\Dbproject\Dbproject\obj\Debug\Dbproject.pdb

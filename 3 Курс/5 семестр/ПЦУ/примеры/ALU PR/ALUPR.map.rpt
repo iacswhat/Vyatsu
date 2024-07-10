@@ -1,0 +1,368 @@
+Analysis & Synthesis report for ALUPR
+Mon Oct 24 12:05:41 2022
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                      ;
++------------------------------------+----------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Mon Oct 24 12:05:41 2022            ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; ALUPR                                        ;
+; Top-level Entity Name              ; ALUPR                                        ;
+; Family                             ; Cyclone III                                  ;
+; Total logic elements               ; N/A until Partition Merge                    ;
+;     Total combinational functions  ; N/A until Partition Merge                    ;
+;     Dedicated logic registers      ; N/A until Partition Merge                    ;
+; Total registers                    ; N/A until Partition Merge                    ;
+; Total pins                         ; N/A until Partition Merge                    ;
+; Total virtual pins                 ; N/A until Partition Merge                    ;
+; Total memory bits                  ; N/A until Partition Merge                    ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                    ;
+; Total PLLs                         ; N/A until Partition Merge                    ;
++------------------------------------+----------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C5E144C7        ;                    ;
+; Top-level entity name                                                      ; ALUPR              ; ALUPR              ;
+; Family name                                                                ; Cyclone III        ; Stratix II         ;
+; Use Generated Physical Constraints File                                    ; Off                ;                    ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Show Parameter Settings Tables in Synthesis Report                         ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon Oct 24 12:05:39 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALUPR -c ALUPR
+Warning: Tcl Script File ../ALU/gon.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/gon.qip
+Warning: Tcl Script File ../ALU/My.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/My.qip
+Warning: Tcl Script File ../ALU/And32.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/And32.qip
+Warning: Tcl Script File ../ALU/CT1.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/CT1.qip
+Warning: Tcl Script File ../ALU/CT2.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/CT2.qip
+Warning: Tcl Script File ../ALU/KC3.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/KC3.qip
+Warning: Tcl Script File ../ALU/KS1.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/KS1.qip
+Warning: Tcl Script File ../ALU/KS2.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/KS2.qip
+Warning: Tcl Script File ../ALU/KS4.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/KS4.qip
+Warning: Tcl Script File ../ALU/KS5.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/KS5.qip
+Warning: Tcl Script File ../ALU/lpm_compare0.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/lpm_compare0.qip
+Warning: Tcl Script File ../ALU/Or32.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/Or32.qip
+Warning: Tcl Script File ../ALU/RG1.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/RG1.qip
+Warning: Tcl Script File ../ALU/RG2.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/RG2.qip
+Warning: Tcl Script File ../ALU/RG3.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/RG3.qip
+Warning: Tcl Script File ../ALU/RG3S.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/RG3S.qip
+Warning: Tcl Script File ../ALU/SM1.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/SM1.qip
+Warning: Tcl Script File ../ALU/SM2.qip not found
+    Info: set_global_assignment -name QIP_FILE ../ALU/SM2.qip
+Warning: Can't analyze file -- file ../ALU/AND33.v is missing
+Warning: Can't analyze file -- file ../ALU/KOP.v is missing
+Warning: Can't analyze file -- file ../ALU/KC3.tdf is missing
+Warning: Can't analyze file -- file ../ALU/KS4.tdf is missing
+Warning: Can't analyze file -- file ../ALU/KS5.tdf is missing
+Warning: Can't analyze file -- file ../ALU/Ob.bdf is missing
+Info: Found 1 design units, including 1 entities, in source file alupr.bdf
+    Info: Found entity 1: ALUPR
+Info: Found 1 design units, including 1 entities, in source file pll1.v
+    Info: Found entity 1: PLL1
+Info: Found 2 design units, including 1 entities, in source file usb_ct3.vhd
+    Info: Found design unit 1: usb_ct3-SYN
+    Info: Found entity 1: USB_CT3
+Info: Found 2 design units, including 1 entities, in source file usb_dc3.vhd
+    Info: Found design unit 1: usb_dc3-SYN
+    Info: Found entity 1: usb_dc3
+Info: Found 2 design units, including 1 entities, in source file usb_dc8.vhd
+    Info: Found design unit 1: usb_dc8-SYN
+    Info: Found entity 1: USB_DC8
+Info: Found 2 design units, including 1 entities, in source file usb_mux1x2.vhd
+    Info: Found design unit 1: usb_mux1x2-SYN
+    Info: Found entity 1: USB_MUX1x2
+Info: Found 2 design units, including 1 entities, in source file usb_mux8x2.vhd
+    Info: Found design unit 1: usb_mux8x2-SYN
+    Info: Found entity 1: USB_MUX8x2
+Info: Found 2 design units, including 1 entities, in source file usb_mux8x19.vhd
+    Info: Found design unit 1: usb_mux8x19-SYN
+    Info: Found entity 1: USB_MUX8x19
+Info: Found 2 design units, including 1 entities, in source file usb_rg8e.vhd
+    Info: Found design unit 1: USB_RG8E-bdf_type
+    Info: Found entity 1: USB_RG8E
+Info: Found 2 design units, including 1 entities, in source file usbbridge.vhd
+    Info: Found design unit 1: USBBridge-bdf_type
+    Info: Found entity 1: USBBridge
+Info: Elaborating entity "ALUPR" for the top level hierarchy
+Warning: Primitive "GND" of instance "inst5" not used
+Info: Elaborating entity "USBBridge" for hierarchy "USBBridge:inst"
+Info: Elaborating entity "USB_RG8E" for hierarchy "USBBridge:inst|USB_RG8E:b2v_inst"
+Info: Elaborating entity "USB_MUX1x2" for hierarchy "USBBridge:inst|USB_MUX1x2:b2v_inst116"
+Info: Elaborating entity "LPM_MUX" for hierarchy "USBBridge:inst|USB_MUX1x2:b2v_inst116|LPM_MUX:LPM_MUX_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|USB_MUX1x2:b2v_inst116|LPM_MUX:LPM_MUX_component"
+Info: Instantiated megafunction "USBBridge:inst|USB_MUX1x2:b2v_inst116|LPM_MUX:LPM_MUX_component" with the following parameter:
+    Info: Parameter "LPM_WIDTH" = "1"
+    Info: Parameter "LPM_SIZE" = "2"
+    Info: Parameter "LPM_WIDTHS" = "1"
+    Info: Parameter "LPM_PIPELINE" = "0"
+    Info: Parameter "LPM_TYPE" = "LPM_MUX"
+    Info: Parameter "LPM_HINT" = "UNUSED"
+Info: Found 1 design units, including 1 entities, in source file db/mux_96e.tdf
+    Info: Found entity 1: mux_96e
+Info: Elaborating entity "mux_96e" for hierarchy "USBBridge:inst|USB_MUX1x2:b2v_inst116|LPM_MUX:LPM_MUX_component|mux_96e:auto_generated"
+Info: Elaborating entity "USB_DC8" for hierarchy "USBBridge:inst|USB_DC8:b2v_inst14"
+Info: Elaborating entity "lpm_decode" for hierarchy "USBBridge:inst|USB_DC8:b2v_inst14|lpm_decode:LPM_DECODE_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|USB_DC8:b2v_inst14|lpm_decode:LPM_DECODE_component"
+Info: Instantiated megafunction "USBBridge:inst|USB_DC8:b2v_inst14|lpm_decode:LPM_DECODE_component" with the following parameter:
+    Info: Parameter "lpm_decodes" = "128"
+    Info: Parameter "lpm_type" = "LPM_DECODE"
+    Info: Parameter "lpm_width" = "7"
+Info: Found 1 design units, including 1 entities, in source file db/decode_j1g.tdf
+    Info: Found entity 1: decode_j1g
+Info: Elaborating entity "decode_j1g" for hierarchy "USBBridge:inst|USB_DC8:b2v_inst14|lpm_decode:LPM_DECODE_component|decode_j1g:auto_generated"
+Info: Elaborating entity "USB_CT3" for hierarchy "USBBridge:inst|USB_CT3:b2v_inst5"
+Info: Elaborating entity "lpm_counter" for hierarchy "USBBridge:inst|USB_CT3:b2v_inst5|lpm_counter:LPM_COUNTER_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|USB_CT3:b2v_inst5|lpm_counter:LPM_COUNTER_component"
+Info: Instantiated megafunction "USBBridge:inst|USB_CT3:b2v_inst5|lpm_counter:LPM_COUNTER_component" with the following parameter:
+    Info: Parameter "lpm_direction" = "UP"
+    Info: Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info: Parameter "lpm_type" = "LPM_COUNTER"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/cntr_pqi.tdf
+    Info: Found entity 1: cntr_pqi
+Info: Elaborating entity "cntr_pqi" for hierarchy "USBBridge:inst|USB_CT3:b2v_inst5|lpm_counter:LPM_COUNTER_component|cntr_pqi:auto_generated"
+Info: Elaborating entity "usb_dc3" for hierarchy "USBBridge:inst|usb_dc3:b2v_instdc3"
+Info: Elaborating entity "lpm_decode" for hierarchy "USBBridge:inst|usb_dc3:b2v_instdc3|lpm_decode:LPM_DECODE_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|usb_dc3:b2v_instdc3|lpm_decode:LPM_DECODE_component"
+Info: Instantiated megafunction "USBBridge:inst|usb_dc3:b2v_instdc3|lpm_decode:LPM_DECODE_component" with the following parameter:
+    Info: Parameter "lpm_decodes" = "8"
+    Info: Parameter "lpm_type" = "LPM_DECODE"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/decode_5af.tdf
+    Info: Found entity 1: decode_5af
+Info: Elaborating entity "decode_5af" for hierarchy "USBBridge:inst|usb_dc3:b2v_instdc3|lpm_decode:LPM_DECODE_component|decode_5af:auto_generated"
+Info: Elaborating entity "USB_MUX8x2" for hierarchy "USBBridge:inst|USB_MUX8x2:b2v_instmux1"
+Info: Elaborating entity "LPM_MUX" for hierarchy "USBBridge:inst|USB_MUX8x2:b2v_instmux1|LPM_MUX:LPM_MUX_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|USB_MUX8x2:b2v_instmux1|LPM_MUX:LPM_MUX_component"
+Info: Instantiated megafunction "USBBridge:inst|USB_MUX8x2:b2v_instmux1|LPM_MUX:LPM_MUX_component" with the following parameter:
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_SIZE" = "2"
+    Info: Parameter "LPM_WIDTHS" = "1"
+    Info: Parameter "LPM_PIPELINE" = "0"
+    Info: Parameter "LPM_TYPE" = "LPM_MUX"
+    Info: Parameter "LPM_HINT" = "UNUSED"
+Info: Found 1 design units, including 1 entities, in source file db/mux_g6e.tdf
+    Info: Found entity 1: mux_g6e
+Info: Elaborating entity "mux_g6e" for hierarchy "USBBridge:inst|USB_MUX8x2:b2v_instmux1|LPM_MUX:LPM_MUX_component|mux_g6e:auto_generated"
+Info: Elaborating entity "USB_MUX8x19" for hierarchy "USBBridge:inst|USB_MUX8x19:b2v_instmux2"
+Info: Elaborating entity "LPM_MUX" for hierarchy "USBBridge:inst|USB_MUX8x19:b2v_instmux2|LPM_MUX:LPM_MUX_component"
+Info: Elaborated megafunction instantiation "USBBridge:inst|USB_MUX8x19:b2v_instmux2|LPM_MUX:LPM_MUX_component"
+Info: Instantiated megafunction "USBBridge:inst|USB_MUX8x19:b2v_instmux2|LPM_MUX:LPM_MUX_component" with the following parameter:
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_SIZE" = "28"
+    Info: Parameter "LPM_WIDTHS" = "5"
+    Info: Parameter "LPM_PIPELINE" = "0"
+    Info: Parameter "LPM_TYPE" = "LPM_MUX"
+    Info: Parameter "LPM_HINT" = "UNUSED"
+Info: Found 1 design units, including 1 entities, in source file db/mux_c8e.tdf
+    Info: Found entity 1: mux_c8e
+Info: Elaborating entity "mux_c8e" for hierarchy "USBBridge:inst|USB_MUX8x19:b2v_instmux2|LPM_MUX:LPM_MUX_component|mux_c8e:auto_generated"
+Info: Elaborating entity "PLL1" for hierarchy "PLL1:inst4"
+Info: Elaborating entity "altpll" for hierarchy "PLL1:inst4|altpll:altpll_component"
+Info: Elaborated megafunction instantiation "PLL1:inst4|altpll:altpll_component"
+Info: Instantiated megafunction "PLL1:inst4|altpll:altpll_component" with the following parameter:
+    Info: Parameter "bandwidth_type" = "AUTO"
+    Info: Parameter "clk0_divide_by" = "25"
+    Info: Parameter "clk0_duty_cycle" = "50"
+    Info: Parameter "clk0_multiply_by" = "1"
+    Info: Parameter "clk0_phase_shift" = "0"
+    Info: Parameter "compensate_clock" = "CLK0"
+    Info: Parameter "inclk0_input_frequency" = "40000"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_hint" = "CBX_MODULE_PREFIX=PLL1"
+    Info: Parameter "lpm_type" = "altpll"
+    Info: Parameter "operation_mode" = "NORMAL"
+    Info: Parameter "pll_type" = "AUTO"
+    Info: Parameter "port_activeclock" = "PORT_UNUSED"
+    Info: Parameter "port_areset" = "PORT_UNUSED"
+    Info: Parameter "port_clkbad0" = "PORT_UNUSED"
+    Info: Parameter "port_clkbad1" = "PORT_UNUSED"
+    Info: Parameter "port_clkloss" = "PORT_UNUSED"
+    Info: Parameter "port_clkswitch" = "PORT_UNUSED"
+    Info: Parameter "port_configupdate" = "PORT_UNUSED"
+    Info: Parameter "port_fbin" = "PORT_UNUSED"
+    Info: Parameter "port_inclk0" = "PORT_USED"
+    Info: Parameter "port_inclk1" = "PORT_UNUSED"
+    Info: Parameter "port_locked" = "PORT_UNUSED"
+    Info: Parameter "port_pfdena" = "PORT_UNUSED"
+    Info: Parameter "port_phasecounterselect" = "PORT_UNUSED"
+    Info: Parameter "port_phasedone" = "PORT_UNUSED"
+    Info: Parameter "port_phasestep" = "PORT_UNUSED"
+    Info: Parameter "port_phaseupdown" = "PORT_UNUSED"
+    Info: Parameter "port_pllena" = "PORT_UNUSED"
+    Info: Parameter "port_scanaclr" = "PORT_UNUSED"
+    Info: Parameter "port_scanclk" = "PORT_UNUSED"
+    Info: Parameter "port_scanclkena" = "PORT_UNUSED"
+    Info: Parameter "port_scandata" = "PORT_UNUSED"
+    Info: Parameter "port_scandataout" = "PORT_UNUSED"
+    Info: Parameter "port_scandone" = "PORT_UNUSED"
+    Info: Parameter "port_scanread" = "PORT_UNUSED"
+    Info: Parameter "port_scanwrite" = "PORT_UNUSED"
+    Info: Parameter "port_clk0" = "PORT_USED"
+    Info: Parameter "port_clk1" = "PORT_UNUSED"
+    Info: Parameter "port_clk2" = "PORT_UNUSED"
+    Info: Parameter "port_clk3" = "PORT_UNUSED"
+    Info: Parameter "port_clk4" = "PORT_UNUSED"
+    Info: Parameter "port_clk5" = "PORT_UNUSED"
+    Info: Parameter "port_clkena0" = "PORT_UNUSED"
+    Info: Parameter "port_clkena1" = "PORT_UNUSED"
+    Info: Parameter "port_clkena2" = "PORT_UNUSED"
+    Info: Parameter "port_clkena3" = "PORT_UNUSED"
+    Info: Parameter "port_clkena4" = "PORT_UNUSED"
+    Info: Parameter "port_clkena5" = "PORT_UNUSED"
+    Info: Parameter "port_extclk0" = "PORT_UNUSED"
+    Info: Parameter "port_extclk1" = "PORT_UNUSED"
+    Info: Parameter "port_extclk2" = "PORT_UNUSED"
+    Info: Parameter "port_extclk3" = "PORT_UNUSED"
+    Info: Parameter "width_clock" = "5"
+Info: Found 1 design units, including 1 entities, in source file db/pll1_altpll.v
+    Info: Found entity 1: PLL1_altpll
+Info: Elaborating entity "PLL1_altpll" for hierarchy "PLL1:inst4|altpll:altpll_component|PLL1_altpll:auto_generated"
+Error: Node instance "inst1" instantiates undefined entity "Ob"
+Error: Quartus II Analysis & Synthesis was unsuccessful. 1 error, 25 warnings
+    Error: Peak virtual memory: 252 megabytes
+    Error: Processing ended: Mon Oct 24 12:05:41 2022
+    Error: Elapsed time: 00:00:02
+    Error: Total CPU time (on all processors): 00:00:03
+
+

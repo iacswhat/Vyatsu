@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ALUUAPR">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|Ob:inst1|SM2abs:inst44|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_g6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|Ob:inst1|counter1:inst47|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_cqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|Ob:inst1|counter2:inst59|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_7cj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|USB_MUX1x2:b2v_inst116|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_96e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|Ob:inst1|SM1abs:inst40|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_uii.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|PLL1:inst4|altpll:altpll_component" CBX_FILE_NAME="PLL1_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|USB_DC8:b2v_inst14|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_j1g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|USB_MUX8x19:b2v_instmux2|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_c8e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|usb_dc3:b2v_instdc3|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_5af.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|USB_CT3:b2v_inst5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALUUAPR|USBBridge:inst|USB_MUX8x2:b2v_instmux1|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_g6e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

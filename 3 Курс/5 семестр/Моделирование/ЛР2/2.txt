@@ -1,0 +1,4 @@
+plotdf([u - (u * v * v - 0.5) / ((1 + v) * (1 + u)), -0.5 * v + (u * v * v - 0.5) / ((1 + v) * (1 + u))], [u, v], [u,0,10], [v,0,10], [trajectory_at,0.1, 0.1], [direction,forward]);
+
+
+plotdf([u - (u * v * v * 0.5) / ((1 + v) * (1 + u)), -0.5 * v + (u * v * v) / ((1 + v) * (1 + u))], [u, v], [u,0,7], [v,0,7], [trajectory_at,0.1, 0.1], [direction,forward]);

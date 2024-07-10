@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Mar 15 16:38:58 2018
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+Revision Name : ALUUAPR
+Top-level Entity Name : ALUUAPR
+Family : Cyclone III
+Device : EP3C5E144C7
+Timing Models : Final
+Total logic elements : 1,331 / 5,136 ( 26 % )
+    Total combinational functions : 1,251 / 5,136 ( 24 % )
+    Dedicated logic registers : 350 / 5,136 ( 7 % )
+Total registers : 350
+Total pins : 24 / 95 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

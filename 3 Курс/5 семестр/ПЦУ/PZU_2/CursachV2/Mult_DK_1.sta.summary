@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.083
+TNS   : -305.529
+
+Type  : Slow 1200mV 85C Model Setup 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -0.587
+TNS   : -0.587
+
+Type  : Slow 1200mV 85C Model Hold 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -0.090
+TNS   : -0.164
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -145.752
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'High_CLK'
+Slack : -3.000
+TNS   : -19.357
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.718
+TNS   : -284.461
+
+Type  : Slow 1200mV 0C Model Setup 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -0.380
+TNS   : -0.380
+
+Type  : Slow 1200mV 0C Model Hold 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -0.133
+TNS   : -0.204
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -145.752
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'High_CLK'
+Slack : -3.000
+TNS   : -19.357
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.717
+TNS   : -87.213
+
+Type  : Fast 1200mV 0C Model Setup 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.133
+TNS   : -1.064
+
+Type  : Fast 1200mV 0C Model Hold 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -0.096
+TNS   : -0.184
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -104.931
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'High_CLK'
+Slack : -3.000
+TNS   : -14.670
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'REG_Y:inst1|lpm_ff:lpm_ff_component|dffs[2]'
+Slack : -1.000
+TNS   : -2.000
+
+------------------------------------------------------------

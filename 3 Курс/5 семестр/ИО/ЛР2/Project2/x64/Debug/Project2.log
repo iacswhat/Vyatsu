@@ -1,0 +1,19 @@
+﻿  Source.cpp
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(70,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(80,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(99,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(207,22): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(210,50): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(231,24): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(237,20): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(292,22): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(295,23): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(480,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(551,27): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(561,32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(567,32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(658,35): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(668,33): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(674,51): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\Source.cpp(788): warning C4715: SimplexMethod: значение возвращается не при всех путях выполнения
+  Project2.vcxproj -> D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР2\Project2\x64\Debug\Project2.exe

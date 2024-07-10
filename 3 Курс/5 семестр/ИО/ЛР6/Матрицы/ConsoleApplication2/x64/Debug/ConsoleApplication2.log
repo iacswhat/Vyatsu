@@ -1,0 +1,12 @@
+﻿  ConsoleApplication2.cpp
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(10,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,13): error C2131: выражение не определяется константой
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,11): message : сбой вызван чтением переменной вне срока ее существования
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,11): message : см. использование "n"
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,20): error C2131: выражение не определяется константой
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,18): message : сбой вызван чтением переменной вне срока ее существования
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(15,18): message : см. использование "n"
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(18,17): error C3863: тип массива "int [n+1][n+1]" является неназначаемым
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(26,21): error C3863: тип массива "int [n+1][n+1]" является неназначаемым
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(32,29): error C3863: тип массива "int [n+1][n+1]" является неназначаемым
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР6\Матрицы\ConsoleApplication2\ConsoleApplication2.cpp(38,1): error C2036: int [n+1][n+1]: неизвестный размер

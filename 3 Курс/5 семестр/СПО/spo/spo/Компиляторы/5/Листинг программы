@@ -1,0 +1,68 @@
+	.MODEL	small
+	.DATA
+K_1	dw	?
+B_2	dw	?
+B	dw	?
+L	dw	?
+K	dw	?
+M	dw	?
+R1	dw	?
+R2	dw	?
+Const1	dw	1
+Const2	dw	7
+Const3	dw	3
+Const4	dw	5
+Const5	dw	2
+Const6	dw	8
+	.CODE
+PROC	CCC
+	MOV	AX,Const1
+	MOV	K_1,AX
+	MOV	AX,Const6
+	MOV	K_1,AX
+	RET
+ENDP	CCC
+PROC	WWW
+	MOV	AX,Const3
+	MOV	B_2,AX
+	CALL	CCC
+	RET
+ENDP	WWW
+Main:
+	MOV	AX,K
+	ADD	AX,Const4
+	MOV	R1,AX
+	MOV	AX,K
+	SUB	AX,R1
+	MOV	R1,AX
+	MOV	AX,R1
+	MOV	M,AX
+	CALL	WWW
+	MOV	AX,K
+	ADD	AX,Const4
+	MOV	R1,AX
+	MOV	AX,R1
+	MOV	K,AX
+	MOV	AX,Const5
+	CMP	B,AX
+	JNG	A1
+	MOV	AX,M
+	SUB	AX,Const3
+	MOV	R1,AX
+	MOV	AX,K
+	ADD	AX,Const4
+	MOV	R2,AX
+	MOV	AX,R1
+	ADD	AX,R2
+	MOV	R1,AX
+	MOV	AX,R1
+	MOV	M,AX
+	JMP	A2
+A1:
+	MOV	AX,M
+	SUB	AX,Const3
+	MOV	R1,AX
+	MOV	AX,R1
+	MOV	M,AX
+A2:
+END	Main

@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР4\ConsoleApplication1\ConsoleApplication1.cpp(43,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР4\ConsoleApplication1\ConsoleApplication1.cpp(43,57): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  ConsoleApplication1.vcxproj -> D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР4\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

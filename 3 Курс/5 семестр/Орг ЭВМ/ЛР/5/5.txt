@@ -1,0 +1,49 @@
+	LD r8 AASP
+	LD r5 AAM
+	LD r4 AN
+	SUB r3 r3
+	SUB r2 r2
+m1	LDI r1 (r5)+
+	BEQ m2
+	LDI r0 (r5)+
+	BEQ m2
+	CALL AD
+	ADD r3 r2
+m2	SB r4 "1"
+	BEQ m3
+	BR m1
+m3 	MV r3 AS
+	HLT SA
+
+
+
+
+	LD r8 AASP
+	LD r5 AAM
+	LD r4 AN
+	SUB r3 r3
+	SUB r2 r2
+m1	LDI r0 (r5)+
+	BEQ m2
+	LDI r0 (r5)+
+	LDI r0 (r5)+
+	BEQ m2
+	CALL AD
+	ADD r3 r2
+m2	SB r4 "1"
+	BEQ m3
+	BR m1
+m3 	MV r3 AS
+	HLT SA
+
+
+
+
+
+
+	SUB r2 r2
+m2	ADD r2 r0
+	SB r1 "1"
+	BEQ m1
+	BR m2
+m1	POP r6

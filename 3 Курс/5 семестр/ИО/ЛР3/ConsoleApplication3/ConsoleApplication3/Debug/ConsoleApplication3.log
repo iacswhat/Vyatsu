@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  ConsoleApplication3.cpp
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР3\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(645,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР3\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(646,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication3.vcxproj -> D:\ЛЕКЦИИ\LP\3 Курс\ИО\ЛР3\ConsoleApplication3\Debug\ConsoleApplication3.exe

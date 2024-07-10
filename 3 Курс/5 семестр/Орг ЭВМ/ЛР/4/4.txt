@@ -1,0 +1,24 @@
+	CLM AZ
+	LDX A
+	BEQ m1
+	LDY A
+m2	BEQ m1
+	ADD A (AZ:= AZ + AX)
+	DEC A
+	BR m2
+m1	HLT SA
+
+
+
+	CLM Z
+	LDA X
+	BEQ m1
+	LDA Y
+m2	BEQ m1
+	ADD X
+	DEC AC
+	BR m2
+m1	MOV Z
+	HLT SA
+	
+	
