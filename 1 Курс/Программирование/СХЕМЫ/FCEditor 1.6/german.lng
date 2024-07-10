@@ -1,0 +1,91 @@
+Author dr.NEO
+[Menu]
+sm_menu_file=Datei
+sm_menu_new=Neu
+sm_menu_open=Öffnen
+sm_menu_saveFCE=Save
+sm_menu_saveAs=Save as ...
+sm_menu_saveBCE=Speichern als *.fce ...
+sm_menu_savePAS=Speichern als *.pas ...
+sm_menu_saveBMP=Speichern als *.bmp ...
+sm_menu_Exit=Exit
+
+sm_menu_view=Anzeige
+sm_menu_refresh=Aktualisieren
+sm_menu_zoomin=Zoom In
+sm_menu_zoomout=Zoom Out
+
+sm_menu_Edit=Bearbeiten
+sm_menu_undo=Undo
+sm_menu_redo=Redo
+sm_menu_auto=Autom. Numerierung
+sm_menu_simple=Einfache FlowCharters
+
+sm_menu_option=Optionen
+sm_menu_Custome=Anpassen
+sm_menu_Lang=Sprache(Language)
+
+sm_menu_win=Fenster
+sm_menu_cascade=Kascadiert
+sm_menu_Horizon=Horizontal
+sm_menu_Vertac=Vertikal
+sm_menu_Minim=Alle minimieren
+sm_menu_Maxim=Alle maximieren
+
+sm_menu_Help=Hilfe...
+sm_menu_About=Über...
+
+sm_mes_file_exist1=File
+sm_mes_file_exist2=now exist! ReSave it?
+
+[Panel]
+sm_panel_proc=Prozess
+sm_panel_call=Call Block
+sm_panel_input=Eingabe
+sm_panel_ifelse=if .. else ...
+sm_panel_forto=for .. to ...
+sm_panel_while=While ...
+sm_panel_repeat=Repeat ... Until ...
+
+sm_panel_add=Neue Symbole hinzufügen
+sm_panel_del=Existierende Symbole entfernen
+sm_panel_edit=Symbole editieren
+sm_panel_hand=FlowCharters bewegen
+sm_panel_zero=Zur Null bewegen
+
+[Option]
+sm_option_Caption=Customize
+sm_option_tab1=Größen
+sm_option_pxtopx=pixs zu pixs
+sm_option_fcefce=Element zu Element
+sm_option_fcetext=Element zu text
+sm_option_linetext=Linie zu text
+sm_option_lineline=Linie zu line
+
+sm_option_angle=Winkel in ...
+sm_option_ainput=in input block
+sm_option_aifelse=in if ... else ... block
+sm_option_aforto=in for... to block
+
+//Service
+sm_option_tab4=Text
+sm_option_sertext=Service Wörter
+sm_option_begin=Anfang des FC
+sm_option_end=Ende des FC
+sm_option_yes=Nahe am Node JA
+sm_option_no=Nahe am Node NEIN
+//buttons
+sm_option_Default=Standart
+sm_option_Ok=OK
+sm_option_Cancel=Abbruch
+sm_option_Apply=Übernehmen
+
+sm_default_name=Block
+
+//MDI windows
+[MDI]
+sm_name_element=Element
+sm_name_node=Node from element
+sm_name_kind=Kind
+sm_name_text=Text
+sm_name_start=Start

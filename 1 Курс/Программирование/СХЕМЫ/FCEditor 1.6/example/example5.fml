@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+1
+</Count>
+	<FCEblock>
+		<text>
+example18
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+-1
+</Items0>
+	</FCEblock>
+</FCEblocks>

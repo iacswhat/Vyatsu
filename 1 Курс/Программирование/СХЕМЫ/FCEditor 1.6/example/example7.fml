@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+13
+</Count>
+	<FCEblock>
+		<text>
+Terehin_311
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+1
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ClrScr
+</text>
+		<comment>
+		</comment>
+		<Index>
+1
+</Index>
+		<Next>
+2
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[0]:='Soviet'
+</text>
+		<comment>
+		</comment>
+		<Index>
+2
+</Index>
+		<Next>
+3
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[1]:='Slovo'
+</text>
+		<comment>
+		</comment>
+		<Index>
+3
+</Index>
+		<Next>
+4
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[2]:='Porebuh'
+</text>
+		<comment>
+		</comment>
+		<Index>
+4
+</Index>
+		<Next>
+5
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[3]:='Shmurdyak'
+</text>
+		<comment>
+		</comment>
+		<Index>
+5
+</Index>
+		<Next>
+6
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[4]:='Epidersia'
+</text>
+		<comment>
+		</comment>
+		<Index>
+6
+</Index>
+		<Next>
+7
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('Please Input key')
+</text>
+		<comment>
+		</comment>
+		<Index>
+7
+</Index>
+		<Next>
+8
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Readln(c)
+</text>
+		<comment>
+		</comment>
+		<Index>
+8
+</Index>
+		<Next>
+9
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+i := 0 to 4
+</text>
+		<comment>
+		</comment>
+		<Index>
+9
+</Index>
+		<Next>
+12
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+10
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+c=A[i][1]
+</text>
+		<comment>
+		</comment>
+		<Index>
+10
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+11
+</Items0>
+		<Items1>
+-1
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('The element is A[',i,'] =  ',a[i])
+</text>
+		<comment>
+		</comment>
+		<Index>
+11
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+10
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Readln
+</text>
+		<comment>
+		</comment>
+		<Index>
+12
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+</FCEblocks>

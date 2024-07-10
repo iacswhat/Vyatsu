@@ -1,0 +1,32 @@
+{procedure Sliv(first, last: integer);
+var
+  r, i, j, k: integer;
+
+  begin
+   r:=(first + last) div 2;
+   i:= first;
+   j:= r+1;
+   for k:= first to last do
+   if (i < r) and ((j > last) or (zap[i].year < zap[j].year)) then
+   begin
+     b[k]:= zap[i];
+     inc(i);
+   end
+   else
+   begin
+     b[k]:= zap[j];
+     inc(j);
+   end;
+   for k:= first to last do
+   zap[k]:= b[k];
+  end;
+
+procedure MergeSort(first, last: integer);
+begin
+ if first < last then
+ begin
+   MergeSort(first, (first + last) div 2);
+   Mergesort((first + last) div 2 + 1, last);
+   Sliv(first, last);
+ end;
+end;}  

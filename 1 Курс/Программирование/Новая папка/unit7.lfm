@@ -1,0 +1,40 @@
+object Form6: TForm6
+  Left = 993
+  Height = 570
+  Top = 222
+  Width = 784
+  Caption = 'Конец'
+  ClientHeight = 570
+  ClientWidth = 784
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 36
+    Top = 48
+    Width = 735
+    Caption = 'Какое бы вы будущее не выбрали - это ваш выбор!'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -32
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 104
+    Height = 242
+    Top = 120
+    Width = 592
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 67
+    Top = 432
+    Width = 192
+    Caption = 'Выход'
+    TabOrder = 0
+  end
+end

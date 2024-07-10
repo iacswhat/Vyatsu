@@ -1,0 +1,223 @@
+object Form5: TForm5
+  Left = -157
+  Height = 571
+  Top = 374
+  Width = 785
+  Caption = 'Универы'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 48
+    Top = 8
+    Width = 599
+    Caption = 'Теперь можешь посмотреть подходящие тебе университеты и '#13#10'некоторые специальности, которые могут тебя заинтересовать.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 21
+    Top = 96
+    Width = 47
+    Caption = 'ВУЗ 1'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 88
+    Height = 105
+    Top = 136
+    Width = 185
+    AutoFill = True
+    Caption = 'Подходящие специальности'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 83
+    ClientWidth = 181
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Специальность 1'
+      'Специальность 2'
+      'Специальность 3'
+    )
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 88
+    Height = 21
+    Top = 272
+    Width = 47
+    Caption = 'ВУЗ 2'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 88
+    Height = 105
+    Top = 312
+    Width = 185
+    AutoFill = True
+    Caption = 'Подходящие специальности'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 83
+    ClientWidth = 181
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Специальность 1'
+      'Специальность 2'
+      'Специальность 3'
+    )
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 464
+    Height = 21
+    Top = 96
+    Width = 47
+    Caption = 'ВУЗ 3'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label4Click
+  end
+  object Label5: TLabel
+    Left = 464
+    Height = 21
+    Top = 272
+    Width = 47
+    Caption = 'ВУЗ 4'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadioGroup3: TRadioGroup
+    Left = 464
+    Height = 105
+    Top = 136
+    Width = 185
+    AutoFill = True
+    Caption = 'Подходящие специальности'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 83
+    ClientWidth = 181
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Специальность 1'
+      'Специальность 2'
+      'Специальность 3'
+    )
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioGroup4: TRadioGroup
+    Left = 464
+    Height = 105
+    Top = 312
+    Width = 185
+    AutoFill = True
+    Caption = 'Подходящие специальности'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 83
+    ClientWidth = 181
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Специальность 1'
+      'Специальность 2'
+      'Специальность 3'
+    )
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 400
+    Height = 49
+    Top = 488
+    Width = 131
+    Caption = 'Далее'
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 232
+    Height = 49
+    Top = 488
+    Width = 131
+    Caption = 'Назад'
+    TabOrder = 5
+  end
+end

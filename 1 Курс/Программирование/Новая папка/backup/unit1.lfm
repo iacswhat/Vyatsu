@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 593
+  Height = 575
+  Top = 189
+  Width = 789
+  Caption = 'Приветствие'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 132
+    Height = 64
+    Top = 68
+    Width = 500
+    Caption = '                             Привет! '#13#10'Для начала нажми кнопку "НАЧАТЬ"'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 48
+    Top = 176
+    Width = 184
+    Caption = 'НАЧАТЬ'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 50
+    Top = 512
+    Width = 184
+    Caption = 'ВЫХОД'
+    TabOrder = 1
+  end
+  object Image1: TImage
+    Left = 112
+    Height = 186
+    Top = 256
+    Width = 176
+  end
+  object Image2: TImage
+    Left = 504
+    Height = 186
+    Top = 256
+    Width = 176
+  end
+end

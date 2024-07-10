@@ -1,0 +1,10 @@
+1 rub 100
+2 usd 100
+3 eur 100
+4 dsd 100
+5 eww 100
+6 rub 100
+7 usd 100
+8 eur 100
+9 dsd 100
+10 eww 100

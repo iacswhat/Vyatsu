@@ -1,0 +1,6 @@
+Ivanov 4 3 3 4 3 4
+Smirnov 4 3 2 4 5 3
+Sidorov 2 4 5 4 3 4
+Voronin 5 4 4 3 4 5
+Vasilev 3 3 4 5 4 2
+

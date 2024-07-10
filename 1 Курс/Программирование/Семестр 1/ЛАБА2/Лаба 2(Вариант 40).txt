@@ -1,0 +1,59 @@
+Задача 1
+program lab2;
+var
+a:array[1..100] of real;
+min,max,sum: real;
+n,i,maxin,minin:integer;
+begin
+writeln('Введите количество элементов массива(число от 1 до 100)');
+readln(n);
+for i:=1 to n do
+begin
+writeln('a[',i,']=');
+readln(a[i]);
+end;
+for i:=1 to n do
+begin
+write(a[i]:0:2,' ');
+end;
+writeln;
+max:=a[1];
+maxin:=1;
+for i:=2 to n  do
+begin
+if a[i]>max then begin
+max:=a[i];
+maxin:=i;
+end;
+end;
+writeln('Максимальный элемент равен ',max:0:2);
+writeln('Порядковый номер максимального элемента ',maxin);
+writeln;
+min:=a[1];
+minin:=1;
+for i:=2 to n do
+begin
+if a[i]<min then begin
+min:=a[i];
+minin:=i;
+end;
+end;
+writeln('Минимальный элемент равен ',min:0:2);
+writeln('Порядковый номер минимального элемента ',minin);
+writeln;
+if minin>maxin then
+begin
+i:=minin;
+minin:=maxin;
+maxin:=i;
+end;
+sum:=0;
+for i:=minin+1 to maxin-1 do
+begin
+sum:=sum+a[i];
+end;
+writeln('Сумма элементов между минимальным и максимальным элементом(не включая минимальный и максимальный) равна ',sum:0:2);
+readln;
+end.
+
+Задача 2

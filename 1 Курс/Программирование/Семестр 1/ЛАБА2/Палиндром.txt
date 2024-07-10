@@ -1,0 +1,20 @@
+program lab22;
+var
+s:string;
+i:integer;
+f:boolean;
+begin
+writeln('Введите строку');
+readln(s);
+writeln;
+f:=true;
+for i:=1 to length(s) div 2 do
+if s[i] <> s[length(s)-i+1] then begin
+writeln('Строка не является палиндромом');
+f:=false;
+break;
+end;
+if f then
+writeln('Строка является палиндромом');
+readln;
+end.

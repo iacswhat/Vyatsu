@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+23
+</Count>
+	<FCEblock>
+		<text>
+Inf2Post
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+1
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Assign(Fres,'C:\in.txt')
+</text>
+		<comment>
+		</comment>
+		<Index>
+1
+</Index>
+		<Next>
+2
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ReWrite(Fres)
+</text>
+		<comment>
+		</comment>
+		<Index>
+2
+</Index>
+		<Next>
+3
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln(Fres,'The Source File')
+</text>
+		<comment>
+		</comment>
+		<Index>
+3
+</Index>
+		<Next>
+4
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Close(Fres)
+</text>
+		<comment>
+		</comment>
+		<Index>
+4
+</Index>
+		<Next>
+5
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Assign(Fsrc,'C:\in.txt')
+</text>
+		<comment>
+		</comment>
+		<Index>
+5
+</Index>
+		<Next>
+6
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Reset(FSrc)
+</text>
+		<comment>
+		</comment>
+		<Index>
+6
+</Index>
+		<Next>
+7
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Assign(Fres,'C:\auto.txt')
+</text>
+		<comment>
+		</comment>
+		<Index>
+7
+</Index>
+		<Next>
+8
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ReWrite(Fres)
+</text>
+		<comment>
+		</comment>
+		<Index>
+8
+</Index>
+		<Next>
+9
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln(Fres,'The Result File')
+</text>
+		<comment>
+		</comment>
+		<Index>
+9
+</Index>
+		<Next>
+10
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+New(VStack,Create)
+</text>
+		<comment>
+		</comment>
+		<Index>
+10
+</Index>
+		<Next>
+11
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+notEOF(Fsrc)
+</text>
+		<comment>
+		</comment>
+		<Index>
+11
+</Index>
+		<Next>
+15
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+4
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+12
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Readln(Fsrc,Value)
+</text>
+		<comment>
+		</comment>
+		<Index>
+12
+</Index>
+		<Next>
+13
+</Next>
+		<Parent>
+11
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+VStack^.Push(Value)
+</text>
+		<comment>
+		</comment>
+		<Index>
+13
+</Index>
+		<Next>
+14
+</Next>
+		<Parent>
+11
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln(Fres,Value,' ')
+</text>
+		<comment>
+		</comment>
+		<Index>
+14
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+11
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Dispose(VStack,Clear)
+</text>
+		<comment>
+		</comment>
+		<Index>
+15
+</Index>
+		<Next>
+16
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Close(Fsrc)
+</text>
+		<comment>
+		</comment>
+		<Index>
+16
+</Index>
+		<Next>
+17
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Close(Fres)
+</text>
+		<comment>
+		</comment>
+		<Index>
+17
+</Index>
+		<Next>
+18
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('TheNam - ',TheNam('r78a6f'))
+</text>
+		<comment>
+		</comment>
+		<Index>
+18
+</Index>
+		<Next>
+19
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('TheDec - ',TheDec('3454'))
+</text>
+		<comment>
+		</comment>
+		<Index>
+19
+</Index>
+		<Next>
+20
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('TheOpd - ',TheOpd('erte'))
+</text>
+		<comment>
+		</comment>
+		<Index>
+20
+</Index>
+		<Next>
+21
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Writeln('TheOpc - ',TheOpc('*'))
+</text>
+		<comment>
+		</comment>
+		<Index>
+21
+</Index>
+		<Next>
+22
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+readln
+</text>
+		<comment>
+		</comment>
+		<Index>
+22
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+2
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+</FCEblocks>

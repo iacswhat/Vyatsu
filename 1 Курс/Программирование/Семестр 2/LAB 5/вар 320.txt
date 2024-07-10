@@ -1,0 +1,97 @@
+program lab5;
+
+const
+  n = 20;
+
+type
+  fun = function(x, y: integer): boolean;
+  aa = array [1..n] of integer;
+
+var
+  sr: boolean;
+  a, b: aa;
+  i, code: integer;
+  f1, f2: text;
+  s: string;
+
+function sravn(x, y: integer): boolean;
+begin
+  if x > y then
+    sr := true
+  else
+    sr := false;
+end;
+
+procedure vub(a: aa; f: fun);
+var
+  i, j, min, t: integer;
+
+begin
+  for i := 1 to n-1 do
+  begin
+    min := i;
+    for j := i + 1 to n do
+    begin
+      sravn(a[min], a[j]);
+      if sr then
+        min := j;
+    end;
+    if min <> i then begin
+      t := a[i];
+      a[i] := a[min];
+      a[min] := t;
+    end;
+  end;
+  for i := 1 to n do
+    begin
+    write(a[i], ' ');
+    write(f2, a[i],' ');
+    end;
+end;
+
+procedure chit(s: string);
+var
+  s1: string;
+  i, j: integer;
+
+begin
+  j := 1;
+  i := 1;
+  s1 := '';
+  while j < n do 
+  begin
+    while i <= length(s) do
+    begin
+      if s[i] <> ' ' then
+      begin
+        s1 := s1 + s[i];
+        i := i + 1;
+      end
+      else
+        begin
+        val(s1, b[j], code);
+        s1 := '';
+        j := j + 1;
+        i := i + 1;
+      end;
+    end;
+  end;
+  for i := 1 to n do
+    write(b[i], ' ');
+  writeln();
+end;
+
+begin
+  assign(f1, 'input.txt');
+  assign(f2, 'output.txt');
+  reset(f1);
+  rewrite(f2);
+  while not eof(f1) do 
+  begin
+    readln(f1, s);
+  end;
+  chit(s);
+  vub(b, sravn);
+  close(f1);
+  close(f2);
+end.

@@ -1,0 +1,40 @@
+program dz;
+var
+a:array[1..100] of integer;
+i,c,b,n,j,max: integer;
+begin
+writeln('Введите количество элементов массива');
+readln(n);
+for i:=1 to n do
+begin
+writeln('a[',i,']');
+readln(a[i]);
+end;
+for i:=1 to n do
+write(a[i],' ');
+writeln;
+max:=0;
+i:=2;
+c:=0;
+while i<=n do
+if a[i]*a[i-1]<0 then
+begin
+j:=i;
+b:=0;
+while (a[j]*a[j-1]<0) and (j<=n) do
+begin
+j:=j+1;
+b:=b+1;
+end;
+if b>max then
+max:=b+1;
+if b>0 then
+c:=c+1;
+i:=j+1;
+end
+else
+i:=i+1;
+writeln('Количество серий равно ',c);
+writeln('Максимальная длина серии равна ',max);
+readln;
+end.

@@ -1,0 +1,149 @@
+object Form4: TForm4
+  Left = 914
+  Height = 573
+  Top = 426
+  Width = 788
+  Caption = 'Результаты'
+  ClientHeight = 0
+  ClientWidth = 0
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Image1: TImage
+    Left = 336
+    Height = 120
+    Top = 82
+    Width = 82
+  end
+  object Image2: TImage
+    Left = 256
+    Height = 90
+    Top = 112
+    Width = 82
+  end
+  object Image3: TImage
+    Left = 416
+    Height = 64
+    Top = 138
+    Width = 82
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 23
+    Top = 256
+    Width = 496
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 23
+    Top = 328
+    Width = 496
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 144
+    Height = 23
+    Top = 408
+    Width = 496
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 144
+    Height = 23
+    Top = 488
+    Width = 496
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 144
+    Height = 21
+    Top = 232
+    Width = 144
+    Caption = 'Человек - человек'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 144
+    Height = 21
+    Top = 304
+    Width = 143
+    Caption = 'Человек - техника'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 144
+    Height = 21
+    Top = 384
+    Width = 148
+    Caption = 'Человек - природа'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 144
+    Height = 21
+    Top = 464
+    Width = 172
+    Caption = 'Человек - творчество'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 26
+    Top = 8
+    Width = 705
+    Caption = 'Ура, наконец-то тест пройден! Настало время узнать результаты!'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 408
+    Height = 25
+    Top = 528
+    Width = 160
+    Caption = 'Далее'
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 224
+    Height = 25
+    Top = 528
+    Width = 160
+    Caption = 'Поделиться результатом'
+    TabOrder = 5
+  end
+end

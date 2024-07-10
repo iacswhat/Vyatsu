@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPC\3.2.0\bin\i386-Win32\fpc.exe" Date="1355043128"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiD:\ЛЕКЦИИ\LP\Программирование\Семестр 2\LAB 8\lib\i386-win32&quot; -FuC:\lazarus\components\printers\lib\i386-win32\win32 -FuC:\lazarus\components\synedit\units\i386-win32\win32 -FuC:\lazarus\components\cairocanvas\lib\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 &quot;-FuD:\ЛЕКЦИИ\LP\Программирование\Семестр 2\LAB 8\&quot; &quot;-FUD:\ЛЕКЦИИ\LP\Программирование\Семестр 2\LAB 8\lib\i386-win32\&quot; &quot;-FED:\ЛЕКЦИИ\LP\Программирование\Семестр 2\LAB 8\&quot; &quot;-oD:\ЛЕКЦИИ\LP\Программирование\Семестр 2\LAB 8\NOTE.exe&quot; -dLCL -dLCLwin32 NOTE.lpr"/>
+</CONFIG>
