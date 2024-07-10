@@ -1,0 +1,7 @@
+﻿  Assembling scal.asm...
+MASM : warning A4018: invalid command-line option : /Zm
+scal.asm(3): error A2008: syntax error : .
+scal.asm(31): warning A6004: procedure argument or local not referenced : mas
+scal.asm(31): warning A6004: procedure argument or local not referenced : n
+scal.asm(31): warning A6004: procedure argument or local not referenced : num
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Zm /Fo"x64\Debug\scal.obj" /W3 /errorReport:prompt  /Tascal.asm" с кодом "1".

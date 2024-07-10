@@ -1,0 +1,4 @@
+﻿  Assembling scal.asm...
+MASM : warning A4018: invalid command-line option : /Zm
+scal.asm(2): error A2008: syntax error : .
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Zm /Fo"x64\Release\scal.obj" /W3 /errorReport:prompt  /Tascal.asm" с кодом "1".

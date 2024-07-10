@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+D:\ЛЕКЦИИ\LP\2 Курс\4 семестр\Технология программирования\Lab1.2\ConsoleApplication1\ConsoleApplication1.cpp(312,9): warning C4101: j: неиспользованная локальная переменная
+D:\ЛЕКЦИИ\LP\2 Курс\4 семестр\Технология программирования\Lab1.2\ConsoleApplication1\ConsoleApplication1.cpp(394): message : выполняется компиляция ссылки на экземпляр шаблон функции "Type det<int>(Type [][10],int)"
+          with
+          [
+              Type=int
+          ]
+  ConsoleApplication1.vcxproj -> D:\ЛЕКЦИИ\LP\2 Курс\4 семестр\Технология программирования\Lab1.2\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

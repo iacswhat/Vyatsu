@@ -1,0 +1,8 @@
+﻿  Assembling scalar.asm...
+scalar.asm(57): warning A6004: procedure argument or local not referenced : mas
+scalar.asm(57): warning A6004: procedure argument or local not referenced : n
+scalar.asm(57): warning A6004: procedure argument or local not referenced : num
+scalar.asm(135): warning A6004: procedure argument or local not referenced : mas
+scalar.asm(135): warning A6004: procedure argument or local not referenced : n
+scalar.asm(135): warning A6004: procedure argument or local not referenced : num
+  Project1.vcxproj -> D:\ЛЕКЦИИ\LP\2 Курс\4 семестр\Технология программирования\lab4\4\Project1\Debug\Project1.exe

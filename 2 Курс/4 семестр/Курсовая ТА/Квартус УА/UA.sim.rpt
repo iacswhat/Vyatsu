@@ -1,0 +1,474 @@
+Simulator report for UA
+Sun May 15 16:32:19 2022
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 153 nodes    ;
+; Simulation Coverage         ;       0.64 % ;
+; Total Number of Transitions ; 207          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; UA.vwf     ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.64 % ;
+; Total nodes checked                                 ; 153          ;
+; Total output ports checked                          ; 156          ;
+; Total output ports with complete 1/0-value coverage ; 1            ;
+; Total output ports with no 1/0-value coverage       ; 155          ;
+; Total output ports with no 1-value coverage         ; 155          ;
+; Total output ports with no 0-value coverage         ; 155          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+; |ua|clk   ; |ua|clk          ; out              ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                     ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                          ; Output Port Name                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+; |ua|apin[8]                                                                                        ; |ua|apin[8]                                                                                          ; pin_out          ;
+; |ua|apin[7]                                                                                        ; |ua|apin[7]                                                                                          ; pin_out          ;
+; |ua|apin[6]                                                                                        ; |ua|apin[6]                                                                                          ; pin_out          ;
+; |ua|apin[5]                                                                                        ; |ua|apin[5]                                                                                          ; pin_out          ;
+; |ua|apin[4]                                                                                        ; |ua|apin[4]                                                                                          ; pin_out          ;
+; |ua|apin[3]                                                                                        ; |ua|apin[3]                                                                                          ; pin_out          ;
+; |ua|apin[2]                                                                                        ; |ua|apin[2]                                                                                          ; pin_out          ;
+; |ua|apin[1]                                                                                        ; |ua|apin[1]                                                                                          ; pin_out          ;
+; |ua|apin[0]                                                                                        ; |ua|apin[0]                                                                                          ; pin_out          ;
+; |ua|inst36                                                                                         ; |ua|inst36                                                                                           ; out0             ;
+; |ua|inst26                                                                                         ; |ua|inst26                                                                                           ; out0             ;
+; |ua|xpin[7]                                                                                        ; |ua|xpin[7]                                                                                          ; out              ;
+; |ua|xpin[6]                                                                                        ; |ua|xpin[6]                                                                                          ; out              ;
+; |ua|xpin[5]                                                                                        ; |ua|xpin[5]                                                                                          ; out              ;
+; |ua|xpin[4]                                                                                        ; |ua|xpin[4]                                                                                          ; out              ;
+; |ua|xpin[3]                                                                                        ; |ua|xpin[3]                                                                                          ; out              ;
+; |ua|xpin[2]                                                                                        ; |ua|xpin[2]                                                                                          ; out              ;
+; |ua|xpin[1]                                                                                        ; |ua|xpin[1]                                                                                          ; out              ;
+; |ua|xpin[0]                                                                                        ; |ua|xpin[0]                                                                                          ; out              ;
+; |ua|inst12                                                                                         ; |ua|inst12                                                                                           ; out0             ;
+; |ua|inst35                                                                                         ; |ua|inst35                                                                                           ; out0             ;
+; |ua|inst13                                                                                         ; |ua|inst13                                                                                           ; out0             ;
+; |ua|inst14                                                                                         ; |ua|inst14                                                                                           ; out0             ;
+; |ua|inst7                                                                                          ; |ua|inst7                                                                                            ; out0             ;
+; |ua|inst11                                                                                         ; |ua|inst11                                                                                           ; out0             ;
+; |ua|inst15                                                                                         ; |ua|inst15                                                                                           ; out0             ;
+; |ua|inst34                                                                                         ; |ua|inst34                                                                                           ; out0             ;
+; |ua|inst23                                                                                         ; |ua|inst23                                                                                           ; out0             ;
+; |ua|inst1                                                                                          ; |ua|inst1                                                                                            ; out0             ;
+; |ua|inst2                                                                                          ; |ua|inst2                                                                                            ; out0             ;
+; |ua|inst3                                                                                          ; |ua|inst3                                                                                            ; out0             ;
+; |ua|inst4                                                                                          ; |ua|inst4                                                                                            ; out0             ;
+; |ua|inst6                                                                                          ; |ua|inst6                                                                                            ; out0             ;
+; |ua|inst8                                                                                          ; |ua|inst8                                                                                            ; out0             ;
+; |ua|inst5                                                                                          ; |ua|inst5                                                                                            ; out0             ;
+; |ua|inst10                                                                                         ; |ua|inst10                                                                                           ; out0             ;
+; |ua|inst40                                                                                         ; |ua|inst40                                                                                           ; out0             ;
+; |ua|reset                                                                                          ; |ua|reset                                                                                            ; out              ;
+; |ua|ctpin[6]                                                                                       ; |ua|ctpin[6]                                                                                         ; pin_out          ;
+; |ua|ctpin[5]                                                                                       ; |ua|ctpin[5]                                                                                         ; pin_out          ;
+; |ua|ctpin[4]                                                                                       ; |ua|ctpin[4]                                                                                         ; pin_out          ;
+; |ua|ctpin[3]                                                                                       ; |ua|ctpin[3]                                                                                         ; pin_out          ;
+; |ua|ctpin[2]                                                                                       ; |ua|ctpin[2]                                                                                         ; pin_out          ;
+; |ua|ctpin[1]                                                                                       ; |ua|ctpin[1]                                                                                         ; pin_out          ;
+; |ua|ctpin[0]                                                                                       ; |ua|ctpin[0]                                                                                         ; pin_out          ;
+; |ua|outpin[3]                                                                                      ; |ua|outpin[3]                                                                                        ; pin_out          ;
+; |ua|outpin[2]                                                                                      ; |ua|outpin[2]                                                                                        ; pin_out          ;
+; |ua|outpin[1]                                                                                      ; |ua|outpin[1]                                                                                        ; pin_out          ;
+; |ua|outpin[0]                                                                                      ; |ua|outpin[0]                                                                                        ; pin_out          ;
+; |ua|ypin[10]                                                                                       ; |ua|ypin[10]                                                                                         ; pin_out          ;
+; |ua|ypin[9]                                                                                        ; |ua|ypin[9]                                                                                          ; pin_out          ;
+; |ua|ypin[8]                                                                                        ; |ua|ypin[8]                                                                                          ; pin_out          ;
+; |ua|ypin[7]                                                                                        ; |ua|ypin[7]                                                                                          ; pin_out          ;
+; |ua|ypin[6]                                                                                        ; |ua|ypin[6]                                                                                          ; pin_out          ;
+; |ua|ypin[5]                                                                                        ; |ua|ypin[5]                                                                                          ; pin_out          ;
+; |ua|ypin[4]                                                                                        ; |ua|ypin[4]                                                                                          ; pin_out          ;
+; |ua|ypin[3]                                                                                        ; |ua|ypin[3]                                                                                          ; pin_out          ;
+; |ua|ypin[2]                                                                                        ; |ua|ypin[2]                                                                                          ; pin_out          ;
+; |ua|ypin[1]                                                                                        ; |ua|ypin[1]                                                                                          ; pin_out          ;
+; |ua|ypin[0]                                                                                        ; |ua|ypin[0]                                                                                          ; pin_out          ;
+; |ua|inst18                                                                                         ; |ua|inst18                                                                                           ; out0             ;
+; |ua|inst22                                                                                         ; |ua|inst22                                                                                           ; out0             ;
+; |ua|inst21                                                                                         ; |ua|inst21                                                                                           ; out0             ;
+; |ua|inst9                                                                                          ; |ua|inst9                                                                                            ; out0             ;
+; |ua|inst20                                                                                         ; |ua|inst20                                                                                           ; out0             ;
+; |ua|inst19                                                                                         ; |ua|inst19                                                                                           ; out0             ;
+; |ua|inst17                                                                                         ; |ua|inst17                                                                                           ; out0             ;
+; |ua|inst16                                                                                         ; |ua|inst16                                                                                           ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][1]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][1]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][2]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][2]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][3]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][3]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][4]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][4]                                                ; out0             ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[10]                                                    ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[10]                                                      ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[9]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[9]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[8]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[8]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[7]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[7]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[6]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[6]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[5]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[5]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[4]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[4]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[3]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[3]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[2]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[2]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[1]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[1]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[0]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[0]                                                       ; regout           ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][1]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][1]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][2]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][2]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][3]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][3]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][4]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][4]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][5]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][5]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][6]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][6]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][7]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][7]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][8]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][8]                                                ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~3  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~3    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~5  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~5    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~6  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~6    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~7  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~7    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~8  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~8    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~26                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~26                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux211_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux211_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[3]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[3]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[2]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[2]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[1]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[1]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[0]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[0]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~61                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~61                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~62                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~62                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~63                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~63                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~64                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~64                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~68                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~68                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita3    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita3      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]      ; regout           ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[3]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[3]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[2]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[2]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[1]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[1]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[1]             ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~11 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~11   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~12 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~12   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~13 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~13   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~14 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~14   ; out              ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                     ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                          ; Output Port Name                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+; |ua|apin[8]                                                                                        ; |ua|apin[8]                                                                                          ; pin_out          ;
+; |ua|apin[7]                                                                                        ; |ua|apin[7]                                                                                          ; pin_out          ;
+; |ua|apin[6]                                                                                        ; |ua|apin[6]                                                                                          ; pin_out          ;
+; |ua|apin[5]                                                                                        ; |ua|apin[5]                                                                                          ; pin_out          ;
+; |ua|apin[4]                                                                                        ; |ua|apin[4]                                                                                          ; pin_out          ;
+; |ua|apin[3]                                                                                        ; |ua|apin[3]                                                                                          ; pin_out          ;
+; |ua|apin[2]                                                                                        ; |ua|apin[2]                                                                                          ; pin_out          ;
+; |ua|apin[1]                                                                                        ; |ua|apin[1]                                                                                          ; pin_out          ;
+; |ua|apin[0]                                                                                        ; |ua|apin[0]                                                                                          ; pin_out          ;
+; |ua|inst36                                                                                         ; |ua|inst36                                                                                           ; out0             ;
+; |ua|inst26                                                                                         ; |ua|inst26                                                                                           ; out0             ;
+; |ua|xpin[7]                                                                                        ; |ua|xpin[7]                                                                                          ; out              ;
+; |ua|xpin[6]                                                                                        ; |ua|xpin[6]                                                                                          ; out              ;
+; |ua|xpin[5]                                                                                        ; |ua|xpin[5]                                                                                          ; out              ;
+; |ua|xpin[4]                                                                                        ; |ua|xpin[4]                                                                                          ; out              ;
+; |ua|xpin[3]                                                                                        ; |ua|xpin[3]                                                                                          ; out              ;
+; |ua|xpin[2]                                                                                        ; |ua|xpin[2]                                                                                          ; out              ;
+; |ua|xpin[1]                                                                                        ; |ua|xpin[1]                                                                                          ; out              ;
+; |ua|xpin[0]                                                                                        ; |ua|xpin[0]                                                                                          ; out              ;
+; |ua|inst12                                                                                         ; |ua|inst12                                                                                           ; out0             ;
+; |ua|inst35                                                                                         ; |ua|inst35                                                                                           ; out0             ;
+; |ua|inst13                                                                                         ; |ua|inst13                                                                                           ; out0             ;
+; |ua|inst14                                                                                         ; |ua|inst14                                                                                           ; out0             ;
+; |ua|inst7                                                                                          ; |ua|inst7                                                                                            ; out0             ;
+; |ua|inst11                                                                                         ; |ua|inst11                                                                                           ; out0             ;
+; |ua|inst15                                                                                         ; |ua|inst15                                                                                           ; out0             ;
+; |ua|inst34                                                                                         ; |ua|inst34                                                                                           ; out0             ;
+; |ua|inst23                                                                                         ; |ua|inst23                                                                                           ; out0             ;
+; |ua|inst1                                                                                          ; |ua|inst1                                                                                            ; out0             ;
+; |ua|inst2                                                                                          ; |ua|inst2                                                                                            ; out0             ;
+; |ua|inst3                                                                                          ; |ua|inst3                                                                                            ; out0             ;
+; |ua|inst4                                                                                          ; |ua|inst4                                                                                            ; out0             ;
+; |ua|inst6                                                                                          ; |ua|inst6                                                                                            ; out0             ;
+; |ua|inst8                                                                                          ; |ua|inst8                                                                                            ; out0             ;
+; |ua|inst5                                                                                          ; |ua|inst5                                                                                            ; out0             ;
+; |ua|inst10                                                                                         ; |ua|inst10                                                                                           ; out0             ;
+; |ua|inst40                                                                                         ; |ua|inst40                                                                                           ; out0             ;
+; |ua|reset                                                                                          ; |ua|reset                                                                                            ; out              ;
+; |ua|ctpin[6]                                                                                       ; |ua|ctpin[6]                                                                                         ; pin_out          ;
+; |ua|ctpin[5]                                                                                       ; |ua|ctpin[5]                                                                                         ; pin_out          ;
+; |ua|ctpin[4]                                                                                       ; |ua|ctpin[4]                                                                                         ; pin_out          ;
+; |ua|ctpin[3]                                                                                       ; |ua|ctpin[3]                                                                                         ; pin_out          ;
+; |ua|ctpin[2]                                                                                       ; |ua|ctpin[2]                                                                                         ; pin_out          ;
+; |ua|ctpin[1]                                                                                       ; |ua|ctpin[1]                                                                                         ; pin_out          ;
+; |ua|ctpin[0]                                                                                       ; |ua|ctpin[0]                                                                                         ; pin_out          ;
+; |ua|outpin[3]                                                                                      ; |ua|outpin[3]                                                                                        ; pin_out          ;
+; |ua|outpin[2]                                                                                      ; |ua|outpin[2]                                                                                        ; pin_out          ;
+; |ua|outpin[1]                                                                                      ; |ua|outpin[1]                                                                                        ; pin_out          ;
+; |ua|outpin[0]                                                                                      ; |ua|outpin[0]                                                                                        ; pin_out          ;
+; |ua|ypin[10]                                                                                       ; |ua|ypin[10]                                                                                         ; pin_out          ;
+; |ua|ypin[9]                                                                                        ; |ua|ypin[9]                                                                                          ; pin_out          ;
+; |ua|ypin[8]                                                                                        ; |ua|ypin[8]                                                                                          ; pin_out          ;
+; |ua|ypin[7]                                                                                        ; |ua|ypin[7]                                                                                          ; pin_out          ;
+; |ua|ypin[6]                                                                                        ; |ua|ypin[6]                                                                                          ; pin_out          ;
+; |ua|ypin[5]                                                                                        ; |ua|ypin[5]                                                                                          ; pin_out          ;
+; |ua|ypin[4]                                                                                        ; |ua|ypin[4]                                                                                          ; pin_out          ;
+; |ua|ypin[3]                                                                                        ; |ua|ypin[3]                                                                                          ; pin_out          ;
+; |ua|ypin[2]                                                                                        ; |ua|ypin[2]                                                                                          ; pin_out          ;
+; |ua|ypin[1]                                                                                        ; |ua|ypin[1]                                                                                          ; pin_out          ;
+; |ua|ypin[0]                                                                                        ; |ua|ypin[0]                                                                                          ; pin_out          ;
+; |ua|inst18                                                                                         ; |ua|inst18                                                                                           ; out0             ;
+; |ua|inst22                                                                                         ; |ua|inst22                                                                                           ; out0             ;
+; |ua|inst21                                                                                         ; |ua|inst21                                                                                           ; out0             ;
+; |ua|inst9                                                                                          ; |ua|inst9                                                                                            ; out0             ;
+; |ua|inst20                                                                                         ; |ua|inst20                                                                                           ; out0             ;
+; |ua|inst19                                                                                         ; |ua|inst19                                                                                           ; out0             ;
+; |ua|inst17                                                                                         ; |ua|inst17                                                                                           ; out0             ;
+; |ua|inst16                                                                                         ; |ua|inst16                                                                                           ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][1]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][1]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][2]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][2]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][3]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][3]                                                ; out0             ;
+; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][4]                                              ; |ua|orr5:inst39|lpm_or:lpm_or_component|or_node[0][4]                                                ; out0             ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[10]                                                    ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[10]                                                      ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[9]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[9]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[8]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[8]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[7]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[7]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[6]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[6]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[5]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[5]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[4]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[4]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[3]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[3]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[2]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[2]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[1]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[1]                                                       ; regout           ;
+; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[0]                                                     ; |ua|reg:inst25|lpm_ff:lpm_ff_component|dffs[0]                                                       ; regout           ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][1]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][1]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][2]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][2]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][3]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][3]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][4]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][4]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][5]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][5]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][6]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][6]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][7]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][7]                                                ; out0             ;
+; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][8]                                              ; |ua|ili9:inst29|lpm_or:lpm_or_component|or_node[0][8]                                                ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~3  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~3    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~5  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~5    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~6  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~6    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~7  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~7    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~8  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~8    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~26                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~26                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux211_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux211_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux213_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux215_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout~1      ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout~1        ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout        ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|mux217_dataout          ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[3]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[3]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[2]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[2]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[1]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[1]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[0]         ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|pre_hazard[0]           ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~61                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~61                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~62                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~62                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~63                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~63                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~64                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~64                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~68                  ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|_~68                    ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita3    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_comb_bita3      ; combout          ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]      ; regout           ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]    ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]      ; regout           ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode21w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode31w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode41w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[3]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[3]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[2]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[2]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[1]            ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode4w[1]              ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode51w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode61w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode71w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode81w[1]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[3]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[3]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[2]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[2]             ; out0             ;
+; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[1]           ; |ua|dc4:UAinst27|lpm_decode:lpm_decode_component|decode_lbf:auto_generated|w_anode91w[1]             ; out0             ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~11 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[3]~11   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~12 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[2]~12   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~13 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[1]~13   ; out              ;
+; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~14 ; |ua|ct4pm:UAinst38|lpm_counter:lpm_counter_component|cntr_ihi:auto_generated|counter_reg_bit[0]~14   ; out              ;
++----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Sun May 15 16:32:19 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off UA -c UA
+Info: Using vector source file "D:/ËÅÊÖÈÈ/LP/2 Êóðñ/4 ñåìåñòð/Êóðñîâà ÒÀ/Êâàðòóñ ÓÀ/UA.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.64 %
+Info: Number of transitions in simulation is 207
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 143 megabytes
+    Info: Processing ended: Sun May 15 16:32:19 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
