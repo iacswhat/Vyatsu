@@ -1,0 +1,2 @@
+D:\ЛЕКЦИИ\LP\4\ВВК\8\mpi_test\Debug\mpi_test.exe
+D:\test\mpi_test\Debug\mpi_test.exe

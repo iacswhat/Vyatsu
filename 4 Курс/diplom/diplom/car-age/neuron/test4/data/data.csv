@@ -1,0 +1,2471 @@
+Year,Make,Model,BodyType,Age
+2001,Mercedes-Benz,S-Class S430,hatchback,50
+2002,BMW,540 i,SUV,40
+2003,Acura,TL 3.2,coupe,46
+2003,Ford,Taurus SES,hatchback,20
+2003,Ford,ZX2,minivan,20
+2003,Lexus,ES 300 Base (A5),pickup,57
+2003,Lexus,RX 300,wagon,49
+2003,Mercedes-Benz,SL-Class SL500 Roadster,wagon,26
+2004,BMW,Z4 2.5i Roadster,hatchback,35
+2004,Chevrolet,Trailblazer LS,hatchback,35
+2004,Ford,F-150 XLT SuperCrew,SUV,41
+2004,Hyundai,Elantra GLS,minivan,30
+2004,Jeep,Grand Cherokee Limited,sedan,20
+2004,Lexus,LS 430 Base (A6),coupe,54
+2004,Nissan,Murano SL,wagon,39
+2004,Toyota,Highlander Base,hatchback,48
+2005,Acura,MDX Touring,pickup,56
+2005,Chrysler,Crossfire SRT-6,wagon,37
+2005,Honda,CR-V EX,hatchback,34
+2005,Lexus,ES 330 Base (A5),SUV,32
+2005,Mazda,Mazda3 s,sedan,24
+2005,Mazda,Tribute i,crossover,56
+2005,Porsche,Cayenne S,coupe,20
+2005,Toyota,Camry LE,crossover,31
+2005,Toyota,Highlander Limited,minivan,25
+2006,Chevrolet,Impala LT,coupe,49
+2006,Ford,Escape Limited,crossover,51
+2006,Jeep,Commander Limited,wagon,29
+2006,Jeep,Wrangler Unlimited Rubicon,wagon,54
+2006,Nissan,Murano S,minivan,56
+2006,Toyota,4Runner Limited,hatchback,57
+2006,Toyota,Highlander Limited w/3rd Row,sedan,24
+2006,Toyota,Tundra SR5,SUV,43
+2007,BMW,750 Li,crossover,36
+2007,Cadillac,DTS,crossover,54
+2007,Cadillac,DTS Performance,wagon,56
+2007,Chevrolet,Tahoe LTZ,sedan,29
+2007,Honda,Fit Sport,crossover,57
+2007,Jaguar,XK,crossover,55
+2007,Jeep,Wrangler X,sedan,46
+2007,Toyota,4Runner SR5,wagon,39
+2007,Toyota,Camry LE,coupe,37
+2007,Toyota,RAV4 Sport,pickup,22
+2007,Toyota,Tundra Limited,crossover,60
+2007,Volvo,XC90 3.2,minivan,40
+2008,BMW,335 335i,pickup,53
+2008,BMW,M6,wagon,57
+2008,BMW,X5 4.8i,crossover,29
+2008,Chevrolet,Silverado 2500 LTZ H/D Crew Cab,crossover,38
+2008,Chrysler,Aspen Limited,sedan,29
+2008,Honda,Element LX,hatchback,44
+2008,Kia,Sorento LX,hatchback,23
+2008,Lexus,RX 350 Base,sedan,47
+2008,Lexus,RX 350 Base (A5),hatchback,36
+2008,Mercedes-Benz,S-Class S 550 4MATIC,hatchback,52
+2008,Nissan,Rogue SL,coupe,23
+2008,Porsche,911 Carrera,wagon,46
+2008,Porsche,911 Carrera 4 Coupe,coupe,34
+2009,Audi,A4 2.0T Premium Plus quattro,minivan,41
+2009,Ford,F-150 Lariat SuperCab,minivan,60
+2009,Ford,Focus SE,coupe,54
+2009,Jeep,Grand Cherokee Limited,pickup,28
+2009,Land,Rover Range Rover Sport HSE,wagon,60
+2009,Lexus,ES 350,hatchback,34
+2009,Lexus,IS 250,hatchback,23
+2009,Mercedes-Benz,SL-Class SL550 Roadster,minivan,56
+2009,Saturn,Outlook XR,wagon,38
+2010,Acura,MDX 3.7L Advance,crossover,29
+2010,Audi,A4 2.0T Premium Plus quattro,crossover,40
+2010,Audi,Q7 3.0 Premium Plus,minivan,20
+2010,BMW,128 128i,pickup,44
+2010,BMW,535 i,hatchback,26
+2010,Bentley,Continental Flying Spur Speed,crossover,42
+2010,Buick,Enclave 2XL,coupe,38
+2010,Chevrolet,Equinox LS,sedan,43
+2010,Chrysler,Town & Country Touring Plus,sedan,35
+2010,Dodge,Charger SE,hatchback,47
+2010,Ford,Escape Limited,minivan,55
+2010,Ford,Mustang Premium,crossover,39
+2010,Lexus,LS 460 Base,hatchback,30
+2010,Lexus,RX 350 Base,wagon,54
+2010,Mazda,Mazda3 i Sport,SUV,57
+2010,Mazda,Mazda6 s Grand Touring,wagon,42
+2010,Mercedes-Benz,E-Class E 350,pickup,50
+2010,Mercedes-Benz,GLK-Class GLK 350 4MATIC,hatchback,44
+2010,Mercury,Mariner Premier I4 AWD 4dr SUV,coupe,44
+2010,Porsche,Boxster,pickup,32
+2010,Scion,tC,sedan,50
+2010,Scion,tC Base,crossover,44
+2010,Toyota,Camry LE,hatchback,39
+2010,Toyota,Corolla S,pickup,42
+2010,Toyota,RAV4 Sport,pickup,25
+2011,Acura,TSX 2.4,wagon,40
+2011,BMW,328 i xDrive,pickup,43
+2011,BMW,550 i xDrive,crossover,56
+2011,BMW,X3 xDrive28i,SUV,42
+2011,BMW,X5 xDrive35i,SUV,52
+2011,Buick,LaCrosse CXS,hatchback,57
+2011,Chevrolet,Cruze LTZ,pickup,47
+2011,Chevrolet,Impala LS Fleet,sedan,45
+2011,Chevrolet,Tahoe LT,sedan,30
+2011,Dodge,Dakota Big Horn/Lone Star,minivan,54
+2011,Ford,Explorer Limited,pickup,56
+2011,Ford,F-150 King Ranch,sedan,32
+2011,Ford,F-150 Lariat,sedan,28
+2011,Honda,Fit Sport,minivan,33
+2011,Honda,Pilot EX-L,pickup,33
+2011,Honda,Pilot Touring,wagon,51
+2011,Hyundai,Sonata GLS,crossover,26
+2011,Hyundai,Tucson GLS,SUV,23
+2011,Jeep,Grand Cherokee Limited,wagon,55
+2011,Jeep,Grand Cherokee Overland,coupe,31
+2011,Land,Rover Range Rover HSE,wagon,20
+2011,Lexus,IS 250 Base,minivan,58
+2011,Lexus,IS-F Base,coupe,53
+2011,Lexus,LS 460 Base,SUV,22
+2011,Lexus,RX 350 Base,coupe,40
+2011,Mazda,CX-9 Grand Touring,crossover,33
+2011,Mazda,Mazda3 s Sport,minivan,44
+2011,Mercury,Grand Marquis LS,crossover,25
+2011,Mitsubishi,Lancer Evolution GSR,SUV,21
+2011,Nissan,Maxima 3.5 SV,crossover,25
+2011,Nissan,Murano SL,minivan,23
+2011,Nissan,Rogue S,coupe,55
+2011,Toyota,Avalon Limited,pickup,39
+2011,Toyota,Camry LE,hatchback,20
+2011,Toyota,Tundra Grade,hatchback,45
+2011,Volkswagen,Jetta SE,minivan,43
+2012,Acura,TL Technology,sedan,25
+2012,Acura,TSX 2.4,crossover,48
+2012,Audi,A5 2.0T Premium,coupe,25
+2012,Audi,Q5 2.0T Premium,wagon,56
+2012,BMW,328 i,coupe,29
+2012,BMW,X5 xDrive35i Premium,hatchback,41
+2012,Buick,Enclave Premium,pickup,48
+2012,Cadillac,CTS Premium,sedan,30
+2012,Cadillac,Escalade ESV Premium,minivan,57
+2012,Cadillac,SRX Performance Collection,crossover,50
+2012,Chevrolet,Corvette Grand Sport,pickup,32
+2012,Chevrolet,Cruze LT w/1LT,SUV,33
+2012,Chevrolet,Impala LT,SUV,43
+2012,Chevrolet,Tahoe LT,pickup,23
+2012,Dodge,Journey SE/AVP,coupe,45
+2012,Ford,Escape Limited,coupe,23
+2012,Ford,F-150 XLT,hatchback,49
+2012,Ford,Flex Limited,hatchback,21
+2012,Ford,Fusion SEL,coupe,52
+2012,GMC,Acadia Denali,crossover,40
+2012,GMC,Yukon Denali,pickup,56
+2012,Honda,Accord EX-L,SUV,46
+2012,Jeep,Grand Cherokee Overland,coupe,50
+2012,Jeep,Patriot Latitude,coupe,43
+2012,Kia,Sorento SX,SUV,58
+2012,Land,Rover Range Rover Supercharged,sedan,35
+2012,Lexus,ES 350 Base,pickup,26
+2012,Lexus,RX 350 Base,pickup,38
+2012,Mercedes-Benz,CLS-Class CLS 550 4MATIC,hatchback,22
+2012,Mercedes-Benz,CLS-Class CLS 63 AMG,minivan,26
+2012,Mercedes-Benz,GL-Class GL 450 4MATIC,minivan,50
+2012,Mercedes-Benz,S-Class S 550 4MATIC,crossover,25
+2012,Mercedes-Benz,SLK-Class SLK 250,crossover,30
+2012,Mitsubishi,Eclipse GS Sport,coupe,34
+2012,Mitsubishi,Outlander SE,SUV,46
+2012,Nissan,Armada Platinum,sedan,35
+2012,Nissan,Maxima SV,SUV,56
+2012,Nissan,Murano SL,crossover,48
+2012,Porsche,911 Targa 4,minivan,46
+2012,Porsche,Cayenne S,coupe,49
+2012,Subaru,Forester 2.5X,minivan,46
+2012,Toyota,4Runner Limited,wagon,33
+2012,Toyota,4Runner SR5,coupe,44
+2012,Toyota,Camry SE,coupe,34
+2012,Toyota,Highlander SE,hatchback,27
+2012,Toyota,Sequoia SR5,crossover,60
+2012,Toyota,Tacoma Base,pickup,55
+2012,Volkswagen,Passat 2.0 TDI SEL Premium,wagon,24
+2012,Volkswagen,Tiguan SE,hatchback,60
+2013,Acura,RDX Base,crossover,27
+2013,Acura,RDX Technology,pickup,47
+2013,Audi,A6 2.0T Premium Plus,coupe,58
+2013,Audi,A6 2.0T Premium Plus quattro,sedan,20
+2013,Audi,A7 3.0T Prestige quattro,pickup,51
+2013,Audi,Q5 2.0T Premium Plus,wagon,35
+2013,Audi,Q5 3.0T Premium Plus,SUV,43
+2013,BMW,328 i,hatchback,57
+2013,BMW,328 i xDrive,SUV,21
+2013,BMW,535 i,sedan,41
+2013,BMW,X3 xDrive28i,crossover,54
+2013,BMW,X5 xDrive35i,sedan,36
+2013,BMW,X5 xDrive35i Premium,wagon,32
+2013,Cadillac,CTS Performance,coupe,48
+2013,Cadillac,Escalade Base,crossover,37
+2013,Cadillac,Escalade Platinum Edition,sedan,31
+2013,Chevrolet,Corvette Grand Sport,coupe,51
+2013,Chevrolet,Impala LS,sedan,56
+2013,Chevrolet,Tahoe LTZ,crossover,27
+2013,Chrysler,Town & Country Touring-L,coupe,34
+2013,Dodge,Journey SE,SUV,34
+2013,Ford,Edge Limited,hatchback,42
+2013,Ford,Escape SEL,SUV,38
+2013,Ford,Escape Titanium,hatchback,28
+2013,Ford,F-150 XLT,wagon,56
+2013,Ford,Focus Titanium,SUV,28
+2013,Honda,Accord EX-L,hatchback,52
+2013,Honda,CR-V EX-L,SUV,47
+2013,Honda,Odyssey Touring,pickup,23
+2013,Honda,Pilot EX-L w/ Navigation,coupe,35
+2013,Hyundai,Elantra GLS,wagon,45
+2013,Hyundai,Elantra Limited,minivan,33
+2013,Hyundai,Veloster Base,hatchback,31
+2013,INFINITI,G37 x,sedan,23
+2013,Jeep,Grand Cherokee Laredo,pickup,25
+2013,Jeep,Wrangler Unlimited Sahara,SUV,56
+2013,Kia,Optima EX,minivan,52
+2013,Kia,Soul +,wagon,59
+2013,Lamborghini,Aventador LP700-4,sedan,25
+2013,Land,Rover Range Rover Evoque Pure,coupe,25
+2013,Land,Rover Range Rover Sport HSE,SUV,36
+2013,Lexus,ES 300h Base,SUV,39
+2013,Lexus,ES 350 Base,minivan,34
+2013,Lexus,GS 350 Base,hatchback,26
+2013,Lexus,GX 460 460,wagon,54
+2013,Lexus,RX 350 Base,SUV,23
+2013,Lincoln,MKX Base,coupe,48
+2013,Lincoln,MKZ Base,SUV,28
+2013,Maserati,GranTurismo Sport,wagon,49
+2013,Mazda,CX-9 Touring,SUV,50
+2013,Mazda,Mazda3 i Touring,minivan,50
+2013,Mercedes-Benz,CLS-Class CLS 550,SUV,49
+2013,Mercedes-Benz,GL-Class GL 450 4MATIC,hatchback,41
+2013,Mercedes-Benz,M-Class ML 350 4MATIC,hatchback,60
+2013,Mercedes-Benz,S-Class S 550,SUV,27
+2013,Mercedes-Benz,SL-Class SL 550,sedan,36
+2013,Nissan,Maxima SV,crossover,20
+2013,Nissan,Rogue S,hatchback,31
+2013,Porsche,Boxster S,coupe,25
+2013,Porsche,Panamera 4,minivan,37
+2013,Scion,iQ Base,minivan,47
+2013,Subaru,Outback 2.5i Limited,sedan,48
+2013,Toyota,Camry SE,SUV,20
+2013,Toyota,Highlander Base,SUV,30
+2013,Toyota,Highlander Base Plus,coupe,31
+2013,Toyota,Highlander Limited,hatchback,38
+2013,Toyota,Highlander SE,wagon,50
+2013,Toyota,Prius Three,coupe,44
+2013,Toyota,RAV4 XLE,crossover,54
+2013,Toyota,Sienna Limited,wagon,22
+2013,Volvo,S60 T5 Premier,sedan,56
+2013,Volvo,XC60 3.2 Premier Plus,SUV,28
+2014,Acura,MDX 3.5L Technology Package,coupe,20
+2014,Acura,RDX Base,coupe,33
+2014,Acura,TL 3.5,sedan,48
+2014,Audi,Q5 2.0T Premium Plus,sedan,27
+2014,Audi,Q5 3.0T Premium Plus,pickup,56
+2014,Audi,Q7 3.0T Premium,pickup,35
+2014,Audi,RS 5 4.2,pickup,46
+2014,Audi,S4 3.0T Premium Plus,crossover,57
+2014,BMW,328 Gran Turismo i xDrive,coupe,59
+2014,BMW,428 i,wagon,29
+2014,BMW,435 i xDrive,minivan,48
+2014,BMW,528 i,SUV,39
+2014,BMW,X1 xDrive 28i,pickup,49
+2014,BMW,X3 xDrive28i,crossover,57
+2014,BMW,X3 xDrive35i,minivan,57
+2014,BMW,X5 xDrive50i,coupe,26
+2014,BMW,Z4 sDrive35i,coupe,23
+2014,Bentley,Continental GT Speed,minivan,56
+2014,Buick,Enclave Premium,wagon,36
+2014,Buick,LaCrosse Premium 1,pickup,46
+2014,Chevrolet,Camaro 2LS,wagon,40
+2014,Chevrolet,Cruze 1LT,SUV,48
+2014,Chevrolet,Equinox LS,coupe,45
+2014,Chevrolet,Silverado 1500 LTZ,crossover,21
+2014,Chevrolet,Tahoe LTZ,crossover,47
+2014,Chevrolet,Traverse LS,sedan,29
+2014,Dodge,Durango Citadel,pickup,58
+2014,FIAT,500L Easy,crossover,52
+2014,Ford,Escape S,sedan,39
+2014,Ford,Escape Titanium,crossover,24
+2014,Ford,Explorer Limited,SUV,45
+2014,Ford,F-150 XLT,SUV,34
+2014,Ford,Fusion Titanium,SUV,25
+2014,GMC,Acadia Denali,crossover,39
+2014,GMC,Sierra 1500 SLT,wagon,46
+2014,GMC,Yukon XL 1500 Denali,crossover,36
+2014,Honda,Accord EX-L,coupe,53
+2014,Honda,Accord Sport,sedan,29
+2014,Honda,Civic LX,SUV,42
+2014,Honda,Odyssey EX-L,hatchback,59
+2014,Honda,Odyssey Touring,coupe,37
+2014,Hyundai,Elantra GT Base,coupe,25
+2014,Hyundai,Elantra SE,pickup,52
+2014,Hyundai,Veloster Turbo,sedan,53
+2014,Jeep,Cherokee Latitude,wagon,20
+2014,Jeep,Cherokee Trailhawk,crossover,20
+2014,Jeep,Compass Latitude,SUV,29
+2014,Jeep,Grand Cherokee Limited,coupe,32
+2014,Jeep,Grand Cherokee Overland,coupe,30
+2014,Jeep,Patriot Limited,pickup,55
+2014,Jeep,Wrangler Sport,pickup,37
+2014,Land,Rover Range Rover 5.0L Supercharged Autobiography,pickup,36
+2014,Land,Rover Range Rover Evoque Pure Plus,minivan,57
+2014,Land,Rover Range Rover Sport Supercharged HSE,coupe,57
+2014,Lexus,GS 350 Base,coupe,55
+2014,Lexus,GX 460 Base,pickup,34
+2014,Lexus,IS 250 Base,SUV,58
+2014,Lexus,LS 460 Base,SUV,45
+2014,Lincoln,MKZ Base,wagon,39
+2014,Maserati,GranTurismo Sport,hatchback,47
+2014,Mazda,CX-9 Grand Touring,sedan,59
+2014,Mazda,Mazda3 i SV,pickup,49
+2014,Mazda,Mazda6 i Grand Touring,SUV,28
+2014,Mazda,Mazda6 i Touring,wagon,26
+2014,Mercedes-Benz,C-Class C 350 Sport,minivan,31
+2014,Mercedes-Benz,CLS-Class CLS 550 4MATIC,minivan,21
+2014,Mercedes-Benz,CLS-Class CLS 63 AMG S-Model 4MATIC,hatchback,47
+2014,Mercedes-Benz,E-Class E 350,minivan,21
+2014,Mercedes-Benz,E-Class E 350 4MATIC,hatchback,44
+2014,Mercedes-Benz,G-Class G 550,coupe,50
+2014,Mercedes-Benz,M-Class ML 350 4MATIC,minivan,59
+2014,Mercedes-Benz,S-Class S 550,minivan,39
+2014,Nissan,Juke SV,SUV,46
+2014,Nissan,Pathfinder SV,sedan,27
+2014,Porsche,911 Carrera,wagon,27
+2014,Porsche,Cayenne GTS,wagon,53
+2014,RAM,1500 Longhorn,pickup,40
+2014,Subaru,Forester 2.5i,hatchback,55
+2014,Subaru,XV Crosstrek 2.0i Premium,pickup,50
+2014,Toyota,4Runner SR5,crossover,41
+2014,Toyota,RAV4 LE,SUV,30
+2014,Toyota,RAV4 Limited,hatchback,20
+2014,Volkswagen,Passat 2.0L TDI DSG SEL Premium,coupe,25
+2014,Volvo,S60 T5,sedan,29
+2014,Volvo,XC90 3.2,wagon,60
+2015,Acura,MDX 3.5L,sedan,39
+2015,Acura,MDX 3.5L Technology Package,SUV,21
+2015,Acura,RDX Base,crossover,40
+2015,Acura,RDX Technology Package,wagon,37
+2015,Acura,TLX FWD,pickup,30
+2015,Acura,TLX Tech,crossover,27
+2015,Acura,TLX V6 Advance,pickup,20
+2015,Acura,TLX V6 Tech,coupe,34
+2015,Audi,A3 1.8T Premium Plus,coupe,44
+2015,Audi,A3 2.0T Premium,pickup,29
+2015,Audi,R8 4.2,sedan,49
+2015,Audi,R8 5.2,minivan,52
+2015,BMW,328 i,wagon,36
+2015,BMW,328 i xDrive,wagon,44
+2015,BMW,335 i,wagon,57
+2015,BMW,428 i xDrive,coupe,38
+2015,BMW,435 Gran Coupe i,hatchback,49
+2015,BMW,435 i,wagon,42
+2015,BMW,M4 Base,wagon,56
+2015,BMW,X3 xDrive28i,hatchback,55
+2015,BMW,X5 xDrive35i,crossover,33
+2015,BMW,X5 xDrive50i,hatchback,31
+2015,BMW,Z4 sDrive35is,sedan,23
+2015,Buick,Enclave Premium,hatchback,49
+2015,Buick,Regal Turbo Premium I,pickup,41
+2015,Cadillac,ATS 2.0L Turbo Luxury,hatchback,24
+2015,Cadillac,Escalade ESV Base,wagon,48
+2015,Cadillac,Escalade Premium,sedan,39
+2015,Cadillac,SRX Luxury Collection,hatchback,58
+2015,Chevrolet,Captiva Sport 2LS,hatchback,46
+2015,Chevrolet,Corvette Stingray,hatchback,58
+2015,Chevrolet,Corvette Stingray Z51,pickup,47
+2015,Chevrolet,Equinox 1LT,coupe,58
+2015,Chevrolet,Silverado 1500 LT,SUV,48
+2015,Chevrolet,Silverado 1500 LTZ,wagon,52
+2015,Chevrolet,Suburban 1500 LT,pickup,54
+2015,Chevrolet,Tahoe LT,wagon,26
+2015,Chevrolet,Tahoe LTZ,coupe,56
+2015,Chrysler,200 Limited,coupe,28
+2015,Chrysler,Town & Country Limited Platinum,coupe,38
+2015,Dodge,Durango Citadel,coupe,41
+2015,Dodge,Durango Limited,pickup,31
+2015,Dodge,Durango R/T,sedan,35
+2015,Dodge,Durango SXT,crossover,60
+2015,Ford,Escape Titanium,wagon,56
+2015,Ford,Explorer Limited,wagon,58
+2015,Ford,Explorer XLT,hatchback,58
+2015,Ford,F-150 Platinum,pickup,45
+2015,Ford,Mustang GT Premium,minivan,58
+2015,Ford,Mustang V6,wagon,53
+2015,Ford,Taurus SHO,crossover,27
+2015,GMC,Sierra 2500 Denali,coupe,60
+2015,GMC,Yukon SLT,pickup,27
+2015,GMC,Yukon XL 1500 SLE,SUV,56
+2015,Honda,Accord EX-L,wagon,42
+2015,Honda,Civic EX,SUV,41
+2015,Honda,Civic LX,SUV,28
+2015,Honda,Civic SE,sedan,34
+2015,Hyundai,Genesis 3.8,hatchback,46
+2015,Hyundai,Santa Fe GLS,wagon,51
+2015,INFINITI,Q50 Base,coupe,24
+2015,INFINITI,QX60 Base,pickup,29
+2015,Jeep,Cherokee Trailhawk,wagon,48
+2015,Jeep,Grand Cherokee High Altitude,coupe,58
+2015,Jeep,Grand Cherokee Laredo,minivan,22
+2015,Jeep,Grand Cherokee Limited,SUV,52
+2015,Jeep,Grand Cherokee Overland,crossover,31
+2015,Jeep,Grand Cherokee SRT,SUV,38
+2015,Jeep,Grand Cherokee Summit,sedan,54
+2015,Jeep,Wrangler Unlimited Rubicon,crossover,23
+2015,Jeep,Wrangler Unlimited Sport,sedan,50
+2015,Kia,Sorento LX,crossover,57
+2015,Kia,Soul +,sedan,23
+2015,Land,Rover Range Rover 3.0L Supercharged HSE,sedan,35
+2015,Lexus,GS 350 Base,coupe,53
+2015,Lexus,GX 460 Base,crossover,22
+2015,Lexus,LS 460,hatchback,56
+2015,Lexus,RC 350 Base,crossover,45
+2015,Lexus,RC F Base,minivan,38
+2015,Lexus,RX 350 Base,SUV,31
+2015,Lincoln,Navigator Base,wagon,47
+2015,MINI,Countryman Cooper S ALL4,hatchback,56
+2015,MINI,Hardtop Cooper,SUV,30
+2015,Mazda,CX-5 Grand Touring,sedan,36
+2015,Mazda,CX-9 Grand Touring,pickup,39
+2015,Mercedes-Benz,C-Class C 300,pickup,41
+2015,Mercedes-Benz,CLA-Class CLA 250,SUV,32
+2015,Mercedes-Benz,E-Class E 400,wagon,39
+2015,Mercedes-Benz,E-Class E 63 AMG S-Model 4MATIC,pickup,55
+2015,Mercedes-Benz,G-Class G 550,SUV,32
+2015,Mercedes-Benz,G-Class G 63 AMG,hatchback,28
+2015,Mercedes-Benz,GL-Class GL 450 4MATIC,coupe,20
+2015,Mercedes-Benz,GLA-Class GLA 250 4MATIC,coupe,40
+2015,Mercedes-Benz,GLK-Class GLK 350,sedan,56
+2015,Mercedes-Benz,GLK-Class GLK 350 4MATIC,sedan,49
+2015,Mercedes-Benz,M-Class ML 350,crossover,44
+2015,Mercedes-Benz,S-Class S 550,minivan,54
+2015,Mercedes-Benz,S-Class S 550 4MATIC,sedan,25
+2015,Mercedes-Benz,S-Class S 63 AMG,pickup,31
+2015,Mercedes-Benz,SLK-Class SLK 250,pickup,30
+2015,Nissan,Altima 2.5 S,minivan,52
+2015,Nissan,Pathfinder SL,minivan,34
+2015,Porsche,911 Carrera 4S,pickup,52
+2015,Porsche,911 Turbo,pickup,54
+2015,Porsche,911 Turbo S,sedan,43
+2015,Porsche,Cayenne S,SUV,30
+2015,Porsche,Macan S,wagon,34
+2015,Scion,xB Base,minivan,48
+2015,Subaru,Forester 2.5i Limited,coupe,28
+2015,Subaru,Forester 2.5i Premium,sedan,23
+2015,Subaru,Outback 3.6R Limited,wagon,26
+2015,Toyota,4Runner Limited,wagon,39
+2015,Toyota,Corolla S Plus,coupe,43
+2015,Toyota,Highlander XLE,wagon,34
+2015,Toyota,RAV4 Limited,crossover,40
+2015,Toyota,Tacoma Base,coupe,42
+2015,Toyota,Venza XLE,minivan,29
+2015,Volkswagen,Beetle Auto 1.8T,wagon,50
+2015,Volkswagen,Golf TSI S 2-Door,SUV,34
+2015,Volkswagen,Jetta 1.8T SE,crossover,55
+2015,Volkswagen,Jetta 2.0L S w/Technology,wagon,54
+2015,Volvo,S60 T5 Premier,coupe,57
+2015,Volvo,S60 T5 Premier Plus,crossover,32
+2015,Volvo,XC60 T6,minivan,54
+2016,Acura,ILX Premium & A-SPEC Packages,crossover,58
+2016,Acura,MDX 3.5L,wagon,28
+2016,Acura,MDX 3.5L AcuraWatch Plus Package,sedan,28
+2016,Acura,MDX 3.5L w/Technology Package,pickup,49
+2016,Acura,RDX,pickup,45
+2016,Acura,RDX AcuraWatch Plus Pkg,hatchback,54
+2016,Acura,RDX Base,minivan,50
+2016,Acura,TLX V6 Tech,SUV,51
+2016,Audi,A3 2.0T Premium,crossover,42
+2016,Audi,A6 2.0T Premium Plus,SUV,35
+2016,Audi,A6 3.0T Prestige,crossover,50
+2016,Audi,A7 3.0T Prestige,sedan,33
+2016,Audi,A8 L 4.0T,pickup,37
+2016,Audi,Q3 2.0T Premium Plus,SUV,60
+2016,Audi,Q5 3.0T Premium Plus,SUV,31
+2016,Audi,S3 2.0T Premium Plus,sedan,24
+2016,BMW,228 i xDrive,hatchback,27
+2016,BMW,340 i xDrive,sedan,56
+2016,BMW,428 i SULEV,crossover,46
+2016,BMW,435 Gran Coupe i xDrive,minivan,24
+2016,BMW,528 i xDrive,pickup,26
+2016,BMW,535 i,pickup,41
+2016,BMW,535 i xDrive,sedan,32
+2016,BMW,740 i,pickup,26
+2016,BMW,X1 xDrive 28i,crossover,36
+2016,BMW,X3 xDrive28i,hatchback,25
+2016,BMW,X3 xDrive35i,coupe,39
+2016,BMW,X4 xDrive28i,SUV,20
+2016,BMW,X5 xDrive35i,pickup,22
+2016,BMW,X5 xDrive50i,coupe,60
+2016,BMW,X6 xDrive35i,crossover,51
+2016,Buick,Enclave Premium,minivan,57
+2016,Cadillac,CT6 3.0L Twin Turbo Luxury,crossover,46
+2016,Cadillac,CTS 2.0L Turbo Standard,coupe,45
+2016,Cadillac,Escalade Luxury,wagon,55
+2016,Cadillac,SRX Luxury Collection,hatchback,60
+2016,Chevrolet,Camaro 2SS,minivan,54
+2016,Chevrolet,Corvette Stingray,minivan,27
+2016,Chevrolet,Corvette Stingray Z51,SUV,54
+2016,Chevrolet,Corvette Z06,crossover,41
+2016,Chevrolet,Equinox LT,minivan,59
+2016,Chevrolet,Equinox LTZ,pickup,59
+2016,Chevrolet,Silverado 1500 LTZ,pickup,58
+2016,Chevrolet,Suburban LT,SUV,54
+2016,Chevrolet,Tahoe LT,SUV,59
+2016,Chevrolet,Tahoe LTZ,pickup,33
+2016,Chevrolet,Traverse LTZ,hatchback,52
+2016,Chrysler,200 S,SUV,30
+2016,Chrysler,300C Base,SUV,23
+2016,Dodge,Challenger R/T,pickup,22
+2016,Dodge,Challenger SRT Hellcat,minivan,40
+2016,Dodge,Challenger SXT,wagon,41
+2016,Dodge,Charger R/T Scat Pack,coupe,38
+2016,Dodge,Durango R/T,pickup,45
+2016,Ford,Edge Sport,pickup,60
+2016,Ford,Edge Titanium,hatchback,54
+2016,Ford,Escape Titanium,hatchback,53
+2016,Ford,Explorer Limited,sedan,22
+2016,Ford,F-150,sedan,26
+2016,Ford,F-150 Lariat,coupe,58
+2016,Ford,F-150 XLT,minivan,40
+2016,Ford,Fiesta SE,coupe,32
+2016,Ford,Focus SE,SUV,54
+2016,Ford,Mustang EcoBoost Premium,wagon,58
+2016,Ford,Mustang GT,pickup,38
+2016,GMC,Acadia SLE-2,minivan,44
+2016,GMC,Sierra 1500 Denali,wagon,59
+2016,GMC,Sierra 1500 SLT,SUV,60
+2016,GMC,Yukon Denali,coupe,20
+2016,GMC,Yukon SLE,pickup,47
+2016,GMC,Yukon SLT,wagon,48
+2016,Honda,Accord EX,wagon,51
+2016,Honda,Accord EX-L,SUV,23
+2016,Honda,Accord Touring,minivan,39
+2016,Honda,CR-V EX,sedan,26
+2016,Honda,CR-V Touring,crossover,21
+2016,Honda,Civic LX,sedan,29
+2016,Honda,HR-V EX,SUV,40
+2016,Honda,HR-V EX-L w/Navigation,crossover,27
+2016,Honda,Odyssey EX-L,wagon,42
+2016,Honda,Odyssey Touring Elite,sedan,51
+2016,Honda,Pilot Elite,hatchback,36
+2016,Honda,Pilot Touring,minivan,49
+2016,Hyundai,Elantra SE,minivan,37
+2016,Hyundai,Genesis 3.8,pickup,58
+2016,Hyundai,Santa Fe Sport 2.0L Turbo,minivan,29
+2016,Hyundai,Sonata Hybrid SE,crossover,38
+2016,Hyundai,Veloster Turbo,pickup,51
+2016,INFINITI,Q50 3.0T Premium,hatchback,60
+2016,INFINITI,Q50 3.0T Red Sport 400,sedan,47
+2016,INFINITI,Q70 3.7X,minivan,39
+2016,INFINITI,QX60 Base,SUV,25
+2016,INFINITI,QX80 4WD,pickup,35
+2016,Jaguar,F-TYPE S,crossover,46
+2016,Jaguar,XJ XJL Portfolio,wagon,44
+2016,Jeep,Grand Cherokee Laredo,SUV,23
+2016,Jeep,Grand Cherokee Limited,SUV,60
+2016,Jeep,Grand Cherokee Overland,sedan,49
+2016,Jeep,Grand Cherokee Summit,hatchback,23
+2016,Jeep,Wrangler Unlimited Rubicon,hatchback,35
+2016,Jeep,Wrangler Unlimited Sahara,minivan,53
+2016,Kia,Forte LX,crossover,39
+2016,Kia,Sorento EX,SUV,47
+2016,Kia,Sorento LX,pickup,22
+2016,Kia,Sorento SX,wagon,57
+2016,Kia,Soul Base,hatchback,21
+2016,Lamborghini,Huracan LP610-4,crossover,25
+2016,Land,Rover LR4 Base,minivan,47
+2016,Land,Rover Range Rover,sedan,48
+2016,Land,Rover Range Rover 3.0L Turbocharged Diesel Td6,crossover,50
+2016,Land,Rover Range Rover 5.0L Supercharged,crossover,42
+2016,Land,Rover Range Rover Evoque SE Premium,wagon,56
+2016,Lexus,ES 350 Base,wagon,58
+2016,Lexus,GS 350 Base,sedan,20
+2016,Lexus,GX 460 Luxury,sedan,39
+2016,Lexus,IS 300 Base,pickup,46
+2016,Lexus,NX 200t Base,crossover,23
+2016,Lexus,NX 200t F Sport,sedan,41
+2016,Lexus,RC 350 Base,wagon,24
+2016,Lexus,RX 350 Base,pickup,33
+2016,Lexus,RX 350 F Sport,pickup,30
+2016,Mazda,CX-5 Grand Touring,SUV,44
+2016,Mazda,CX-5 Sport,sedan,58
+2016,Mazda,CX-5 Touring,wagon,32
+2016,Mazda,MX-5 Miata Club,SUV,30
+2016,Mercedes-Benz,AMG GLE AMG GLE 63 S-Model 4MATIC,hatchback,22
+2016,Mercedes-Benz,C-Class C 300,minivan,30
+2016,Mercedes-Benz,CLA-Class CLA 250,hatchback,50
+2016,Mercedes-Benz,E-Class E 350 4MATIC,wagon,37
+2016,Mercedes-Benz,E-Class E 400 4MATIC,coupe,20
+2016,Mercedes-Benz,GL-Class GL 450 4MATIC,hatchback,48
+2016,Mercedes-Benz,GLE-Class GLE 350,coupe,23
+2016,Mercedes-Benz,GLE-Class GLE 350 4MATIC,sedan,32
+2016,Mercedes-Benz,S-Class S 550,minivan,40
+2016,Mercedes-Benz,S-Class S 550 4MATIC,SUV,23
+2016,Mitsubishi,Outlander Sport 2.0 ES,sedan,53
+2016,Nissan,370Z Sport,coupe,22
+2016,Nissan,Altima 2.5 S,SUV,28
+2016,Nissan,Maxima 3.5 SV,minivan,36
+2016,Nissan,Pathfinder SV,wagon,53
+2016,Nissan,Rogue SV,minivan,35
+2016,Nissan,Sentra S,wagon,30
+2016,Nissan,Versa 1.6 S,SUV,24
+2016,Nissan,Versa 1.6 S+,SUV,36
+2016,Porsche,911 Carrera 4S,crossover,53
+2016,Porsche,Cayenne Base,SUV,53
+2016,Porsche,Cayenne GTS,hatchback,24
+2016,Porsche,Cayenne S,coupe,38
+2016,Porsche,Cayman GT4,coupe,53
+2016,Porsche,Macan S,sedan,44
+2016,Porsche,Panamera 4,minivan,25
+2016,Subaru,Crosstrek 2.0i Premium,SUV,53
+2016,Subaru,Forester 2.5i Premium,minivan,28
+2016,Subaru,Forester 2.5i Touring,sedan,31
+2016,Subaru,Impreza 2.0i Premium,crossover,21
+2016,Subaru,Outback 2.5i Limited,minivan,55
+2016,Subaru,Outback 2.5i Premium,coupe,44
+2016,Tesla,Model X 70D,coupe,43
+2016,Tesla,Model X P90D,hatchback,40
+2016,Toyota,4Runner Limited,minivan,26
+2016,Toyota,4Runner SR5,sedan,28
+2016,Toyota,4Runner SR5 Premium,SUV,58
+2016,Toyota,4Runner Trail Premium,minivan,49
+2016,Toyota,Camry,hatchback,26
+2016,Toyota,Camry LE,wagon,55
+2016,Toyota,Camry SE,coupe,20
+2016,Toyota,Highlander Limited,hatchback,20
+2016,Toyota,Highlander Limited Platinum,wagon,32
+2016,Toyota,Highlander XLE,sedan,36
+2016,Toyota,RAV4 Hybrid Limited,coupe,43
+2016,Toyota,Sequoia Platinum,crossover,43
+2016,Toyota,Sienna XLE,sedan,44
+2016,Toyota,Tundra 1794,SUV,20
+2016,Toyota,Tundra Platinum,hatchback,41
+2016,Volkswagen,Golf R 4-Door,minivan,25
+2016,Volvo,V60 T5 Premier,sedan,49
+2016,Volvo,XC90 T6 Momentum,sedan,22
+2017,Acura,ILX w/AcuraWatch Plus,wagon,31
+2017,Acura,MDX 3.5L w/Advance Package,sedan,52
+2017,Acura,MDX 3.5L w/Technology Package,sedan,43
+2017,Acura,TLX Technology Package,minivan,22
+2017,Acura,TLX w/Technology Package,SUV,53
+2017,Alfa,Romeo Giulia Ti,hatchback,39
+2017,Audi,A3 2.0T Premium Plus,crossover,53
+2017,Audi,A4 2.0T Premium,crossover,29
+2017,Audi,A4 2.0T Premium Plus,pickup,44
+2017,Audi,A6 2.0T Premium Plus,pickup,58
+2017,Audi,Q7 3.0T Premium Plus,wagon,53
+2017,Audi,Q7 3.0T Prestige,crossover,39
+2017,BMW,330 Gran Turismo i xDrive,hatchback,27
+2017,BMW,330 i xDrive,coupe,23
+2017,BMW,430 i,crossover,25
+2017,BMW,530 i xDrive,minivan,53
+2017,BMW,750 i xDrive,sedan,23
+2017,BMW,M2 Base,sedan,58
+2017,BMW,M240 i,coupe,40
+2017,BMW,M3 Base,hatchback,35
+2017,BMW,X1 xDrive 28i,coupe,20
+2017,BMW,X3 sDrive28i,pickup,39
+2017,BMW,X3 xDrive28i,SUV,46
+2017,BMW,X5 sDrive35i,pickup,48
+2017,BMW,X5 xDrive35i,hatchback,33
+2017,BMW,X6 sDrive35i,minivan,23
+2017,Buick,Enclave Leather,wagon,44
+2017,Buick,Enclave Premium,SUV,36
+2017,Buick,Encore Essence,SUV,37
+2017,Buick,Encore Preferred,crossover,26
+2017,Buick,LaCrosse Premium,wagon,50
+2017,Cadillac,CT6 3.6L Luxury,crossover,49
+2017,Cadillac,Escalade Luxury,coupe,43
+2017,Cadillac,XT5 Luxury,hatchback,26
+2017,Chevrolet,Camaro 2SS,crossover,31
+2017,Chevrolet,Colorado Z71,wagon,38
+2017,Chevrolet,Corvette Grand Sport,hatchback,29
+2017,Chevrolet,Corvette Stingray,wagon,24
+2017,Chevrolet,Corvette Stingray Z51,crossover,31
+2017,Chevrolet,Cruze LS,minivan,54
+2017,Chevrolet,Cruze LT,coupe,56
+2017,Chevrolet,Equinox 1LT,pickup,36
+2017,Chevrolet,Equinox LS,wagon,54
+2017,Chevrolet,Equinox LT,SUV,41
+2017,Chevrolet,Equinox Premier,sedan,53
+2017,Chevrolet,Malibu 1LT,crossover,39
+2017,Chevrolet,Silverado 1500 1LZ,wagon,24
+2017,Chevrolet,Silverado 1500 2LT,coupe,42
+2017,Chevrolet,Silverado 1500 LS,pickup,25
+2017,Chevrolet,Silverado 1500 LTZ,crossover,27
+2017,Chevrolet,Suburban Premier,coupe,35
+2017,Chevrolet,Tahoe LT,crossover,55
+2017,Chevrolet,Tahoe Premier,wagon,24
+2017,Chevrolet,Trax LS,coupe,55
+2017,Chrysler,300 Limited,sedan,31
+2017,Chrysler,300 S,sedan,35
+2017,Dodge,Charger SRT 392,coupe,60
+2017,Dodge,Durango GT,hatchback,40
+2017,Dodge,Durango SXT,coupe,33
+2017,Dodge,Journey Crossroad,crossover,22
+2017,Dodge,Journey GT,sedan,58
+2017,Ford,Edge Sport,crossover,58
+2017,Ford,Edge Titanium,sedan,33
+2017,Ford,Escape SE,hatchback,47
+2017,Ford,Escape Titanium,sedan,50
+2017,Ford,Expedition EL Limited,coupe,30
+2017,Ford,Expedition Limited,sedan,24
+2017,Ford,Explorer Limited,wagon,53
+2017,Ford,Explorer XLT,pickup,38
+2017,Ford,Explorer sport,minivan,60
+2017,Ford,F-150 Lariat,crossover,48
+2017,Ford,F-150 XL,SUV,39
+2017,Ford,Focus RS Base,sedan,38
+2017,Ford,Fusion SE,pickup,29
+2017,GMC,Acadia Denali,crossover,50
+2017,GMC,Acadia Limited Limited,wagon,58
+2017,GMC,Acadia SLT-1,crossover,58
+2017,GMC,Sierra 1500 Denali,SUV,41
+2017,GMC,Yukon Denali,sedan,39
+2017,GMC,Yukon SLT,coupe,54
+2017,GMC,Yukon XL Denali,SUV,24
+2017,Genesis,G80 3.8,minivan,41
+2017,Genesis,G90 5.0 Ultimate,pickup,58
+2017,Honda,Accord EX-L,crossover,27
+2017,Honda,Accord LX,hatchback,39
+2017,Honda,Accord Sport,hatchback,47
+2017,Honda,Accord Sport SE,minivan,34
+2017,Honda,CR-V EX-L,hatchback,53
+2017,Honda,CR-V LX,sedan,37
+2017,Honda,CR-V Touring,minivan,27
+2017,Honda,Civic EX,sedan,54
+2017,Honda,Civic EX-L,minivan,54
+2017,Honda,Civic LX,pickup,56
+2017,Honda,HR-V LX,coupe,27
+2017,Honda,Pilot Elite,SUV,22
+2017,Honda,Pilot Touring,wagon,39
+2017,Honda,Ridgeline Black Edition,coupe,58
+2017,Hyundai,Elantra SE,pickup,48
+2017,Hyundai,Santa Fe SE Ultimate,hatchback,60
+2017,Hyundai,Santa Fe Sport 2.4L,sedan,47
+2017,Hyundai,Tucson Limited,minivan,55
+2017,Hyundai,Tucson SE,sedan,48
+2017,INFINITI,Q50 3.0T Sport,SUV,22
+2017,INFINITI,QX30 Premium,coupe,55
+2017,INFINITI,QX50 Base,wagon,57
+2017,INFINITI,QX60 Base,hatchback,28
+2017,INFINITI,QX80,SUV,59
+2017,INFINITI,QX80 Base,crossover,27
+2017,INFINITI,QX80 Limited,pickup,42
+2017,Jaguar,F-PACE 35t Premium,hatchback,20
+2017,Jaguar,F-PACE 35t R-Sport,hatchback,42
+2017,Jaguar,F-TYPE Premium,minivan,37
+2017,Jaguar,F-TYPE R,crossover,27
+2017,Jaguar,XE 35t First Edition,hatchback,39
+2017,Jeep,Cherokee Latitude,SUV,22
+2017,Jeep,Compass High Altitude,hatchback,49
+2017,Jeep,Grand Cherokee Altitude,sedan,46
+2017,Jeep,Grand Cherokee Limited,crossover,50
+2017,Jeep,Grand Cherokee Overland,sedan,38
+2017,Jeep,Grand Cherokee SRT,pickup,35
+2017,Jeep,Grand Cherokee Summit,pickup,43
+2017,Jeep,Grand Cherokee Trailhawk,hatchback,21
+2017,Jeep,Renegade Limited,coupe,37
+2017,Jeep,Wrangler Sahara,pickup,51
+2017,Jeep,Wrangler Sport,hatchback,53
+2017,Jeep,Wrangler Unlimited Rubicon,hatchback,59
+2017,Jeep,Wrangler Unlimited Sahara,crossover,45
+2017,Kia,Cadenza Technology,wagon,27
+2017,Kia,Forte LX,pickup,34
+2017,Kia,Sorento LX,hatchback,30
+2017,Kia,Sorento SX,sedan,44
+2017,Kia,Soul Base,pickup,37
+2017,Kia,Sportage LX,wagon,40
+2017,Land,Rover Range Rover 3.0L Supercharged HSE,coupe,38
+2017,Land,Rover Range Rover Evoque SE Premium,SUV,54
+2017,Land,Rover Range Rover Sport 3.0L Supercharged HSE,hatchback,28
+2017,Land,Rover Range Rover Sport 3.0L Supercharged HSE Dynamic,wagon,42
+2017,Land,Rover Range Rover Sport 5.0L Supercharged SVR,sedan,36
+2017,Lexus,ES 350 Base,wagon,21
+2017,Lexus,GS 350 F Sport,crossover,28
+2017,Lexus,GX 460 Base,crossover,53
+2017,Lexus,LX 570 Base,wagon,27
+2017,Lexus,NX 200t Base,SUV,53
+2017,Lexus,NX 200t F Sport,sedan,33
+2017,Lexus,RC 350 Base,coupe,21
+2017,Lexus,RX 350,SUV,43
+2017,Lexus,RX 350 350,wagon,46
+2017,Lexus,RX 350 RX 350,crossover,34
+2017,Lexus,RX 450h RX 450h,crossover,26
+2017,Lincoln,Continental Select,pickup,27
+2017,Lincoln,MKC Reserve,minivan,39
+2017,Lincoln,MKC Select,wagon,25
+2017,Lincoln,MKZ Hybrid Reserve,coupe,44
+2017,Lincoln,MKZ Premiere,SUV,33
+2017,Lincoln,Navigator L Select,sedan,50
+2017,Lincoln,Navigator Select,crossover,27
+2017,Maserati,Levante S,pickup,39
+2017,Mazda,CX-5 Grand Touring,coupe,52
+2017,Mazda,CX-9 Grand Touring,SUV,26
+2017,Mercedes-Benz,AMG C 43 Base 4MATIC,crossover,26
+2017,Mercedes-Benz,AMG G 63 Base,SUV,38
+2017,Mercedes-Benz,AMG GLE 43 Coupe 4MATIC,coupe,35
+2017,Mercedes-Benz,C-Class C 300,crossover,29
+2017,Mercedes-Benz,C-Class C 300 4MATIC,minivan,52
+2017,Mercedes-Benz,E-Class E 300,minivan,33
+2017,Mercedes-Benz,E-Class E 300 4MATIC,hatchback,54
+2017,Mercedes-Benz,E-Class E 300 4MATIC Sport,hatchback,20
+2017,Mercedes-Benz,E-Class E 300 Luxury,hatchback,33
+2017,Mercedes-Benz,E-Class E 300 Sport,SUV,31
+2017,Mercedes-Benz,E-Class E 400,coupe,45
+2017,Mercedes-Benz,G-Class G 550,wagon,32
+2017,Mercedes-Benz,GLA 250 Base,hatchback,51
+2017,Mercedes-Benz,GLA 250 Base 4MATIC,pickup,48
+2017,Mercedes-Benz,GLE 350 Base,wagon,58
+2017,Mercedes-Benz,GLE 350 Base 4MATIC,coupe,44
+2017,Mercedes-Benz,GLS 450 Base 4MATIC,crossover,35
+2017,Mercedes-Benz,GLS 550 Base 4MATIC,hatchback,40
+2017,Nissan,Armada Platinum,hatchback,39
+2017,Nissan,Maxima 3.5 Platinum,sedan,45
+2017,Nissan,Maxima 3.5 S,wagon,60
+2017,Nissan,Maxima 3.5 SR,minivan,36
+2017,Nissan,Murano Platinum,crossover,53
+2017,Nissan,Murano SL,wagon,31
+2017,Nissan,Rogue S,sedan,26
+2017,Nissan,Rogue SL,minivan,59
+2017,Nissan,Rogue SV,coupe,26
+2017,Nissan,Versa 1.6 SV,hatchback,29
+2017,Porsche,718 Boxster S,coupe,29
+2017,Porsche,911 Carrera,SUV,60
+2017,Porsche,911 Carrera GTS,hatchback,30
+2017,Porsche,911 Turbo S,sedan,44
+2017,Porsche,Cayenne Platinum Edition,sedan,31
+2017,Porsche,Cayenne S,minivan,46
+2017,Porsche,Macan Base,minivan,37
+2017,Porsche,Macan S,pickup,45
+2017,RAM,1500 Laramie,hatchback,46
+2017,Subaru,Crosstrek 2.0i Premium,SUV,58
+2017,Subaru,Forester 2.5i Limited,coupe,56
+2017,Subaru,Forester 2.5i Premium,minivan,50
+2017,Subaru,Impreza 2.0i,sedan,54
+2017,Subaru,Impreza Limited,coupe,21
+2017,Subaru,Legacy 2.5i Limited,minivan,47
+2017,Subaru,Legacy 2.5i Premium,sedan,38
+2017,Subaru,Outback 2.5i Limited,pickup,36
+2017,Subaru,Outback 2.5i Premium,pickup,26
+2017,Subaru,Outback 3.6R Limited,coupe,50
+2017,Subaru,Outback 3.6R Touring,minivan,40
+2017,Subaru,WRX STI Base,hatchback,22
+2017,Tesla,Model S 75,crossover,55
+2017,Tesla,Model X 75D,minivan,20
+2017,Tesla,Model X 90D,wagon,49
+2017,Toyota,4Runner Limited,sedan,40
+2017,Toyota,Camry SE,coupe,47
+2017,Toyota,Corolla LE,SUV,38
+2017,Toyota,Highlander LE,pickup,41
+2017,Toyota,Highlander Limited,coupe,58
+2017,Toyota,Highlander XLE,crossover,60
+2017,Toyota,Prius Four,pickup,57
+2017,Toyota,RAV4 Hybrid Limited,minivan,50
+2017,Toyota,RAV4 LE,crossover,35
+2017,Toyota,RAV4 Limited,sedan,59
+2017,Toyota,RAV4 XLE,wagon,42
+2017,Toyota,Sienna L,wagon,59
+2017,Toyota,Sienna SE,crossover,54
+2017,Toyota,Sienna XLE Premium,crossover,25
+2017,Toyota,Tundra 1794,SUV,50
+2017,Toyota,Tundra Limited,SUV,22
+2017,Volkswagen,Jetta 1.4T S,crossover,54
+2017,Volkswagen,Tiguan 2.0T,SUV,48
+2017,Volkswagen,Tiguan 2.0T Sport,pickup,30
+2017,Volkswagen,Tiguan Sport,pickup,39
+2017,Volvo,XC60 T6 Dynamic,pickup,49
+2018,Acura,MDX 3.5L,hatchback,22
+2018,Acura,MDX 3.5L w/Technology Package,pickup,38
+2018,Acura,RDX,coupe,33
+2018,Acura,RDX AcuraWatch Plus Package,hatchback,49
+2018,Acura,RDX Technology Package,SUV,55
+2018,Acura,TLX Technology,pickup,35
+2018,Acura,TLX V6,sedan,30
+2018,Alfa,Romeo Giulia Ti,coupe,24
+2018,Alfa,Romeo Stelvio Base,crossover,47
+2018,Alfa,Romeo Stelvio Ti,minivan,49
+2018,Audi,A3 2.0T Premium,SUV,23
+2018,Audi,A3 2.0T Prestige,wagon,54
+2018,Audi,A4 2.0T Premium,hatchback,28
+2018,Audi,A4 2.0T Premium Plus,minivan,20
+2018,Audi,A5 2.0T Premium,wagon,22
+2018,Audi,A5 2.0T Premium Plus,coupe,38
+2018,Audi,A6 2.0T quattro Sport,minivan,42
+2018,Audi,A6 3.0t Sport,crossover,37
+2018,Audi,A7 3.0T Premium Plus,coupe,37
+2018,Audi,Q3 2.0T Premium,hatchback,26
+2018,Audi,Q3 2.0T Premium Plus,pickup,23
+2018,Audi,Q5 2.0T Premium,pickup,29
+2018,Audi,Q5 2.0T Premium Plus,minivan,43
+2018,Audi,Q5 2.0T Tech Premium,hatchback,49
+2018,Audi,Q7 2.0T Premium,SUV,33
+2018,Audi,Q7 2.0T Premium Plus,coupe,47
+2018,Audi,Q7 3.0T Premium Plus,minivan,55
+2018,Audi,Q7 3.0T Prestige,wagon,23
+2018,Audi,R8 5.2 quattro Plus,hatchback,20
+2018,Audi,S4 3.0T Premium Plus,hatchback,59
+2018,Audi,S5 3.0T Premium Plus,crossover,31
+2018,Audi,S5 3.0T Prestige,wagon,42
+2018,Audi,SQ5 3.0T Premium Plus,coupe,60
+2018,BMW,320 320i xDrive,sedan,58
+2018,BMW,320 i,pickup,59
+2018,BMW,320 i xDrive,crossover,53
+2018,BMW,328d Base,wagon,33
+2018,BMW,328d xDrive,minivan,60
+2018,BMW,330 i xDrive,coupe,49
+2018,BMW,340 i xDrive,SUV,24
+2018,BMW,430 Gran Coupe i,pickup,41
+2018,BMW,430 Gran Coupe i xDrive,wagon,39
+2018,BMW,440 Gran Coupe i xDrive,wagon,42
+2018,BMW,530 i,pickup,22
+2018,BMW,530 i xDrive,minivan,39
+2018,BMW,540 i,hatchback,57
+2018,BMW,M2 Base,SUV,30
+2018,BMW,M3 Base,coupe,54
+2018,BMW,M3 CS,minivan,37
+2018,BMW,M550 M550i xDrive,SUV,39
+2018,BMW,M550 i xDrive,wagon,38
+2018,BMW,M6 Base,sedan,33
+2018,BMW,X1 sDrive28i,SUV,29
+2018,BMW,X1 xDrive28i,coupe,59
+2018,BMW,X2 sDrive28i,hatchback,24
+2018,BMW,X2 xDrive28i,minivan,31
+2018,BMW,X3 M40i,coupe,38
+2018,BMW,X3 xDrive30i,crossover,20
+2018,BMW,X5 M Base,pickup,38
+2018,BMW,X5 sDrive35i,minivan,48
+2018,BMW,X5 xDrive35i,sedan,34
+2018,BMW,X5 xDrive50i,pickup,51
+2018,BMW,X6 xDrive35i,minivan,52
+2018,Cadillac,ATS 2.0L Turbo,sedan,25
+2018,Cadillac,Escalade ESV Luxury,minivan,59
+2018,Cadillac,XT5 Luxury,sedan,45
+2018,Cadillac,XT5 Premium Luxury,hatchback,60
+2018,Cadillac,XTS Luxury,coupe,53
+2018,Chevrolet,Equinox 1LT,minivan,31
+2018,Chevrolet,Equinox 2LT,crossover,24
+2018,Chevrolet,Equinox Premier,hatchback,28
+2018,Chevrolet,Equinox Premier w/1LZ,wagon,58
+2018,Chevrolet,Malibu 1LS,crossover,43
+2018,Chevrolet,Silverado 1500 1LT,sedan,23
+2018,Chevrolet,Silverado 1500 LT,hatchback,31
+2018,Chevrolet,Suburban LT,coupe,50
+2018,Chevrolet,Tahoe LS,coupe,20
+2018,Chevrolet,Tahoe LT,hatchback,58
+2018,Chevrolet,Traverse LS,sedan,38
+2018,Chevrolet,Traverse Premier,crossover,43
+2018,Chevrolet,Trax LT,coupe,39
+2018,Chrysler,300 Limited,hatchback,21
+2018,Dodge,Challenger GT,hatchback,21
+2018,Dodge,Charger GT,SUV,31
+2018,Dodge,Charger SXT Plus,SUV,55
+2018,Dodge,Durango GT,pickup,24
+2018,Dodge,Durango R/T,pickup,48
+2018,Dodge,Journey SE,coupe,47
+2018,Ferrari,GTC4Lusso V12,sedan,21
+2018,Ford,EcoSport SE,minivan,29
+2018,Ford,Edge Sport,wagon,23
+2018,Ford,Edge Titanium,minivan,32
+2018,Ford,Escape S,wagon,49
+2018,Ford,Escape SE,crossover,35
+2018,Ford,Escape SEL,crossover,46
+2018,Ford,Escape Titanium,coupe,33
+2018,Ford,Expedition Max Limited,pickup,48
+2018,Ford,Expedition Platinum,minivan,45
+2018,Ford,Expedition XLT,sedan,39
+2018,Ford,Explorer Limited,coupe,51
+2018,Ford,Explorer XLT,coupe,25
+2018,Ford,F-150 King Ranch,minivan,43
+2018,Ford,F-150 Lariat,SUV,43
+2018,Ford,F-150 Platinum,minivan,41
+2018,Ford,F-150 Raptor,pickup,27
+2018,Ford,F-150 XL,minivan,60
+2018,Ford,F-150 XLT,SUV,60
+2018,Ford,Flex Limited,sedan,33
+2018,Ford,Focus SE,coupe,28
+2018,Ford,Mustang EcoBoost Premium,sedan,57
+2018,Ford,Mustang GT Premium,sedan,27
+2018,GMC,Acadia Denali,SUV,36
+2018,GMC,Acadia SLT-1,pickup,46
+2018,GMC,Sierra 1500 Denali,minivan,47
+2018,GMC,Sierra 1500 SLT,wagon,24
+2018,GMC,Sierra 2500 Denali,minivan,31
+2018,GMC,Terrain Denali,wagon,55
+2018,GMC,Yukon Denali,minivan,40
+2018,GMC,Yukon SLT,wagon,32
+2018,GMC,Yukon XL Denali,pickup,38
+2018,GMC,Yukon XL SLT,wagon,50
+2018,Honda,Accord EX,crossover,34
+2018,Honda,Accord EX-L,hatchback,23
+2018,Honda,Accord EX-L 1.5T,sedan,49
+2018,Honda,Accord EX-L 2.0T,minivan,24
+2018,Honda,Accord LX,SUV,34
+2018,Honda,Accord Touring,wagon,49
+2018,Honda,Accord Touring 2.0T,minivan,34
+2018,Honda,Civic EX,wagon,27
+2018,Honda,Civic EX-T,minivan,50
+2018,Honda,Civic LX,SUV,48
+2018,Honda,HR-V EX,coupe,24
+2018,Honda,HR-V LX,sedan,55
+2018,Honda,Pilot Touring,sedan,23
+2018,Hyundai,Elantra SE,minivan,53
+2018,Hyundai,Elantra SEL,sedan,51
+2018,Hyundai,Elantra Value Edition,sedan,57
+2018,Hyundai,Kona Limited,coupe,49
+2018,Hyundai,Santa Fe Limited Ultimate,pickup,24
+2018,Hyundai,Santa Fe SE,hatchback,36
+2018,Hyundai,Santa Fe Sport 2.4L,coupe,49
+2018,Hyundai,Sonata SE,minivan,28
+2018,Hyundai,Tucson SE,pickup,23
+2018,Hyundai,Tucson Value,hatchback,40
+2018,INFINITI,Q50 3.0t LUXE,coupe,38
+2018,INFINITI,Q50 3.0t Sport,wagon,23
+2018,INFINITI,QX30 Premium,pickup,49
+2018,INFINITI,QX60 Base,minivan,56
+2018,INFINITI,QX80 Base,SUV,27
+2018,Jaguar,F-PACE 25t Premium,crossover,56
+2018,Jaguar,F-PACE 25t R-Sport,pickup,52
+2018,Jaguar,F-PACE S,crossover,31
+2018,Jeep,Cherokee Latitude,sedan,38
+2018,Jeep,Compass Latitude,crossover,28
+2018,Jeep,Grand Cherokee Altitude,minivan,33
+2018,Jeep,Grand Cherokee High Altitude,coupe,56
+2018,Jeep,Grand Cherokee Limited,minivan,52
+2018,Jeep,Grand Cherokee Trackhawk,SUV,37
+2018,Jeep,Grand Cherokee Trailhawk,hatchback,57
+2018,Jeep,Renegade Altitude,coupe,41
+2018,Jeep,Wrangler JK Sport,coupe,31
+2018,Jeep,Wrangler JK Unlimited Sahara,SUV,20
+2018,Jeep,Wrangler Sport,SUV,52
+2018,Jeep,Wrangler Unlimited Sahara,pickup,43
+2018,Jeep,Wrangler Unlimited Sport,SUV,43
+2018,Kia,Forte LX,wagon,46
+2018,Kia,Forte S,SUV,22
+2018,Kia,Optima LX,hatchback,37
+2018,Kia,Optima S,hatchback,54
+2018,Kia,Soul +,hatchback,42
+2018,Kia,Sportage LX,hatchback,32
+2018,Land,Rover Discovery HSE,minivan,56
+2018,Land,Rover Range Rover HSE,sedan,42
+2018,Land,Rover Range Rover Supercharged,wagon,40
+2018,Land,Rover Range Rover Velar P250 HSE R-Dynamic,pickup,33
+2018,Land,Rover Range Rover Velar P380 S,SUV,59
+2018,Land,Rover Range Rover Velar P380 SE R-Dynamic,pickup,23
+2018,Lexus,ES 350 Base,crossover,35
+2018,Lexus,GS 350 F Sport,wagon,37
+2018,Lexus,GX 460 Base,minivan,42
+2018,Lexus,LC 500 Base,hatchback,56
+2018,Lexus,LS 500 Base,pickup,32
+2018,Lexus,NX 300 Base,crossover,40
+2018,Lexus,RX 350,minivan,24
+2018,Lexus,RX 350 350,minivan,23
+2018,Lexus,RX 350 350 PACKAGE!,SUV,43
+2018,Lexus,RX 350 F Sport,coupe,36
+2018,Lexus,RX 350 RX 350,crossover,60
+2018,Lexus,RX 350L L,coupe,60
+2018,Lexus,RX 350L Premium,sedan,35
+2018,Lexus,RX 450h 450H,pickup,60
+2018,Lincoln,Continental Black Label,SUV,24
+2018,Lincoln,MKX Select,sedan,37
+2018,Lincoln,MKZ Select,pickup,34
+2018,Lincoln,Navigator L Select,sedan,47
+2018,Lincoln,Navigator Reserve,SUV,24
+2018,Maserati,Ghibli S,crossover,24
+2018,Mazda,CX-5 Grand Touring,crossover,54
+2018,Mazda,CX-5 Sport,pickup,41
+2018,Mazda,CX-5 Touring,coupe,48
+2018,Mazda,CX-9 Touring,sedan,21
+2018,Mazda,Mazda3 Sport,pickup,53
+2018,Mazda,Mazda3 Touring,pickup,21
+2018,Mazda,Mazda6 Touring,SUV,47
+2018,Mercedes-Benz,AMG C 43 Base 4MATIC,hatchback,23
+2018,Mercedes-Benz,AMG C 63 Base,pickup,41
+2018,Mercedes-Benz,AMG GLE 43 Coupe 4MATIC,wagon,50
+2018,Mercedes-Benz,C-Class C 300,sedan,35
+2018,Mercedes-Benz,C-Class C 300 4MATIC,hatchback,28
+2018,Mercedes-Benz,CLA 250 Base,SUV,46
+2018,Mercedes-Benz,CLA 250 Base 4MATIC,minivan,25
+2018,Mercedes-Benz,E-Class E 300,coupe,45
+2018,Mercedes-Benz,E-Class E 400,hatchback,25
+2018,Mercedes-Benz,E-Class E 400 4MATIC,sedan,39
+2018,Mercedes-Benz,GLA 250 Base,wagon,30
+2018,Mercedes-Benz,GLA 250 Base 4MATIC,wagon,49
+2018,Mercedes-Benz,GLC 300 4MATIC,sedan,34
+2018,Mercedes-Benz,GLC 300 Base,pickup,42
+2018,Mercedes-Benz,GLC 300 Base 4MATIC,crossover,46
+2018,Mercedes-Benz,GLE 350 Base,pickup,55
+2018,Mercedes-Benz,GLE 350 Base 4MATIC,SUV,55
+2018,Mercedes-Benz,GLS 450 Base 4MATIC,hatchback,23
+2018,Mercedes-Benz,GLS 450 GLS 450,coupe,40
+2018,Nissan,Altima 2.5 S,hatchback,29
+2018,Nissan,Altima 2.5 SL,hatchback,31
+2018,Nissan,Frontier S,SUV,25
+2018,Nissan,Maxima 3.5 Platinum,minivan,29
+2018,Nissan,Maxima 3.5 S,minivan,28
+2018,Nissan,Maxima 3.5 SL,coupe,28
+2018,Nissan,Murano Platinum,coupe,36
+2018,Nissan,Murano SL,SUV,52
+2018,Nissan,Pathfinder S,coupe,45
+2018,Nissan,Rogue SL,sedan,45
+2018,Nissan,Rogue SV,hatchback,32
+2018,Porsche,718 Cayman GTS,sedan,55
+2018,Porsche,718 Cayman S,coupe,39
+2018,Porsche,911 Targa 4S,sedan,46
+2018,Porsche,Cayenne Base,pickup,53
+2018,Porsche,Macan,pickup,50
+2018,Porsche,Macan Base,coupe,48
+2018,Porsche,Macan GTS,pickup,47
+2018,Porsche,Macan S,crossover,38
+2018,Porsche,Panamera Sport Turismo Turbo,minivan,33
+2018,Subaru,Crosstrek 2.0i,SUV,50
+2018,Subaru,Crosstrek 2.0i Limited,pickup,31
+2018,Subaru,Crosstrek 2.0i Premium,minivan,54
+2018,Subaru,Forester 2.5i Limited,minivan,41
+2018,Subaru,Forester 2.5i Premium,hatchback,30
+2018,Subaru,Forester 2.5i Touring,SUV,21
+2018,Subaru,Impreza 2.0i,hatchback,26
+2018,Subaru,Legacy 2.5i Sport,pickup,34
+2018,Subaru,Outback 2.5i Limited,wagon,57
+2018,Subaru,Outback 2.5i Premium,pickup,29
+2018,Subaru,Outback 3.6R Limited,wagon,59
+2018,Tesla,Model 3 Long Range,coupe,46
+2018,Tesla,Model 3 Mid Range,pickup,46
+2018,Tesla,Model 3 Performance,hatchback,47
+2018,Tesla,Model S 100D,SUV,48
+2018,Tesla,Model S 75D,hatchback,48
+2018,Tesla,Model X 100D,coupe,22
+2018,Tesla,Model X 75D,coupe,34
+2018,Toyota,4Runner Limited,hatchback,25
+2018,Toyota,4Runner Limited 4WD,hatchback,38
+2018,Toyota,4Runner SR5,minivan,48
+2018,Toyota,C-HR XLE Premium,hatchback,54
+2018,Toyota,Camry SE,pickup,46
+2018,Toyota,Camry XLE,pickup,54
+2018,Toyota,Corolla LE,crossover,54
+2018,Toyota,Highlander Hybrid Limited,SUV,56
+2018,Toyota,Highlander LE,pickup,43
+2018,Toyota,Highlander Limited,crossover,34
+2018,Toyota,Highlander XLE,crossover,50
+2018,Toyota,RAV4 Hybrid Limited,pickup,27
+2018,Toyota,RAV4 Hybrid XLE,wagon,28
+2018,Toyota,RAV4 LE,pickup,41
+2018,Toyota,RAV4 Limited,SUV,22
+2018,Toyota,RAV4 Sport,minivan,59
+2018,Toyota,RAV4 XLE,minivan,38
+2018,Toyota,Tundra Platinum,minivan,39
+2018,Toyota,Tundra SR5,hatchback,49
+2018,Volkswagen,Atlas 2.0T SE,sedan,53
+2018,Volkswagen,Atlas 3.6L SE w/Technology,pickup,28
+2018,Volkswagen,Passat 2.0T S,pickup,33
+2018,Volkswagen,Tiguan 2.0T SE,pickup,49
+2018,Volvo,S90 T5 Momentum,minivan,58
+2018,Volvo,S90 T6 Inscription,wagon,49
+2018,Volvo,V90 Cross Country T5,minivan,43
+2018,Volvo,V90 Cross Country T6,sedan,54
+2018,Volvo,XC60 T5 Momentum,coupe,43
+2018,Volvo,XC60 T6 Inscription,crossover,38
+2018,Volvo,XC60 T6 Momentum,hatchback,39
+2019,Acura,ILX Premium & A-SPEC Packages,minivan,26
+2019,Acura,ILX w/Premium Pkg,sedan,37
+2019,Acura,MDX 3.5L,SUV,23
+2019,Acura,MDX 3.5L w/Advance Package,coupe,40
+2019,Acura,MDX 3.5L w/Technology Package,SUV,53
+2019,Acura,RDX A-Spec,hatchback,27
+2019,Acura,RDX Advance Package,pickup,27
+2019,Acura,RDX Base,sedan,32
+2019,Acura,RDX Base (A10),coupe,39
+2019,Acura,RDX Technology Package,SUV,59
+2019,Acura,TLX FWD,crossover,56
+2019,Acura,TLX V6 w/Technology Package,sedan,26
+2019,Alfa,Romeo Giulia Base,SUV,46
+2019,Alfa,Romeo Giulia Ti,wagon,36
+2019,Alfa,Romeo Stelvio Base,hatchback,55
+2019,Alfa,Romeo Stelvio Ti,wagon,38
+2019,Alfa,Romeo Stelvio Ti Sport,sedan,45
+2019,Audi,A3 2.0T Premium,crossover,42
+2019,Audi,A4 2.0T Premium,crossover,39
+2019,Audi,A4 2.0T Premium Plus,SUV,53
+2019,Audi,A4 2.0T Titanium Premium,pickup,40
+2019,Audi,A4 Premium Plus,wagon,36
+2019,Audi,A5 2.0T Premium,wagon,50
+2019,Audi,A5 2.0T Premium Plus,wagon,32
+2019,Audi,A6 55 Premium,wagon,30
+2019,Audi,A6 55 Premium Plus,coupe,59
+2019,Audi,A7 3.0T Prestige,wagon,28
+2019,Audi,A8 L 55,hatchback,20
+2019,Audi,Q5 2.0T Premium,sedan,43
+2019,Audi,Q5 2.0T Premium Plus,hatchback,28
+2019,Audi,Q5 2.0T Prestige,SUV,52
+2019,Audi,Q5 Premium Plus,crossover,20
+2019,Audi,Q7 45 Premium,crossover,26
+2019,Audi,Q7 45 Premium Plus,coupe,60
+2019,Audi,Q7 55 Premium Plus,coupe,25
+2019,Audi,Q7 55 Prestige,wagon,39
+2019,Audi,Q8 3.0T Premium,coupe,49
+2019,Audi,Q8 3.0T Premium Plus,wagon,36
+2019,Audi,Q8 3.0T Prestige,crossover,32
+2019,Audi,Q8 Premium,sedan,28
+2019,Audi,RS 5 2.9T,crossover,41
+2019,Audi,S4 3.0T Prestige,SUV,37
+2019,Audi,S5 3.0T Premium Plus,hatchback,42
+2019,Audi,SQ5 3.0T Premium,hatchback,20
+2019,Audi,SQ5 Premium Plus,minivan,53
+2019,Audi,e-tron Premium Plus,coupe,23
+2019,Audi,e-tron Prestige,SUV,31
+2019,BMW,330 i,pickup,22
+2019,BMW,330 i xDrive,coupe,58
+2019,BMW,430 Gran Coupe i,SUV,48
+2019,BMW,430 i,SUV,35
+2019,BMW,430 i xDrive,hatchback,55
+2019,BMW,440 Gran Coupe i xDrive,wagon,26
+2019,BMW,440 i xDrive,pickup,46
+2019,BMW,530 i,sedan,51
+2019,BMW,530 i xDrive,crossover,34
+2019,BMW,540 i,sedan,45
+2019,BMW,540 i xDrive,crossover,34
+2019,BMW,640 Gran Turismo i xDrive,crossover,32
+2019,BMW,740 i,crossover,56
+2019,BMW,740 i xDrive,minivan,25
+2019,BMW,750 i,SUV,52
+2019,BMW,750 i xDrive,wagon,27
+2019,BMW,M550 i Xdrive,crossover,44
+2019,BMW,M550 i xDrive,hatchback,55
+2019,BMW,M850 i xDrive,SUV,30
+2019,BMW,X1 sDrive28i,sedan,34
+2019,BMW,X1 xDrive28i,coupe,54
+2019,BMW,X2 xDrive28i,wagon,25
+2019,BMW,X3 M40i,wagon,59
+2019,BMW,X3 sDrive30i,coupe,21
+2019,BMW,X3 xDrive30i,pickup,22
+2019,BMW,X4 M40i,hatchback,50
+2019,BMW,X4 xDrive30i,crossover,25
+2019,BMW,X5 xDrive40i,minivan,57
+2019,BMW,X5 xDrive50i,crossover,49
+2019,BMW,X6 xDrive35i,wagon,28
+2019,BMW,X7 xDrive40i,pickup,29
+2019,BMW,X7 xDrive50i,crossover,35
+2019,BMW,Z4 sDrive30i,SUV,53
+2019,Buick,Enclave Essence,minivan,34
+2019,Buick,Encore Essence,wagon,42
+2019,Buick,Encore Preferred,sedan,42
+2019,Buick,Encore Sport Touring,minivan,48
+2019,Buick,Envision Essence,coupe,23
+2019,Cadillac,CT6 3.6L Premium Luxury,hatchback,22
+2019,Cadillac,CT6 Luxury,SUV,60
+2019,Cadillac,CTS 2.0L Turbo Luxury,pickup,55
+2019,Cadillac,CTS 3.6L Luxury,SUV,27
+2019,Cadillac,Escalade ESV Luxury,coupe,44
+2019,Cadillac,Escalade Luxury,crossover,43
+2019,Cadillac,Escalade Premium Luxury,pickup,56
+2019,Cadillac,XT4 Premium Luxury,sedan,21
+2019,Cadillac,XT4 Sport,pickup,39
+2019,Cadillac,XT5 Luxury,hatchback,40
+2019,Cadillac,XT5 Luxury AWD,sedan,49
+2019,Cadillac,XT5 Premium Luxury,wagon,53
+2019,Chevrolet,Blazer 2LT,wagon,32
+2019,Chevrolet,Camaro 1LT,pickup,55
+2019,Chevrolet,Cruze LS,SUV,41
+2019,Chevrolet,Cruze LT,wagon,47
+2019,Chevrolet,Equinox 1LT,wagon,39
+2019,Chevrolet,Equinox 2LT,SUV,20
+2019,Chevrolet,Equinox Premier,wagon,39
+2019,Chevrolet,Equinox Premier w/1LZ,SUV,40
+2019,Chevrolet,Impala Premier 2LZ,pickup,40
+2019,Chevrolet,Silverado 1500 Custom,minivan,28
+2019,Chevrolet,Silverado 1500 High Country,sedan,33
+2019,Chevrolet,Silverado 1500 LD LT,wagon,35
+2019,Chevrolet,Silverado 1500 LT,sedan,24
+2019,Chevrolet,Silverado 1500 RST,crossover,42
+2019,Chevrolet,Suburban LT,wagon,32
+2019,Chevrolet,Tahoe LS,SUV,58
+2019,Chevrolet,Tahoe LT,minivan,46
+2019,Chevrolet,Tahoe Premier,sedan,41
+2019,Chevrolet,Traverse LS,pickup,29
+2019,Chevrolet,Traverse LT Cloth,SUV,34
+2019,Chevrolet,Traverse Premier,minivan,26
+2019,Chevrolet,Traverse RS,coupe,41
+2019,Chevrolet,Trax LS,minivan,48
+2019,Chevrolet,Trax LT,coupe,49
+2019,Chrysler,Pacifica Limited,hatchback,59
+2019,Chrysler,Pacifica Touring-L,SUV,39
+2019,Dodge,Challenger SXT,pickup,50
+2019,Dodge,Charger SXT,SUV,45
+2019,Dodge,Durango GT,minivan,59
+2019,Dodge,Durango GT Plus,crossover,32
+2019,Dodge,Durango R/T,wagon,34
+2019,Dodge,Durango SXT,SUV,30
+2019,Dodge,Grand Caravan GT,sedan,35
+2019,Dodge,Journey Crossroad,hatchback,60
+2019,Dodge,Journey SE,hatchback,22
+2019,Ford,EcoSport SE,minivan,55
+2019,Ford,Edge SE,pickup,44
+2019,Ford,Edge SEL,crossover,25
+2019,Ford,Edge ST,coupe,50
+2019,Ford,Edge Titanium,crossover,60
+2019,Ford,Escape SE,SUV,55
+2019,Ford,Escape SEL,sedan,35
+2019,Ford,Escape Titanium,hatchback,56
+2019,Ford,Expedition Limited,crossover,54
+2019,Ford,Expedition Max Limited,wagon,34
+2019,Ford,Expedition Platinum,pickup,29
+2019,Ford,Expedition XLT,minivan,25
+2019,Ford,Explorer Base,hatchback,32
+2019,Ford,Explorer Limited,wagon,44
+2019,Ford,Explorer XLT,coupe,54
+2019,Ford,F-150 King Ranch,hatchback,38
+2019,Ford,F-150 Lariat,coupe,45
+2019,Ford,F-150 Platinum,minivan,40
+2019,Ford,F-150 Raptor,minivan,20
+2019,Ford,F-150 XLT,wagon,46
+2019,Ford,Fiesta SE,hatchback,32
+2019,Ford,Flex Limited,wagon,52
+2019,Ford,Flex SEL,minivan,60
+2019,Ford,Mustang EcoBoost,sedan,55
+2019,Ford,Mustang GT Premium,wagon,47
+2019,Ford,Transit Connect XL,wagon,59
+2019,Ford,Transit-250 Base,hatchback,48
+2019,GMC,Acadia Denali,coupe,28
+2019,GMC,Acadia SLE-1,minivan,57
+2019,GMC,Acadia SLE-2,hatchback,24
+2019,GMC,Acadia SLT-1,SUV,41
+2019,GMC,Sierra 1500 Denali,coupe,35
+2019,GMC,Sierra 1500 Limited SLE,pickup,59
+2019,GMC,Sierra 1500 SLT,wagon,25
+2019,GMC,Terrain Denali,minivan,59
+2019,GMC,Terrain SLT,crossover,44
+2019,GMC,Yukon Denali,wagon,54
+2019,GMC,Yukon XL Denali,pickup,41
+2019,GMC,Yukon XL SLT,wagon,56
+2019,Genesis,G80 3.8,pickup,44
+2019,Genesis,G90 3.3T Premium,sedan,34
+2019,Honda,Accord EX-L,sedan,37
+2019,Honda,Accord EX-L 1.5T,pickup,23
+2019,Honda,Accord LX,SUV,60
+2019,Honda,Accord Sport,pickup,42
+2019,Honda,CR-V EX,pickup,26
+2019,Honda,CR-V EX-L,SUV,41
+2019,Honda,CR-V LX,wagon,38
+2019,Honda,CR-V Touring,sedan,25
+2019,Honda,Civic EX,coupe,31
+2019,Honda,Civic EX-L,hatchback,21
+2019,Honda,Civic LX,sedan,50
+2019,Honda,Civic Sport,minivan,58
+2019,Honda,HR-V EX,SUV,43
+2019,Honda,HR-V LX,pickup,54
+2019,Honda,HR-V Sport,minivan,53
+2019,Honda,Odyssey EX-L,coupe,26
+2019,Honda,Passport EX-L,coupe,53
+2019,Honda,Passport Sport,wagon,52
+2019,Honda,Pilot EX,minivan,29
+2019,Honda,Pilot EX-L,crossover,58
+2019,Honda,Pilot EX-L w/Navigation/RES,hatchback,59
+2019,Honda,Pilot Elite,wagon,60
+2019,Honda,Pilot Touring 8-Passenger,pickup,36
+2019,Honda,Ridgeline RTL-E,crossover,55
+2019,Hyundai,Elantra SE,crossover,48
+2019,Hyundai,Elantra SEL,sedan,60
+2019,Hyundai,Kona EV Limited,minivan,21
+2019,Hyundai,Kona EV Ultimate,wagon,46
+2019,Hyundai,Kona Limited,SUV,28
+2019,Hyundai,Kona SE,hatchback,34
+2019,Hyundai,Kona SEL,coupe,58
+2019,Hyundai,Santa Fe SE 2.4,crossover,44
+2019,Hyundai,Santa Fe SEL Plus 2.4,wagon,54
+2019,Hyundai,Santa Fe Ultimate 2.0T,sedan,33
+2019,Hyundai,Santa Fe Ultimate 2.4,pickup,58
+2019,Hyundai,Santa Fe XL Limited Ultimate,minivan,37
+2019,Hyundai,Sonata SEL,crossover,45
+2019,Hyundai,Tucson Limited,SUV,49
+2019,Hyundai,Tucson SE,coupe,58
+2019,Hyundai,Tucson SEL,hatchback,24
+2019,Hyundai,Tucson Value,wagon,37
+2019,INFINITI,Q50 3.0t LUXE,hatchback,39
+2019,INFINITI,Q50 3.0t Red Sport 400,pickup,48
+2019,INFINITI,Q50 3.0t Sport,crossover,28
+2019,INFINITI,QX50 ESSENTIAL,hatchback,56
+2019,INFINITI,QX50 Luxe,SUV,47
+2019,INFINITI,QX60 Luxe,hatchback,40
+2019,INFINITI,QX60 Pure,minivan,48
+2019,INFINITI,QX80 Luxe,minivan,50
+2019,Jaguar,F-PACE 25t Premium,SUV,60
+2019,Jaguar,F-PACE 25t Prestige,coupe,29
+2019,Jaguar,F-PACE 30t Prestige,pickup,36
+2019,Jeep,Cherokee Latitude Plus,pickup,31
+2019,Jeep,Cherokee Limited,pickup,42
+2019,Jeep,Cherokee Trailhawk,sedan,24
+2019,Jeep,Compass Latitude,minivan,32
+2019,Jeep,Compass Trailhawk,pickup,54
+2019,Jeep,Grand Cherokee Altitude,hatchback,35
+2019,Jeep,Grand Cherokee Laredo,SUV,45
+2019,Jeep,Grand Cherokee Limited,SUV,47
+2019,Jeep,Grand Cherokee Overland,wagon,51
+2019,Jeep,Grand Cherokee Summit,wagon,42
+2019,Jeep,Renegade Latitude,hatchback,57
+2019,Jeep,Renegade Sport,crossover,21
+2019,Jeep,Wrangler Sport,SUV,22
+2019,Jeep,Wrangler Unlimited Sahara,hatchback,26
+2019,Kia,Forte LXS,hatchback,23
+2019,Kia,Optima EX,pickup,21
+2019,Kia,Optima LX,minivan,43
+2019,Kia,Optima SX Turbo,hatchback,26
+2019,Kia,Sorento EX,wagon,38
+2019,Kia,Sorento EX V6,pickup,50
+2019,Kia,Sorento LX,crossover,54
+2019,Kia,Sorento SX,wagon,50
+2019,Kia,Sportage LX,SUV,60
+2019,Lamborghini,Urus Base,sedan,29
+2019,Land,Rover Discovery HSE,crossover,30
+2019,Land,Rover Discovery HSE LUXURY,crossover,44
+2019,Land,Rover Discovery SE,crossover,31
+2019,Land,Rover Discovery Sport HSE,wagon,43
+2019,Land,Rover Range Rover 3.0L V6 Supercharged HSE,coupe,34
+2019,Land,Rover Range Rover 5.0 Supercharged LWB,sedan,39
+2019,Land,Rover Range Rover 5.0L V8 Supercharged,wagon,57
+2019,Land,Rover Range Rover 5.0L V8 Supercharged Autobiography,crossover,37
+2019,Land,Rover Range Rover Evoque SE Premium,crossover,51
+2019,Land,Rover Range Rover HSE,sedan,45
+2019,Land,Rover Range Rover SV Autobiography Dynamic,sedan,45
+2019,Land,Rover Range Rover Sport 3.0L Supercharged HSE,SUV,52
+2019,Land,Rover Range Rover Sport 3.0L Supercharged SE,coupe,44
+2019,Land,Rover Range Rover Sport 5.0L Supercharged Dynamic,wagon,34
+2019,Land,Rover Range Rover Sport Autobiography,minivan,25
+2019,Land,Rover Range Rover Velar P250 S,wagon,60
+2019,Land,Rover Range Rover Velar P250 SE R-Dynamic,SUV,27
+2019,Land,Rover Range Rover Velar P340 SE R-Dynamic,hatchback,37
+2019,Land,Rover Range Rover Velar P380 HSE R-Dynamic,SUV,21
+2019,Lexus,ES 300h Base,hatchback,21
+2019,Lexus,ES 350 Base,wagon,31
+2019,Lexus,ES 350 F Sport,SUV,38
+2019,Lexus,ES 350 Luxury,coupe,50
+2019,Lexus,ES 350 Premium,SUV,55
+2019,Lexus,GX 460,minivan,50
+2019,Lexus,GX 460 Base,coupe,39
+2019,Lexus,GX 460 GX 460 Premium,coupe,26
+2019,Lexus,IS 300 Base,hatchback,25
+2019,Lexus,IS 300 IS 300 F SPORT,wagon,53
+2019,Lexus,LC 500 Base,pickup,56
+2019,Lexus,LS 500 Base,minivan,58
+2019,Lexus,NX 300 Base,minivan,40
+2019,Lexus,NX 300 F-SPORT,coupe,32
+2019,Lexus,RC 350 350,pickup,43
+2019,Lexus,RX 350,hatchback,47
+2019,Lexus,RX 350 350,crossover,28
+2019,Lexus,RX 350 Base,sedan,54
+2019,Lexus,RX 350 F Sport,minivan,26
+2019,Lexus,RX 350 RX 350,hatchback,59
+2019,Lexus,RX 350L Premium,wagon,23
+2019,Lincoln,Continental Select,crossover,43
+2019,Lincoln,MKC Reserve,pickup,60
+2019,Lincoln,MKC Select,pickup,31
+2019,Lincoln,MKC Standard,wagon,24
+2019,Lincoln,MKZ Hybrid Reserve I,minivan,52
+2019,Lincoln,MKZ Reserve I,crossover,43
+2019,Lincoln,MKZ Reserve II,sedan,41
+2019,Lincoln,MKZ Standard,SUV,56
+2019,Lincoln,Nautilus Reserve,wagon,36
+2019,Lincoln,Nautilus Select,hatchback,52
+2019,Lincoln,Navigator Black Label,crossover,53
+2019,Lincoln,Navigator L Reserve,coupe,54
+2019,Lincoln,Navigator L Select,minivan,46
+2019,Lincoln,Navigator Reserve,crossover,27
+2019,Lincoln,Navigator Select,hatchback,32
+2019,MINI,Convertible Cooper,pickup,48
+2019,MINI,Countryman Cooper S,hatchback,24
+2019,Maserati,Ghibli Base,pickup,34
+2019,Maserati,Ghibli S Q4,minivan,34
+2019,Maserati,Levante Base,wagon,20
+2019,Mazda,CX-5 Grand Touring,sedan,38
+2019,Mazda,CX-5 Sport,coupe,25
+2019,Mazda,CX-5 Touring,pickup,32
+2019,Mazda,CX-9 Grand Touring,SUV,23
+2019,Mazda,CX-9 Touring,minivan,42
+2019,Mazda,Mazda3 AWD w/Preferred Package,crossover,54
+2019,Mazda,Mazda3 FWD w/Preferred Package,minivan,40
+2019,Mazda,Mazda3 FWD w/Premium Package,sedan,42
+2019,Mercedes-Benz,A-Class A 220,coupe,37
+2019,Mercedes-Benz,A-Class A 220 4MATIC,SUV,26
+2019,Mercedes-Benz,AMG C 43 Base 4MATIC,wagon,46
+2019,Mercedes-Benz,AMG C 63 S,crossover,39
+2019,Mercedes-Benz,AMG E 53 Base 4MATIC,pickup,54
+2019,Mercedes-Benz,AMG E 63 S 4MATIC,pickup,48
+2019,Mercedes-Benz,AMG G 63 Base,hatchback,35
+2019,Mercedes-Benz,AMG GLC 43 Base 4MATIC,SUV,45
+2019,Mercedes-Benz,AMG GLC 63 S 4MATIC,wagon,31
+2019,Mercedes-Benz,AMG GLE 43 4MATIC Coupe,minivan,28
+2019,Mercedes-Benz,AMG GLE 43 Coupe 4MATIC,hatchback,55
+2019,Mercedes-Benz,AMG GT 63 4-Door,sedan,57
+2019,Mercedes-Benz,AMG S 63 4MATIC,SUV,60
+2019,Mercedes-Benz,C-Class C 300,pickup,60
+2019,Mercedes-Benz,C-Class C 300 4MATIC,hatchback,22
+2019,Mercedes-Benz,CLA 250,coupe,49
+2019,Mercedes-Benz,CLA 250 Base,hatchback,27
+2019,Mercedes-Benz,CLA 250 Base 4MATIC,pickup,41
+2019,Mercedes-Benz,CLA 250 CLA 250,coupe,22
+2019,Mercedes-Benz,CLS 450 Base,hatchback,32
+2019,Mercedes-Benz,E-Class E 300,SUV,50
+2019,Mercedes-Benz,E-Class E 450,sedan,51
+2019,Mercedes-Benz,G-Class G 550 4MATIC,crossover,20
+2019,Mercedes-Benz,GLA 250 4MATIC,crossover,55
+2019,Mercedes-Benz,GLA 250 Base,SUV,24
+2019,Mercedes-Benz,GLA 250 Base 4MATIC,pickup,51
+2019,Mercedes-Benz,GLC 300 4MATIC,sedan,51
+2019,Mercedes-Benz,GLC 300 Base,sedan,44
+2019,Mercedes-Benz,GLC 300 Base 4MATIC,sedan,50
+2019,Mercedes-Benz,GLC 350e Base 4MATIC,pickup,24
+2019,Mercedes-Benz,GLS 450 4MATIC,coupe,54
+2019,Mercedes-Benz,GLS 450 Base 4MATIC,pickup,39
+2019,Mercedes-Benz,GLS 450 GLS 450,wagon,39
+2019,Mercedes-Benz,S-Class S 450,hatchback,42
+2019,Mercedes-Benz,S-Class S 450 4MATIC,coupe,21
+2019,Mercedes-Benz,S-Class S 560,coupe,58
+2019,Mercedes-Benz,S-Class S 560 4MATIC,pickup,26
+2019,Nissan,Altima 2.5 SL,SUV,30
+2019,Nissan,Altima 2.5 SR,pickup,38
+2019,Nissan,Armada SL,coupe,34
+2019,Nissan,Maxima 3.5 SL,wagon,37
+2019,Nissan,Murano Platinum,crossover,36
+2019,Nissan,Murano SL,minivan,44
+2019,Nissan,Murano SV,SUV,60
+2019,Nissan,Pathfinder Platinum,hatchback,57
+2019,Nissan,Pathfinder S,wagon,43
+2019,Nissan,Pathfinder SL,crossover,45
+2019,Nissan,Rogue S,SUV,40
+2019,Nissan,Rogue SL,wagon,24
+2019,Nissan,Rogue SV,sedan,49
+2019,Nissan,Rogue Sport S,coupe,39
+2019,Nissan,Rogue Sport SV,sedan,50
+2019,Nissan,Sentra S,crossover,35
+2019,Nissan,Sentra SV,minivan,59
+2019,Nissan,Titan SV,hatchback,26
+2019,Nissan,Versa 1.6 SV,SUV,20
+2019,Porsche,718 Boxster Base,SUV,57
+2019,Porsche,911 Carrera 4S,hatchback,51
+2019,Porsche,Cayenne Base,sedan,31
+2019,Porsche,Cayenne S,crossover,37
+2019,Porsche,Macan 4DR SUV AWD,minivan,35
+2019,Porsche,Macan Base,coupe,26
+2019,Porsche,Macan S,hatchback,21
+2019,RAM,1500 Classic SLT,crossover,27
+2019,RAM,1500 Classic Warlock,coupe,28
+2019,RAM,1500 Laramie,wagon,40
+2019,RAM,1500 Limited,coupe,20
+2019,Subaru,Ascent Limited 7-Passenger,wagon,39
+2019,Subaru,Ascent Limited 8-Passenger,wagon,39
+2019,Subaru,Ascent Premium 7-Passenger,sedan,55
+2019,Subaru,Ascent Premium 8-Passenger,pickup,20
+2019,Subaru,Ascent Touring 7-Passenger,sedan,33
+2019,Subaru,Crosstrek 2.0i Limited,wagon,35
+2019,Subaru,Crosstrek 2.0i Premium,pickup,31
+2019,Subaru,Forester,minivan,38
+2019,Subaru,Forester Base (CVT),SUV,39
+2019,Subaru,Forester Limited,sedan,58
+2019,Subaru,Forester Premium,crossover,28
+2019,Subaru,Forester Sport,SUV,59
+2019,Subaru,Forester Touring,crossover,35
+2019,Subaru,Impreza 2.0i Premium,coupe,29
+2019,Subaru,Impreza 2.0i Sport,hatchback,57
+2019,Subaru,Legacy 2.5i Premium,sedan,60
+2019,Subaru,Outback 2.5i,SUV,23
+2019,Subaru,Outback 2.5i Limited,sedan,55
+2019,Subaru,Outback 2.5i Premium,hatchback,25
+2019,Subaru,Outback 2.5i Touring,pickup,31
+2019,Subaru,Outback 3.6R Limited,SUV,53
+2019,Subaru,Outback 3.6R Touring,coupe,24
+2019,Tesla,Model 3 Long Range,crossover,34
+2019,Tesla,Model 3 Mid Range,wagon,50
+2019,Tesla,Model 3 Performance,pickup,36
+2019,Tesla,Model 3 Standard Range Plus,crossover,50
+2019,Toyota,4Runner Limited,coupe,50
+2019,Toyota,4Runner Limited Nightshade,hatchback,51
+2019,Toyota,4Runner SR5,SUV,27
+2019,Toyota,4Runner TRD Off Road,wagon,40
+2019,Toyota,4Runner TRD Pro,crossover,32
+2019,Toyota,C-HR LE,pickup,58
+2019,Toyota,C-HR XLE,hatchback,45
+2019,Toyota,Camry LE,wagon,47
+2019,Toyota,Camry SE,wagon,41
+2019,Toyota,Camry XLE,coupe,49
+2019,Toyota,Camry XSE,crossover,24
+2019,Toyota,Corolla Hatchback SE,minivan,55
+2019,Toyota,Corolla L,minivan,40
+2019,Toyota,Corolla LE,SUV,26
+2019,Toyota,Corolla SE,minivan,46
+2019,Toyota,Highlander Hybrid LE,minivan,49
+2019,Toyota,Highlander Hybrid Limited,crossover,28
+2019,Toyota,Highlander LE,SUV,57
+2019,Toyota,Highlander LE Plus,sedan,25
+2019,Toyota,Highlander Limited,coupe,57
+2019,Toyota,Highlander Limited Platinum,sedan,49
+2019,Toyota,Highlander SE,coupe,25
+2019,Toyota,Highlander XLE,pickup,24
+2019,Toyota,Mirai Base,pickup,42
+2019,Toyota,Prius Limited,coupe,35
+2019,Toyota,RAV4 LE,SUV,48
+2019,Toyota,RAV4 Limited,wagon,29
+2019,Toyota,RAV4 XLE,sedan,50
+2019,Toyota,RAV4 XLE Premium,minivan,43
+2019,Toyota,Sequoia Platinum,SUV,52
+2019,Toyota,Sienna LE,hatchback,47
+2019,Toyota,Sienna LE Auto Access Seat,hatchback,43
+2019,Toyota,Sienna SE,sedan,20
+2019,Toyota,Tundra SR5,hatchback,31
+2019,Toyota,Tundra W/ NAVIGATION&PLATINUM,hatchback,34
+2019,Volkswagen,Arteon 2.0T SE R-Line,SUV,46
+2019,Volkswagen,Arteon 2.0T SEL Premium R-Line,pickup,42
+2019,Volkswagen,Atlas 3.6L S,sedan,27
+2019,Volkswagen,Atlas 3.6L SE w/Technology,hatchback,42
+2019,Volkswagen,Atlas 3.6L SEL,crossover,58
+2019,Volkswagen,Atlas 3.6L SEL Premium,coupe,45
+2019,Volkswagen,Atlas 3.6L V6 SEL Premium,SUV,47
+2019,Volkswagen,Golf R 2.0T w/DCC & Navigation,coupe,34
+2019,Volkswagen,Jetta 1.4T S,wagon,48
+2019,Volkswagen,Tiguan 2.0T S,sedan,21
+2019,Volkswagen,Tiguan 2.0T SE,pickup,41
+2019,Volkswagen,Tiguan 2.0T SEL Premium R-Line,SUV,39
+2019,Volvo,S60 Momentum,hatchback,47
+2019,Volvo,S60 T5 Momentum,SUV,23
+2019,Volvo,S60 T6 Inscription,crossover,54
+2019,Volvo,S60 T6 Momentum,crossover,38
+2019,Volvo,S60 T6 R-Design,coupe,40
+2019,Volvo,S90 T6 Momentum,SUV,48
+2019,Volvo,XC40 T5 Momentum,pickup,31
+2019,Volvo,XC40 T5 R-Design,coupe,34
+2019,Volvo,XC60 T5 Inscription,sedan,46
+2019,Volvo,XC60 T5 Momentum,SUV,51
+2019,Volvo,XC60 T6 Inscription,pickup,27
+2019,Volvo,XC60 T6 Momentum,pickup,57
+2019,Volvo,XC90 T5 Momentum,crossover,35
+2019,Volvo,XC90 T6 Inscription,crossover,32
+2019,Volvo,XC90 T6 Momentum,crossover,47
+2019,Volvo,XC90 T6 R-Design,pickup,43
+2020,Acura,ILX,coupe,36
+2020,Acura,ILX Premium & A-SPEC Packages,sedan,60
+2020,Acura,MDX 3.5L,hatchback,56
+2020,Acura,MDX 3.5L Technology & A-Spec Pkgs,SUV,35
+2020,Acura,MDX 3.5L w/Advance Package,minivan,59
+2020,Acura,MDX 3.5L w/Technology Package,wagon,20
+2020,Acura,MDX SH-AWD 7-Passenger,wagon,50
+2020,Acura,MDX Sport Hybrid 3.0L w/Technology Package,wagon,21
+2020,Acura,RDX A-Spec,wagon,33
+2020,Acura,RDX Base,wagon,32
+2020,Acura,RDX Technology Package,pickup,34
+2020,Acura,TLX A-Spec,sedan,30
+2020,Acura,TLX FWD,minivan,34
+2020,Acura,TLX Tech,sedan,26
+2020,Acura,TLX Technology,minivan,40
+2020,Acura,TLX V6,pickup,54
+2020,Acura,TLX V6 w/Technology Package,crossover,45
+2020,Alfa,Romeo Giulia Base,pickup,33
+2020,Alfa,Romeo Giulia Ti,minivan,51
+2020,Alfa,Romeo Stelvio Base,wagon,29
+2020,Alfa,Romeo Stelvio Ti,coupe,59
+2020,Audi,Q3 S line Premium Plus,minivan,28
+2020,Audi,Q5 45 Premium,hatchback,32
+2020,Audi,Q5 45 Premium Plus,sedan,34
+2020,Audi,Q5 45 Prestige,SUV,34
+2020,Audi,Q5 45 Titanium Premium,coupe,33
+2020,Audi,Q7 55 Premium Plus,hatchback,42
+2020,Audi,Q7 55 quattro Premium Plus,hatchback,45
+2020,Audi,Q8 55 Premium,coupe,24
+2020,BMW,330 i,coupe,46
+2020,BMW,330 i xDrive,pickup,37
+2020,BMW,430 i,minivan,60
+2020,BMW,430 i xDrive,wagon,54
+2020,BMW,740 i,pickup,40
+2020,BMW,740 i xDrive,wagon,51
+2020,BMW,750 i xDrive,coupe,27
+2020,BMW,M340 i,sedan,35
+2020,BMW,M340 i xDrive,coupe,37
+2020,BMW,M4 Base,hatchback,50
+2020,BMW,M5 Competition,wagon,52
+2020,BMW,X1 xDrive28i,wagon,49
+2020,BMW,X2 xDrive28i,minivan,47
+2020,BMW,X3 M Base (A8),hatchback,30
+2020,BMW,X3 M Competition,SUV,49
+2020,BMW,X3 M40i,pickup,32
+2020,BMW,X3 sDrive30i,crossover,32
+2020,BMW,X3 xDrive30i,minivan,22
+2020,BMW,X5 M50i,crossover,29
+2020,BMW,X5 sDrive40i,pickup,58
+2020,BMW,X5 xDrive40i,wagon,23
+2020,BMW,X7 xDrive40i,SUV,23
+2020,Bentley,Bentayga Design Edition,minivan,29
+2020,Buick,Enclave Avenir,wagon,38
+2020,Buick,Enclave Essence,sedan,28
+2020,Buick,Encore Essence,SUV,38
+2020,Buick,Encore Preferred,SUV,47
+2020,Buick,Envision Essence,pickup,37
+2020,Cadillac,CT4 Premium Luxury,minivan,56
+2020,Cadillac,Escalade Luxury,coupe,30
+2020,Cadillac,Escalade Platinum,coupe,33
+2020,Cadillac,XT4 Premium Luxury,wagon,52
+2020,Cadillac,XT5 Premium Luxury,hatchback,24
+2020,Cadillac,XT5 Sport,minivan,38
+2020,Cadillac,XT6 AWD Premium Luxury,coupe,57
+2020,Cadillac,XT6 AWD Sport,hatchback,45
+2020,Cadillac,XT6 Premium Luxury AWD,wagon,47
+2020,Cadillac,XT6 Premium Luxury FWD,wagon,30
+2020,Cadillac,XT6 Sport AWD,minivan,49
+2020,Chevrolet,Blazer 1LT,minivan,56
+2020,Chevrolet,Blazer 2LT,SUV,53
+2020,Chevrolet,Blazer Premier,hatchback,29
+2020,Chevrolet,Equinox 1LT,SUV,52
+2020,Chevrolet,Equinox 2LT,hatchback,43
+2020,Chevrolet,Equinox Premier w/1LZ,sedan,60
+2020,Chevrolet,Impala Premier,wagon,43
+2020,Chevrolet,Malibu 1LS,minivan,44
+2020,Chevrolet,Malibu LT,coupe,40
+2020,Chevrolet,Silverado 1500 Custom,SUV,25
+2020,Chevrolet,Silverado 1500 LT,wagon,52
+2020,Chevrolet,Silverado 1500 LT Trail Boss,hatchback,54
+2020,Chevrolet,Silverado 1500 LTZ,crossover,55
+2020,Chevrolet,Silverado 1500 RST,sedan,23
+2020,Chevrolet,Spark 1LT,SUV,38
+2020,Chevrolet,Spark LS,coupe,28
+2020,Chevrolet,Suburban LT,minivan,56
+2020,Chevrolet,Tahoe LS,sedan,52
+2020,Chevrolet,Tahoe LT,hatchback,48
+2020,Chevrolet,Tahoe Premier,minivan,22
+2020,Chevrolet,Traverse High Country,wagon,60
+2020,Chevrolet,Traverse LS,pickup,58
+2020,Chevrolet,Traverse LT Cloth,pickup,47
+2020,Chevrolet,Traverse LT Leather,coupe,57
+2020,Chevrolet,Traverse Premier,coupe,34
+2020,Chevrolet,Trax LS,crossover,55
+2020,Chevrolet,Trax LT,wagon,25
+2020,Chrysler,300 Limited,sedan,57
+2020,Chrysler,300 S,hatchback,58
+2020,Chrysler,Pacifica Limited,sedan,42
+2020,Chrysler,Pacifica Touring-L,minivan,32
+2020,Dodge,Challenger R/T,minivan,23
+2020,Dodge,Challenger R/T Scat Pack,SUV,38
+2020,Dodge,Challenger SRT Hellcat,wagon,35
+2020,Dodge,Challenger SXT,SUV,31
+2020,Dodge,Charger SXT,minivan,30
+2020,Dodge,Charger Scat Pack,crossover,36
+2020,Dodge,Durango GT,coupe,30
+2020,Dodge,Durango R/T,wagon,25
+2020,Dodge,Durango SXT,sedan,43
+2020,Dodge,Journey SE Value,minivan,51
+2020,Ford,EcoSport S,minivan,31
+2020,Ford,EcoSport SE,pickup,55
+2020,Ford,EcoSport Titanium,sedan,21
+2020,Ford,Edge SEL,wagon,48
+2020,Ford,Edge ST,pickup,57
+2020,Ford,Edge Sport,sedan,29
+2020,Ford,Edge Titanium,wagon,51
+2020,Ford,Escape SE,crossover,23
+2020,Ford,Escape SEL,hatchback,40
+2020,Ford,Escape Titanium,hatchback,35
+2020,Ford,Escape Titanium Hybrid,crossover,24
+2020,Ford,Expedition Limited,pickup,28
+2020,Ford,Expedition Max Limited,pickup,52
+2020,Ford,Expedition XLT,SUV,31
+2020,Ford,Explorer Limited,coupe,59
+2020,Ford,Explorer Platinum,pickup,44
+2020,Ford,Explorer ST,sedan,39
+2020,Ford,Explorer XLT,hatchback,36
+2020,Ford,F-150 King Ranch,crossover,42
+2020,Ford,F-150 Lariat,SUV,52
+2020,Ford,F-150 Platinum,minivan,44
+2020,Ford,F-150 XLT,crossover,35
+2020,Ford,Fusion Hybrid Titanium,coupe,39
+2020,Ford,Fusion SE,minivan,29
+2020,Ford,Fusion SEL,wagon,36
+2020,Ford,Fusion Titanium,SUV,53
+2020,Ford,Mustang GT,pickup,50
+2020,Ford,Mustang GT Premium,wagon,48
+2020,Ford,Ranger Lariat,minivan,37
+2020,Ford,Ranger XL,wagon,20
+2020,Ford,Ranger XLT,hatchback,49
+2020,Ford,Transit-250 Base,pickup,48
+2020,GMC,Acadia Denali,coupe,57
+2020,GMC,Acadia SLE,pickup,34
+2020,GMC,Acadia SLT,coupe,59
+2020,GMC,Sierra 1500 AT4,minivan,60
+2020,GMC,Sierra 1500 Denali,SUV,23
+2020,GMC,Sierra 1500 Elevation,coupe,53
+2020,GMC,Sierra 2500 Denali,sedan,22
+2020,GMC,Sierra 3500 Denali,crossover,47
+2020,GMC,Terrain Denali,coupe,28
+2020,GMC,Terrain SLE,crossover,33
+2020,GMC,Terrain SLT,coupe,31
+2020,GMC,Yukon Denali,wagon,50
+2020,GMC,Yukon SLT,pickup,59
+2020,GMC,Yukon XL SLT,SUV,26
+2020,Honda,Accord EX-L,wagon,57
+2020,Honda,Accord EX-L 2.0T,pickup,25
+2020,Honda,Accord LX 1.5T,hatchback,35
+2020,Honda,Accord Sport 1.5T,SUV,39
+2020,Honda,CR-V EX,wagon,23
+2020,Honda,CR-V EX-L,SUV,25
+2020,Honda,CR-V Hybrid Touring,hatchback,49
+2020,Honda,CR-V LX,pickup,45
+2020,Honda,CR-V Touring,hatchback,52
+2020,Honda,Civic LX,sedan,41
+2020,Honda,Civic Sport,wagon,54
+2020,Honda,HR-V LX,minivan,34
+2020,Honda,Odyssey EX-L,SUV,34
+2020,Honda,Odyssey EX-L w/Navigation/RES,crossover,24
+2020,Honda,Odyssey Touring,pickup,51
+2020,Honda,Passport EX-L,coupe,25
+2020,Honda,Passport Touring,pickup,21
+2020,Honda,Pilot EX-L,hatchback,34
+2020,Honda,Pilot Elite,coupe,29
+2020,Honda,Pilot Touring 7-Passenger,crossover,60
+2020,Honda,Pilot Touring 8-Passenger,crossover,37
+2020,Honda,Ridgeline RTL-E,coupe,28
+2020,Hyundai,Elantra Limited,minivan,56
+2020,Hyundai,Elantra SE,SUV,27
+2020,Hyundai,Elantra SEL,hatchback,54
+2020,Hyundai,Kona SE,hatchback,30
+2020,Hyundai,Kona Ultimate,coupe,58
+2020,Hyundai,Palisade Limited,coupe,27
+2020,Hyundai,Palisade SEL,SUV,23
+2020,Hyundai,Santa Fe Limited 2.0T,pickup,29
+2020,Hyundai,Santa Fe Limited 2.4,hatchback,57
+2020,Hyundai,Santa Fe SE 2.4,wagon,28
+2020,Hyundai,Santa Fe SEL 2.4,crossover,59
+2020,Hyundai,Sonata SE,wagon,44
+2020,Hyundai,Tucson SE,pickup,35
+2020,Hyundai,Tucson Sport,sedan,33
+2020,Hyundai,Tucson Value,pickup,55
+2020,INFINITI,Q50 3.0t LUXE,wagon,32
+2020,INFINITI,Q50 3.0t Sport,crossover,27
+2020,INFINITI,QX50 ESSENTIAL,SUV,27
+2020,INFINITI,QX50 Luxe,hatchback,55
+2020,INFINITI,QX60 Luxe,hatchback,52
+2020,INFINITI,QX60 Pure,coupe,51
+2020,INFINITI,QX80 Luxe,minivan,54
+2020,Jaguar,E-PACE SE,pickup,40
+2020,Jaguar,F-PACE 25t Prestige,minivan,33
+2020,Jaguar,F-PACE SVR,pickup,37
+2020,Jeep,Cherokee Latitude,wagon,51
+2020,Jeep,Cherokee Latitude Plus,pickup,25
+2020,Jeep,Cherokee Limited,SUV,48
+2020,Jeep,Compass Trailhawk,coupe,58
+2020,Jeep,Gladiator Rubicon,minivan,50
+2020,Jeep,Grand Cherokee Altitude,wagon,25
+2020,Jeep,Grand Cherokee High Altitude,hatchback,25
+2020,Jeep,Grand Cherokee Laredo,wagon,35
+2020,Jeep,Grand Cherokee Limited,wagon,55
+2020,Jeep,Grand Cherokee Summit,minivan,46
+2020,Jeep,Grand Cherokee Trailhawk,crossover,32
+2020,Jeep,Wrangler Unlimited Rubicon,SUV,21
+2020,Jeep,Wrangler Unlimited Sahara,SUV,49
+2020,Jeep,Wrangler Unlimited Sport,minivan,54
+2020,Kia,Forte LXS,SUV,53
+2020,Kia,Optima LX,SUV,23
+2020,Kia,Sorento LX,coupe,57
+2020,Kia,Sorento LX V6,minivan,43
+2020,Kia,Sorento S,coupe,54
+2020,Kia,Soul GT-Line 1.6L,pickup,40
+2020,Kia,Soul GT-Line 2.0L,minivan,51
+2020,Kia,Soul S,hatchback,37
+2020,Kia,Sportage EX,pickup,44
+2020,Kia,Sportage LX,coupe,29
+2020,Kia,Sportage S,SUV,36
+2020,Kia,Stinger GT2,minivan,42
+2020,Kia,Telluride EX,pickup,37
+2020,Kia,Telluride LX,pickup,20
+2020,Kia,Telluride S,SUV,58
+2020,Kia,Telluride SX,minivan,32
+2020,Lamborghini,Urus,SUV,47
+2020,Lamborghini,Urus Base,crossover,25
+2020,Land,Rover Defender 110 First Edition,SUV,57
+2020,Land,Rover Defender 110 HSE,hatchback,52
+2020,Land,Rover Defender 110 SE,sedan,20
+2020,Land,Rover Discovery Landmark,sedan,45
+2020,Land,Rover Discovery Landmark Edition,hatchback,29
+2020,Land,Rover Discovery SE,pickup,60
+2020,Land,Rover Range Rover Evoque S,hatchback,52
+2020,Land,Rover Range Rover Evoque SE,SUV,28
+2020,Land,Rover Range Rover HSE,coupe,49
+2020,Land,Rover Range Rover P525 HSE,wagon,25
+2020,Land,Rover Range Rover P525 HSE LWB,pickup,30
+2020,Land,Rover Range Rover SWB,wagon,45
+2020,Land,Rover Range Rover Sport 3.0L Supercharged HSE,coupe,32
+2020,Land,Rover Range Rover Sport SE,wagon,57
+2020,Land,Rover Range Rover Velar S,wagon,39
+2020,Land,Rover Range Rover Velar S R-Dynamic,hatchback,26
+2020,Lexus,ES 350 Base,minivan,44
+2020,Lexus,ES 350 ES 350,coupe,22
+2020,Lexus,ES 350 F Sport,sedan,52
+2020,Lexus,GS 350 F Sport,hatchback,34
+2020,Lexus,GX 460 Base,crossover,48
+2020,Lexus,GX 460 Luxury,minivan,49
+2020,Lexus,IS 300 Base,sedan,24
+2020,Lexus,IS 350 Base,sedan,59
+2020,Lexus,NX 300,pickup,54
+2020,Lexus,NX 300 Base,pickup,34
+2020,Lexus,NX 300 F Sport,crossover,57
+2020,Lexus,RX 350,hatchback,28
+2020,Lexus,RX 350 350,SUV,40
+2020,Lexus,RX 350 Base,crossover,59
+2020,Lexus,RX 350 F Sport Performance,crossover,47
+2020,Lexus,RX 350L Base,wagon,24
+2020,Lexus,RX 450hL Base,sedan,28
+2020,Lexus,UX 250h Base,minivan,43
+2020,Lincoln,Aviator Black Label AWD,SUV,36
+2020,Lincoln,Aviator Reserve AWD,coupe,43
+2020,Lincoln,Aviator Reserve RWD,crossover,30
+2020,Lincoln,Aviator Standard RWD,SUV,27
+2020,Lincoln,Corsair Reserve,minivan,43
+2020,Lincoln,Corsair Standard,wagon,36
+2020,Lincoln,MKZ Reserve,crossover,34
+2020,Lincoln,MKZ Standard,SUV,53
+2020,Lincoln,Nautilus Reserve,pickup,21
+2020,Mazda,CX-30 Premium Package,crossover,20
+2020,Mazda,CX-30 Select,sedan,30
+2020,Mazda,CX-5 Grand Touring,crossover,23
+2020,Mazda,CX-5 Grand Touring Reserve,SUV,27
+2020,Mazda,CX-5 Sport,SUV,48
+2020,Mazda,CX-5 Touring,SUV,24
+2020,Mazda,CX-9 Grand Touring,SUV,45
+2020,Mazda,CX-9 Signature,hatchback,29
+2020,Mazda,CX-9 Touring,wagon,42
+2020,Mazda,Mazda6 Sport,crossover,41
+2020,Mazda,Mazda6 Touring,hatchback,52
+2020,Mercedes-Benz,A-Class A 220,pickup,43
+2020,Mercedes-Benz,AMG C 43 Base 4MATIC,minivan,24
+2020,Mercedes-Benz,AMG G 63 Base,crossover,37
+2020,Mercedes-Benz,AMG GLC 43 Base 4MATIC,hatchback,50
+2020,Mercedes-Benz,C-Class C 300,wagon,39
+2020,Mercedes-Benz,C-Class C 300 4MATIC,crossover,56
+2020,Mercedes-Benz,CLA 250 Base,minivan,20
+2020,Mercedes-Benz,CLS 450 Base,pickup,42
+2020,Mercedes-Benz,E-Class E 350,crossover,25
+2020,Mercedes-Benz,E-Class E 350 4MATIC,SUV,42
+2020,Mercedes-Benz,E-Class E 450 4MATIC,coupe,26
+2020,Mercedes-Benz,G-Class G 550 4MATIC,pickup,27
+2020,Mercedes-Benz,GLA 250 Base,coupe,55
+2020,Mercedes-Benz,GLA 250 Base 4MATIC,SUV,41
+2020,Mercedes-Benz,GLB 250 Base,sedan,60
+2020,Mercedes-Benz,GLB 250 Base 4MATIC,wagon,20
+2020,Mercedes-Benz,GLC 300 4MATIC Coupe,hatchback,41
+2020,Mercedes-Benz,GLC 300 Base,crossover,40
+2020,Mercedes-Benz,GLC 300 Base 4MATIC,wagon,24
+2020,Mercedes-Benz,GLE 350 4MATIC,wagon,42
+2020,Mercedes-Benz,GLE 350 Base,crossover,34
+2020,Mercedes-Benz,GLE 350 Base 4MATIC,wagon,56
+2020,Mercedes-Benz,GLE 450 AWD 4MATIC,coupe,26
+2020,Mercedes-Benz,GLS 450 Base 4MATIC,hatchback,31
+2020,Mercedes-Benz,GLS 580 Base 4MATIC,SUV,55
+2020,Mercedes-Benz,S-Class S 560 4MATIC,SUV,44
+2020,Mercedes-Benz,SL 450 Base,coupe,60
+2020,Mitsubishi,Mirage G4 LE,coupe,52
+2020,Mitsubishi,Outlander SEL,sedan,56
+2020,Mitsubishi,Outlander Sport,crossover,41
+2020,Mitsubishi,Outlander Sport 2.0 ES,coupe,33
+2020,Mitsubishi,Outlander Sport ES,crossover,52
+2020,Mitsubishi,Outlander Sport SE,hatchback,40
+2020,Nissan,Altima 2.5 Platinum,coupe,25
+2020,Nissan,Altima 2.5 S,wagon,50
+2020,Nissan,Armada Platinum,wagon,29
+2020,Nissan,Armada SL,crossover,50
+2020,Nissan,Frontier PRO-4X,sedan,54
+2020,Nissan,Leaf SV,wagon,48
+2020,Nissan,Maxima 3.5 SR,coupe,31
+2020,Nissan,Maxima 3.5 SV,wagon,27
+2020,Nissan,Murano Platinum,wagon,48
+2020,Nissan,Murano S,crossover,37
+2020,Nissan,Murano SL,pickup,44
+2020,Nissan,Murano SV,hatchback,40
+2020,Nissan,Pathfinder SL,pickup,50
+2020,Nissan,Pathfinder SV,pickup,33
+2020,Nissan,Rogue S,pickup,57
+2020,Nissan,Rogue SL,coupe,56
+2020,Nissan,Rogue SV,sedan,39
+2020,Nissan,Rogue Sport S,SUV,52
+2020,Nissan,Titan PRO-4X,crossover,48
+2020,Nissan,Titan SV,pickup,35
+2020,Porsche,911 Carrera S,SUV,51
+2020,Porsche,Cayenne AWD,sedan,34
+2020,Porsche,Cayenne Base,pickup,23
+2020,Porsche,Cayenne Turbo Coupe AWD,minivan,38
+2020,Porsche,Macan Base,SUV,25
+2020,Porsche,Macan S,SUV,44
+2020,Porsche,Taycan Turbo S,SUV,52
+2020,RAM,1500 Big Horn,coupe,58
+2020,RAM,1500 Classic SLT,minivan,23
+2020,RAM,1500 Laramie,SUV,46
+2020,RAM,1500 Limited,crossover,33
+2020,RAM,1500 Longhorn,hatchback,29
+2020,RAM,1500 Rebel,coupe,22
+2020,Subaru,Ascent Limited 7-Passenger,sedan,37
+2020,Subaru,Ascent Limited 8-Passenger,hatchback,51
+2020,Subaru,Ascent Premium,SUV,46
+2020,Subaru,Ascent Premium 7-Passenger,sedan,31
+2020,Subaru,Ascent Premium 8-Passenger,coupe,57
+2020,Subaru,Ascent Touring 7-Passenger,wagon,44
+2020,Subaru,Crosstrek Premium,minivan,24
+2020,Subaru,Forester Premium,minivan,28
+2020,Subaru,Forester Sport,SUV,33
+2020,Subaru,Impreza Premium,SUV,40
+2020,Subaru,Legacy Touring XT,wagon,39
+2020,Subaru,Outback Limited,hatchback,35
+2020,Subaru,Outback Limited XT,SUV,20
+2020,Subaru,Outback Onyx Edition XT,pickup,54
+2020,Subaru,Outback Touring,SUV,51
+2020,Subaru,WRX STI Base,hatchback,56
+2020,Tesla,Model 3 Long Range,minivan,46
+2020,Tesla,Model 3 Performance,pickup,40
+2020,Tesla,Model 3 Standard Range Plus,hatchback,49
+2020,Tesla,Model X Long Range,sedan,48
+2020,Tesla,Model X Performance,SUV,55
+2020,Tesla,Model Y Long Range,wagon,23
+2020,Tesla,Model Y Performance,crossover,25
+2020,Toyota,4Runner Limited,pickup,20
+2020,Toyota,4Runner SR5,crossover,42
+2020,Toyota,4Runner SR5 4WD,coupe,57
+2020,Toyota,4Runner SR5 Premium,hatchback,33
+2020,Toyota,4Runner TRD Pro,coupe,48
+2020,Toyota,Avalon XSE,minivan,48
+2020,Toyota,C-HR LE,hatchback,53
+2020,Toyota,Camry,wagon,54
+2020,Toyota,Camry Hybrid SE,crossover,49
+2020,Toyota,Camry LE,sedan,38
+2020,Toyota,Camry SE,minivan,58
+2020,Toyota,Camry XSE,crossover,53
+2020,Toyota,Corolla LE,crossover,46
+2020,Toyota,Corolla SE,hatchback,41
+2020,Toyota,Corolla XSE,sedan,48
+2020,Toyota,Highlander Hybrid Platinum,coupe,44
+2020,Toyota,Highlander Limited,hatchback,58
+2020,Toyota,Highlander XLE,wagon,35
+2020,Toyota,Prius LE,SUV,32
+2020,Toyota,RAV4 Hybrid Hybrid Limited,sedan,38
+2020,Toyota,RAV4 LE,wagon,38
+2020,Toyota,RAV4 Limited,SUV,41
+2020,Toyota,RAV4 XLE,coupe,31
+2020,Toyota,Sienna XLE,coupe,42
+2020,Toyota,Sienna XLE Premium,minivan,46
+2020,Toyota,Supra 3.0,coupe,26
+2020,Toyota,Tacoma,hatchback,53
+2020,Toyota,Tacoma SR,sedan,59
+2020,Toyota,Tacoma SR5,minivan,22
+2020,Toyota,Tacoma TRD Off Road,hatchback,29
+2020,Toyota,Tundra Limited,wagon,41
+2020,Toyota,Tundra SR5,crossover,54
+2020,Volkswagen,Atlas Cross Sport 2.0T S,sedan,26
+2020,Volkswagen,Atlas Cross Sport 2.0T SE,crossover,22
+2020,Volkswagen,Atlas Cross Sport 3.6L V6 SE w/Technology,wagon,60
+2020,Volkswagen,Atlas Cross Sport 3.6L V6 SEL,hatchback,33
+2020,Volkswagen,Jetta 1.4T S,sedan,24
+2020,Volkswagen,Passat 2.0T R-Line,wagon,54
+2020,Volkswagen,Passat 2.0T SE,SUV,55
+2020,Volkswagen,Passat 2.0T SEL,minivan,32
+2020,Volkswagen,Tiguan 2.0T S,hatchback,25
+2020,Volkswagen,Tiguan 2.0T SE,minivan,60
+2020,Volkswagen,Tiguan 2.0T SEL,SUV,27
+2020,Volkswagen,Tiguan 2.0T SEL Premium R-Line,coupe,21
+2020,Volvo,S60 T6 Momentum,wagon,29
+2020,Volvo,S90 T6 R-Design,pickup,32
+2020,Volvo,V60 Cross Country T5,sedan,26
+2020,Volvo,V90 Cross Country T6,sedan,43
+2020,Volvo,XC40 T5 Momentum,hatchback,57
+2020,Volvo,XC60 T5 Inscription,hatchback,31
+2020,Volvo,XC60 T5 Momentum,wagon,41
+2020,Volvo,XC90 T5 Momentum 7 Passenger,sedan,28
+2020,Volvo,XC90 T6 Inscription 6 Passenger,minivan,58
+2020,Volvo,XC90 T6 Inscription 7 Passenger,hatchback,51
+2020,Volvo,XC90 T6 Momentum 7 Passenger,sedan,53
+2021,Acura,ILX Premium Package,hatchback,31
+2021,Acura,RDX A-Spec,minivan,43
+2021,Acura,RDX Advance Package,hatchback,49
+2021,Acura,RDX Technology Package,pickup,32
+2021,Acura,RDX w/A-Spec Package,coupe,53
+2021,Acura,RDX w/Technology Package,sedan,56
+2021,Acura,TLX A-Spec,wagon,53
+2021,Acura,TLX Advance,coupe,27
+2021,Acura,TLX Type S,pickup,26
+2021,Alfa,Romeo Giulia Base,pickup,30
+2021,Alfa,Romeo Stelvio Base,pickup,50
+2021,Audi,A4 40 Premium,minivan,53
+2021,Audi,A4 40 Premium Plus,pickup,31
+2021,Audi,A4 45 S line quattro Premium,crossover,45
+2021,Audi,A5 2.0T Premium Plus,pickup,21
+2021,Audi,A5 40 Premium,wagon,48
+2021,Audi,A6 55 Premium Plus,hatchback,25
+2021,Audi,Q3 45 S line Premium,hatchback,54
+2021,Audi,Q5 45 Premium,sedan,27
+2021,Audi,Q5 Premium,pickup,23
+2021,Audi,Q5 Premium Plus,hatchback,27
+2021,Audi,Q7 45 Premium,pickup,54
+2021,Audi,Q7 55 Premium,minivan,36
+2021,Audi,Q7 55 Premium Plus,SUV,34
+2021,Audi,Q8 55 Premium,pickup,37
+2021,Audi,RS 5 2.9T,coupe,52
+2021,Audi,RS 5 2DR 2.9 TFSI QTRO,crossover,40
+2021,Audi,e-tron Prestige,SUV,22
+2021,BMW,228 Gran Coupe 228i sDrive Gran Coupe,pickup,37
+2021,BMW,228 Gran Coupe i xDrive,hatchback,60
+2021,BMW,330 i,pickup,42
+2021,BMW,330 i xDrive,sedan,29
+2021,BMW,530 i,pickup,46
+2021,BMW,540 i xDrive,wagon,45
+2021,BMW,M235 Gran Coupe i xDrive,wagon,53
+2021,BMW,X1 xDrive28i,hatchback,56
+2021,BMW,X3 M40i,wagon,40
+2021,BMW,X3 sDrive30i,crossover,22
+2021,BMW,X3 xDrive30i,crossover,54
+2021,BMW,X4 xDrive30i,wagon,57
+2021,BMW,X5 M Base,minivan,36
+2021,BMW,X5 PHEV xDrive45e,minivan,51
+2021,BMW,X5 sDrive40i,crossover,38
+2021,BMW,X5 xDrive40i,pickup,44
+2021,BMW,X6 M50i,minivan,47
+2021,BMW,X7 xDrive40i,wagon,29
+2021,Bentley,Continental GT V8,minivan,43
+2021,Buick,Enclave Essence,wagon,24
+2021,Buick,Encore GX Select,wagon,36
+2021,Buick,Envision Essence,pickup,30
+2021,Cadillac,Escalade ESV Premium Luxury,pickup,53
+2021,Cadillac,Escalade Premium Luxury,minivan,54
+2021,Cadillac,Escalade Sport,coupe,21
+2021,Cadillac,XT5 Premium Luxury,wagon,46
+2021,Cadillac,XT6 Premium Luxury AWD,sedan,35
+2021,Cadillac,XT6 Premium Luxury FWD,sedan,27
+2021,Chevrolet,Colorado Z71,coupe,54
+2021,Chevrolet,Corvette Stingray w/2LT,SUV,43
+2021,Chevrolet,Equinox 1LT,coupe,48
+2021,Chevrolet,Silverado 1500 Custom,pickup,52
+2021,Chevrolet,Silverado 1500 Custom Trail Boss,pickup,53
+2021,Chevrolet,Silverado 1500 LT,pickup,20
+2021,Chevrolet,Silverado 1500 LTZ,SUV,26
+2021,Chevrolet,Silverado 1500 WT,wagon,50
+2021,Chevrolet,Suburban High Country,pickup,38
+2021,Chevrolet,Suburban RST,wagon,59
+2021,Chevrolet,Suburban Z71,crossover,59
+2021,Chevrolet,Tahoe High Country,SUV,47
+2021,Chevrolet,Tahoe LT,minivan,27
+2021,Chevrolet,Tahoe RST,SUV,42
+2021,Chevrolet,Tahoe Z71,sedan,28
+2021,Chevrolet,Trailblazer ACTIV,hatchback,54
+2021,Chevrolet,Trailblazer LT,hatchback,48
+2021,Chevrolet,Traverse LT Cloth,minivan,56
+2021,Chevrolet,Traverse LT Leather,SUV,50
+2021,Chrysler,300 S,sedan,42
+2021,Dodge,Challenger GT,pickup,54
+2021,Dodge,Challenger R/T,sedan,30
+2021,Dodge,Challenger R/T Scat Pack,crossover,54
+2021,Dodge,Charger GT,sedan,31
+2021,Dodge,Charger R/T,wagon,47
+2021,Dodge,Charger SRT8,wagon,28
+2021,Dodge,Charger SXT,crossover,21
+2021,Dodge,Charger Scat Pack,SUV,27
+2021,Dodge,Durango GT,crossover,60
+2021,Dodge,Durango R/T,coupe,42
+2021,Dodge,Durango SRT Hellcat,minivan,49
+2021,Dodge,Durango SXT,wagon,45
+2021,Ford,Bronco Sport Big Bend,wagon,59
+2021,Ford,Expedition Limited,wagon,46
+2021,Ford,Explorer Base,coupe,53
+2021,Ford,Explorer XLT,coupe,48
+2021,Ford,F-150 Lariat,coupe,45
+2021,Ford,F-150 Limited,coupe,32
+2021,Ford,F-150 Platinum,sedan,23
+2021,Ford,F-150 XL,pickup,29
+2021,Ford,F-150 XLT,coupe,34
+2021,Ford,Mustang EcoBoost Premium,minivan,26
+2021,Ford,Mustang Mach-E Premium,coupe,38
+2021,Ford,Mustang Mach-E Select,pickup,49
+2021,Ford,Ranger XLT,wagon,31
+2021,GMC,Acadia Denali,wagon,56
+2021,GMC,Acadia SLE,minivan,47
+2021,GMC,Sierra 1500 AT4,SUV,53
+2021,GMC,Sierra 1500 Denali,SUV,45
+2021,GMC,Sierra 1500 Elevation,coupe,37
+2021,GMC,Sierra 1500 SLT,minivan,55
+2021,GMC,Terrain SLE,sedan,26
+2021,GMC,Terrain SLT,SUV,40
+2021,GMC,Yukon AT4,pickup,26
+2021,GMC,Yukon Denali,wagon,34
+2021,GMC,Yukon SLT,SUV,46
+2021,GMC,Yukon XL Denali,pickup,26
+2021,GMC,Yukon XL SLT,pickup,58
+2021,Genesis,G70 2.0T,sedan,37
+2021,Genesis,GV80 2.5T,hatchback,47
+2021,Honda,Accord EX-L,wagon,37
+2021,Honda,Accord Sport 1.5T,wagon,59
+2021,Honda,Accord Sport 2.0T,coupe,57
+2021,Honda,Accord Sport SE,wagon,59
+2021,Honda,Accord Touring 2.0T,pickup,21
+2021,Honda,CR-V EX,hatchback,33
+2021,Honda,CR-V EX-L,sedan,20
+2021,Honda,CR-V Touring,wagon,46
+2021,Honda,Civic LX,wagon,23
+2021,Honda,Civic Sport,minivan,33
+2021,Honda,HR-V EX,wagon,39
+2021,Honda,Passport EX-L,SUV,53
+2021,Honda,Passport Touring,coupe,53
+2021,Honda,Pilot EX-L,minivan,55
+2021,Honda,Pilot Special Edition,coupe,57
+2021,Honda,Pilot Touring 7-Passenger,pickup,40
+2021,Honda,Pilot Touring 8-Passenger,minivan,55
+2021,Hyundai,Kona SEL,minivan,30
+2021,Hyundai,Kona SEL Plus,hatchback,49
+2021,Hyundai,Palisade Calligraphy,coupe,28
+2021,Hyundai,Palisade Limited,coupe,23
+2021,Hyundai,Palisade SEL,crossover,28
+2021,Hyundai,Santa Fe Calligraphy,minivan,39
+2021,Hyundai,Santa Fe SEL,crossover,24
+2021,Hyundai,Sonata SE,crossover,38
+2021,Hyundai,Sonata SEL Plus,wagon,26
+2021,Hyundai,Tucson SE,coupe,47
+2021,Hyundai,Tucson Ultimate,hatchback,44
+2021,Hyundai,Tucson Value,sedan,57
+2021,INFINITI,Q50 3.0t LUXE,sedan,22
+2021,INFINITI,Q50 3.0t SENSORY,hatchback,60
+2021,INFINITI,QX50 Luxe,coupe,34
+2021,INFINITI,QX80 PREMIUM SELECT,SUV,60
+2021,Jaguar,E-PACE P250 SE,crossover,40
+2021,Jeep,Gladiator Rubicon,wagon,20
+2021,Jeep,Gladiator Sport,hatchback,30
+2021,Jeep,Grand Cherokee 80th Anniversary,hatchback,44
+2021,Jeep,Grand Cherokee L Limited,SUV,36
+2021,Jeep,Grand Cherokee L Overland,coupe,43
+2021,Jeep,Grand Cherokee L Summit,coupe,53
+2021,Jeep,Grand Cherokee Laredo,sedan,38
+2021,Jeep,Grand Cherokee Laredo E,SUV,32
+2021,Jeep,Grand Cherokee Limited,hatchback,34
+2021,Jeep,Grand Cherokee Overland,crossover,59
+2021,Jeep,Grand Cherokee Summit,pickup,40
+2021,Jeep,Grand Cherokee Trailhawk,crossover,31
+2021,Jeep,Wrangler Sport,pickup,32
+2021,Jeep,Wrangler Unlimited Rubicon,minivan,43
+2021,Jeep,Wrangler Unlimited Rubicon 392,SUV,56
+2021,Jeep,Wrangler Unlimited Sahara,hatchback,52
+2021,Jeep,Wrangler Unlimited Sahara Altitude,minivan,28
+2021,Jeep,Wrangler Unlimited Sport,pickup,49
+2021,Kia,Forte FE,SUV,24
+2021,Kia,Forte LXS,coupe,20
+2021,Kia,K5 GT-Line,SUV,32
+2021,Kia,Seltos LX,hatchback,51
+2021,Kia,Seltos S,sedan,59
+2021,Kia,Seltos SX,sedan,54
+2021,Kia,Sorento EX,coupe,38
+2021,Kia,Sorento LX,pickup,25
+2021,Kia,Sorento S,coupe,37
+2021,Kia,Sorento SX,pickup,30
+2021,Kia,Sportage LX,hatchback,58
+2021,Kia,Sportage S,hatchback,49
+2021,Kia,Telluride EX,sedan,34
+2021,Kia,Telluride LX,SUV,21
+2021,Kia,Telluride S,hatchback,26
+2021,Kia,Telluride SX,crossover,20
+2021,Land,Rover Defender 110 X,coupe,26
+2021,Land,Rover Defender 110 X-Dynamic HSE,SUV,44
+2021,Land,Rover Defender X,wagon,22
+2021,Land,Rover Range Rover HSE Westminster,pickup,35
+2021,Land,Rover Range Rover P525 HSE Westminster,hatchback,37
+2021,Land,Rover Range Rover Sport HSE Silver Edition,crossover,53
+2021,Land,Rover Range Rover Velar P250 S,SUV,38
+2021,Land,Rover Range Rover Velar S,coupe,34
+2021,Land,Rover Range Rover Westminster,crossover,32
+2021,Lexus,ES 350 Base,SUV,41
+2021,Lexus,ES 350 F Sport,crossover,27
+2021,Lexus,GX 460 Base,crossover,27
+2021,Lexus,IS 350 F Sport,coupe,58
+2021,Lexus,LX 570 Three-Row,hatchback,38
+2021,Lexus,NX 300 Base,pickup,54
+2021,Lexus,NX 300 F Sport,minivan,36
+2021,Lexus,RX 350,hatchback,23
+2021,Lexus,RX 350 Base,coupe,56
+2021,Lexus,RX 350 F SPORT Appearance,sedan,37
+2021,Lexus,RX 350 RX 350,SUV,34
+2021,Lexus,UX 250h Base,wagon,39
+2021,Lincoln,Aviator Reserve AWD,minivan,57
+2021,Lincoln,Corsair Standard,wagon,31
+2021,Lincoln,Navigator Black Label,wagon,23
+2021,Mazda,CX-30 Premium Package,sedan,25
+2021,Mazda,CX-5 Carbon Edition Turbo,minivan,29
+2021,Mazda,CX-5 Grand Touring,crossover,31
+2021,Mazda,CX-5 Touring,coupe,31
+2021,Mazda,CX-9 Carbon Edition,pickup,48
+2021,Mazda,CX-9 Grand Touring,coupe,34
+2021,Mazda,CX-9 Touring,SUV,55
+2021,Mazda,Mazda3 FWD w/Preferred Package,SUV,33
+2021,Mazda,Mazda3 Premium Plus,coupe,52
+2021,Mazda,Mazda6 Touring,SUV,46
+2021,Mercedes-Benz,A-Class A 220,crossover,24
+2021,Mercedes-Benz,AMG GLE 53 4MATIC Coupe,minivan,59
+2021,Mercedes-Benz,AMG GLE 53 Base,SUV,50
+2021,Mercedes-Benz,C-Class C 300,sedan,38
+2021,Mercedes-Benz,C-Class C 300 4MATIC,crossover,50
+2021,Mercedes-Benz,CLA 250 Base,SUV,27
+2021,Mercedes-Benz,E-Class E 350,SUV,47
+2021,Mercedes-Benz,E-Class E 350 4MATIC,SUV,24
+2021,Mercedes-Benz,GLA 250 Base,hatchback,39
+2021,Mercedes-Benz,GLA 250 Base 4MATIC,pickup,52
+2021,Mercedes-Benz,GLB 250 4MATIC,wagon,42
+2021,Mercedes-Benz,GLB 250 Base,minivan,25
+2021,Mercedes-Benz,GLB 250 Base 4MATIC,crossover,25
+2021,Mercedes-Benz,GLC 300 4MATIC Coupe,hatchback,58
+2021,Mercedes-Benz,GLC 300 Base,minivan,45
+2021,Mercedes-Benz,GLC 300 Base 4MATIC,pickup,52
+2021,Mercedes-Benz,GLE 350,pickup,23
+2021,Mercedes-Benz,GLE 350 4MATIC,crossover,51
+2021,Mercedes-Benz,GLE 350 Base,wagon,27
+2021,Mercedes-Benz,GLE 350 Base 4MATIC,SUV,24
+2021,Mercedes-Benz,GLS 580 Base 4MATIC,crossover,60
+2021,Mitsubishi,Outlander Sport 2.0 ES,SUV,29
+2021,Mitsubishi,Outlander Sport 2.0 SE,hatchback,24
+2021,Nissan,Altima 2.5 S,crossover,20
+2021,Nissan,Altima 2.5 SR,hatchback,37
+2021,Nissan,Kicks S,coupe,38
+2021,Nissan,Maxima Platinum,minivan,23
+2021,Nissan,Murano Platinum,SUV,37
+2021,Nissan,Rogue Platinum,pickup,33
+2021,Nissan,Rogue SL,SUV,28
+2021,Nissan,Rogue SV,wagon,21
+2021,Nissan,Sentra S,coupe,50
+2021,Nissan,Sentra SV,wagon,34
+2021,Nissan,Titan PRO-4X,coupe,54
+2021,Porsche,911,hatchback,51
+2021,Porsche,911 Carrera 4,coupe,34
+2021,Porsche,911 Carrera S,coupe,52
+2021,Porsche,911 Turbo S,hatchback,49
+2021,Porsche,Cayenne,crossover,46
+2021,Porsche,Macan Base,minivan,52
+2021,Porsche,Macan GTS,SUV,33
+2021,Porsche,Macan S,wagon,28
+2021,Porsche,Taycan 4S,coupe,54
+2021,Porsche,Taycan Base,minivan,58
+2021,RAM,1500 Big Horn,hatchback,45
+2021,RAM,1500 Laramie,minivan,22
+2021,RAM,1500 Limited,hatchback,42
+2021,RAM,1500 Lone Star,minivan,28
+2021,RAM,1500 Rebel,coupe,39
+2021,RAM,1500 TRX,wagon,28
+2021,Subaru,Ascent Limited 7-Passenger,SUV,45
+2021,Subaru,Ascent Limited 8-Passenger,SUV,20
+2021,Subaru,Ascent Touring 7-Passenger,crossover,22
+2021,Subaru,Crosstrek Limited,pickup,24
+2021,Subaru,Crosstrek Premium,sedan,24
+2021,Subaru,Crosstrek Sport,SUV,34
+2021,Subaru,Forester,minivan,20
+2021,Subaru,Forester Premium,wagon,23
+2021,Subaru,Forester Sport,sedan,40
+2021,Subaru,Forester Touring,pickup,33
+2021,Subaru,Impreza Premium,SUV,55
+2021,Subaru,Outback Limited,SUV,48
+2021,Subaru,Outback Limited XT,wagon,59
+2021,Subaru,Outback Premium,crossover,23
+2021,Subaru,Outback Touring XT,sedan,40
+2021,Tesla,Model 3 Long Range,wagon,29
+2021,Tesla,Model 3 Performance,SUV,38
+2021,Tesla,Model 3 Standard Range Plus,crossover,41
+2021,Tesla,Model Y Long Range,minivan,58
+2021,Tesla,Model Y Performance,wagon,60
+2021,Toyota,4Runner Limited,hatchback,24
+2021,Toyota,4Runner Nightshade,coupe,22
+2021,Toyota,4Runner SR5,crossover,27
+2021,Toyota,4Runner SR5 4WD,coupe,44
+2021,Toyota,4Runner TRD Off Road Premium,SUV,27
+2021,Toyota,4Runner TRD Pro,coupe,39
+2021,Toyota,Avalon Hybrid Limited,SUV,38
+2021,Toyota,C-HR LE,wagon,30
+2021,Toyota,Camry,SUV,33
+2021,Toyota,Camry LE,SUV,30
+2021,Toyota,Camry SE,coupe,22
+2021,Toyota,Camry XSE,SUV,46
+2021,Toyota,Camry XSE V6,coupe,46
+2021,Toyota,Corolla Hatchback SE,minivan,52
+2021,Toyota,Corolla LE,hatchback,55
+2021,Toyota,Corolla SE,coupe,33
+2021,Toyota,Highlander Hybrid Limited,SUV,46
+2021,Toyota,Highlander LE,crossover,46
+2021,Toyota,Highlander Limited,crossover,23
+2021,Toyota,Highlander Platinum,wagon,57
+2021,Toyota,Highlander XLE,hatchback,20
+2021,Toyota,RAV4 Hybrid LE,pickup,38
+2021,Toyota,RAV4 LE,coupe,55
+2021,Toyota,RAV4 Limited,coupe,55
+2021,Toyota,RAV4 XLE,crossover,41
+2021,Toyota,RAV4 XLE Premium,minivan,29
+2021,Toyota,Sienna LE,pickup,45
+2021,Toyota,Sienna XSE 7 Passenger,pickup,39
+2021,Toyota,Supra 3.0 Premium,sedan,44
+2021,Toyota,Tacoma,coupe,41
+2021,Toyota,Tacoma SR,sedan,22
+2021,Toyota,Tacoma SR5,coupe,23
+2021,Toyota,Tacoma TRD Off Road,SUV,34
+2021,Toyota,Tacoma TRD Pro,coupe,40
+2021,Toyota,Tundra,SUV,43
+2021,Toyota,Tundra Limited,sedan,33
+2021,Toyota,Tundra SR,minivan,28
+2021,Toyota,Tundra SR5,sedan,25
+2021,Toyota,Venza Limited,crossover,56
+2021,Volkswagen,Atlas 2.0T S,crossover,53
+2021,Volkswagen,Atlas 2.0T SE,pickup,47
+2021,Volkswagen,Atlas 3.6 V6 SE w/ Technology,crossover,23
+2021,Volkswagen,Atlas 3.6 V6 SE w/ Technology R-Line,crossover,41
+2021,Volkswagen,Atlas 3.6 V6 SEL,crossover,33
+2021,Volkswagen,Atlas 3.6 V6 SEL Premium,sedan,27
+2021,Volkswagen,Atlas 3.6L SE w/Technology,coupe,37
+2021,Volkswagen,Atlas 3.6L SEL,coupe,53
+2021,Volkswagen,Atlas 3.6L SEL Premium,wagon,29
+2021,Volkswagen,Atlas Cross Sport 2.0T SE,SUV,55
+2021,Volkswagen,Atlas Cross Sport 3.6L V6 SEL R-Line,SUV,31
+2021,Volkswagen,Jetta 1.4T S,wagon,22
+2021,Volkswagen,Jetta GLI 2.0T Autobahn,sedan,39
+2021,Volkswagen,Tiguan 2.0T S,hatchback,49
+2021,Volkswagen,Tiguan 2.0T SE,sedan,56
+2021,Volkswagen,Tiguan 2.0T SE R-Line Black,hatchback,53
+2021,Volkswagen,Tiguan 2.0T SEL,hatchback,22
+2021,Volkswagen,Tiguan 2.0T SEL Premium R-Line,SUV,30
+2021,Volvo,S60 T5 Momentum,pickup,23
+2021,Volvo,S60 T6 Inscription,wagon,54
+2021,Volvo,XC40 T5 R-Design,pickup,25
+2021,Volvo,XC60 T5 Inscription,crossover,57
+2021,Volvo,XC90 T5 Momentum 7 Passenger,wagon,46
+2021,Volvo,XC90 T6 Momentum,coupe,55
+2021,Volvo,XC90 T6 Momentum 7 Passenger,minivan,38
+2022,Acura,MDX A-Spec,SUV,56
+2022,Acura,MDX Advance,sedan,58
+2022,Acura,MDX Base,crossover,29
+2022,Acura,TLX A-Spec,hatchback,33
+2022,Audi,Q5 S line Premium,SUV,39
+2022,BMW,X1 sDrive28i,hatchback,51
+2022,BMW,X2 M35i,SUV,40
+2022,BMW,X2 xDrive28i,wagon,49
+2022,Chevrolet,Blazer RS,SUV,45
+2022,Chevrolet,Tahoe LT,crossover,58
+2022,Chevrolet,Tahoe RST,crossover,57
+2022,Chevrolet,Tahoe Z71,SUV,58
+2022,Genesis,GV70 2.5T,pickup,27
+2022,Genesis,GV70 3.5T Sport,pickup,46
+2022,Honda,Civic LX,SUV,49
+2022,Honda,Civic Sport,coupe,39
+2022,Honda,HR-V LX,wagon,42
+2022,Honda,Odyssey EX-L,hatchback,52
+2022,Honda,Pilot EX-L,wagon,34
+2022,Honda,Pilot Elite,sedan,59
+2022,Honda,Pilot Special Edition,coupe,25
+2022,Hyundai,IONIQ 5 SE,crossover,20
+2022,Hyundai,Kona SEL,SUV,45
+2022,Hyundai,Palisade Calligraphy,sedan,56
+2022,Hyundai,Palisade SE,coupe,60
+2022,Hyundai,Palisade SEL,crossover,45
+2022,Hyundai,Santa Fe Calligraphy,SUV,46
+2022,Hyundai,Santa Fe SEL,pickup,34
+2022,Hyundai,Sonata N Line Night Edition,pickup,44
+2022,Hyundai,Tucson Limited,coupe,28
+2022,Hyundai,Tucson SEL,minivan,58
+2022,Kia,Forte LXS,pickup,44
+2022,Kia,K5 GT-Line,wagon,29
+2022,Kia,Sportage LX,pickup,56
+2022,Kia,Sportage Nightfall,wagon,23
+2022,Kia,Telluride SX,minivan,58
+2022,Mazda,CX-5 Carbon Edition,pickup,25
+2022,Mercedes-Benz,GLB 250 Base 4MATIC,hatchback,53
+2022,Nissan,Frontier PRO-4X,sedan,32
+2022,Nissan,Pathfinder SL,coupe,46
+2022,Porsche,911 GT3,hatchback,56
+2022,Porsche,911 Turbo,SUV,41
+2022,Subaru,BRZ Limited,wagon,33
+2022,Tesla,Model 3 Long Range,minivan,51
+2022,Tesla,Model 3 Performance,pickup,47
+2022,Tesla,Model S Plaid,crossover,54
+2022,Toyota,Corolla LE,SUV,49
+2022,Toyota,Corolla SE,SUV,50
+2022,Toyota,Highlander Hybrid Limited,crossover,25
+2022,Toyota,Sienna XLE,wagon,57
+2022,Toyota,Tacoma SR5,crossover,26
+2022,Toyota,Tundra 1794,wagon,22
+2022,Volkswagen,Atlas Cross Sport 2.0T SE w/Technology,wagon,40
+2022,Volkswagen,Taos 1.5T SE,hatchback,27
+2022,Volvo,XC60 B5 Inscription,wagon,20

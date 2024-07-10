@@ -1,0 +1,18 @@
+27.	√аврилова “.ј., ’орошевский ¬.‘. Ѕазы знаний интеллектуальных систем. Ц ћ.: ѕитер, 2000.Ц384c.
+
+70.	ћизогучи –. Ўаг в направлении инженерии онтологий// Ќовости искусственного интеллекта. Ц2000. Цє1-2. Ц c.11Ц36.
+
+81.	ќнтологии в системах искусственного интеллекта : способы построени€ и организации/ ј.¬. —мирнов, ћ.Ќ.ѕашкин, Ќ.√.Ўилов, “.¬.Ћевашова: ¬ 2 „.// Ќовости искусственного интеллекта. Ц 2002. Ц „.1: є1Ц—.3-13.Ц „.2: є2. Ц C. 3-25.
+
+148.	Fridman N. Ontology Design: A Survey and Comparative Review // AI Magazine. Ц 1997. Ц No. 18(3). Ц P. 53-74.
+
+149.	Gruber T. R. A Translation Approach to Portable Ontologies// Knowledge Acqusition. Ц 1993. Ц No. 5(2). Ц p 199 Ц 220.
+
+150.	Gruber T. R. Toward Principles for the Design of Ontologies Used for Knowledge Sharing //International Journal of Human and Computer Studies. Ц 1993. Ц No. 43(5/6). Ц p 907 Ц 928.
+
+151.	Gruninger M. ONTOLOGIES: Principles. Methods and Applications// Knowledge Engineering Review. Ц 1996. Ц Vol. 11, No. 2.
+
+152.	Guarino N. Formal Ontology and Information Systems. In N. Guarino (ed.)// Formal Ontology in Information Systems. Proc. of the 1st International Conference, Trento, Italy, 6-8 June 1998. IOS Press. [Electronic resource]. Ц 1998. Ц Mode of access:  http://www.ladseb.pd.cnr.it/infor/Ontology/Papers/FOIS98.pdf 
+
+161.	Luke S., Spector L., Rager D. Ontology-Based Knowledge Discovery on the World-Wide Web// In: Proc. Of the Workshop on Internet-based Information Systems, AAAI-96, Portland, Oregon, 1996.
+

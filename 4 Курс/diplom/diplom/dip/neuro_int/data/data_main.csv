@@ -1,0 +1,1307 @@
+Model,Age,Art,Sport,Book/Films,Science,Travel,Cooking,Politics
+Lexus RX 350 RX 350,34,0,0,1,1,1,0,1
+Land Rover Range Rover P525 HSE Westminster,38,1,0,0,0,0,0,0
+Dodge Journey SE,44,0,0,1,1,1,1,0
+Lincoln MKZ Hybrid Reserve I,42,0,1,0,1,0,0,0
+Audi Q5 S line Premium,32,0,0,0,0,0,0,1
+Nissan Rogue S,37,1,0,0,0,1,0,0
+Nissan Titan PRO-4X,35,1,0,1,1,1,0,0
+Chevrolet Silverado 1500 LT Trail Boss,38,0,1,1,0,1,0,0
+Jeep Grand Cherokee L Limited,35,1,1,1,0,1,1,1
+BMW X5 M Base,36,0,0,0,0,0,1,0
+Volkswagen Atlas Cross Sport 3.6L V6 SEL R-Line,26,0,0,1,0,0,1,1
+Porsche 911,29,0,0,1,0,0,0,1
+Subaru Impreza 2.0i Sport,45,1,1,0,0,1,0,1
+BMW 435 i xDrive,45,1,1,1,1,0,1,1
+Chevrolet Corvette Z06,43,0,1,1,0,1,1,1
+Toyota Sequoia SR5,50,1,1,1,1,0,0,0
+Mercedes-Benz AMG C 43 Base 4MATIC,29,0,0,1,1,0,1,0
+Dodge Durango SXT,40,0,0,1,1,0,1,1
+Toyota Camry XLE,33,0,0,1,1,0,0,0
+Genesis G70 2.0T,50,0,0,1,0,0,1,1
+Honda Accord Sport,49,0,1,0,0,0,1,1
+BMW 328d Base,42,1,1,0,1,0,0,0
+BMW 430 Gran Coupe i xDrive,49,1,0,0,1,0,1,1
+INFINITI Q50 3.0T Sport,38,1,1,0,1,1,0,0
+Jaguar F-PACE 35t Premium,30,1,1,0,0,0,0,1
+Toyota Highlander XLE,29,0,0,0,0,1,0,0
+Tesla Model X Long Range,34,1,1,1,0,0,1,1
+Mercedes-Benz GLS 450 4MATIC,26,1,0,0,1,0,1,0
+Mitsubishi Outlander SE,29,1,1,0,0,0,1,0
+Mercedes-Benz SL 450 Base,44,1,1,0,1,0,1,1
+Lexus RX 350 F SPORT Appearance,30,1,1,1,1,0,1,0
+Chevrolet Equinox Premier,44,1,0,1,0,0,1,0
+RAM 1500 Longhorn,26,0,0,1,1,1,1,0
+BMW 750 i,32,1,0,1,1,1,0,1
+INFINITI QX60 Luxe,37,1,1,1,0,1,1,1
+Hyundai Santa Fe SEL Plus 2.4,50,0,1,1,0,0,1,1
+Toyota 4Runner Limited 4WD,40,1,0,1,0,1,1,0
+Ford Escape Titanium,38,1,1,0,0,1,1,0
+RAM 1500 Lone Star,29,1,0,0,0,0,0,0
+Jeep Wrangler Unlimited Sahara,26,0,0,1,1,1,0,1
+Lincoln MKZ Reserve,43,0,0,0,1,1,1,0
+Audi R8 4.2,29,0,1,0,1,0,0,0
+GMC Yukon Denali,44,0,1,0,0,1,0,1
+Lexus ES 300 Base (A5),28,1,1,1,1,0,0,1
+Mercedes-Benz GLB 250 Base 4MATIC,50,0,0,0,1,0,0,0
+Acura RDX w/A-Spec Package,27,1,0,1,0,1,1,1
+Audi S4 3.0T Prestige,35,0,1,0,1,0,0,1
+Mercury Grand Marquis LS,31,0,0,0,1,0,0,1
+Jaguar F-TYPE Premium,29,0,1,0,1,1,0,0
+Mercedes-Benz AMG GLE 53 4MATIC Coupe,36,1,1,0,1,1,1,1
+Land Rover Defender 110 X,34,1,0,0,0,0,0,1
+Audi RS 5 2.9T,26,1,1,0,1,1,1,0
+Hyundai Tucson Limited,33,0,0,1,1,0,0,0
+BMW 750 Li,36,0,0,1,0,1,1,0
+Lincoln MKZ Premiere,45,1,0,1,0,0,1,1
+Volkswagen Atlas 2.0T SE,35,1,0,1,0,0,1,1
+Maserati Ghibli S,34,1,1,1,0,1,1,0
+Chevrolet Traverse LT Leather,41,0,1,1,0,0,1,1
+Mazda Mazda6 i Touring,46,0,0,1,0,1,0,1
+Chevrolet Equinox 2LT,34,0,0,0,1,0,1,1
+Acura MDX A-Spec,38,1,0,1,0,1,0,1
+Nissan Murano SV,32,1,0,0,1,0,1,1
+Honda Civic EX-L,37,0,1,1,0,1,0,0
+Volkswagen Tiguan 2.0T SE,25,1,1,0,0,0,1,0
+Ford Focus RS Base,37,0,1,1,0,1,0,0
+Land Rover Range Rover 5.0L Supercharged,34,0,1,0,0,1,1,1
+Chevrolet Captiva Sport 2LS,37,0,0,0,1,0,0,1
+Toyota 4Runner Trail Premium,28,0,0,1,1,1,1,0
+Chrysler Aspen Limited,32,0,0,1,1,0,1,0
+Jeep Grand Cherokee Summit,50,1,0,1,1,0,1,1
+Land Rover Range Rover Sport 3.0L Supercharged HSE Dynamic,38,0,0,0,0,0,0,1
+Scion tC,27,0,0,0,1,1,0,0
+Ford Bronco Sport Big Bend,36,0,1,1,0,0,0,0
+Land Rover Range Rover Velar P250 HSE R-Dynamic,33,1,1,0,0,1,0,0
+Audi Q7 45 Premium Plus,29,0,1,0,0,0,1,0
+Mercedes-Benz M-Class ML 350 4MATIC,48,0,0,0,0,0,1,0
+Lexus GS 350 Base,48,1,0,1,0,1,1,1
+BMW 335 i,39,1,1,0,0,1,0,1
+Tesla Model X 75D,32,1,1,1,1,1,0,1
+RAM 1500 TRX,36,0,0,0,1,1,1,0
+Lincoln MKC Select,47,0,0,0,0,1,0,1
+Chrysler Town & Country Touring Plus,26,1,0,1,0,1,1,1
+Dodge Charger SXT Plus,30,1,0,0,1,0,1,1
+Lexus RX 450h 450H,37,1,0,0,1,0,1,1
+Dodge Charger GT,48,1,0,1,1,1,0,0
+Honda Accord Sport 2.0T,34,1,0,0,1,1,1,0
+Chevrolet Cruze LT w/1LT,33,1,0,1,0,0,0,1
+Cadillac CT6 3.6L Luxury,48,0,1,1,0,0,1,0
+Toyota Tundra W/ NAVIGATION&PLATINUM,25,1,1,0,0,0,0,0
+Ford F-150,48,1,1,1,0,0,1,0
+Jaguar F-PACE 25t R-Sport,44,0,0,0,1,1,1,0
+Toyota Tacoma SR5,25,0,0,0,1,1,0,1
+Mercedes-Benz SL-Class SL 550,42,0,1,0,0,0,1,0
+Hyundai Veloster Turbo,43,0,0,1,1,0,1,0
+Hyundai Tucson Sport,50,1,1,1,0,0,1,1
+Toyota C-HR XLE,46,1,0,1,0,0,1,1
+Jeep Wrangler JK Unlimited Sahara,25,1,0,0,1,1,0,1
+Volkswagen Taos 1.5T SE,41,1,0,0,1,0,1,1
+Subaru Ascent Premium 8-Passenger,29,0,1,0,1,0,0,0
+Jeep Commander Limited,43,1,0,1,0,0,1,0
+Porsche 911 Carrera GTS,45,0,1,0,1,0,1,0
+Volvo V60 T5 Premier,38,1,1,0,1,0,1,0
+Audi Q7 55 Premium,36,1,1,0,1,0,0,1
+Chevrolet Traverse Premier,28,1,0,0,1,0,1,0
+Chrysler 200 S,27,0,1,1,0,0,0,1
+Land Rover Range Rover Velar P380 HSE R-Dynamic,43,0,1,0,1,1,1,1
+Lexus GX 460 Luxury,29,0,0,0,0,0,1,1
+Chevrolet Suburban LT,41,1,0,0,1,0,0,0
+Acura ILX Premium & A-SPEC Packages,39,1,1,0,1,0,1,1
+Lexus RX 350 350,46,0,0,1,1,1,0,1
+Chevrolet Tahoe Z71,29,1,1,1,1,0,1,1
+Audi Q5 45 Premium Plus,30,0,1,0,0,0,0,1
+GMC Yukon XL 1500 SLE,27,0,1,0,1,1,1,0
+Toyota 4Runner SR5 Premium,34,0,1,0,0,1,0,1
+Dodge Charger SRT 392,44,1,1,1,0,0,1,1
+GMC Yukon SLT,45,0,1,0,1,0,0,0
+Lexus NX 200t Base,28,1,0,0,0,0,1,0
+Volkswagen Golf R 2.0T w/DCC & Navigation,44,1,0,0,0,0,0,1
+Chevrolet Blazer 2LT,40,1,0,0,1,1,1,0
+Mazda Mazda3 i Touring,41,0,0,0,1,0,0,1
+Volkswagen Atlas Cross Sport 3.6L V6 SE w/Technology,37,1,0,0,1,0,1,1
+Nissan Versa 1.6 S+,28,0,1,0,1,0,1,0
+INFINITI Q50 3.0t SENSORY,31,1,1,1,0,1,1,1
+Hyundai Kona Limited,26,0,1,0,1,0,1,0
+Subaru Legacy Touring XT,30,0,1,0,0,0,1,1
+Cadillac ATS 2.0L Turbo Luxury,42,0,1,0,0,0,1,1
+Cadillac Escalade Luxury,48,0,0,0,0,1,1,1
+GMC Yukon XL Denali,50,1,1,0,0,1,1,0
+GMC Yukon SLE,25,0,1,1,0,1,1,0
+Buick Envision Essence,45,1,1,0,0,0,1,1
+Toyota Highlander Base Plus,37,1,1,0,1,1,0,1
+Kia Optima S,25,0,1,0,0,0,0,1
+Subaru Forester Base (CVT),27,0,1,0,1,0,0,1
+Lexus RX 350 F Sport,38,1,1,1,1,1,0,1
+Mercedes-Benz G-Class G 550,48,1,1,0,0,0,1,1
+Volvo S90 T6 Inscription,45,0,0,1,1,1,0,1
+Volkswagen Beetle Auto 1.8T,48,0,0,1,0,0,1,1
+Ford Flex SEL,42,0,0,0,0,1,1,0
+Audi A4 2.0T Premium Plus quattro,38,1,1,1,1,1,0,1
+Porsche Macan 4DR SUV AWD,31,1,0,1,0,0,1,0
+Kia Seltos LX,35,1,0,0,0,1,0,0
+Acura MDX Base,46,1,0,0,1,1,1,1
+Ford EcoSport SE,29,0,0,0,0,0,1,0
+Honda Fit Sport,25,0,0,0,0,1,1,0
+Hyundai Palisade SEL,41,1,0,0,1,1,1,0
+Mercedes-Benz GLC 300 Base 4MATIC,41,1,1,0,0,1,1,0
+Jeep Renegade Latitude,28,0,0,1,1,1,0,0
+BMW X5 xDrive35i,45,0,0,0,0,1,0,0
+Volvo XC90 T6 R-Design,44,0,0,1,1,0,0,1
+Chevrolet Suburban High Country,35,0,1,0,0,0,1,1
+Jaguar XK,36,0,1,0,0,1,1,1
+Mercedes-Benz E-Class E 300 4MATIC,31,0,0,1,0,0,0,0
+GMC Acadia Limited Limited,42,0,0,1,0,1,0,0
+Lincoln Corsair Standard,43,1,1,0,0,0,0,1
+Toyota Avalon Limited,44,1,0,1,0,0,1,0
+Volvo XC90 T6 Inscription 7 Passenger,38,0,1,0,1,0,0,1
+Dodge Challenger SRT Hellcat,38,1,1,0,1,1,1,0
+Subaru XV Crosstrek 2.0i Premium,34,1,1,0,1,0,0,1
+Toyota 4Runner SR5 4WD,40,1,1,1,0,0,0,1
+Lexus LX 570 Three-Row,38,0,1,1,1,1,0,0
+Jaguar F-PACE 35t R-Sport,32,1,0,0,0,1,1,1
+INFINITI QX60 Pure,35,1,1,0,0,0,1,1
+Subaru Ascent Touring 7-Passenger,37,1,1,0,0,0,0,1
+Cadillac CTS 2.0L Turbo Luxury,32,1,0,0,0,1,1,1
+Mercedes-Benz GLK-Class GLK 350 4MATIC,46,1,0,0,1,0,0,0
+Mitsubishi Outlander Sport,49,1,1,0,0,0,0,0
+Volkswagen Atlas 3.6L S,29,1,0,0,0,1,0,0
+Audi A7 3.0T Premium Plus,46,1,0,1,0,1,0,1
+Audi Q5 45 Prestige,43,1,1,1,1,1,0,1
+Jeep Grand Cherokee Laredo,49,1,1,0,0,0,0,1
+Mercedes-Benz S-Class S 550 4MATIC,39,1,1,1,1,1,0,0
+Mercedes-Benz SL-Class SL500 Roadster,30,1,1,0,0,1,1,0
+Land Rover Range Rover SWB,45,1,0,1,0,1,1,1
+Volvo XC40 T5 Momentum,36,0,0,1,1,1,0,1
+Alfa Romeo Giulia Base,37,0,0,1,0,1,0,0
+BMW 430 Gran Coupe i,43,1,0,0,0,0,1,0
+Lexus RX 350 Base (A5),32,1,1,1,1,0,0,1
+Tesla Model Y Performance,26,0,0,1,1,1,1,1
+Subaru Outback Limited,38,0,0,0,0,1,1,1
+Mercedes-Benz E-Class E 300 Sport,32,0,0,1,0,1,0,1
+Hyundai Sonata SE,45,0,0,0,1,1,1,0
+BMW 440 Gran Coupe i xDrive,38,0,1,1,0,1,0,1
+Mercedes-Benz GLE 450 AWD 4MATIC,37,0,0,0,0,1,0,1
+Subaru Forester,28,0,1,0,0,1,1,0
+Kia Telluride SX,41,1,0,1,0,0,0,1
+Mazda CX-5 Touring,26,1,1,0,0,0,1,0
+Hyundai Veloster Base,38,0,0,0,1,0,0,1
+Volkswagen Passat 2.0T SEL,47,1,0,1,0,1,0,0
+Land Rover Discovery HSE LUXURY,44,1,1,0,1,1,1,0
+Dodge Journey SE/AVP,43,0,0,0,1,0,0,0
+Mercedes-Benz E-Class E 63 AMG S-Model 4MATIC,25,0,1,1,0,0,0,1
+Mercedes-Benz C-Class C 300 4MATIC,36,1,0,1,1,1,1,0
+Ford Explorer Base,44,1,1,0,1,1,0,0
+Volkswagen Passat 2.0T S,49,1,0,1,1,1,1,0
+GMC Yukon AT4,36,1,1,1,0,0,0,1
+Mercedes-Benz GLA 250 Base 4MATIC,43,0,0,0,1,1,1,0
+Subaru Crosstrek Premium,29,0,0,0,1,0,0,1
+Hyundai Elantra SE,31,1,1,1,1,0,0,1
+Honda HR-V EX,27,1,0,0,0,1,0,1
+Tesla Model X 70D,32,0,0,0,1,1,1,1
+Volkswagen Jetta 1.8T SE,39,1,0,0,1,0,1,1
+Land Rover Range Rover Supercharged,43,0,0,1,0,1,0,1
+Mercury Mariner Premier I4 AWD 4dr SUV,44,0,1,0,1,1,1,0
+Lexus RX 350,27,0,1,1,1,1,0,0
+Maserati Ghibli S Q4,46,0,1,0,1,1,1,0
+Lexus LS 460,36,0,0,0,1,1,1,1
+Audi Q8 55 Premium,37,1,1,0,1,0,0,1
+Lincoln Navigator L Select,37,1,0,1,0,1,0,1
+Jeep Wrangler JK Sport,50,0,0,0,1,0,1,0
+Porsche Cayenne Turbo Coupe AWD,49,0,1,0,1,0,1,0
+Kia Sorento EX V6,31,1,0,0,1,0,1,1
+BMW X4 M40i,39,0,0,0,1,1,1,0
+Land Rover Defender 110 SE,27,1,0,1,0,1,1,1
+Audi Q7 55 Premium Plus,44,1,1,1,1,1,1,0
+Volkswagen Tiguan Sport,29,0,0,0,1,1,1,1
+Acura TL Technology,38,0,0,0,0,0,1,1
+Lexus LX 570 Base,48,1,1,1,1,0,0,0
+Cadillac Escalade ESV Base,48,1,1,1,1,1,1,1
+Lexus UX 250h Base,47,0,0,1,0,1,0,1
+Lexus IS 300 IS 300 F SPORT,49,0,1,0,1,0,1,1
+Toyota Tundra 1794,34,1,0,0,0,1,0,0
+Chevrolet Malibu 1LT,31,0,1,0,1,0,0,1
+Audi A6 2.0T Premium Plus quattro,34,1,0,1,0,1,1,0
+Land Rover Defender 110 X-Dynamic HSE,38,1,1,0,1,1,0,1
+Lincoln MKX Base,47,0,0,1,1,1,1,1
+Toyota Highlander Platinum,35,0,0,1,1,1,1,1
+Lexus IS-F Base,44,0,1,1,0,0,1,0
+Lexus RX 450hL Base,40,1,0,0,1,0,0,0
+Mazda Mazda3 FWD w/Preferred Package,28,0,0,1,1,1,0,0
+Lexus RX 350L Premium,34,0,0,1,0,0,0,1
+BMW Z4 2.5i Roadster,43,1,0,0,0,1,0,1
+Dodge Durango GT,47,0,0,0,1,1,0,1
+Porsche Cayenne S,40,1,1,0,0,0,1,0
+Volvo S60 T6 R-Design,34,1,0,1,0,1,0,0
+Chevrolet Blazer 1LT,46,1,1,1,0,1,0,1
+Mercedes-Benz GLS 580 Base 4MATIC,25,1,1,0,1,0,1,1
+Volvo S90 T5 Momentum,44,0,1,1,0,0,1,0
+Mercedes-Benz E-Class E 300 Luxury,50,1,1,1,0,0,1,1
+Chevrolet Tahoe LS,27,1,0,1,1,1,0,1
+Toyota Tacoma Base,39,0,0,1,1,1,1,0
+BMW 528 i,31,0,0,1,1,0,1,0
+Honda Civic SE,28,1,0,1,1,1,1,0
+Lexus GX 460 GX 460 Premium,41,0,1,1,1,0,1,0
+Nissan Pathfinder Platinum,25,0,1,0,1,1,0,1
+Audi Q7 3.0T Premium,30,1,0,1,0,1,0,0
+BMW 330 i xDrive,35,1,1,0,0,1,1,0
+Mercedes-Benz GLC 300 Base,25,0,1,1,1,1,1,0
+Jeep Cherokee Latitude Plus,34,1,1,1,1,0,1,1
+Subaru Impreza 2.0i Premium,32,1,0,1,1,1,1,0
+Porsche 911 Carrera 4S,47,0,1,0,0,0,1,0
+BMW X7 xDrive40i,33,1,1,0,0,0,0,1
+Chevrolet Equinox Premier w/1LZ,33,1,1,0,0,0,0,0
+Volvo XC40 T5 R-Design,28,1,0,0,0,0,1,0
+GMC Acadia SLT,38,0,1,0,0,1,1,1
+Buick Enclave Leather,41,0,0,1,1,1,1,0
+Audi Q8 3.0T Premium Plus,34,1,0,0,1,1,1,0
+Chevrolet Impala Premier 2LZ,36,0,1,0,0,0,1,1
+Nissan Maxima 3.5 Platinum,32,0,1,0,0,1,0,0
+Subaru Crosstrek 2.0i,36,0,0,1,1,1,1,0
+Cadillac ATS 2.0L Turbo,41,1,0,1,1,1,0,0
+Volkswagen Arteon 2.0T SEL Premium R-Line,49,0,1,1,1,0,1,1
+Porsche Cayenne Base,47,0,1,0,1,1,1,0
+Honda Pilot Elite,36,1,1,1,0,1,1,1
+Toyota Sienna Limited,47,1,1,0,1,1,0,1
+Jaguar F-PACE 25t Premium,43,0,0,1,0,1,1,0
+Dodge Charger SXT,27,1,1,0,0,0,0,0
+Honda Civic Sport,39,1,0,1,1,0,1,0
+BMW Z4 sDrive35i,34,1,0,0,1,0,0,1
+Volkswagen Atlas Cross Sport 2.0T SE,39,0,1,0,0,1,1,1
+Land Rover Range Rover 3.0L Supercharged HSE,42,1,1,1,0,1,0,1
+Jaguar XE 35t First Edition,37,0,0,0,1,1,1,1
+Audi Q5 2.0T Tech Premium,32,1,0,0,0,0,1,1
+Chevrolet Silverado 1500 WT,31,0,1,1,0,1,0,1
+Lexus IS 250 Base,33,0,1,0,0,0,1,1
+Toyota 4Runner Nightshade,26,1,0,1,1,0,1,1
+Honda HR-V EX-L w/Navigation,38,0,0,0,1,1,0,1
+Subaru Outback 2.5i Premium,49,1,1,1,0,1,1,0
+Kia Sportage S,30,0,1,1,1,0,0,0
+BMW 430 i xDrive,45,0,1,0,1,0,1,0
+Jeep Grand Cherokee L Summit,39,0,1,0,0,1,1,1
+Honda CR-V Touring,40,1,1,1,1,0,0,1
+Tesla Model 3 Mid Range,40,1,0,1,0,1,0,1
+Jaguar F-PACE 30t Prestige,32,0,0,1,0,0,1,0
+Subaru Legacy 2.5i Premium,28,1,1,0,0,0,1,0
+Porsche 911 Targa 4S,40,0,1,0,0,0,0,0
+Tesla Model X 100D,44,0,0,1,1,0,0,1
+Mazda CX-5 Grand Touring Reserve,45,0,1,0,1,0,0,0
+Hyundai Sonata N Line Night Edition,49,0,1,1,0,0,1,0
+Hyundai Elantra Value Edition,26,1,1,0,1,0,0,0
+Kia Forte LXS,44,0,0,0,1,1,1,0
+GMC Terrain SLE,28,1,0,1,1,1,0,0
+Volvo XC60 B5 Inscription,39,1,1,1,1,0,0,1
+Chevrolet Colorado Z71,34,0,0,1,0,0,0,0
+Ford ZX2,40,1,1,1,0,0,0,1
+Lincoln Aviator Reserve RWD,50,0,0,1,0,0,0,0
+Volvo S60 T5 Premier,30,1,0,0,1,0,1,1
+Audi A8 L 55,41,1,1,1,1,1,0,1
+Jaguar F-PACE S,43,0,0,1,1,1,1,0
+Jeep Grand Cherokee Trailhawk,36,0,0,1,1,0,1,1
+Volvo XC90 T5 Momentum,41,1,0,1,1,1,1,1
+Cadillac CT6 3.6L Premium Luxury,30,0,0,0,1,0,0,1
+Tesla Model X Performance,29,1,0,0,1,1,1,1
+Audi A6 55 Premium,25,0,1,0,1,0,0,1
+Chrysler Crossfire SRT-6,41,0,1,0,0,1,0,1
+Lexus LC 500 Base,26,0,0,0,1,1,0,0
+Ford Ranger XLT,48,1,1,0,0,1,1,1
+Toyota Highlander SE,33,1,1,0,0,1,1,0
+Ford Expedition XLT,25,1,1,1,1,0,0,1
+Honda Accord LX 1.5T,33,1,0,0,1,0,0,1
+Cadillac XT6 AWD Sport,35,1,1,1,1,1,0,1
+RAM 1500 Big Horn,34,1,1,1,0,1,0,0
+Toyota Sienna XLE,39,0,1,0,0,1,0,0
+Cadillac Escalade Platinum Edition,25,0,0,1,0,0,1,0
+Audi Q7 2.0T Premium,39,0,1,0,1,1,0,1
+Acura TLX Advance,29,0,1,1,1,1,0,0
+Lexus GX 460 460,46,0,0,0,0,0,0,1
+Toyota Tacoma,26,1,1,1,0,0,0,0
+Lexus ES 350 Luxury,38,0,1,0,0,0,1,0
+Chevrolet Tahoe RST,25,1,1,1,1,0,0,0
+Porsche Cayenne GTS,41,1,0,1,1,1,1,1
+Mercedes-Benz GLS 450 GLS 450,47,0,1,1,1,0,1,1
+BMW X5 xDrive50i,26,0,0,1,1,1,1,1
+Kia Optima LX,49,1,0,1,1,0,1,1
+Audi Q8 3.0T Prestige,29,0,0,1,1,0,0,0
+Audi A5 2.0T Premium,41,0,1,0,1,0,0,1
+Audi A3 2.0T Premium Plus,37,0,1,1,0,1,1,0
+BMW 328d xDrive,48,0,0,1,0,1,1,0
+Acura TLX w/Technology Package,44,1,1,1,0,0,0,0
+Volvo S60 T6 Inscription,33,0,1,0,1,0,1,1
+Chevrolet Suburban RST,50,0,0,0,1,1,1,1
+Porsche Taycan Turbo S,49,1,1,0,0,1,1,1
+Toyota Tundra,42,0,1,1,0,0,1,1
+Ford Mustang Mach-E Select,47,1,1,1,0,0,0,0
+Acura MDX 3.5L w/Technology Package,28,1,1,1,1,1,1,1
+Hyundai Santa Fe SE,42,0,1,1,1,1,1,1
+BMW X3 xDrive28i,32,1,1,0,1,1,1,1
+Porsche Cayenne AWD,30,1,0,1,0,1,0,0
+Acura TLX V6 w/Technology Package,34,1,1,1,1,0,0,1
+Toyota Camry SE,34,0,0,1,1,1,1,0
+Porsche Cayenne,31,0,1,0,1,1,1,0
+Subaru Outback 3.6R Touring,34,1,0,0,0,1,0,0
+Nissan Rogue SL,35,1,1,1,0,1,1,0
+Cadillac XT5 Luxury,37,0,0,0,1,0,1,0
+Mercedes-Benz S-Class S 450,33,1,1,0,1,0,1,0
+Chevrolet Cruze LTZ,50,1,0,1,0,1,0,0
+Audi A5 2.0T Premium Plus,26,1,0,0,0,1,1,0
+Chevrolet Trailblazer LS,38,0,1,1,1,1,0,1
+Porsche Macan Base,44,0,0,1,0,1,0,1
+Audi Q8 Premium,50,1,1,1,1,1,1,0
+Kia Telluride EX,39,0,1,0,1,1,0,0
+Volvo XC90 T6 Momentum,37,1,1,1,0,1,0,0
+Alfa Romeo Giulia Ti,37,1,1,0,0,0,0,1
+Porsche Panamera Sport Turismo Turbo,27,1,0,0,0,0,0,1
+FIAT 500L Easy,50,0,0,1,1,1,1,0
+Tesla Model S Plaid,34,0,0,0,0,1,1,1
+Cadillac CTS Premium,46,0,0,0,0,1,0,0
+Mercedes-Benz E-Class E 400,48,1,0,0,1,1,1,0
+Cadillac DTS,25,0,0,0,1,0,0,1
+Toyota Camry LE,48,1,1,1,1,0,1,1
+Mercedes-Benz G-Class G 63 AMG,41,1,1,1,0,0,0,1
+Honda Accord Sport 1.5T,37,1,0,0,1,0,1,0
+Dodge Dakota Big Horn/Lone Star,49,1,0,1,0,0,0,0
+Toyota Tundra Grade,49,0,1,1,1,0,0,0
+Volvo XC60 T6,46,1,0,1,1,0,0,1
+Mercedes-Benz AMG GLC 43 Base 4MATIC,37,0,1,0,0,1,0,0
+Kia Forte FE,41,1,0,1,0,0,0,1
+Mercedes-Benz A-Class A 220 4MATIC,35,0,0,0,0,1,1,0
+Honda CR-V EX,39,0,1,0,1,0,1,1
+Cadillac CTS Performance,42,0,0,0,1,0,0,1
+Chrysler 200 Limited,30,1,1,1,1,0,1,1
+GMC Sierra 3500 Denali,30,1,0,1,0,1,0,0
+Subaru BRZ Limited,39,0,1,0,1,1,1,1
+Subaru Forester Premium,27,1,0,0,0,0,0,1
+Lexus ES 350,49,0,1,0,1,1,1,1
+Toyota RAV4 Limited,34,0,0,1,1,1,1,1
+INFINITI Q50 Base,25,0,1,0,1,1,0,1
+INFINITI QX30 Premium,33,0,0,1,1,1,1,1
+BMW X1 sDrive28i,50,1,0,0,0,1,1,1
+Subaru Outback Touring XT,29,1,0,1,0,1,1,1
+Jaguar XJ XJL Portfolio,44,1,1,1,0,0,1,0
+Ford Expedition EL Limited,41,0,1,0,0,0,1,1
+Honda HR-V Sport,30,1,1,1,1,0,0,0
+Volkswagen Golf R 4-Door,39,1,1,0,0,0,1,1
+BMW X2 M35i,39,1,1,0,1,0,0,1
+BMW X5 PHEV xDrive45e,32,1,0,1,1,0,0,0
+Lincoln Navigator Black Label,31,0,1,1,1,1,1,1
+BMW X3 xDrive30i,25,0,0,0,1,1,1,1
+Mercedes-Benz C-Class C 300,49,0,0,0,0,0,0,1
+Chevrolet Suburban Premier,34,0,1,0,1,1,0,1
+Chrysler 300C Base,29,1,0,1,1,1,0,1
+Jeep Grand Cherokee L Overland,25,0,0,1,0,1,1,0
+Mercedes-Benz A-Class A 220,25,0,1,1,0,0,1,1
+Mercedes-Benz CLA 250 CLA 250,26,1,0,1,1,0,1,1
+Kia Cadenza Technology,37,0,0,1,1,1,0,0
+BMW 128 128i,33,1,1,1,0,1,0,1
+Audi Q3 2.0T Premium Plus,49,0,1,0,1,1,1,1
+Hyundai Kona SEL,46,1,0,1,1,0,1,1
+INFINITI QX80,42,1,1,1,0,0,0,1
+BMW M550 M550i xDrive,39,0,0,0,1,0,0,1
+Lamborghini Huracan LP610-4,32,1,1,0,1,1,1,1
+Volkswagen Tiguan 2.0T SE R-Line Black,41,1,0,0,1,1,1,1
+Subaru Outback 2.5i Limited,25,1,1,1,1,1,1,1
+Lincoln Navigator L Reserve,27,1,0,1,1,0,1,1
+Land Rover Range Rover Velar P380 SE R-Dynamic,41,1,1,1,0,0,1,0
+BMW X3 sDrive30i,35,1,0,0,0,1,1,0
+Audi A3 2.0T Prestige,41,0,0,1,0,1,1,1
+BMW X3 M40i,49,1,0,0,0,0,1,0
+Acura ILX w/Premium Pkg,32,0,1,0,1,1,1,1
+Chevrolet Silverado 1500 1LT,35,0,1,1,0,0,0,0
+Chevrolet Equinox 1LT,33,0,1,1,1,1,1,0
+Volkswagen Tiguan 2.0T SEL Premium R-Line,34,1,0,1,0,1,1,0
+Honda Civic LX,40,1,1,1,1,1,1,1
+Nissan Altima 2.5 Platinum,33,1,1,0,0,0,1,1
+Subaru WRX STI Base,32,0,1,0,0,0,1,1
+BMW M5 Competition,39,0,1,1,1,1,0,1
+Hyundai Kona Ultimate,47,1,0,0,0,0,0,0
+GMC Acadia SLE,27,0,0,0,0,1,0,1
+Cadillac Escalade ESV Premium Luxury,39,1,0,1,1,0,0,1
+Chevrolet Corvette Grand Sport,47,1,0,1,1,1,0,1
+Nissan Altima 2.5 SL,36,1,1,0,0,1,1,0
+Jeep Grand Cherokee Limited,50,0,1,1,1,1,0,0
+Mazda CX-9 Grand Touring,33,1,1,0,1,1,1,1
+Kia Optima SX Turbo,43,0,0,1,0,1,0,1
+GMC Sierra 1500 AT4,26,1,0,0,0,0,1,1
+Lincoln Navigator Base,29,0,0,0,1,0,1,1
+Mercedes-Benz GLC 300 4MATIC Coupe,26,0,1,1,1,0,0,1
+Lincoln Corsair Reserve,41,0,1,0,0,1,1,1
+Honda Odyssey EX-L,37,0,1,1,0,0,0,1
+Jeep Wrangler X,28,0,0,1,0,1,0,1
+Land Rover Range Rover Evoque SE,25,1,1,0,1,1,1,0
+Audi A6 2.0T quattro Sport,50,1,1,0,0,1,0,0
+Toyota RAV4 Sport,31,1,1,1,0,0,1,1
+Land Rover Range Rover,43,1,0,1,0,1,1,0
+Chevrolet Blazer Premier,27,1,1,0,0,1,0,1
+Volvo XC60 T6 Momentum,50,0,1,1,0,0,0,0
+GMC Acadia SLT-1,41,1,1,1,1,0,1,0
+Toyota Avalon XSE,33,0,1,0,1,0,0,0
+Ford Fusion SE,34,1,1,1,0,1,0,1
+INFINITI QX50 Base,29,0,0,0,1,1,0,0
+Volvo XC60 T5 Momentum,25,1,0,1,0,0,0,0
+Ford F-150 XLT,27,1,1,0,0,0,1,0
+Kia Seltos SX,34,1,1,1,0,0,0,1
+Toyota Sienna LE,30,0,1,0,0,0,1,0
+Cadillac Escalade Premium,29,1,0,1,0,0,0,0
+Lexus RX 350L L,48,0,1,1,1,0,1,0
+Nissan Rogue Sport SV,46,0,0,1,0,0,0,0
+Hyundai Sonata SEL,48,0,0,1,1,1,1,0
+Acura ILX,46,1,0,0,0,0,0,0
+Mercedes-Benz GLB 250 Base,31,1,0,0,1,1,1,0
+Mazda Mazda6 Sport,25,1,0,0,0,1,0,1
+Audi SQ5 3.0T Premium Plus,35,1,1,0,0,0,1,0
+Land Rover Discovery HSE,43,1,0,1,1,0,1,0
+Volvo XC90 T6 Inscription 6 Passenger,40,0,0,1,1,1,1,1
+Audi S5 3.0T Prestige,26,1,0,0,1,1,0,0
+Chevrolet Suburban Z71,45,1,0,0,1,0,0,0
+BMW M2 Base,45,1,1,0,1,0,1,0
+Volkswagen Passat 2.0L TDI DSG SEL Premium,40,0,0,0,0,0,1,1
+Hyundai Santa Fe Ultimate 2.4,38,0,0,0,0,0,1,0
+Toyota RAV4 Hybrid LE,28,1,0,0,1,0,0,0
+Tesla Model X 90D,42,0,0,0,0,1,1,0
+Jaguar E-PACE P250 SE,45,1,1,1,0,1,1,0
+Toyota Prius LE,33,1,1,0,1,0,1,1
+Chevrolet Traverse LT Cloth,46,1,0,0,0,1,0,0
+Cadillac Escalade Sport,33,0,1,0,0,0,0,0
+Toyota Sienna L,48,0,1,1,0,0,0,1
+Land Rover Range Rover Evoque S,25,1,0,1,1,1,0,0
+Lincoln MKC Reserve,34,0,1,0,1,1,1,1
+BMW X4 xDrive30i,36,1,0,1,0,0,1,0
+Jeep Renegade Limited,26,1,0,0,1,0,0,1
+Mazda CX-30 Select,25,1,0,0,0,1,1,1
+Ford Escape SE,28,0,0,0,1,1,1,0
+Hyundai Santa Fe Limited Ultimate,47,0,0,1,1,0,0,0
+Land Rover Range Rover 5.0L V8 Supercharged,42,1,1,0,0,0,1,0
+Chevrolet Silverado 1500 Custom,36,1,0,0,1,0,1,0
+Jeep Grand Cherokee Altitude,46,1,0,0,1,1,0,1
+Ford Escape SEL,30,0,0,0,1,0,0,0
+Honda Accord Sport SE,50,1,0,0,1,1,1,1
+Dodge Grand Caravan GT,44,0,1,1,1,0,1,0
+Lexus IS 350 Base,27,1,1,1,0,0,1,0
+Mazda Mazda3 Premium Plus,39,1,0,0,0,1,0,1
+Honda Civic EX,39,0,1,0,1,0,1,1
+Chrysler 300 Limited,32,0,0,0,0,1,1,1
+Mercedes-Benz S-Class S 63 AMG,37,0,0,1,0,0,1,0
+Ford Explorer XLT,41,0,1,1,0,0,0,0
+Audi A3 1.8T Premium Plus,45,1,1,1,0,0,0,0
+Audi S3 2.0T Premium Plus,34,0,1,0,1,1,1,0
+Bentley Continental GT V8,46,1,1,0,0,0,0,1
+INFINITI G37 x,49,0,0,0,0,1,0,1
+Acura MDX 3.5L Technology Package,41,0,1,1,1,0,0,0
+INFINITI QX80 Luxe,42,0,1,0,1,0,0,1
+Ford Mustang Mach-E Premium,42,1,0,1,1,0,1,1
+Volkswagen Passat 2.0T R-Line,30,1,1,0,1,1,0,0
+Hyundai Sonata Hybrid SE,28,1,0,0,0,0,0,1
+BMW X5 sDrive35i,31,0,0,1,1,1,1,0
+Volvo S90 T6 Momentum,34,1,0,1,1,0,0,0
+Toyota 4Runner Limited Nightshade,31,0,1,1,1,0,1,1
+Hyundai Santa Fe Limited 2.0T,42,0,1,0,1,0,0,0
+Toyota C-HR LE,38,1,0,0,0,0,0,1
+Audi A7 3.0T Prestige quattro,44,1,0,0,1,1,0,0
+Jeep Gladiator Sport,31,1,1,1,0,0,1,0
+Audi A4 40 Premium,29,1,1,0,0,0,0,1
+Honda Passport Touring,40,0,1,0,0,1,0,0
+Acura RDX,39,1,1,0,1,1,0,0
+Bentley Continental GT Speed,41,1,0,1,1,0,1,1
+Acura MDX Sport Hybrid 3.0L w/Technology Package,31,1,0,1,1,0,1,0
+Ford Fusion Titanium,38,0,1,0,0,1,1,1
+Hyundai Santa Fe Calligraphy,44,1,1,0,1,0,0,0
+Audi Q7 3.0 Premium Plus,27,0,0,1,1,0,1,0
+Chevrolet Suburban 1500 LT,29,0,0,1,1,1,1,0
+Audi SQ5 Premium Plus,46,1,0,0,0,0,1,0
+Ford Explorer Limited,27,1,1,1,1,0,1,1
+Jeep Grand Cherokee 80th Anniversary,36,1,0,0,1,1,0,1
+Subaru Ascent Limited 7-Passenger,37,0,0,0,1,0,0,1
+GMC Acadia SLE-1,34,1,0,0,1,1,1,1
+Honda Pilot Touring 7-Passenger,33,1,0,1,1,0,0,1
+Kia Forte LX,35,1,0,1,1,1,1,0
+Ford EcoSport S,33,1,0,0,1,1,1,0
+Buick LaCrosse Premium,41,0,1,1,1,0,1,1
+Land Rover Discovery Landmark,31,1,0,0,0,0,0,1
+Genesis GV80 2.5T,42,0,1,1,1,1,0,0
+Subaru Forester 2.5X,38,0,0,1,1,0,1,1
+Acura TLX V6 Tech,37,1,1,0,1,0,0,0
+Volvo XC90 T6 Momentum 7 Passenger,48,0,1,1,1,1,1,1
+Nissan Sentra S,28,1,1,0,1,1,1,1
+Toyota RAV4 LE,32,1,1,0,1,1,1,1
+GMC Terrain SLT,41,1,1,1,1,1,0,0
+Toyota Corolla Hatchback SE,30,1,1,1,1,1,1,1
+Jaguar F-PACE SVR,47,1,0,0,0,1,0,0
+Mercedes-Benz AMG GT 63 4-Door,26,0,1,0,0,0,1,0
+Acura TLX A-Spec,25,0,1,1,0,1,0,1
+Toyota RAV4 XLE Premium,30,0,0,0,0,1,1,0
+BMW 535 i xDrive,36,1,0,0,1,0,1,1
+Toyota Camry XSE,37,0,0,1,0,0,1,0
+Acura RDX AcuraWatch Plus Pkg,29,1,1,0,0,1,1,1
+Subaru Crosstrek Limited,37,0,0,0,0,0,0,0
+Genesis G90 5.0 Ultimate,45,0,0,0,1,1,0,1
+Honda Pilot EX-L w/ Navigation,32,0,1,0,1,1,0,0
+Nissan 370Z Sport,28,1,1,1,1,0,0,0
+Chevrolet Trax LS,32,1,0,0,0,0,1,0
+Mercedes-Benz GLC 300 4MATIC,41,1,0,0,1,1,0,0
+Land Rover Discovery Sport HSE,28,0,0,0,0,0,0,1
+Volkswagen Atlas 3.6L V6 SEL Premium,42,1,0,1,1,1,1,0
+Land Rover Range Rover 5.0 Supercharged LWB,34,0,0,0,1,1,1,0
+Chevrolet Silverado 1500 LTZ,34,0,0,1,1,0,1,1
+Buick Encore Preferred,26,0,1,0,1,1,0,1
+Volkswagen Atlas 3.6L SE w/Technology,30,0,1,1,0,0,0,1
+Chevrolet Traverse LS,35,0,0,0,0,0,1,0
+Mercedes-Benz E-Class E 450 4MATIC,46,0,1,1,0,0,1,0
+Toyota 4Runner TRD Pro,42,0,1,1,1,0,1,0
+Subaru Legacy 2.5i Sport,48,1,0,1,0,1,0,1
+Nissan Frontier PRO-4X,45,0,0,1,0,0,0,0
+BMW 328 i,46,1,1,1,1,1,0,0
+Honda Passport EX-L,26,0,0,0,0,1,0,0
+Cadillac CT6 Luxury,41,1,0,1,1,1,1,0
+Ford Mustang EcoBoost Premium,39,1,1,0,1,0,1,1
+Chevrolet Tahoe High Country,46,0,1,0,1,1,1,1
+Subaru Forester Sport,35,1,1,0,1,1,1,1
+Volvo S60 T5 Momentum,30,0,1,0,1,1,0,0
+GMC Acadia Denali,30,0,1,0,0,1,1,1
+Toyota Highlander LE,33,1,1,0,1,0,1,1
+Hyundai Elantra GLS,41,1,1,1,0,1,1,0
+Chevrolet Camaro 2SS,42,0,0,0,0,1,1,1
+Jeep Wrangler Unlimited Sport,41,0,1,0,1,0,1,0
+Porsche 718 Cayman GTS,29,1,0,1,1,1,0,0
+BMW 330 Gran Turismo i xDrive,33,1,0,1,0,0,1,0
+Dodge Challenger GT,48,1,1,1,0,0,0,1
+Mercedes-Benz GLA 250 Base,33,0,1,0,1,1,0,1
+Toyota Camry Hybrid SE,26,0,0,0,0,1,1,0
+Honda HR-V LX,48,0,1,1,1,1,1,1
+Scion xB Base,35,0,0,1,0,1,1,0
+INFINITI Q50 3.0t Red Sport 400,39,1,0,0,1,0,0,1
+Audi Q7 3.0T Premium Plus,26,1,1,0,1,1,0,0
+Hyundai Elantra GT Base,29,1,1,0,0,0,1,1
+Land Rover Range Rover Sport HSE Silver Edition,45,1,1,1,1,0,0,0
+Cadillac XT4 Premium Luxury,32,0,0,0,1,0,1,0
+Lincoln MKX Select,28,0,1,1,1,0,1,0
+INFINITI QX80 4WD,45,0,0,0,0,1,1,0
+Scion iQ Base,44,0,0,1,1,0,0,0
+Lexus GX 460,28,1,1,0,1,0,0,0
+Hyundai Kona EV Limited,41,1,0,1,0,0,0,0
+Dodge Journey SE Value,35,0,1,0,0,0,0,1
+Ford Edge ST,39,1,1,1,0,1,1,1
+Lexus ES 350 Base,32,0,1,1,0,0,1,1
+Maserati Ghibli Base,34,0,0,0,0,0,0,0
+BMW 228 i xDrive,43,1,1,0,1,1,1,0
+Land Rover Range Rover Sport 3.0L Supercharged SE,37,1,1,0,1,1,1,1
+GMC Sierra 1500 SLT,29,1,1,1,0,0,0,1
+Audi RS 5 4.2,45,1,1,0,1,0,0,0
+BMW M550 i Xdrive,44,1,0,1,1,1,0,0
+Lexus NX 200t F Sport,46,0,1,0,0,0,0,0
+Lexus RX 350L Base,46,0,0,0,1,1,0,1
+Ford Fusion Hybrid Titanium,28,0,1,0,0,1,0,0
+Toyota Prius Three,27,1,0,0,0,0,1,0
+Land Rover Range Rover Velar S R-Dynamic,36,1,1,1,1,1,0,0
+Jeep Compass High Altitude,25,1,1,0,1,0,1,0
+BMW 320 320i xDrive,43,1,1,0,0,1,1,0
+Maserati Levante Base,38,0,0,1,1,1,1,1
+RAM 1500 Rebel,25,1,1,1,1,1,0,1
+Scion tC Base,27,0,0,1,0,1,0,0
+BMW 640 Gran Turismo i xDrive,25,1,1,1,0,0,1,1
+Land Rover Range Rover Sport HSE,36,0,0,0,0,0,1,1
+Mazda Mazda3 s Sport,48,0,1,0,0,1,1,1
+Jeep Cherokee Limited,50,1,0,0,1,0,1,0
+Chevrolet Traverse LTZ,29,0,0,1,1,0,0,1
+Volvo V90 Cross Country T5,44,0,0,0,1,1,1,0
+Volkswagen Atlas Cross Sport 2.0T SE w/Technology,32,0,1,1,0,0,0,1
+Chevrolet Silverado 1500 1LZ,37,0,0,0,1,1,1,0
+Audi A4 2.0T Premium,28,0,1,0,0,1,1,0
+Porsche 911 Carrera 4,44,0,1,0,1,0,1,0
+Land Rover Range Rover 5.0L Supercharged Autobiography,31,0,0,0,0,0,0,0
+Buick Enclave Essence,32,0,1,1,1,0,1,1
+Jeep Patriot Limited,44,0,1,0,0,1,0,0
+Mazda CX-5 Grand Touring,36,1,1,1,0,0,0,0
+Land Rover Range Rover Evoque Pure,47,0,0,0,0,0,1,0
+Lincoln Aviator Reserve AWD,28,1,0,0,1,0,1,0
+BMW M6 Base,43,1,0,1,1,1,1,1
+BMW X7 xDrive50i,46,1,1,0,1,1,0,0
+BMW 540 i xDrive,38,0,1,1,1,0,0,1
+Honda CR-V Hybrid Touring,50,0,1,1,1,1,1,0
+Toyota Highlander Hybrid Limited,47,0,0,0,1,1,1,1
+Toyota Sienna XLE Premium,31,1,1,1,1,0,0,1
+Acura RDX Technology Package,32,1,1,1,0,1,0,0
+Ford EcoSport Titanium,28,0,0,0,1,0,1,0
+Audi Q5 2.0T Premium Plus,34,1,1,0,0,1,0,0
+Subaru Impreza 2.0i,25,0,1,0,1,0,0,0
+Buick Enclave Avenir,29,0,1,0,0,0,0,0
+Volkswagen Tiguan 2.0T S,35,0,1,1,0,1,1,1
+Porsche 718 Cayman S,27,1,1,1,1,0,1,0
+Acura MDX Advance,26,0,0,1,1,1,1,0
+BMW X5 M50i,31,1,1,1,0,0,0,1
+Land Rover Range Rover Sport 5.0L Supercharged SVR,43,1,1,1,1,1,0,1
+INFINITI Q50 3.0t LUXE,29,1,1,0,0,0,0,1
+Ford Escape S,41,0,1,0,0,1,0,0
+Land Rover Range Rover Sport Autobiography,33,1,0,1,1,0,1,0
+Jeep Compass Latitude,39,1,0,0,0,1,1,0
+BMW X1 xDrive 28i,32,0,1,0,1,1,1,1
+Chevrolet Equinox LTZ,46,0,0,1,0,1,1,0
+Toyota Highlander Base,50,0,0,0,1,1,0,0
+Lexus GS 350 F Sport,42,1,0,0,1,0,1,1
+Land Rover Defender 110 HSE,31,0,1,1,0,1,1,1
+Jaguar F-TYPE R,50,1,1,1,0,1,0,0
+Toyota Mirai Base,38,0,1,1,0,1,0,1
+Ford Edge SE,29,1,0,1,0,0,1,0
+Land Rover LR4 Base,36,0,0,1,0,0,1,1
+Land Rover Range Rover P525 HSE LWB,35,0,0,1,1,1,1,0
+Audi Q7 45 Premium,26,0,1,0,0,0,1,1
+Ford Escape Limited,39,0,1,0,1,0,1,0
+Subaru Crosstrek Sport,42,1,0,0,1,0,1,1
+Mercedes-Benz GLS 550 Base 4MATIC,39,0,1,0,0,0,1,1
+Subaru Forester Limited,33,1,0,1,0,1,1,1
+Jeep Patriot Latitude,33,0,1,0,0,0,1,0
+Mazda Mazda3 s,38,0,0,0,1,0,1,0
+Porsche Boxster S,27,0,0,1,0,1,0,1
+Audi A7 3.0T Prestige,49,0,0,0,0,0,1,1
+Hyundai Tucson SEL,45,1,0,1,0,0,0,0
+Toyota 4Runner Limited,31,0,1,1,1,0,0,1
+Acura MDX SH-AWD 7-Passenger,32,0,0,1,0,1,0,0
+Cadillac Escalade Premium Luxury,41,0,0,0,0,0,1,1
+Volkswagen Jetta SE,46,0,1,1,0,0,0,1
+Hyundai Palisade SE,25,0,0,1,0,1,0,0
+BMW M340 i xDrive,40,0,1,0,1,1,0,0
+Land Rover Range Rover P525 HSE,38,0,0,0,1,1,0,0
+Cadillac XT5 Premium Luxury,30,0,0,0,1,1,0,0
+Buick LaCrosse CXS,41,1,0,0,1,1,0,1
+Ford Mustang Premium,38,0,0,1,1,1,1,1
+Volvo V90 Cross Country T6,25,0,1,0,0,1,0,1
+Chevrolet Spark LS,27,0,0,0,1,1,1,1
+Acura ILX w/AcuraWatch Plus,47,0,0,1,1,0,0,1
+Nissan Maxima SV,29,0,0,0,0,1,1,1
+Hyundai Genesis 3.8,32,1,1,1,0,0,1,0
+Nissan Maxima 3.5 S,44,1,1,0,1,1,0,1
+Acura MDX 3.5L,49,0,1,1,0,0,1,1
+Mercedes-Benz GLE 350 Base,49,1,0,0,1,1,1,1
+Jaguar E-PACE SE,33,1,1,0,1,0,1,1
+BMW 530 i xDrive,26,1,0,1,0,1,1,1
+Volkswagen Atlas 3.6L SEL Premium,43,0,0,0,1,0,1,1
+Dodge Charger SRT8,31,0,1,0,0,1,0,1
+Mercedes-Benz S-Class S 560 4MATIC,43,1,0,1,0,0,1,0
+Mercedes-Benz GLE 350,33,1,0,1,0,0,1,0
+Volkswagen Tiguan 2.0T,47,0,0,1,0,0,1,0
+Maserati Levante S,36,0,1,0,1,0,1,1
+Chevrolet Impala Premier,31,0,0,1,1,1,0,0
+Buick Enclave Premium,32,1,0,1,0,0,0,1
+Chevrolet Tahoe LT,30,0,1,0,1,0,0,1
+INFINITI Q50 3.0t Sport,33,0,1,1,1,0,0,1
+Mercedes-Benz CLA 250 Base,39,1,1,0,0,1,0,0
+Mercedes-Benz S-Class S 560,31,1,0,1,1,1,1,0
+BMW 340 i xDrive,31,1,0,0,1,1,1,0
+Toyota C-HR XLE Premium,44,1,0,0,0,0,0,0
+Buick Encore GX Select,49,1,0,0,0,1,0,1
+Acura MDX 3.7L Advance,32,1,0,0,1,0,0,0
+Porsche Panamera 4,25,1,1,1,0,1,1,1
+BMW X5 xDrive40i,26,0,1,1,0,0,0,0
+Lamborghini Urus Base,49,0,1,1,1,0,1,1
+Lincoln Navigator Select,35,0,1,1,0,0,1,0
+Volkswagen Tiguan 2.0T Sport,33,0,0,0,1,0,1,0
+Bentley Continental Flying Spur Speed,26,0,0,0,0,0,0,0
+Tesla Model 3 Performance,35,1,0,1,1,1,1,0
+BMW 330 i,25,1,1,0,0,1,1,0
+Mitsubishi Outlander Sport 2.0 SE,46,1,0,1,1,1,0,1
+Chevrolet Cruze LT,32,0,0,1,1,0,0,0
+Land Rover Range Rover 3.0L V6 Supercharged HSE,31,0,1,1,1,0,1,0
+Ford Escape Titanium Hybrid,46,0,0,0,1,1,0,0
+Toyota Corolla XSE,29,0,0,1,0,1,0,1
+Chevrolet Impala LS Fleet,45,1,0,1,0,0,0,1
+Land Rover Range Rover Westminster,35,0,0,1,0,0,1,1
+BMW Z4 sDrive35is,38,0,0,0,0,1,0,0
+BMW 550 i xDrive,31,0,1,1,0,1,1,1
+Subaru Outback 2.5i Touring,35,0,1,0,1,0,0,1
+Buick Encore Sport Touring,48,1,0,0,0,0,1,0
+Dodge Challenger R/T,41,1,0,0,1,1,1,0
+Audi Q3 2.0T Premium,32,0,0,1,1,1,1,0
+BMW M235 Gran Coupe i xDrive,41,0,0,1,0,0,0,0
+Bentley Bentayga Design Edition,45,0,0,1,0,0,1,1
+Land Rover Range Rover Velar P380 S,26,1,0,0,1,0,1,0
+Toyota Camry,33,1,0,1,0,1,1,0
+Mazda Mazda3 AWD w/Preferred Package,28,0,1,1,1,0,0,0
+Honda Pilot EX,42,1,0,1,1,1,1,1
+Nissan Pathfinder SV,47,0,1,1,0,0,1,1
+Chevrolet Silverado 1500 2LT,33,1,1,0,0,0,0,1
+Nissan Rogue SV,25,1,1,1,1,0,0,1
+Dodge Charger SE,25,1,0,1,0,1,0,1
+Ford Explorer ST,49,0,1,0,0,1,0,1
+Mercedes-Benz CLA-Class CLA 250,44,0,1,0,1,0,1,1
+Lincoln MKZ Reserve II,46,1,1,0,0,0,1,1
+Lincoln Navigator Reserve,36,0,1,1,0,0,0,0
+Ford Expedition Limited,36,0,0,0,1,0,0,1
+Mazda CX-5 Sport,37,1,1,0,0,0,0,0
+BMW M3 CS,48,1,1,0,1,1,0,1
+Kia Sportage EX,39,1,1,0,1,1,1,1
+Toyota RAV4 XLE,28,1,0,0,0,1,0,0
+Mazda CX-5 Carbon Edition Turbo,45,0,1,0,1,0,0,0
+Mercedes-Benz SL-Class SL550 Roadster,43,0,0,0,1,1,1,0
+Cadillac XTS Luxury,41,1,0,0,0,1,0,1
+Nissan Frontier S,34,0,1,0,1,0,0,0
+BMW X4 xDrive28i,29,0,1,0,1,0,0,0
+Porsche Macan S,29,1,1,0,1,0,1,0
+Acura RDX Base (A10),36,0,1,0,0,1,0,0
+Ferrari GTC4Lusso V12,25,1,1,0,0,0,1,1
+BMW Z4 sDrive30i,42,0,1,0,1,0,0,1
+Ford Expedition Platinum,38,0,1,1,1,0,1,0
+Hyundai Kona SE,27,1,1,1,0,0,1,1
+Toyota Highlander LE Plus,50,1,0,1,0,0,0,1
+GMC Terrain Denali,34,0,0,1,1,0,1,1
+Volkswagen Arteon 2.0T SE R-Line,40,0,0,1,0,0,1,0
+Mercedes-Benz GLK-Class GLK 350,29,0,1,0,1,1,0,0
+Volkswagen Atlas 3.6 V6 SEL,42,0,0,1,1,0,0,1
+Honda Accord Touring 2.0T,44,0,1,1,1,0,1,0
+Ford Explorer sport,25,1,0,0,0,0,1,1
+Mitsubishi Outlander SEL,49,1,1,0,1,0,0,1
+Nissan Rogue Sport S,28,1,1,0,1,0,1,1
+Lincoln MKZ Select,46,0,1,1,1,1,1,1
+Acura RDX Technology,50,1,0,1,1,0,0,0
+Jeep Cherokee Latitude,42,1,0,0,0,1,0,0
+Chevrolet Corvette Stingray w/2LT,27,0,1,1,0,1,0,1
+Hyundai Elantra SEL,38,0,0,1,1,0,1,0
+Ford Taurus SHO,50,0,1,0,1,0,1,0
+Alfa Romeo Stelvio Ti,32,1,1,1,1,0,0,1
+Toyota Tundra Platinum,30,1,0,0,1,0,0,1
+Buick Enclave 2XL,44,1,0,0,1,1,0,0
+Lincoln MKZ Reserve I,29,0,0,1,1,1,0,1
+Ford Ranger Lariat,43,1,0,0,0,1,0,0
+Acura TSX 2.4,32,0,1,0,1,0,1,0
+BMW 328 i xDrive,37,1,0,0,1,0,1,0
+Mercedes-Benz CLS-Class CLS 63 AMG S-Model 4MATIC,34,1,0,0,1,0,0,0
+Mazda Mazda3 i SV,37,1,1,1,0,0,0,1
+Acura TLX Technology Package,34,1,0,1,0,1,1,0
+Kia Sorento LX,35,1,0,1,0,1,1,0
+Kia Seltos S,26,0,1,0,0,1,0,1
+Hyundai Palisade Limited,28,1,0,0,1,1,0,0
+Acura TLX V6 Advance,44,1,0,1,1,0,1,1
+Subaru Outback Touring,42,0,0,0,1,1,0,0
+Mercedes-Benz AMG E 53 Base 4MATIC,33,1,0,1,1,1,0,0
+INFINITI QX80 PREMIUM SELECT,42,0,0,1,0,1,0,1
+Lexus RX 350 F Sport Performance,33,1,1,0,0,0,1,1
+Audi A4 45 S line quattro Premium,49,1,0,1,1,1,1,1
+Porsche 911 Turbo,35,0,1,0,1,1,0,1
+Mazda Mazda3 i Sport,34,0,0,0,0,0,0,1
+Jeep Grand Cherokee SRT,48,1,1,1,0,1,1,1
+Mercedes-Benz CLS 450 Base,34,1,1,0,1,1,0,0
+Toyota Tacoma TRD Pro,47,1,0,0,1,0,0,0
+Acura TLX Tech,28,0,0,0,0,1,1,0
+Audi R8 5.2,32,0,0,1,0,0,0,1
+Chevrolet Malibu LT,32,0,1,0,1,0,0,0
+MINI Convertible Cooper,30,1,0,1,0,1,1,0
+Subaru Ascent Limited 8-Passenger,35,0,0,1,1,0,1,0
+Mercedes-Benz CLS-Class CLS 63 AMG,42,1,1,0,0,1,1,0
+Porsche 911 Targa 4,40,0,0,1,0,1,0,0
+Subaru Forester 2.5i Limited,28,1,0,0,0,1,1,1
+Acura MDX Touring,40,0,1,0,1,0,0,1
+Porsche 718 Boxster S,36,0,1,1,1,1,0,0
+Mercedes-Benz GLE-Class GLE 350,30,1,0,0,0,0,0,0
+Ford Fusion SEL,46,0,0,0,1,0,1,0
+BMW 540 i,48,1,1,0,1,1,0,1
+Chevrolet Malibu 1LS,32,1,1,1,1,1,0,1
+Dodge Durango R/T,39,1,1,1,1,0,1,1
+Kia Soul S,27,0,0,0,0,1,1,0
+Mercedes-Benz GLS 450 Base 4MATIC,28,0,1,1,1,0,1,1
+Tesla Model X P90D,44,1,1,0,0,0,1,1
+Volkswagen Passat 2.0 TDI SEL Premium,49,1,1,0,1,0,0,1
+Mercedes-Benz C-Class C 350 Sport,35,0,1,0,0,1,0,1
+Kia Stinger GT2,33,0,1,0,0,0,1,1
+INFINITI QX50 Luxe,29,0,1,0,1,1,1,1
+Mitsubishi Outlander Sport ES,26,1,1,0,0,0,1,0
+BMW 430 i,36,1,0,1,0,0,1,1
+Subaru Outback Limited XT,30,0,0,0,0,0,0,1
+Mazda CX-9 Touring,41,0,0,1,1,0,1,0
+Volvo XC60 T6 Inscription,50,0,0,0,1,0,0,0
+Chevrolet Blazer RS,34,1,0,1,0,1,1,0
+Lexus LS 500 Base,38,1,1,1,1,0,0,1
+Cadillac XT6 AWD Premium Luxury,34,0,1,0,1,1,1,0
+Acura TLX Type S,37,1,1,1,1,0,1,1
+Ford Fiesta SE,30,0,1,0,0,1,1,1
+Volkswagen Atlas Cross Sport 3.6L V6 SEL,31,0,0,1,1,0,0,0
+Tesla Model Y Long Range,34,1,0,0,0,1,1,0
+BMW 228 Gran Coupe i xDrive,40,1,1,1,0,1,1,1
+Mazda CX-30 Premium Package,40,1,0,0,1,0,1,0
+Cadillac XT6 Sport AWD,32,0,0,0,1,0,1,0
+Mercedes-Benz E-Class E 450,29,1,0,0,0,1,1,1
+Chevrolet Corvette Stingray,50,0,0,0,1,1,1,1
+Mercedes-Benz GLA-Class GLA 250 4MATIC,29,0,0,0,0,0,0,0
+Hyundai Santa Fe Limited 2.4,45,0,1,0,0,0,1,1
+Mitsubishi Mirage G4 LE,44,0,0,0,0,1,0,0
+Audi S4 3.0T Premium Plus,27,0,0,1,0,1,1,1
+Toyota Camry XSE V6,45,1,0,1,0,0,0,1
+MINI Countryman Cooper S ALL4,43,0,0,0,1,0,0,1
+Subaru Ascent Premium,30,0,1,1,0,0,1,0
+Land Rover Range Rover 5.0L V8 Supercharged Autobiography,35,1,0,1,0,0,0,0
+Toyota 4Runner SR5,35,1,1,1,0,0,0,0
+Mercedes-Benz AMG GLE 43 Coupe 4MATIC,26,1,1,0,1,0,1,0
+Kia Sorento SX,33,0,0,1,0,0,0,1
+Volkswagen Atlas 3.6 V6 SE w/ Technology R-Line,36,1,0,0,0,1,0,1
+Ford Focus SE,26,1,0,1,0,0,0,0
+Mercedes-Benz AMG S 63 4MATIC,29,0,1,1,1,1,0,1
+Ford F-150 Lariat,48,0,1,1,0,0,1,1
+Jeep Grand Cherokee High Altitude,41,0,0,1,1,1,1,0
+Lincoln Nautilus Select,49,0,0,0,1,1,0,1
+Land Rover Range Rover SV Autobiography Dynamic,36,0,1,1,1,1,0,0
+Mercedes-Benz AMG C 63 S,36,0,1,0,0,0,1,0
+Jeep Wrangler Sport,50,0,0,1,1,0,0,1
+Lexus ES 350 Premium,43,0,0,1,1,0,1,0
+GMC Acadia SLE-2,27,1,0,1,1,0,0,0
+Mercedes-Benz GLB 250 4MATIC,49,1,1,1,1,0,1,1
+Chevrolet Spark 1LT,47,0,0,0,1,1,1,0
+Toyota RAV4 Hybrid Limited,34,0,0,1,1,0,1,1
+Ford Mustang EcoBoost,28,1,0,0,1,0,0,0
+Dodge Challenger R/T Scat Pack,50,0,1,0,0,0,1,0
+Audi e-tron Prestige,42,1,0,0,0,0,1,1
+Nissan Pathfinder SL,32,1,1,1,0,0,1,1
+Dodge Journey GT,30,1,0,1,1,1,1,0
+Honda Pilot Special Edition,44,0,1,0,1,0,1,0
+Honda Accord LX,25,1,0,1,1,1,1,1
+Nissan Leaf SV,25,0,1,1,1,0,1,1
+Nissan Maxima 3.5 SV,32,1,0,0,0,1,0,0
+Cadillac DTS Performance,28,1,0,1,0,0,0,1
+BMW X5 4.8i,47,0,0,1,1,1,0,1
+BMW X6 xDrive35i,26,1,1,0,0,1,1,0
+RAM 1500 Classic Warlock,40,1,0,1,0,1,0,1
+Honda Accord EX-L 2.0T,40,0,0,0,1,1,1,0
+Mercedes-Benz AMG GLE AMG GLE 63 S-Model 4MATIC,38,1,1,0,0,0,1,0
+Cadillac CTS 3.6L Luxury,50,1,1,1,1,1,1,0
+Nissan Murano SL,43,0,0,1,0,1,0,1
+BMW X5 sDrive40i,38,1,0,1,0,0,1,0
+Chevrolet Silverado 1500 LT,26,1,0,0,0,0,0,1
+Audi Q5 2.0T Premium,33,1,0,0,1,0,0,1
+Toyota Supra 3.0,49,1,0,0,0,1,0,1
+Ford Ranger XL,29,1,1,1,0,0,1,1
+Chevrolet Trailblazer ACTIV,36,1,1,1,0,0,0,1
+Land Rover Range Rover Sport 3.0L Supercharged HSE,41,1,0,1,0,0,1,1
+Hyundai Santa Fe SE Ultimate,48,1,0,0,0,0,0,1
+Land Rover Defender 110 First Edition,49,0,1,1,0,1,1,1
+Volvo S60 T5 Premier Plus,40,1,1,0,0,0,1,1
+Lincoln Aviator Standard RWD,40,0,0,1,0,1,0,1
+BMW X5 xDrive35i Premium,49,1,0,0,0,0,0,1
+BMW X2 sDrive28i,37,0,1,0,0,1,1,1
+Genesis GV70 2.5T,43,0,1,0,0,1,0,0
+Nissan Armada Platinum,49,0,1,1,0,0,0,0
+Volvo S90 T6 R-Design,41,0,0,0,1,1,1,0
+Audi R8 5.2 quattro Plus,27,1,1,0,1,1,1,1
+Chevrolet Trailblazer LT,25,0,1,1,1,1,1,0
+Lexus RC 350 Base,48,0,0,0,1,0,1,1
+Kia Forte S,47,1,1,1,0,0,1,1
+Toyota Venza XLE,40,0,1,1,1,0,0,1
+Dodge Durango Limited,38,1,1,1,1,0,0,0
+Kia Soul GT-Line 2.0L,37,0,1,0,0,0,1,1
+Cadillac XT6 Premium Luxury FWD,37,0,0,1,1,0,0,0
+Nissan Altima 2.5 SR,45,0,1,0,1,1,0,0
+Maserati GranTurismo Sport,49,0,1,1,1,1,0,0
+Nissan Murano Platinum,27,0,1,0,0,1,0,1
+Hyundai Tucson SE,38,0,1,1,0,1,0,0
+Hyundai Palisade Calligraphy,36,0,1,0,0,1,1,1
+Volkswagen Tiguan SE,28,0,1,0,0,0,1,0
+Audi Q3 45 S line Premium,45,1,0,1,1,0,0,0
+Porsche Boxster,44,1,1,0,1,0,1,1
+Chevrolet Silverado 2500 LTZ H/D Crew Cab,45,1,0,0,1,1,0,0
+Mazda CX-5 Carbon Edition,49,0,0,1,1,1,0,0
+Kia Telluride S,49,0,1,0,0,1,0,1
+Ford F-150 XL,37,0,0,0,0,1,1,1
+Honda Pilot EX-L,49,0,0,1,1,1,0,1
+MINI Countryman Cooper S,45,1,1,1,1,0,0,1
+Dodge Charger R/T Scat Pack,25,1,1,1,0,1,0,1
+Mercedes-Benz GLE 350 Base 4MATIC,35,1,1,1,0,1,0,1
+Audi A6 3.0t Sport,39,0,0,0,1,1,0,1
+MINI Hardtop Cooper,35,1,1,0,0,1,0,0
+RAM 1500 Laramie,30,1,1,0,0,0,1,1
+Volvo XC90 3.2,27,0,0,1,1,1,0,0
+Nissan Maxima 3.5 SL,28,1,0,1,1,1,1,1
+Audi A8 L 4.0T,42,1,1,0,1,0,0,1
+Mercedes-Benz E-Class E 300 4MATIC Sport,44,0,1,1,1,0,0,1
+Porsche 718 Boxster Base,49,1,0,0,0,1,1,1
+Lexus RX 300,44,0,1,1,0,0,0,1
+Dodge Charger R/T,38,1,0,1,0,0,0,1
+BMW 528 i xDrive,33,0,1,0,0,1,0,1
+Subaru Forester 2.5i Touring,25,0,1,1,0,1,1,0
+Toyota 4Runner TRD Off Road Premium,25,0,0,1,1,1,0,1
+INFINITI QX50 ESSENTIAL,28,1,1,1,1,1,1,0
+Toyota Avalon Hybrid Limited,30,1,0,1,1,0,0,0
+Ford Edge SEL,35,0,1,0,0,0,1,1
+Audi Q7 55 Prestige,45,0,1,1,1,0,0,1
+Chevrolet Silverado 1500 Custom Trail Boss,31,1,1,1,1,0,1,0
+BMW 328 Gran Turismo i xDrive,37,0,0,1,0,0,0,1
+Land Rover Discovery Landmark Edition,44,1,0,1,1,0,1,1
+BMW X2 xDrive28i,25,1,1,1,0,0,1,0
+Honda Odyssey Touring,32,1,1,1,1,0,0,0
+BMW M3 Base,46,1,0,0,0,1,0,1
+Volkswagen Atlas 3.6 V6 SEL Premium,40,0,1,1,0,1,0,1
+Mazda Mazda6 i Grand Touring,28,0,1,1,0,1,1,0
+Nissan Versa 1.6 S,34,1,1,1,0,0,0,1
+Lexus IS 350 F Sport,26,1,1,1,0,0,0,0
+Jeep Wrangler Unlimited Rubicon,35,1,1,0,1,1,0,0
+INFINITI Q50 3.0T Red Sport 400,27,0,1,1,1,1,0,0
+Porsche 911 GT3,31,0,0,1,1,1,1,1
+Lincoln MKZ Base,45,0,0,1,0,1,1,0
+Jeep Compass Trailhawk,46,0,0,0,0,0,1,0
+Volkswagen Tiguan 2.0T SEL,29,0,1,1,1,0,1,1
+Toyota RAV4 Hybrid Hybrid Limited,26,0,0,1,1,1,0,0
+Subaru Impreza Premium,41,1,1,1,0,1,0,0
+INFINITI Q70 3.7X,41,1,0,1,0,0,1,0
+Ford Taurus SES,40,1,0,0,0,1,0,0
+Honda Pilot EX-L w/Navigation/RES,38,1,0,1,0,1,1,0
+Land Rover Range Rover Evoque Pure Plus,28,0,0,0,0,0,1,1
+Porsche Cayman GT4,32,0,1,1,1,1,0,0
+BMW X3 xDrive35i,37,1,1,1,0,0,0,0
+Mercedes-Benz AMG GLE 53 Base,46,0,1,1,0,1,1,1
+Honda Passport Sport,26,0,0,1,1,0,1,1
+Honda Pilot Touring,47,0,1,0,1,1,0,1
+Cadillac XT4 Sport,36,0,1,0,1,0,1,1
+Porsche 911 Turbo S,43,0,1,0,0,0,1,1
+Chevrolet Impala LS,34,0,1,0,1,0,1,0
+Volvo XC90 T5 Momentum 7 Passenger,27,1,0,1,1,0,0,0
+Volkswagen Atlas 2.0T S,43,1,1,0,1,1,0,0
+Mercedes-Benz AMG GLE 43 4MATIC Coupe,31,0,0,0,0,1,0,0
+Audi Q5 2.0T Prestige,30,0,0,1,1,0,1,0
+BMW 428 i SULEV,37,1,1,0,0,0,0,1
+Mercedes-Benz E-Class E 350 4MATIC,36,1,0,1,1,0,1,1
+Volkswagen Jetta 2.0L S w/Technology,45,1,0,0,0,1,1,1
+Audi Q5 45 Premium,30,1,1,0,0,1,0,1
+Mercedes-Benz CLA 250,26,1,0,1,0,1,0,0
+Lincoln Continental Select,38,1,1,0,1,0,0,1
+Lincoln Aviator Black Label AWD,47,1,1,0,1,1,0,0
+Mercedes-Benz AMG E 63 S 4MATIC,49,1,0,0,0,0,0,0
+Volvo S60 Momentum,44,1,0,1,0,1,1,1
+Toyota Highlander Limited w/3rd Row,45,0,1,1,0,0,0,1
+INFINITI QX80 Base,34,0,1,0,1,1,0,1
+Chevrolet Camaro 2LS,35,0,0,1,0,0,1,0
+Ford F-150 Lariat SuperCab,43,0,0,1,1,0,1,1
+Volkswagen Jetta 1.4T S,31,1,0,0,0,1,0,1
+Lexus GX 460 Base,25,0,1,0,1,0,0,0
+Audi A6 55 Premium Plus,31,0,1,0,1,1,0,1
+Mazda Mazda3 Touring,44,1,1,1,1,1,0,1
+Lincoln Nautilus Reserve,44,1,1,0,1,0,1,0
+Ford Flex Limited,46,0,0,0,0,1,0,0
+Buick Encore Essence,47,0,1,1,1,1,1,1
+Audi A3 2.0T Premium,34,0,1,1,0,1,1,1
+Chevrolet Impala LT,26,0,1,0,0,1,1,0
+Nissan Pathfinder S,47,1,0,1,1,1,0,0
+Acura TLX FWD,47,0,1,0,1,1,0,0
+Acura MDX 3.5L AcuraWatch Plus Package,32,0,1,1,0,0,1,0
+BMW 428 i,33,0,0,1,0,0,1,0
+Toyota 4Runner TRD Off Road,28,1,0,0,0,1,1,1
+Saturn Outlook XR,48,1,0,0,0,0,1,1
+Subaru Outback Premium,48,1,1,0,1,1,1,1
+Hyundai Santa Fe Sport 2.4L,46,0,0,1,0,1,0,1
+Subaru Crosstrek 2.0i Limited,50,1,0,0,0,0,1,1
+Ford F-150 Raptor,37,1,1,0,0,0,0,0
+Ford Mustang V6,32,1,1,0,1,1,1,0
+Kia Sportage LX,48,1,0,1,0,0,0,1
+Kia Telluride LX,49,0,0,0,0,1,1,1
+Hyundai Santa Fe Sport 2.0L Turbo,29,0,1,1,0,1,0,1
+Mercedes-Benz AMG GLC 63 S 4MATIC,36,1,0,0,0,1,1,1
+Toyota Tundra SR,26,0,1,0,0,1,0,1
+Honda Accord EX,43,0,0,0,0,0,0,0
+Genesis G80 3.8,32,0,1,0,1,1,0,0
+Volvo XC90 T6 Inscription,29,1,1,1,0,0,1,1
+Kia Sorento EX,26,0,0,1,0,1,1,1
+Toyota Corolla SE,41,1,1,1,1,1,0,0
+Kia Sorento S,36,0,1,0,1,0,0,1
+Chevrolet Corvette Stingray Z51,48,0,0,0,1,1,0,0
+Mazda Mazda3 FWD w/Premium Package,48,1,0,1,1,0,0,1
+Audi A4 2.0T Premium Plus,35,1,0,0,1,1,0,1
+Jeep Renegade Sport,37,0,0,1,0,0,0,1
+Tesla Model 3 Long Range,43,0,0,0,0,0,0,0
+Audi A4 Premium Plus,32,1,0,1,1,0,0,1
+Jeep Grand Cherokee Trackhawk,25,0,0,1,0,1,1,1
+Tesla Model S 75,47,0,1,1,1,0,0,1
+Subaru Forester 2.5i,44,0,1,0,1,1,0,0
+Subaru Legacy 2.5i Limited,44,0,0,1,0,0,1,1
+Hyundai Kona SEL Plus,33,1,0,1,1,0,1,1
+Mercedes-Benz GLC 350e Base 4MATIC,41,0,1,1,0,0,1,1
+GMC Sierra 1500 Limited SLE,31,0,1,0,1,1,0,1
+Lexus ES 300h Base,25,0,1,1,1,0,0,0
+Mercedes-Benz GLE 350 4MATIC,42,0,1,1,1,0,0,0
+Audi Q5 Premium Plus,44,1,1,0,1,1,0,1
+Mazda Tribute i,30,1,1,1,1,0,0,0
+Lamborghini Urus,26,1,0,1,1,1,0,0
+Mercedes-Benz S-Class S430,48,0,1,0,0,1,0,0
+Acura TLX V6,34,1,1,0,1,0,0,0
+Jeep Grand Cherokee Laredo E,29,0,0,0,0,1,1,1
+Ford F-150 Platinum,30,1,0,1,1,0,0,0
+Ford Focus Titanium,29,1,1,0,1,0,1,0
+Nissan Kicks S,26,0,1,1,0,0,1,1
+Cadillac SRX Performance Collection,40,0,0,0,1,0,1,0
+Subaru Outback 3.6R Limited,26,1,1,1,0,0,1,1
+Mercedes-Benz GLA 250 4MATIC,27,1,0,1,0,1,1,0
+Porsche Taycan 4S,33,0,0,0,1,1,0,1
+Honda Ridgeline RTL-E,41,0,1,0,0,0,1,1
+BMW X1 xDrive28i,27,0,0,0,0,0,1,1
+Land Rover Range Rover Sport Supercharged HSE,37,0,0,1,1,1,1,1
+Audi Q5 Premium,48,1,1,1,1,1,0,0
+Volkswagen Passat 2.0T SE,43,1,0,0,1,1,0,0
+Mercedes-Benz CLS-Class CLS 550,45,0,0,1,1,0,0,1
+Toyota Sienna SE,31,0,0,1,0,0,0,0
+Kia Soul GT-Line 1.6L,25,1,1,1,1,0,0,0
+Mazda Mazda6 s Grand Touring,42,0,1,1,0,0,1,0
+Ford F-150 King Ranch,25,0,0,1,0,1,1,0
+Volkswagen Golf TSI S 2-Door,39,1,1,1,1,0,0,1
+Toyota Highlander Limited Platinum,36,1,1,0,0,1,1,0
+Mercedes-Benz CLS-Class CLS 550 4MATIC,49,1,0,1,0,1,0,1
+Honda Civic EX-T,50,0,1,1,0,1,1,1
+Dodge Durango SRT Hellcat,30,0,1,1,1,0,1,0
+Lincoln MKZ Standard,26,1,1,1,1,0,0,0
+BMW 740 i xDrive,25,1,0,0,0,1,1,1
+Subaru Outback Onyx Edition XT,49,1,1,0,0,1,0,1
+INFINITI QX60 Base,27,1,1,1,1,1,1,0
+Cadillac Escalade Base,27,0,1,0,0,0,0,0
+RAM 1500 Classic SLT,27,0,1,1,0,0,0,0
+Hyundai Tucson Value,34,1,1,0,1,1,1,1
+Honda Ridgeline Black Edition,48,0,0,1,1,0,0,1
+BMW X3 M Competition,44,1,1,0,1,1,1,1
+Acura TL 3.5,25,0,0,0,0,0,0,1
+Nissan Titan SV,48,0,1,1,1,0,0,1
+Acura MDX 3.5L Technology & A-Spec Pkgs,30,0,1,1,1,1,0,0
+Honda Pilot Touring 8-Passenger,44,1,1,0,1,0,1,1
+Cadillac CT6 3.0L Twin Turbo Luxury,37,1,0,1,0,0,1,0
+GMC Yukon XL 1500 Denali,27,0,1,1,0,0,1,1
+Nissan Murano S,31,0,1,1,1,1,1,1
+Audi A6 3.0T Prestige,32,0,1,0,1,0,0,1
+Chevrolet Tahoe LTZ,32,0,1,0,0,1,1,1
+Mercedes-Benz E-Class E 300,29,1,0,0,0,1,0,0
+Toyota Prius Four,37,1,0,0,1,1,1,0
+Chrysler Pacifica Limited,29,1,0,0,0,0,1,0
+Cadillac XT5 Luxury AWD,48,0,1,0,1,1,1,0
+Alfa Romeo Stelvio Base,39,0,1,1,1,0,0,0
+Porsche Taycan Base,38,0,1,1,1,0,1,1
+Land Rover Range Rover Sport SE,40,0,0,1,1,1,0,0
+Lincoln Continental Black Label,37,0,0,1,1,0,1,0
+Subaru Outback 2.5i,25,1,1,1,1,1,1,0
+Toyota Corolla L,32,1,1,1,0,0,0,0
+Volkswagen Jetta GLI 2.0T Autobahn,47,1,0,1,0,1,0,1
+Jeep Wrangler Sahara,38,0,0,1,1,1,0,1
+Chevrolet Traverse RS,30,0,1,1,0,0,0,0
+BMW 320 i,36,1,0,1,0,1,1,0
+BMW 535 i,35,0,1,1,1,0,0,1
+INFINITI Q50 3.0T Premium,44,0,0,1,0,1,1,0
+Hyundai Santa Fe GLS,27,1,1,1,1,0,0,0
+Chevrolet Tahoe Premier,41,0,1,0,0,1,1,0
+Mercedes-Benz G-Class G 550 4MATIC,40,1,0,0,0,1,0,0
+Mitsubishi Outlander Sport SE,50,0,0,1,1,0,1,1
+Lexus IS 250,44,1,1,1,0,0,1,1
+GMC Sierra 1500 Denali,49,1,0,0,0,0,1,0
+Toyota Sienna XSE 7 Passenger,42,0,0,0,0,0,1,1
+Hyundai Santa Fe SE 2.4,41,1,1,1,1,1,1,0
+Kia Optima EX,31,0,1,0,0,0,0,0
+Hyundai IONIQ 5 SE,35,1,0,0,0,0,1,0
+Audi A4 40 Premium Plus,30,1,0,1,0,1,1,1
+BMW 320 i xDrive,45,1,0,1,1,1,0,1
+Tesla Model S 75D,38,1,0,1,0,0,1,1
+Kia Soul Base,35,1,1,0,0,1,0,1
+Jeep Wrangler Unlimited Rubicon 392,44,0,0,1,0,1,0,0
+Toyota Sequoia Platinum,25,0,1,1,1,1,1,0
+BMW 435 Gran Coupe i xDrive,29,1,1,1,0,1,0,1
+BMW 740 i,45,1,1,0,0,0,0,0
+Porsche Macan,32,0,0,1,1,1,1,0
+Ford F-150 XLT SuperCrew,47,0,1,1,0,0,0,1
+Acura RDX A-Spec,43,1,0,0,0,0,0,1
+Mazda Mazda6 Touring,32,1,1,0,1,0,1,1
+Lexus RX 350 350 PACKAGE!,27,1,1,0,1,1,0,1
+Jeep Renegade Altitude,25,0,0,1,0,1,0,1
+Toyota RAV4 Hybrid XLE,50,1,1,0,0,0,1,0
+BMW X3 sDrive28i,36,1,1,1,1,1,1,0
+Audi Q8 3.0T Premium,42,1,1,0,0,0,0,1
+Cadillac Escalade ESV Luxury,39,1,0,1,0,1,0,0
+Land Rover Range Rover HSE Westminster,36,1,1,0,1,0,0,1
+Subaru Forester Touring,34,1,1,1,1,1,0,0
+Lexus IS 300 Base,46,0,1,0,1,0,1,0
+Volkswagen Atlas 3.6L SEL,41,1,0,0,0,1,1,1
+Hyundai Santa Fe Ultimate 2.0T,40,1,0,1,1,1,0,1
+Chevrolet Cruze LS,40,0,1,0,0,0,0,1
+Lexus NX 300,47,1,1,0,0,1,1,1
+Mercedes-Benz M-Class ML 350,50,1,0,0,1,0,1,0
+Lexus ES 350 F Sport,38,0,1,0,0,1,1,1
+Acura RDX w/Technology Package,49,0,1,0,0,0,1,0
+Ford Edge Limited,40,1,0,1,0,1,0,0
+Tesla Model 3 Standard Range Plus,28,1,0,0,1,0,1,0
+Hyundai Santa Fe SEL,36,1,0,1,1,0,0,0
+Mercedes-Benz E-Class E 350,28,0,1,1,1,0,1,0
+Nissan Maxima 3.5 SR,42,1,0,1,0,1,0,1
+Cadillac Escalade Platinum,47,0,1,1,0,1,1,0
+Jeep Grand Cherokee Overland,46,1,0,0,0,1,1,1
+Volkswagen Atlas 3.6 V6 SE w/ Technology,28,0,0,1,0,0,1,1
+BMW 435 Gran Coupe i,46,0,1,1,0,1,1,0
+Nissan Versa 1.6 SV,35,1,1,0,0,1,1,0
+Honda Element LX,28,1,1,0,1,0,0,1
+Acura RDX Advance Package,31,0,1,0,0,1,1,0
+Chrysler Town & Country Limited Platinum,48,1,1,1,0,0,1,0
+Acura ILX Premium Package,39,1,1,1,0,0,0,1
+Lincoln MKC Standard,32,1,0,0,0,0,1,0
+Toyota Tundra Limited,30,1,0,0,0,0,0,0
+BMW M340 i,26,1,1,0,0,0,1,0
+Cadillac XT5 Sport,26,0,0,1,1,0,1,1
+Land Rover Range Rover HSE,44,1,0,0,0,1,1,0
+Honda CR-V LX,48,0,1,0,1,0,1,1
+Ford Mustang GT Premium,48,1,0,0,0,1,0,0
+Porsche Cayenne Platinum Edition,27,0,1,0,1,0,1,1
+Mercedes-Benz S-Class S 550,32,0,1,1,0,0,0,0
+BMW 530 i,46,1,1,1,0,1,1,1
+Ford Transit-250 Base,38,1,0,0,1,1,1,1
+BMW X6 sDrive35i,28,0,1,1,1,1,1,1
+Kia Sorento LX V6,35,1,0,0,0,0,0,0
+BMW M550 i xDrive,42,0,1,0,0,0,1,0
+Lexus RC 350 350,37,1,0,1,1,0,0,0
+Chevrolet Silverado 1500 LD LT,36,1,0,1,1,1,1,0
+BMW M240 i,32,0,1,0,0,0,0,1
+Lexus NX 300 F Sport,49,0,0,1,0,0,0,1
+Acura TLX Technology,44,1,1,0,0,1,0,1
+Land Rover Discovery SE,29,0,1,1,1,1,0,0
+BMW M4 Base,46,0,1,0,0,0,0,0
+Lexus NX 300 F-SPORT,46,0,1,0,0,0,1,1
+Mercedes-Benz AMG G 63 Base,44,1,1,1,0,1,1,1
+Ford Edge Titanium,34,0,1,1,0,0,1,0
+Dodge Charger Scat Pack,50,1,0,0,1,0,1,1
+Toyota Highlander Hybrid Platinum,34,0,0,0,0,1,0,0
+Jeep Gladiator Rubicon,40,0,1,0,0,0,0,1
+Land Rover Range Rover Sport 5.0L Supercharged Dynamic,43,0,1,1,1,0,0,0
+Mercedes-Benz AMG C 63 Base,42,0,1,1,0,1,0,1
+Audi S5 3.0T Premium Plus,48,1,0,1,1,0,0,1
+Lexus NX 300 Base,44,1,0,1,0,1,0,0
+Genesis G90 3.3T Premium,35,0,0,0,1,0,1,0
+Mitsubishi Lancer Evolution GSR,41,1,1,1,1,0,0,0
+Audi A5 40 Premium,49,1,0,0,0,1,1,0
+Mercedes-Benz GL-Class GL 450 4MATIC,43,0,1,0,1,0,0,1
+Chevrolet Silverado 1500 High Country,37,0,0,1,0,0,1,1
+Audi Q7 2.0T Premium Plus,28,0,0,0,0,1,0,1
+BMW X3 M Base (A8),36,1,1,1,0,1,1,1
+Volvo S60 T5,41,1,0,0,0,1,1,1
+Dodge Journey Crossroad,41,0,1,0,0,1,1,1
+Chevrolet Camaro 1LT,41,1,0,1,0,0,1,0
+Volvo XC60 T5 Inscription,31,1,0,0,0,1,0,1
+Mitsubishi Eclipse GS Sport,50,1,1,0,0,1,1,0
+Lexus RX 450h RX 450h,39,0,0,0,1,0,0,1
+Chevrolet Equinox LS,45,0,0,1,0,0,1,1
+Genesis GV70 3.5T Sport,30,0,1,0,1,1,0,0
+Chevrolet Traverse High Country,38,1,1,0,0,1,1,1
+BMW 435 i,31,1,1,0,1,1,1,0
+Volvo S60 T6 Momentum,35,0,1,0,0,0,0,1
+Dodge Durango GT Plus,28,1,0,0,1,1,1,0
+Mazda CX-9 Signature,45,1,0,1,1,1,1,0
+Lincoln MKZ Hybrid Reserve,31,1,1,1,1,0,1,0
+BMW 335 335i,34,0,0,0,0,0,0,0
+BMW 228 Gran Coupe 228i sDrive Gran Coupe,27,0,0,1,1,1,0,0
+Subaru Crosstrek 2.0i Premium,25,1,0,1,1,1,1,1
+Land Rover Range Rover Velar P250 SE R-Dynamic,41,1,1,1,1,1,1,1
+Porsche Macan GTS,29,1,0,1,1,1,0,0
+Ford Explorer Platinum,38,0,1,1,1,0,0,1
+Toyota Tundra SR5,34,1,1,1,1,0,0,0
+Toyota Prius Limited,28,1,0,0,1,1,1,1
+Mercedes-Benz S-Class S 450 4MATIC,41,1,0,1,1,0,0,0
+Audi RS 5 2DR 2.9 TFSI QTRO,48,0,1,1,1,1,0,0
+Dodge Durango Citadel,49,0,0,0,0,0,0,0
+Acura RDX AcuraWatch Plus Package,45,1,0,0,0,1,0,0
+INFINITI QX80 Limited,43,0,0,1,0,1,0,1
+Toyota Supra 3.0 Premium,47,1,1,1,0,1,1,0
+GMC Sierra 2500 Denali,32,1,1,0,1,1,1,0
+Acura MDX 3.5L w/Advance Package,36,1,1,1,1,0,1,1
+Acura RDX Base,44,0,1,1,0,1,0,1
+Kia K5 GT-Line,28,0,1,1,0,1,1,1
+Ford Expedition Max Limited,32,0,1,0,1,1,0,0
+Chevrolet Silverado 1500 LS,49,0,0,1,1,0,1,0
+Toyota Highlander Hybrid LE,47,0,1,1,0,0,0,0
+RAM 1500 Limited,27,1,0,0,0,1,1,0
+Jaguar F-PACE 25t Prestige,46,1,1,1,0,0,1,0
+Audi A4 2.0T Titanium Premium,35,1,1,1,0,0,0,1
+Kia Soul +,40,0,1,0,1,1,1,1
+Chrysler Pacifica Touring-L,37,1,0,0,0,1,1,1
+Toyota Sienna LE Auto Access Seat,25,1,1,0,0,0,1,0
+Lamborghini Aventador LP700-4,27,1,1,1,1,0,1,0
+Chrysler Town & Country Touring-L,50,1,1,1,0,0,0,1
+Hyundai Sonata GLS,36,1,1,0,1,1,1,0
+Nissan Altima 2.5 S,39,0,1,0,0,1,0,1
+Toyota Highlander Limited,35,1,1,0,1,1,1,0
+Chevrolet Cruze 1LT,43,0,1,1,0,0,0,1
+Chevrolet Equinox LT,36,1,1,1,1,0,1,0
+Buick Regal Turbo Premium I,27,0,0,0,0,1,0,0
+Hyundai Sonata SEL Plus,41,1,1,0,1,1,0,0
+Hyundai Santa Fe SEL 2.4,38,0,1,0,1,1,1,1
+Land Rover Range Rover 3.0L Turbocharged Diesel Td6,37,0,1,1,0,1,0,0
+Honda CR-V EX-L,28,1,1,0,0,0,0,1
+Mazda MX-5 Miata Club,30,1,1,0,1,1,1,1
+BMW 750 i xDrive,36,1,0,0,0,0,1,1
+Porsche 911 Carrera S,40,1,0,1,1,1,1,1
+Land Rover Defender X,26,0,0,1,1,1,0,0
+Mitsubishi Outlander Sport 2.0 ES,33,1,1,1,1,1,0,1
+Mercedes-Benz SLK-Class SLK 250,43,1,0,1,0,0,1,1
+Hyundai Tucson Ultimate,29,1,1,1,1,1,0,0
+Lexus LS 460 Base,33,1,1,0,1,1,0,1
+Nissan Armada SL,28,1,1,0,0,1,0,0
+Toyota Corolla S,32,1,1,0,1,0,1,1
+Audi e-tron Premium Plus,48,0,0,1,0,0,0,1
+Toyota Corolla LE,43,1,1,1,0,0,1,1
+Porsche 911 Carrera,29,1,0,1,0,0,1,1
+Buick LaCrosse Premium 1,28,1,1,0,1,1,1,1
+Mercedes-Benz E-Class E 400 4MATIC,50,0,1,0,0,0,0,1
+Land Rover Range Rover Velar S,50,0,1,0,0,0,1,0
+Honda Odyssey Touring Elite,29,0,0,0,0,0,0,1
+Lexus RC F Base,31,1,0,1,1,1,1,1
+Subaru Impreza Limited,32,1,0,1,0,1,1,1
+Mazda Mazda3 Sport,44,0,0,1,0,1,0,0
+Porsche 911 Carrera 4 Coupe,39,0,1,0,1,1,1,1
+Subaru Ascent Premium 7-Passenger,48,0,0,1,1,1,1,1
+Cadillac SRX Luxury Collection,50,0,1,0,1,1,0,1
+Honda Accord EX-L 1.5T,31,1,0,0,0,0,1,1
+Alfa Romeo Stelvio Ti Sport,33,1,1,0,0,0,1,0
+Volvo V60 Cross Country T5,37,0,1,1,0,1,1,0
+BMW 440 i xDrive,41,0,0,1,0,0,1,1
+Cadillac CTS 2.0L Turbo Standard,37,0,0,0,0,0,1,1
+BMW M850 i xDrive,46,0,1,0,1,1,0,1
+Lexus ES 330 Base (A5),44,1,1,1,0,0,0,1
+Jeep Wrangler Unlimited Sahara Altitude,30,0,1,0,1,1,1,1
+Volvo XC60 T6 Dynamic,34,1,1,0,1,1,0,0
+Hyundai Kona EV Ultimate,31,1,1,0,1,1,1,0
+Dodge Challenger SXT,36,0,0,1,1,1,0,0
+Volkswagen Atlas Cross Sport 2.0T S,45,1,0,1,1,0,1,1
+Kia Sportage Nightfall,38,1,1,1,0,1,0,0
+Land Rover Range Rover Velar P250 S,27,0,0,1,1,1,1,0
+Tesla Model S 100D,26,0,1,0,1,0,0,0
+Honda Accord Touring,33,1,0,0,0,0,1,0
+BMW 428 i xDrive,31,1,1,0,0,0,0,1
+Land Rover Range Rover Velar P340 SE R-Dynamic,39,1,1,0,1,1,1,0
+Audi Q7 3.0T Prestige,33,1,1,1,1,0,0,1
+Hyundai Elantra Limited,26,1,0,0,1,0,0,1
+Mazda CX-9 Carbon Edition,30,0,0,0,0,0,1,0
+Ford Transit Connect XL,26,0,1,1,1,1,1,0
+Honda Accord EX-L,31,1,1,0,0,0,1,0
+GMC Sierra 1500 Elevation,30,1,1,1,1,0,0,1
+Lexus RX 350 Base,25,0,1,1,0,0,1,1
+Ford Edge Sport,46,0,1,1,0,1,0,0
+Chrysler 300 S,42,1,1,1,1,1,1,0
+Nissan Rogue Platinum,48,0,0,1,0,1,0,1
+Nissan Maxima Platinum,35,1,1,1,1,1,0,1
+Audi Q3 S line Premium Plus,38,0,0,1,0,0,0,0
+Mercedes-Benz CLA 250 Base 4MATIC,43,1,1,0,1,1,0,0
+Hyundai Tucson GLS,27,0,0,1,0,0,0,0
+Toyota Corolla S Plus,28,1,1,0,1,0,1,1
+Toyota Tacoma TRD Off Road,43,0,1,1,0,0,1,0
+Audi Q5 3.0T Premium Plus,36,0,1,0,1,0,0,1
+Cadillac XT6 Premium Luxury AWD,34,1,0,1,1,0,1,0
+BMW X6,28, 1,1,0,1,0,0,1
+Audi Q7 55 quattro Premium Plus,31,1,1,0,1,1,0,1
+Toyota Tacoma SR,40,0,1,0,1,1,1,1
+Jeep Cherokee Trailhawk,32,1,0,0,0,1,0,1
+Jaguar F-TYPE S,31,0,1,0,1,1,0,0
+Honda Odyssey EX-L w/Navigation/RES,34,0,1,1,1,0,0,1
+Nissan Juke SV,29,1,1,1,1,1,0,1
+Cadillac CT4 Premium Luxury,40,0,1,1,0,1,1,0
+Cadillac Escalade ESV Premium,31,1,0,1,0,1,0,1
+BMW X6 M50i,30,0,1,0,1,1,0,0
+Audi A6 2.0T Premium Plus,44,0,0,0,1,0,0,1
+Mercedes-Benz GLE-Class GLE 350 4MATIC,42,0,0,0,0,0,1,0
+Lexus ES 350 ES 350,44,1,1,0,0,1,0,1
+Acura TL 3.2,44,1,0,0,0,1,1,0
+Land Rover Range Rover Evoque SE Premium,37,1,0,1,1,0,0,0
+Subaru Forester 2.5i Premium,49,0,0,1,1,0,1,1
+Audi SQ5 3.0T Premium,33,0,1,1,0,1,1,0
+Chevrolet Silverado 1500 RST,33,0,1,1,1,1,0,1
+Volvo XC60 3.2 Premier Plus,38,0,1,1,0,1,1,1
+Toyota Venza Limited,49,0,1,0,1,1,0,0
+Hyundai Santa Fe XL Limited Ultimate,28,1,1,0,1,1,1,0
+Audi A6,32,1,1,1,0,0,0,1
+Chevrolet Trax LT,47,0,0,1,1,1,1,0
+Audi Q5 45 Titanium Premium,34,0,0,1,0,1,0,0
+GMC Yukon XL SLT,49,0,0,0,0,0,0,1
+Ford Mustang GT,38,1,1,0,1,1,0,0
+Lexus LS 430 Base (A6),28,1,0,0,1,0,1,1
+Nissan Sentra SV,46,1,0,1,0,1,0,1
+Ford F-150 Limited,29,1,0,1,1,1,0,1
+BMW M6,28,1,0,0,1,1,1,0

@@ -1,0 +1,1052 @@
+Ford Fusion, легковой автомобиль седан, 28.
+Toyota RAV4, кроссовер, 40.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Honda CR-V, кроссовер, 42.
+BMW X5, кроссовер, 36.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Fiesta, легковой автомобиль хэтчбэк, 52.
+Toyota Camry, легковой автомобиль седан, 47.
+Chevrolet Equinox, кроссовер, 30.
+Honda Civic, легковой автомобиль седан, 39.
+BMW 3 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Rogue, кроссовер, 29.
+Hyundai Tucson, кроссовер, 44.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Traverse, кроссовер, 35.
+Honda Accord, легковой автомобиль седан, 50.
+BMW X3, кроссовер, 27.
+Mercedes-Benz C-Class, легковой автомобиль седан, 46.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi Q7, кроссовер, 37.
+Nissan Altima, легковой автомобиль седан, 53.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Escape, кроссовер, 41.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Silverado, грузовик, 39.
+Honda Pilot, кроссовер, 34.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Pathfinder, кроссовер, 30.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Explorer, кроссовер, 37.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Honda Odyssey, минивэн, 33.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Atlas, кроссовер, 34.
+Audi Q3, кроссовер, 39.
+Nissan Versa, легковой автомобиль седан, 44.
+Hyundai Kona, кроссовер, 35.
+Ford Edge, кроссовер, 46.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Equinox, кроссовер, 30.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW X1, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Taurus, легковой автомобиль седан, 44.
+Toyota Avalon, легковой автомобиль седан, 31.
+Chevrolet Suburban, кроссовер, 47.
+Honda Ridgeline, пикап, 35.
+BMW X7, кроссовер, 50.
+Mercedes-Benz GLA, кроссовер, 38.
+Volkswagen Touareg, кроссовер, 43.
+Audi Q8, кроссовер, 28.
+Nissan Titan, пикап, 51.
+Hyundai Palisade, кроссовер, 36.
+Ford Flex, кроссовер, 49.
+Toyota 4Runner, кроссовер, 52.
+Chevrolet Impala, легковой автомобиль седан, 29.
+Honda HR-V, кроссовер, 45.
+BMW Z4, кабриолет, 33.
+Mercedes-Benz G-Class, внедорожник, 40.
+Volkswagen Arteon, легковой автомобиль седан, 47.
+Audi A5, легковой автомобиль купе, 30.
+Nissan Armada, внедорожник, 42.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 37.
+Ford Ranger, грузовик, 26.
+Toyota Yaris, легковой автомобиль хэтчбэк, 41.
+Chevrolet Tahoe, внедорожник, 48.
+Honda Insight, легковой автомобиль седан, 35.
+BMW M2, легковой автомобиль купе, 50.
+Mercedes-Benz CLS, легковой автомобиль седан, 29.
+Volkswagen CC, легковой автомобиль седан, 44.
+Audi S4, легковой автомобиль седан, 51.
+Nissan Murano, кроссовер, 38.
+Hyundai Nexo, водородный автомобиль, 43.
+Ford Expedition, кроссовер, 32.
+Toyota Avalon, легковой автомобиль седан, 46.
+Chevrolet Colorado, грузовик, 27.
+Honda Passport, кроссовер, 39.
+BMW i3, электрокар, 28.
+Mercedes-Benz SLC, кабриолет, 49.
+Volkswagen ID.4, электрокар, 34.
+Audi e-tron, электрокар, 50.
+Nissan Frontier, грузовик, 45.
+Hyundai Venue, кроссовер, 31.
+Ford Escape, кроссовер, 41.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Silverado, грузовик, 39.
+Honda Pilot, кроссовер, 34.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Pathfinder, кроссовер, 30.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Explorer, кроссовер, 37.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Honda Odyssey, минивэн, 33.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Atlas, кроссовер, 34.
+Audi Q3, кроссовер, 39.
+Nissan Versa, легковой автомобиль седан, 44.
+Hyundai Kona, кроссовер, 35.
+Ford Edge, кроссовер, 46.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Equinox, кроссовер, 30.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW X1, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Taurus, легковой автомобиль седан, 37.
+Toyota Avalon, легковой автомобиль седан, 29.
+Chevrolet Suburban, кроссовер, 48.
+Honda Ridgeline, пикап, 45.
+BMW X7, кроссовер, 36.
+Mercedes-Benz GLA, кроссовер, 31.
+Volkswagen Touareg, кроссовер, 42.
+Audi Q8, кроссовер, 27.
+Nissan Titan, пикап, 47.
+Hyundai Palisade, кроссовер, 38.
+Ford Flex, кроссовер, 33.
+Toyota 4Runner, кроссовер, 50.
+Chevrolet Impala, легковой автомобиль седан, 46.
+Honda HR-V, кроссовер, 39.
+BMW Z4, кабриолет, 32.
+Mercedes-Benz G-Class, внедорожник, 53.
+Volkswagen Arteon, легковой автомобиль седан, 40.
+Audi A5, легковой автомобиль купе, 51.
+Nissan Armada, внедорожник, 26.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 44.
+Ford Ranger, грузовик, 49.
+Toyota Yaris, легковой автомобиль хэтчбэк, 35.
+Chevrolet Tahoe, внедорожник, 30.
+Honda Insight, легковой автомобиль седан, 43.
+BMW M2, легковой автомобиль купе, 28.
+Mercedes-Benz CLS, легковой автомобиль седан, 41.
+Volkswagen CC, легковой автомобиль седан, 36.
+Audi S4, легковой автомобиль седан, 53.
+Nissan Murano, кроссовер, 29.
+Hyundai Nexo, водородный автомобиль, 45.
+Ford Expedition, кроссовер, 52.
+Toyota Avalon, легковой автомобиль седан, 37.
+Chevrolet Colorado, грузовик, 48.
+Honda Passport, кроссовер, 31.
+BMW i3, электрокар, 26.
+Mercedes-Benz SLC, кабриолет, 51.
+Volkswagen ID.4, электрокар, 38.
+Audi e-tron, электрокар, 33.
+Nissan Frontier, грузовик, 42.
+Hyundai Venue, кроссовер, 47.
+Honda Civic, легковой автомобиль седан, 39.
+Chevrolet Traverse, кроссовер, 35.
+BMW 3 Series, легковой автомобиль седан, 43.
+Nissan Rogue, кроссовер, 29.
+Ford Escape, кроссовер, 41.
+Mercedes-Benz GLC, кроссовер, 38.
+Hyundai Kona, кроссовер, 35.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Toyota Corolla, легковой автомобиль седан, 48.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Nissan Titan, пикап, 27.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Ranger, грузовик, 39.
+Audi Q8, кроссовер, 34.
+BMW X1, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Honda HR-V, кроссовер, 28.
+Chevrolet Impala, легковой автомобиль седан, 53.
+Toyota RAV4, кроссовер, 46.
+Volkswagen Touareg, кроссовер, 35.
+Hyundai Venue, кроссовер, 52.
+Nissan Pathfinder, кроссовер, 30.
+Ford Taurus, легковой автомобиль седан, 42.
+BMW X7, кроссовер, 31.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Audi S4, легковой автомобиль седан, 33.
+Chevrolet Equinox, кроссовер, 30.
+Toyota Tacoma, грузовик, 29.
+Honda Accord, легковой автомобиль седан, 50.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 47.
+Ford Edge, кроссовер, 46.
+Nissan Maxima, легковой автомобиль седан, 49.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Audi A4, легковой автомобиль седан, 41.
+Chevrolet Suburban, кроссовер, 50.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Honda Pilot, кроссовер, 34.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Hyundai Tucson, кроссовер, 44.
+Ford Mustang, легковой автомобиль купе, 32.
+Nissan Versa, легковой автомобиль седан, 44.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLE, кроссовер, 50.
+Audi Q3, кроссовер, 39.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Toyota Highlander, кроссовер, 31.
+Honda CR-V, кроссовер, 42.
+Volkswagen Atlas, кроссовер, 34.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Fusion, легковой автомобиль седан, 28.
+Nissan Armada, внедорожник, 31.
+BMW Z4, кабриолет, 38.
+Mercedes-Benz G-Class, внедорожник, 47.
+Audi A5, легковой автомобиль купе, 32.
+Chevrolet Tahoe, внедорожник, 49.
+Toyota Avalon, легковой автомобиль седан, 44.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+Volkswagen CC, легковой автомобиль седан, 34.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Expedition, кроссовер, 36.
+Nissan Murano, кроссовер, 45.
+BMW M2, легковой автомобиль купе, 38.
+Mercedes-Benz CLS, легковой автомобиль седан, 53.
+Audi A6, легковой автомобиль седан, 49.
+Chevrolet Silverado, грузовик, 39.
+Toyota Yaris, легковой автомобиль хэтчбэк, 48.
+Honda Odyssey, минивэн, 33.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Hyundai Palisade, кроссовер, 32.
+Ford Flex, кроссовер, 41.
+Nissan Rogue, кроссовер, 29.
+BMW i3, электрокар, 33.
+Mercedes-Benz GLA, кроссовер, 38.
+Audi Q5, кроссовер, 37.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Toyota Corolla, легковой автомобиль седан, 48.
+Honda Civic, легковой автомобиль седан, 39.
+BMW X5, кроссовер, 36.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Traverse, кроссовер, 35.
+Honda Accord, легковой автомобиль седан, 50.
+BMW 3 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Rogue, кроссовер, 29.
+Hyundai Tucson, кроссовер, 44.
+Ford Escape, кроссовер, 41.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Silverado, грузовик, 39.
+Honda Pilot, кроссовер, 34.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Pathfinder, кроссовер, 30.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Explorer, кроссовер, 37.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Honda Odyssey, минивэн, 33.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Atlas, кроссовер, 34.
+Audi Q3, кроссовер, 39.
+Nissan Versa, легковой автомобиль седан, 44.
+Hyundai Kona, кроссовер, 35.
+Ford Edge, кроссовер, 46.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Equinox, кроссовер, 30.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW X1, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Taurus, легковой автомобиль седан, 38.
+Toyota Avalon, легковой автомобиль седан, 47.
+Chevrolet Suburban, кроссовер, 54.
+Honda Ridgeline, пикап, 29.
+BMW X7, кроссовер, 40.
+Mercedes-Benz GLA, кроссовер, 45.
+Volkswagen Touareg, кроссовер, 30.
+Audi Q8, кроссовер, 36.
+Nissan Titan, пикап, 51.
+Hyundai Palisade, кроссовер, 44.
+Ford Flex, кроссовер, 31.
+Toyota 4Runner, кроссовер, 38.
+Chevrolet Impala, легковой автомобиль седан, 43.
+Honda HR-V, кроссовер, 50.
+BMW Z4, кабриолет, 37.
+Mercedes-Benz G-Class, внедорожник, 28.
+Volkswagen Arteon, легковой автомобиль седан, 53.
+Audi A5, легковой автомобиль купе, 26.
+Nissan Armada, внедорожник, 39.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 48.
+Ford Ranger, грузовик, 35.
+Toyota Yaris, легковой автомобиль хэтчбэк, 42.
+Chevrolet Tahoe, внедорожник, 33.
+Honda Insight, легковой автомобиль седан, 52.
+BMW M2, легковой автомобиль купе, 29.
+Mercedes-Benz CLS, легковой автомобиль седан, 46.
+Volkswagen CC, легковой автомобиль седан, 31.
+Audi S4, легковой автомобиль седан, 40.
+Nissan Murano, кроссовер, 27.
+Hyundai Nexo, водородный автомобиль, 54.
+Ford Expedition, кроссовер, 49.
+Toyota Avalon, легковой автомобиль седан, 38.
+Chevrolet Colorado, грузовик, 30.
+Honda Passport, кроссовер, 47.
+BMW i3, электрокар, 52.
+Mercedes-Benz SLC, кабриолет, 29.
+Volkswagen ID.4, электрокар, 36.
+Audi e-tron, электрокар, 43.
+Nissan Frontier, грузовик, 48.
+Hyundai Venue, кроссовер, 37.
+Ford Fusion, легковой автомобиль седан, 28.
+Toyota RAV4, кроссовер, 40.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Honda CR-V, кроссовер, 42.
+BMW X5, кроссовер, 36.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Traverse, кроссовер, 35.
+Honda Accord, легковой автомобиль седан, 50.
+BMW 3 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Rogue, кроссовер, 29.
+Hyundai Tucson, кроссовер, 44.
+Ford Escape, кроссовер, 41.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Silverado, грузовик, 39.
+Honda Pilot, кроссовер, 34.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Pathfinder, кроссовер, 30.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Explorer, кроссовер, 37.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Honda Odyssey, минивэн, 33.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Atlas, кроссовер, 34.
+Audi Q3, кроссовер, 39.
+Nissan Versa, легковой автомобиль седан, 44.
+Hyundai Kona, кроссовер, 35.
+Ford Edge, кроссовер, 46.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Equinox, кроссовер, 30.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW X1, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Taurus, легковой автомобиль седан, 47.
+Toyota Avalon, легковой автомобиль седан, 42.
+Chevrolet Suburban, кроссовер, 29.
+Honda Ridgeline, пикап, 36.
+BMW X7, кроссовер, 41.
+Mercedes-Benz GLA, кроссовер, 50.
+Volkswagen Touareg, кроссовер, 31.
+Audi Q8, кроссовер, 48.
+Nissan Titan, пикап, 37.
+Hyundai Palisade, кроссовер, 52.
+Ford Flex, кроссовер, 33.
+Toyota 4Runner, кроссовер, 46.
+Chevrolet Impala, легковой автомобиль седан, 30.
+Honda HR-V, кроссовер, 35.
+BMW Z4, кабриолет, 44.
+Mercedes-Benz G-Class, внедорожник, 39.
+Volkswagen Arteon, легковой автомобиль седан, 48.
+Audi A5, легковой автомобиль купе, 37.
+Nissan Armada, внедорожник, 26.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 43.
+Ford Ranger, грузовик, 38.
+Toyota Yaris, легковой автомобиль хэтчбэк, 29.
+Chevrolet Tahoe, внедорожник, 54.
+Honda Insight, легковой автомобиль седан, 40.
+BMW M2, легковой автомобиль купе, 31.
+Mercedes-Benz CLS, легковой автомобиль седан, 26.
+Volkswagen CC, легковой автомобиль седан, 49.
+Audi S4, легковой автомобиль седан, 52.
+Nissan Murano, кроссовер, 37.
+Hyundai Nexo, водородный автомобиль, 30.
+Ford Expedition, кроссовер, 45.
+Toyota Avalon, легковой автомобиль седан, 34.
+Chevrolet Colorado, грузовик, 51.
+Honda Passport, кроссовер, 28.
+BMW i3, электрокар, 43.
+Mercedes-Benz SLC, кабриолет, 36.
+Volkswagen ID.4, электрокар, 31.
+Audi e-tron, электрокар, 48.
+Nissan Frontier, грузовик, 39.
+Hyundai Venue, кроссовер, 26.
+Ford EcoSport, кроссовер, 42.
+Toyota Sequoia, внедорожник, 38.
+Chevrolet Trailblazer, кроссовер, 51.
+Honda Crosstour, кроссовер, 29.
+BMW X6, кроссовер, 34.
+Mercedes-Benz B-Class, минивэн, 47.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A8, легковой автомобиль седан, 45.
+Nissan Sentra, легковой автомобиль седан, 26.
+Hyundai Ioniq, легковой автомобиль хэтчбэк, 43.
+Ford Fiesta, легковой автомобиль хэтчбэк, 52.
+Toyota Sienna, минивэн, 44.
+Chevrolet Camaro, легковой автомобиль купе, 48.
+Honda S2000, кабриолет, 33.
+BMW X3, кроссовер, 27.
+Mercedes-Benz GLB, кроссовер, 52.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi A7, легковой автомобиль седан, 50.
+Nissan Juke, кроссовер, 39.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford F-150, пикап, 46.
+Toyota C-HR, кроссовер, 31.
+Chevrolet Corvette, легковой автомобиль купе, 54.
+Honda Clarity, легковой автомобиль седан, 41.
+BMW X2, кроссовер, 32.
+Mercedes-Benz GLS, кроссовер, 49.
+Volkswagen Tiguan, кроссовер, 45.
+Audi Q7, кроссовер, 37.
+Nissan Kicks, кроссовер, 38.
+Hyundai Genesis, легковой автомобиль седан, 25.
+Ford Bronco, внедорожник, 42.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Bolt, электрокар, 30.
+Honda Prelude, легковой автомобиль купе, 45.
+BMW X4, кроссовер, 27.
+Mercedes-Benz EQC, электрокар, 44.
+Volkswagen Touareg, кроссовер, 39.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Leaf, электрокар, 43.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Fusion, легковой автомобиль седан, 28.
+Toyota Supra, легковой автомобиль купе, 40.
+Chevrolet Trax, кроссовер, 51.
+Honda NSX, купе, 34.
+BMW X1, кроссовер, 30.
+Mercedes-Benz CLA, легковой автомобиль седан, 29.
+Volkswagen Atlas, кроссовер, 34.
+Audi RS5, легковой автомобиль купе, 37.
+Nissan NV200, коммерческий автомобиль, 50.
+Hyundai Venue, кроссовер, 35.
+Ford Transit Connect, коммерческий автомобиль, 26.
+Toyota Mirai, водородный автомобиль, 43.
+Chevrolet Express, коммерческий автомобиль, 38.
+Honda Element, кроссовер, 29.
+BMW 8 Series, легковой автомобиль купе, 47.
+Mercedes-Benz Metris, минивэн, 32.
+Volkswagen Arteon, легковой автомобиль седан, 49.
+Audi RS Q8, кроссовер, 36.
+Nissan NV Passenger, коммерческий автомобиль, 53.
+Hyundai Venue, кроссовер, 40.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Mirai, водородный автомобиль, 51.
+Chevrolet Express, коммерческий автомобиль, 43.
+Honda Element, кроссовер, 30.
+BMW 8 Series, легковой автомобиль купе, 48.
+Mercedes-Benz Metris, минивэн, 39.
+Volkswagen Arteon, легковой автомобиль седан, 34.
+Audi RS Q8, кроссовер, 54.
+Nissan NV Passenger, коммерческий автомобиль, 41.
+Hyundai Venue, кроссовер, 52.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Mirai, водородный автомобиль, 33.
+Chevrolet Express, коммерческий автомобиль, 50.
+Honda Element, кроссовер, 47.
+BMW 8 Series, легковой автомобиль купе, 28.
+Mercedes-Benz Metris, минивэн, 43.
+Volkswagen Arteon, легковой автомобиль седан, 38.
+Audi RS Q8, кроссовер, 31.
+Nissan NV Passenger, коммерческий автомобиль, 46.
+Hyundai Venue, кроссовер, 29.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Mirai, водородный автомобиль, 40.
+Chevrolet Express, коммерческий автомобиль, 37.
+Honda Element, кроссовер, 42.
+BMW 8 Series, легковой автомобиль купе, 49.
+Mercedes-Benz Metris, минивэн, 34.
+Volkswagen Arteon, легковой автомобиль седан, 51.
+Audi RS Q8, кроссовер, 36.
+Nissan NV Passenger, коммерческий автомобиль, 43.
+Hyundai Venue, кроссовер, 30.
+Ford Maverick, пикап, 38.
+Toyota Land Cruiser, внедорожник, 29.
+Chevrolet Colorado, грузовик, 44.
+Honda Insight, легковой автомобиль седан, 51.
+BMW X7, кроссовер, 36.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 31.
+Audi e-tron GT, электрокар, 48.
+Nissan Frontier, грузовик, 37.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Bronco Sport, кроссовер, 26.
+Toyota Venza, кроссовер, 53.
+Chevrolet Blazer, кроссовер, 35.
+Honda CR-Z, легковой автомобиль купе, 50.
+BMW iX3, электрокар, 41.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Taos, кроссовер, 49.
+Audi RS3, легковой автомобиль хэтчбэк, 28.
+Nissan Ariya, электрокар, 43.
+Hyundai Ioniq 5, электрокар, 52.
+Ford Transit, коммерческий автомобиль, 39.
+Toyota Mirai, водородный автомобиль, 30.
+Chevrolet Cruze, легковой автомобиль седан, 47.
+Honda Passport, кроссовер, 38.
+BMW X2, кроссовер, 25.
+Mercedes-Benz GLA, кроссовер, 46.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 54.
+Nissan Titan XD, пикап, 40.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 48.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 29.
+BMW X4, кроссовер, 42.
+Mercedes-Benz GLB, кроссовер, 37.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 43.
+Hyundai Kona, кроссовер, 35.
+Ford Maverick, пикап, 36.
+Toyota Sequoia, внедорожник, 47.
+Chevrolet Colorado, грузовик, 34.
+Honda Insight, легковой автомобиль седан, 53.
+BMW X7, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 38.
+Audi e-tron GT, электрокар, 45.
+Nissan Frontier, грузовик, 32.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Bronco Sport, кроссовер, 28.
+Toyota Venza, кроссовер, 43.
+Chevrolet Blazer, кроссовер, 39.
+Honda CR-Z, легковой автомобиль купе, 54.
+BMW iX3, электрокар, 35.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Taos, кроссовер, 29.
+Audi RS3, легковой автомобиль хэтчбэк, 48.
+Nissan Ariya, электрокар, 37.
+Hyundai Ioniq 5, электрокар, 44.
+Ford Transit, коммерческий автомобиль, 33.
+Toyota Mirai, водородный автомобиль, 50.
+Chevrolet Cruze, легковой автомобиль седан, 26.
+Honda Passport, кроссовер, 52.
+BMW X2, кроссовер, 40.
+Mercedes-Benz GLA, кроссовер, 47.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 41.
+Nissan Titan XD, пикап, 27.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 31.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 36.
+BMW X4, кроссовер, 49.
+Mercedes-Benz GLB, кроссовер, 30.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 41.
+Hyundai Kona, кроссовер, 35.
+LADA Vesta, легковой автомобиль седан, 32.
+Ford Maverick, пикап, 47.
+Toyota Land Cruiser, внедорожник, 39.
+Chevrolet Colorado, грузовик, 44.
+Honda Insight, легковой автомобиль седан, 51.
+BMW X7, кроссовер, 36.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 31.
+Audi e-tron GT, электрокар, 48.
+Nissan Frontier, грузовик, 37.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Bronco Sport, кроссовер, 26.
+Toyota Venza, кроссовер, 53.
+Chevrolet Blazer, кроссовер, 35.
+Honda CR-Z, легковой автомобиль купе, 50.
+BMW iX3, электрокар, 41.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Taos, кроссовер, 49.
+Audi RS3, легковой автомобиль хэтчбэк, 28.
+Nissan Ariya, электрокар, 43.
+Hyundai Ioniq 5, электрокар, 52.
+Ford Transit, коммерческий автомобиль, 39.
+Toyota Mirai, водородный автомобиль, 30.
+Chevrolet Cruze, легковой автомобиль седан, 47.
+Honda Passport, кроссовер, 38.
+BMW X2, кроссовер, 25.
+Mercedes-Benz GLA, кроссовер, 46.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 54.
+Nissan Titan XD, пикап, 40.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 48.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 29.
+BMW X4, кроссовер, 42.
+Mercedes-Benz GLB, кроссовер, 37.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 43.
+Hyundai Kona, кроссовер, 35.
+LADA Granta, легковой автомобиль седан, 34.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Honda Civic, легковой автомобиль седан, 39.
+Ford Maverick, пикап, 32.
+Toyota Land Cruiser, внедорожник, 37.
+Chevrolet Colorado, грузовик, 54.
+Honda Insight, легковой автомобиль седан, 41.
+BMW X7, кроссовер, 30.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 36.
+Audi e-tron GT, электрокар, 51.
+Nissan Frontier, грузовик, 38.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Bronco Sport, кроссовер, 29.
+Toyota Venza, кроссовер, 44.
+Chevrolet Blazer, кроссовер, 31.
+Honda CR-Z, легковой автомобиль купе, 52.
+BMW iX3, электрокар, 39.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Taos, кроссовер, 46.
+Audi RS3, легковой автомобиль хэтчбэк, 33.
+Nissan Ariya, электрокар, 50.
+Hyundai Ioniq 5, электрокар, 37.
+Ford Transit, коммерческий автомобиль, 54.
+Toyota Mirai, водородный автомобиль, 40.
+Chevrolet Cruze, легковой автомобиль седан, 25.
+Honda Passport, кроссовер, 42.
+BMW X2, кроссовер, 47.
+Mercedes-Benz GLA, кроссовер, 38.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 36.
+Nissan Titan XD, пикап, 53.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 32.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 43.
+BMW X4, кроссовер, 50.
+Mercedes-Benz GLB, кроссовер, 35.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 38.
+Hyundai Kona, кроссовер, 35.
+LADA Kalina, легковой автомобиль хэтчбэк, 36.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota RAV4, кроссовер, 40.
+Chevrolet Silverado, грузовик, 39.
+Honda Jazz, легковой автомобиль хэтчбэк, 54.
+BMW X5, кроссовер, 36.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Patrol, внедорожник, 31.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Transit Connect, коммерческий автомобиль, 37.
+Toyota Hilux, пикап, 44.
+Chevrolet Tahoe, внедорожник, 39.
+Honda CR-V, кроссовер, 42.
+BMW X3, кроссовер, 27.
+Mercedes-Benz C-Class, легковой автомобиль седан, 46.
+Volkswagen Polo, легковой автомобиль хэтчбэк, 35.
+Audi TT, купе, 42.
+Nissan Qashqai, кроссовер, 29.
+Hyundai Santa Cruz, пикап, 47.
+Ford Fiesta, легковой автомобиль хэтчбэк, 52.
+Toyota Land Cruiser Prado, внедорожник, 53.
+Chevrolet Traverse, кроссовер, 35.
+Honda Accord, легковой автомобиль седан, 50.
+BMW X1, кроссовер, 30.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A5, легковой автомобиль купе, 41.
+Nissan Murano, кроссовер, 30.
+Hyundai Palisade, кроссовер, 49.
+Ford Edge, кроссовер, 46.
+Toyota Tundra, пикап, 45.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Honda Odyssey, минивэн, 33.
+BMW X6, кроссовер, 28.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi Q7, кроссовер, 37.
+Nissan Juke, кроссовер, 46.
+Hyundai Tucson, кроссовер, 44.
+Ford Escape, кроссовер, 41.
+Toyota C-HR, кроссовер, 25.
+Chevrolet Camaro, легковой автомобиль купе, 40.
+Honda Pilot, кроссовер, 34.
+BMW X4, кроссовер, 37.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Arteon, легковой автомобиль седан, 29.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Pathfinder, кроссовер, 30.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Ranger, пикап, 55.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Corvette, легковой автомобиль купе, 43.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW X2, кроссовер, 35.
+Mercedes-Benz GLB, кроссовер, 30.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford F-150, пикап, 50.
+Toyota Supra, легковой автомобиль купе, 29.
+Chevrolet Trax, кроссовер, 46.
+Honda NSX, купе, 53.
+BMW X3, кроссовер, 27.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi RS3, легковой автомобиль хэтчбэк, 45.
+Nissan Ariya, электрокар, 32.
+Hyundai Ioniq 5, электрокар, 41.
+Ford Transit, коммерческий автомобиль, 28.
+Toyota Mirai, водородный автомобиль, 49.
+Chevrolet Cruze, легковой автомобиль седан, 34.
+Honda Passport, кроссовер, 51.
+BMW X2, кроссовер, 39.
+Mercedes-Benz GLA, кроссовер, 26.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 52.
+Nissan Titan XD, пикап, 29.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 37.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 50.
+BMW X4, кроссовер, 35.
+Mercedes-Benz GLB, кроссовер, 52.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 33.
+Hyundai Kona, кроссовер, 35.
+LADA Priora, легковой автомобиль седан, 39.
+Ford Mustang, легковой автомобиль купе, 32.
+LADA 4x4 (Нива), внедорожник, 34.
+Ford Focus, легковой автомобиль хэтчбэк, 47.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Silverado, грузовик, 39.
+Honda HR-V, кроссовер, 52.
+BMW X6, кроссовер, 37.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi A4, легковой автомобиль седан, 41.
+Nissan Rogue, кроссовер, 29.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Transit Connect, коммерческий автомобиль, 32.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Suburban, внедорожник, 38.
+Honda Pilot, кроссовер, 34.
+BMW X3, кроссовер, 27.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q7, кроссовер, 37.
+Nissan Sentra, легковой автомобиль седан, 30.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Escape, кроссовер, 41.
+Toyota Camry, легковой автомобиль седан, 47.
+Chevrolet Traverse, кроссовер, 35.
+Honda Civic, легковой автомобиль седан, 39.
+BMW X1, кроссовер, 30.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Tiguan, кроссовер, 45.
+Audi A5, легковой автомобиль купе, 47.
+Nissan Maxima, легковой автомобиль седан, 49.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford F-150, пикап, 44.
+Toyota Supra, легковой автомобиль купе, 49.
+Chevrolet Trax, кроссовер, 33.
+Honda NSX, купе, 40.
+BMW X5, кроссовер, 36.
+Mercedes-Benz GLA, кроссовер, 29.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Ariya, электрокар, 54.
+Hyundai Ioniq 5, электрокар, 41.
+Ford Transit, коммерческий автомобиль, 30.
+Toyota Mirai, водородный автомобиль, 37.
+Chevrolet Cruze, легковой автомобиль седан, 56.
+Honda Passport, кроссовер, 48.
+BMW X2, кроссовер, 33.
+Mercedes-Benz GLB, кроссовер, 40.
+Volkswagen Atlas, кроссовер, 34.
+Audi SQ5, кроссовер, 46.
+Nissan Titan XD, пикап, 35.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Expedition, кроссовер, 31.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Equinox, кроссовер, 30.
+Honda HR-V, кроссовер, 44.
+BMW X4, кроссовер, 39.
+Mercedes-Benz GLB, кроссовер, 28.
+Volkswagen Jetta, легковой автомобиль седан, 51.
+Audi A6, легковой автомобиль седан, 49.
+Nissan Leaf, электрокар, 51.
+Hyundai Kona, кроссовер, 35.
+LADA Largus, минивэн, 47.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota RAV4, кроссовер, 40.
+Chevrolet Silverado, грузовик, 39.
+Honda Jazz, легковой автомобиль хэтчбэк, 49.
+BMW X5, кроссовер, 36.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Patrol, внедорожник, 32.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Transit Connect, коммерческий автомобиль, 40.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Suburban, внедорожник, 44.
+Honda Pilot, кроссовер, 34.
+BMW X3, кроссовер, 27.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Patrol, внедорожник, 36.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Transit Connect, коммерческий автомобиль, 41.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Suburban, внедорожник, 46.
+Honda Pilot, кроссовер, 34.
+BMW X3, кроссовер, 27.
+Mercedes-Benz A-Class, легковой автомобиль хэтчбэк, 31.
+Volkswagen Golf, легковой автомобиль хэтчбэк, 45.
+Audi Q5, кроссовер, 37.
+Nissan Patrol, внедорожник, 37.
+Hyundai Santa Fe, кроссовер, 33.
+Ford Transit Connect, коммерческий автомобиль, 42.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Suburban, внедорожник, 47.
+Honda Pilot, кроссовер, 34.
+BMW X3, кроссовер, 27.
+LADA Granta, легковой автомобиль седан, 38.
+Ford Fusion, легковой автомобиль седан, 28.
+Toyota Sienna, минивэн, 44.
+Chevrolet Volt, электрокар, 31.
+Honda Ridgeline, пикап, 52.
+BMW 3 Series, легковой автомобиль седан, 43.
+Mercedes-Benz CLA-Class, легковой автомобиль седан, 49.
+Volkswagen Atlas, кроссовер, 34.
+Audi Q3, кроссовер, 39.
+Nissan Armada, внедорожник, 28.
+Hyundai Venue, кроссовер, 47.
+Ford Ranger, пикап, 35.
+Toyota Avalon, легковой автомобиль седан, 56.
+Chevrolet Bolt EV, электрокар, 37.
+Honda Civic, легковой автомобиль седан, 39.
+BMW 5 Series, легковой автомобиль седан, 47.
+Mercedes-Benz CLS-Class, легковой автомобиль седан, 39.
+Volkswagen Atlas, кроссовер, 34.
+Audi A7, легковой автомобиль седан, 45.
+Nissan Kicks, кроссовер, 32.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 51.
+Ford Bronco, внедорожник, 36.
+Toyota 4Runner, внедорожник, 29.
+Chevrolet Express, коммерческий автомобиль, 54.
+Honda Clarity, легковой автомобиль седан, 41.
+BMW 7 Series, легковой автомобиль седан, 43.
+Mercedes-Benz E-Class, легковой автомобиль седан, 28.
+Volkswagen Beetle, легковой автомобиль купе, 52.
+Audi A8, легковой автомобиль седан, 55.
+Nissan NV, коммерческий автомобиль, 38.
+Hyundai Nexo, водородный автомобиль, 27.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Yaris, легковой автомобиль хэтчбэк, 35.
+Chevrolet Trailblazer, кроссовер, 52.
+Honda E, электрокар, 39.
+BMW 2 Series, легковой автомобиль седан, 28.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen CC, легковой автомобиль седан, 30.
+Audi S4, легковой автомобиль седан, 49.
+Nissan NV200, коммерческий автомобиль, 34.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Maverick, пикап, 31.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Silverado, грузовик, 39.
+Honda CR-V, кроссовер, 42.
+BMW 4 Series, легковой автомобиль купе, 29.
+Mercedes-Benz G-Class, внедорожник, 48.
+Volkswagen Passat, легковой автомобиль седан, 26.
+Audi S5, легковой автомобиль купе, 46.
+Nissan NV Passenger, коммерческий автомобиль, 51.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford EcoSport, кроссовер, 55.
+Toyota Tundra, пикап, 42.
+Chevrolet Spark, легковой автомобиль хэтчбэк, 26.
+Honda CR-Z, легковой автомобиль купе, 50.
+BMW 6 Series, легковой автомобиль седан, 41.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Golf GTI, легковой автомобиль хэтчбэк, 47.
+Audi TT RS, купе, 54.
+Nissan Titan, пикап, 39.
+Hyundai Venue, кроссовер, 28.
+Ford Bronco Sport, кроссовер, 45.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Sonic, легковой автомобиль хэтчбэк, 49.
+Honda Fit, легковой автомобиль хэтчбэк, 48.
+BMW 8 Series, легковой автомобиль купе, 55.
+Mercedes-Benz GLS-Class, кроссовер, 42.
+Volkswagen Golf R, легковой автомобиль хэтчбэк, 31.
+Audi RS 3, легковой автомобиль хэтчбэк, 40.
+Nissan Rogue, кроссовер, 29.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Bronco, внедорожник, 35.
+Toyota Sequoia, внедорожник, 52.
+Chevrolet Express, коммерческий автомобиль, 43.
+Honda CR-V Hybrid, кроссовер, 30.
+BMW Z4, купе, 49.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Golf SportWagen, легковой автомобиль универсал, 47.
+Audi S6, легковой автомобиль седан, 54.
+Nissan Versa, легковой автомобиль седан, 44.
+Hyundai Venue, кроссовер, 26.
+Ford Edge, кроссовер, 46.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Honda CR-V, кроссовер, 42.
+BMW i3, электрокар, 28.
+Mercedes-Benz GLA-Class, кроссовер, 45.
+Volkswagen Golf Alltrack, легковой автомобиль универсал, 34.
+Audi S7, легковой автомобиль седан, 51.
+Nissan Leaf, электрокар, 37.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Escape, кроссовер, 41.
+Toyota Camry, легковой автомобиль седан, 47.
+Chevrolet Corvette Stingray, легковой автомобиль купе, 25.
+Honda Odyssey, минивэн, 33.
+BMW X5 M, кроссовер, 53.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 47.
+Audi SQ5, кроссовер, 36.
+Nissan Rogue, кроссовер, 29.
+Hyundai Veloster N, легковой автомобиль хэтчбэк, 38.
+LADA Vesta, легковой автомобиль седан, 36.
+Ford Explorer, кроссовер, 37.
+Toyota Prius, легковой автомобиль хэтчбэк, 52.
+Chevrolet Colorado, пикап, 31.
+Honda Insight, легковой автомобиль хэтчбэк, 50.
+BMW X7, кроссовер, 35.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Arteon, легковой автомобиль седан, 29.
+Audi RS4, легковой автомобиль универсал, 46.
+Nissan Frontier, пикап, 33.
+Hyundai Kona, кроссовер, 35.
+Ford Super Duty, пикап, 37.
+Toyota Land Cruiser, внедорожник, 54.
+Chevrolet Impala, легковой автомобиль седан, 40.
+Honda Passport, кроссовер, 27.
+BMW X4, кроссовер, 44.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Atlas, кроссовер, 34.
+Audi S3, легковой автомобиль хэтчбэк, 55.
+Nissan Juke, кроссовер, 41.
+Hyundai Elantra, легковой автомобиль седан, 36.
+Ford Flex, кроссовер, 43.
+Toyota Highlander, кроссовер, 31.
+Chevrolet Tahoe, внедорожник, 31.
+Honda HR-V, кроссовер, 48.
+BMW X5, кроссовер, 36.
+Mercedes-Benz GLA, кроссовер, 46.
+Volkswagen ID.4, электрокар, 33.
+Audi RS5, легковой автомобиль купе, 50.
+Nissan NV200, коммерческий автомобиль, 36.
+Hyundai Ioniq Electric, электрокар, 53.
+Ford Mustang, легковой автомобиль купе, 32.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Traverse, кроссовер, 35.
+Honda Ridgeline, пикап, 47.
+BMW X6, кроссовер, 37.
+Mercedes-Benz GLE, кроссовер, 50.
+Volkswagen Golf GTI, легковой автомобиль хэтчбэк, 39.
+Audi A3, легковой автомобиль хэтчбэк, 37.
+Nissan NV Passenger, коммерческий автомобиль, 43.
+Hyundai Veloster, легковой автомобиль хэтчбэк, 30.
+Ford Ranger, пикап, 55.
+Toyota Corolla, легковой автомобиль седан, 48.
+Chevrolet Blazer, кроссовер, 41.
+Honda Civic, легковой автомобиль седан, 39.
+BMW X3, кроссовер, 27.
+Mercedes-Benz GLS, кроссовер, 46.
+Volkswagen Golf R, легковой автомобиль хэтчбэк, 33.
+Audi RS6, легковой автомобиль универсал, 50.
+Nissan Titan, пикап, 27.
+Hyundai Accent, легковой автомобиль седан, 26.
+Ford Transit Connect, коммерческий автомобиль, 51.
+Toyota Avalon, легковой автомобиль седан, 32.
+Chevrolet Bolt EV, электрокар, 49.
+Honda CR-V Hybrid, кроссовер, 34.
+BMW M3, легковой автомобиль седан, 41.
+Mercedes-Benz G-Class, внедорожник, 28.
+Volkswagen Golf Alltrack, легковой автомобиль универсал, 47.
+Audi S5, легковой автомобиль купе, 36.
+Nissan Rogue, кроссовер, 29.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Bronco Sport, кроссовер, 26.
+Toyota Tacoma, грузовик, 29.
+Chevrolet Malibu, легковой автомобиль седан, 34.
+Honda CR-V, кроссовер, 42.
+BMW M4, легковой автомобиль купе, 55.
+Mercedes-Benz GLC, кроссовер, 38.
+Volkswagen Golf SportWagen, легковой автомобиль универсал, 45.
+Audi S6, легковой автомобиль седан, 52.
+Nissan Leaf, электрокар, 29.
+Hyundai Sonata, легковой автомобиль седан, 42.
+Ford Escape, кроссовер, 41.
+Toyota Camry, легковой автомобиль седан, 47.
+Chevrolet Corvette Stingray, легковой автомобиль купе, 27.
+Honda Odyssey, минивэн, 33.
+BMW X5 M, кроссовер, 51.
+Mercedes-Benz S-Class, легковой автомобиль седан, 39.
+Volkswagen ID.4, электрокар, 41.
+Audi SQ5, кроссовер, 48.
+Nissan Rogue, кроссовер, 29.
+Hyundai Veloster N, легковой автомобиль хэтчбэк, 40.

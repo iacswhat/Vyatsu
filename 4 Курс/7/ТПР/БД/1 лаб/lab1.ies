@@ -1,0 +1,271 @@
+{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 MS Sans Serif;}{\f1\fswiss\fcharset0 Tahoma;}{\f2\fnil\fcharset0 MS Sans Serif;}{\f3\fswiss\fcharset204 Tahoma;}}
+\viewkind4\uc1\pard\f0\fs16\'c3\'c8\'cf\'ce\'d2\'c5\'c7\'db:
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 \lang1033\f1\{Ubuntu, Mint, Arch, Manjaro, Lite, Fedora, Astra\}\lang1049\f2 
+\par 
+\par \f0\'cf\'c0\'d0\'c0\'cc\'c5\'d2\'d0\'db:
+\par \'cf\'e0\'ea\'e5\'f2\'ed\'fb\'e9_\'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \lang1033\f1\{Pacman, Apt, RPM\}
+\par \lang1049\f3\'d3\'f0\'ee\'e2\'e5\'ed\'fc_\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\lang1033\f1  \{\lang1049\f3\'ee\'ef\'fb\'f2\'ed\'fb\'e9, \'ef\'f0\'ee\'f1\'f2\'ee\'e9\lang1033\f1\}
+\par \lang1049\f3\'d0\'e5\'eb\'e8\'e7 \lang1033\f1\{\lang1049\f3\'ef\'eb\'e0\'e2\'e0\'fe\'f9\'e8\'e9, \'f1\'f2\'e0\'ed\'e4\'e0\'f0\'f2\'ed\'fb\'e9\lang1033\f1\}
+\par \lang1049\f3\'cb\'e8\'f6\'e5\'ed\'e7\'e8\'ff \lang1033\f1\{\lang1049\f3\'ee\'f2\'ea\'f0\'fb\'f2\'e0\'ff, \'ef\'f0\'ee\'ef\'f0\'e8\'e5\'f2\'e0\'f0\'ed\'e0\'ff, \'f1\'ec\'e5\'f8\'e0\'ed\'ed\'e0\'ff\lang1033\f1\}
+\par \lang1049\f3\'d0\'e0\'e7\'e2\'e8\'f2\'e8\'e5 \lang1033\f1\{\lang1049\f3\'f1\'ee\'ee\'e1\'f9\'e5\'f1\'f2\'e2\'ee, \'ea\'ee\'ec\'ec\'e5\'f0\'f7\'e5\'f1\'ea\'ee\'e5\lang1033\f1\}
+\par \lang1049\f3\'cf\'ee\'f2\'f0\'e5\'e1\'eb\'e5\'ed\'e8\'e5_\'f0\'e5\'f1\'f3\'f0\'f1\'ee\'e2 \lang1033\f1\{\lang1049\f3\'eb\'e5\'e3\'ea\'ee\'e2\'e5\'f1\'ed\'fb\'e9, \'f2\'ff\'e6\'e5\'eb\'ee\'e2\'e5\'f1\'ed\'fb\'e9\lang1033\f1\}
+\par \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1\{GNOME, Fly, Cinnamon, CLI, XFCE\}\lang1049\f2 
+\par 
+\par 
+\par \f0\'cf\'c5\'d0\'c5\'cc\'c5\'cd\'cd\'db\'c5:\f2 
+\par \lang1033\f1 
+\par NAME 1
+\par IF \lang1049\f3\'cb\'e8\'f6\'e5\'ed\'e7\'e8\'ff \'ef\'f0\'ee\'ef\'f0\'e8\'e5\'f2\'e0\'f0\'ed\'e0\'ff\lang1033\f1  
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par \lang1033\f1 NAME 2
+\par IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 Fly
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END
+\par 
+\par \lang1049\f2 NAME 3
+\par \lang1033\f1 IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 XFCE
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 4
+\par \lang1033\f1 IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 CLI
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par \lang1033\f1 
+\par \lang1049\f2 NAME 5
+\par \lang1033\f1 IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 Cinnamon
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 6
+\par \lang1033\f1 IF \lang1049\f3\'cf\'e0\'ea\'e5\'f2\'ed\'fb\'e9_\'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \lang1033\f1 RPM
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,7],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 7
+\par \lang1033\f1 IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 GNOME
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,3],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,3],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,3],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,3]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 8
+\par \lang1033\f1 IF \lang1049\f3\'cf\'e0\'ea\'e5\'f2\'ed\'fb\'e9_\'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \lang1033\f1 Pacman
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,5]\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par 
+\par NAME 9
+\par \lang1033\f1 IF \lang1049\f3\'cf\'ee\'f2\'f0\'e5\'e1\'eb\'e5\'ed\'e8\'e5_\'f0\'e5\'f1\'f3\'f0\'f1\'ee\'e2 \'eb\'e5\'e3\'ea\'ee\'e2\'e5\'f1\'ed\'fb\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par 
+\par NAME 10
+\par \lang1033\f1 IF \lang1049\f3\'d0\'e0\'e7\'e2\'e8\'f2\'e8\'e5 \'ea\'ee\'ec\'ec\'e5\'f0\'f7\'e5\'f1\'ea\'ee\'e5\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 11
+\par \lang1033\f1 IF \lang1049\f3\'d0\'e5\'eb\'e8\'e7 \'ef\'eb\'e0\'e2\'e0\'fe\'f9\'e8\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par 
+\par NAME 12
+\par \lang1033\f1 IF \lang1049\f3\'d3\'f0\'ee\'e2\'e5\'ed\'fc_\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff \'ee\'ef\'fb\'f2\'ed\'fb\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,5],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,2]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 13
+\par \lang1033\f1 IF \lang1049\f3\'cf\'e0\'ea\'e5\'f2\'ed\'fb\'e9_\'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \lang1033\f1 Apt AND \lang1049\f3\'d3\'f0\'ee\'e2\'e5\'ed\'fc_\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff \'ef\'f0\'ee\'f1\'f2\'ee\'e9 \lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,3],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,3],\f1 
+\par \lang1049\f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,3]\lang1033\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par 
+\par NAME 14
+\par \lang1033\f1 IF \lang1049\f3\'c8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \lang1033\f1 GNOME AND \lang1049\f3\'cf\'ee\'f2\'f0\'e5\'e1\'eb\'e5\'ed\'e8\'e5_\'f0\'e5\'f1\'f3\'f0\'f1\'ee\'e2 \'f2\'ff\'e6\'e5\'eb\'ee\'e2\'e5\'f1\'ed\'fb\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,3],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,3]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 15
+\par \lang1033\f1 IF \lang1049\f3\'d0\'e0\'e7\'e2\'e8\'f2\'e8\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'f1\'f2\'e2\'ee\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,5],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,5]\f1 
+\par ELSE 
+\par END
+\par 
+\par \lang1049\f2 NAME 16
+\par \lang1033\f1 IF \lang1049\f3\'d0\'e5\'eb\'e8\'e7 \'f1\'f2\'e0\'ed\'e4\'e0\'f0\'f2\'ed\'fb\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,5],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,5]\f1 
+\par ELSE 
+\par END
+\par 
+\par \lang1049\f2 NAME 17
+\par \lang1033\f1 IF \lang1049\f3\'d3\'f0\'ee\'e2\'e5\'ed\'fc_\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\lang1033\f1  \lang1049\f3\'ef\'f0\'ee\'f1\'f2\'ee\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,5],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,5]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 18
+\par \lang1033\f1 IF \lang1049\f3\'cf\'e0\'ea\'e5\'f2\'ed\'fb\'e9_\'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \lang1033\f1 Apt
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,3],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,3]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 19
+\par \lang1033\f1 IF \lang1049\f3\'cf\'ee\'f2\'f0\'e5\'e1\'eb\'e5\'ed\'e8\'e5_\'f0\'e5\'f1\'f3\'f0\'f1\'ee\'e2 \'f2\'ff\'e6\'e5\'eb\'ee\'e2\'e5\'f1\'ed\'fb\'e9\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,2],
+\par \'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,2],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,5],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,5]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 20
+\par \lang1033\f1 IF \lang1049\f3\'cb\'e8\'f6\'e5\'ed\'e7\'e8\'ff \'f1\'ec\'e5\'f8\'e0\'ed\'ed\'e0\'ff\lang1033\f1 
+\par THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [-0,4],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [-0,4]\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,4],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [-0,4]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par NAME 21
+\par \lang1033\f1 IF \lang1049\f3\'cb\'e8\'f6\'e5\'ed\'e7\'e8\'ff \'ee\'f2\'ea\'f0\'fb\'f2\'e0\'ff\lang1033 
+\par \f1 THEN \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Mint [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Manjaro [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Arch [0,3],\f1 
+\par \f3\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Ubuntu [-0,4],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Lite [-0,4]\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Astra [-0,4],\lang1049 
+\par \lang1033\'c4\'e8\'f1\'f2\'f0\'e8\'e1\'f3\'f2\'e8\'e2 Fedora [-0,4]\f1 
+\par ELSE 
+\par END\lang1049\f2 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }
+ 

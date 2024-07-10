@@ -1,0 +1,90 @@
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from sklearn.preprocessing import OneHotEncoder
+
+# Загрузка обученной модели
+model = tf.keras.models.load_model("modelnew2.keras")
+
+# Преобразование новых данных
+def preprocess_new_data(new_data, full_data):
+    # Преобразование категориального столбца "Model" в числовые значения с помощью OneHotEncoding
+    encoder = OneHotEncoder()
+    encoder.fit(full_data[['Model']])
+    model_encoded = encoder.transform(new_data[['Model']]).toarray()
+    
+    # Нормализация числовых данных (возраст)
+    age = new_data[['Age']].values
+    age_normalized = (age - np.mean(full_data['Age'])) / np.std(full_data['Age'])
+
+    # Объединение преобразованных данных
+    X_new = np.concatenate([age_normalized, model_encoded], axis=1)
+    
+    return X_new
+
+# Получение предсказаний
+def get_predictions(X_new):
+    predictions = model.predict(X_new)
+    # binary_predictions = np.round(predictions)
+    return predictions
+
+# Вывод результатов
+def print_results(binary_predictions):
+    # print("New data:")
+    # print(new_data)
+    print("\nPredictions:")
+    np.set_printoptions(threshold=np.inf)
+    print(binary_predictions)
+
+
+def main(model, age):
+     # Загрузка всего датасета
+    full_data = pd.read_csv('datanew2.csv')
+
+    # Пример новых данных для тестирования
+    new_data = pd.DataFrame({'Model': [model], 'Age': [int(age)]})
+
+    # Преобразование новых данных
+    X_new = preprocess_new_data(new_data, full_data)
+
+    # Получение предсказаний только для одного примера
+    binary_predictions = get_predictions(X_new)
+
+    art_prediction = binary_predictions[0][0]
+    sport_prediction = binary_predictions[0][1]
+    book_films_prediction = binary_predictions[0][2]
+    science_prediction = binary_predictions[0][3]
+    travel_prediction = binary_predictions[0][4]
+    cooking_prediction = binary_predictions[0][5]
+    politics_prediction = binary_predictions[0][6]
+
+    # Запись в массив
+    predictions_array = [art_prediction, sport_prediction, book_films_prediction, science_prediction, travel_prediction, cooking_prediction, politics_prediction]
+
+
+    return predictions_array
+
+
+if __name__ == "__main__":
+
+    # model_auto = "Acura ILX"
+    # age = "52"
+    # cc = 0,0,0,0,1,1,0
+
+    # model_auto = "Audi A6"
+    # age = "54"
+    # cc = 1,1,1,0,0,0,1
+
+    model_auto = "BMW X6 xDrive35i"
+    age = "38"
+    cc = 1,1,0,1,0,0,1
+
+    predictions = main(model_auto, age)
+
+    print('Model: ', model_auto)
+    print('Age: ,', age)
+    print('c: ', cc)
+
+    for n in range(7):
+        predictions[n] = float(predictions[n]) * 100
+    print(predictions)

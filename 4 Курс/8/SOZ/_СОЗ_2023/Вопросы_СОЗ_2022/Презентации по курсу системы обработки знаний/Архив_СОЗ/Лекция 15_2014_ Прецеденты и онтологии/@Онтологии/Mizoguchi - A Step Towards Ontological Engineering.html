@@ -1,0 +1,1382 @@
+<HTML>
+<!--This file created 98.9.19 0:43 PM by Home Page Pro version 3.0J Demo-->
+<HEAD>
+   <TITLE>Towards Ontological Engineering</TITLE>
+   <META NAME=GENERATOR CONTENT="Home Page Pro 3.0J Demo">
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=x-sjis">
+   <X-CLARIS-WINDOW TOP=66 BOTTOM=1024 LEFT=8 RIGHT=538>
+   <X-CLARIS-TAGVIEW MODE=minimal>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=x-sjis">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" VLINK="#800080">
+<P>Å@</P>
+
+<P>Å@</P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A Step Towards Ontological
+Engineering</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(Translation of the paper
+presented at the 12<SUP>th</SUP> National Conference on AI of JSAI,
+pp.24-31, June, 1998)</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Riichiro Mizoguchi</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">ISIR, Osaka University,
+Japan</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">URL:
+http://www.ei.sanken.osaka-u.ac.jp/</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Abstract: We discuss ontology
+and ontological engineering which is expected to play a role of
+foundation of so-called Content-Directed AI Research. I first answer
+questions about what is content-directed research followed by some
+definitions of an ontology. I next answer further questions about an
+ontology and describe the merits of ontology design. Finally, I
+present my idea about Ontological Engineering as well as its
+future.</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Introduction</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Three major paradigm shifts
+   have been occurring in AI research community: (1) from
+   process-centered to Information-centered, (2) from
+   computer-centered to human-centered, and (3) from form-centered to
+   content-centered. While the first two are important, the third is
+   expected to play a critical role in the Knowledge society in the
+   coming 21<SUP>st</SUP> century and is the discipline of so-called
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Content-directed
+   research</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> which I have
+   advocated for years.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In AI, formalism-oriented
+   research has dominated as basic research extensively to date. In
+   other words, basic research concerning </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">vessels</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   has been done paying little consideration on its content, while
+   research on </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Theory of
+   content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">, that is,
+   research on </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">what and
+   how to put in the vessel</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   has not been done to date. This is partly because the content
+   largely depends on the respective domains of interest, which
+   prevents to investigate general theories of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+   And this in turn has made it difficult for AI to treat the real
+   world problems which require deep understanding of objects
+   specific to respective domains together with effective devices to
+   enable their treatment.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">My colleagues and I have
+   proposed </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontological
+   Engineering</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Mizoguchi
+   96, 97&#93; and have practiced it to date. This paper describes
+   what is Ontological Engineering.</FONT></P>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Basic questions</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">2.1 What is
+   content-oriented research?</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Content-oriented research
+   is a great attempt of knowledge sharing with humans and computers.
+   The dichotomy of general theories of a vessel which can be easily
+   formalized and </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">domain-specific
+   knowledge</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> which lacks
+   generality has been widely accepted in AI community. An idea that
+   there cannot be any theory about </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   has been accepted. The objective of Content-oriented research is
+   to get rid of such a misleading understanding about AI research
+   and to provide effective theories and techniques enabling
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge
+   accumulation</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> and
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge
+   interoperability</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   which do play critical roles in the next generation knowledge
+   processing.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">2.2 How is it possible to
+   come up with general theories of content for such a variety of
+   domain knowledge?</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">It is true that each branch
+   of sciences has established their own knowledge respectively. On
+   the other hand, computer science has pursued domain-independent
+   theories and techniques treating </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">information</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   and </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">data</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   obtained by abstracting things existing in all the domains. It is
+   thanks to appropriate abstraction and careful consideration about
+   them. Similarly, content-oriented research tries to exploit
+   abstraction and decomposability of knowledge providing
+   sophisticated guidelines and tools for understanding and model
+   building of the target world(See 5.1).</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">2.3 Why ontology instead of
+   knowledge?</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">It is true that knowledge
+   is domain-dependent, and hence knowledge engineering which
+   directly investigates such knowledge has been suffering from a
+   rather serious difficulty caused by its specificity and diversity.
+   However, ontology is different. In the ontology research we
+   investigate knowledge in terms of its origin and elements from
+   which knowledge is constructed. Hierarchical structure of concepts
+   and decomposability of knowledge are exploited to deeply
+   investigate primitives of knowledge as well as background theories
+   of knowledge which enables us to avoid the difficulties knowledge
+   engineering has faced with.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">2.4
+   Isn</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">t Ontological
+   engineering another application-oriented research?</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">While ontological
+   engineering deals with domain-specific knowledge, it tries to
+   establish theories and technology for </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">accumulating</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   knowledge within reasonable size of stratified domains utilizing
+   ontologies. It is such a branch of AI research that investigates
+   basic theories and technology to treat real world knowledge and is
+   such an enterprise that denies the simple dichotomy of AI
+   research: </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Basic
+   research</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> and
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Application
+   research</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">2.5 Does Content-oriented
+   research neglect formalism-oriented research?</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Although it has a plan to
+   improve the unhealthy tendency of AI community in which
+   formalism-oriented research has been overemphasized to date, it
+   never neglects the importance of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">form</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   or </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">formalization</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+   It rather considers formalization as an indispensable technique as
+   mathematics in physics. A typical example is seen in the use of
+   axioms employed in the definitions of concepts and relations in an
+   ontology. The content-oriented research tries to keep a healthy
+   balance between </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">form</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   and </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   using an ontology as a kernel concept.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Å@</FONT></P>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">What is an
+   ontology?</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">There are many interpretations
+about what an ontology is in spite of the fact that it is understood
+to serve as a kernel theory and building blocks of content-oriented
+research. In fact, hot discussions are often done in many meetings on
+ontology. This section presents some of the definitions of an
+ontology.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">3.1 Some
+definitions</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In philosophy, it means
+   theory of existence. It tries to explain what exist in the world
+   and how the world is configured by introducing a system of
+   critical categories to account things and their intrinsic
+   relations.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">From AI point of view, an
+   ontology is defined as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">explicit
+   specification of conceptualization</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   &#91;Gruber&#93; which is widely accepted in AI community.
+   </FONT>Åg<A HREF="lectures/conceptualization/index.htm"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Conceptualization</FONT></A>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   here should be interpreted as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">intensional</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   rather than </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">extensional</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   conceptualization contrary to that defined in &#91;Genesereth and
+   Nilsson, 1987&#93;.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">From knowledge-based
+   systems point of view, it is defined as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">a
+   theory(system) of concepts/ vocabulary used as building blocks of
+   information processing systems</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   by R. Mizoguchi. Knowledge bases are necessary when one builds a
+   model of problem solving in the world. In such a context of
+   problem solving, ontologies are divided into two types: Task
+   ontology for problem solving process and domain ontology for
+   domain where the task is performed.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A looser definition is
+   given by H. Takeda: An ontology is </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A
+   consensus about a target world of interest for a specific
+   purpose</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">. The heart of
+   this definition is to define an ontology as loose as possible
+   without losing its essentials.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Another given by
+   Gruber&#91;Gruber&#93;: Ontologies are agreements about shared
+   conceptualizations. Shared conceptualizations include conceptual
+   frameworks for modeling domain knowledge; content-specific
+   protocols for communication among inter-operating agents; and
+   agreements about the representation of particular domain theories.
+   In the knowledge sharing context, ontologies are specified in the
+   form of definitions of representational vocabulary. A very simple
+   case would be a type hierarchy, specifying classes and their
+   subsumption relationships. Relational database schemata also serve
+   asÅ@ontologies by specifying the relations that can exist in some
+   shared database and the integrity constraints that must hold for
+   them.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A compositional definition
+   is given as follows: An ontology consists of concepts with
+   definitions, hierarchical organization of them(not mandatory),
+   relations among them(more than is-a and part-of), axioms to
+   formalize the definitions and relations.</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">3.2 Typical
+questions</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">How is an ontology
+   different from a knowledge base?</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Let me cite a phrase found
+   in the email archive of ontology:</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">---------------------------------------</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Date: Wed, 26 Feb 1997
+   12:49:09 -0800 (PST)</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">From: Adam Farquhar
+   </FONT><A HREF="mailto:axf@HPP.Stanford.EDU"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">axf@HPP.Stanford.EDU</FONT></A></P>
+   
+   <P>Å@</P>
+   
+   <P>ÅcÅcÅc</P>
+   
+   <P>Å@Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Does it express the
+   consensus knowledge of a community of people?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Do people use it as a
+   reference of precisely defined terms?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Does it express the
+   consensus knowledge of a community of agents?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Is the language used
+   expressive enough for people to say what they want to say?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Can it be reused for
+   multiple problem solving episodes?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Is it stable?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Can it be used to solve a
+   variety of different sorts of problems?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Can it be used as a
+   starting point to construct multiple (sorts of) applications
+   including:</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">a new knowledge base, a
+database schema, an object-oriented program?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The stronger the 'yes' answer
+is to these questions, the more 'ontological' it is.</FONT></P>
+
+<P>Å@</P>
+
+<P>ÅcÅcÅcÅcÅc</P>
+
+<P>Å@</P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">--------------------------------------------------------------------------</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The above opinion is based on
+that there is no clear boundary between ontology and knowledge. It is
+a reasonable understanding when we think of Cyc&#91;Lenat, 95&#93;
+whose upper part is definitely an ontology and the whole seems to be
+a knowledge base. But, the above opinion is somewhat misleading,
+since there is no clear definition of a knowledge base. My answer to
+the question is that we need to introduce a relativity when we
+understand an ontology. That is, if we think of a rule base of an
+expert system as an example of a knowledge base, an ontology is
+apparently different from the rule base because the rule base is
+based on the creator</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+conceptualization of the target world which the ontology specifies
+and formalizes. And, the rule base never represents such a
+conceptualization. Thus, such a relative relation between the both
+clearly shows the essential difference of the two.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(2) How an ontology is
+different from the class hierarchy in object-oriented
+paradigm?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">They are similar and further,
+the developmental methodologies of an ontology and an object
+hierarchy is also similar to each other in the upper stream. In the
+lower stream, however, the former concentrate on declarative aspects
+and the latter on performance-related aspects. Thus, the essential
+difference between the two lies in that the ontology research
+exploits declarative representation, while the OO paradigm is
+intrinsically procedural. In OO paradigm, the meaning of class,
+relations among classes, and methods are procedurally embedded and
+they are implicit. The ontology paradigm, on the other hand,
+descriptions are made declaratively in most cases to maintain
+formality and explicitness.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(3) What</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+new? How is it different from taxonomy of concepts?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology contains a
+taxonomy as its component as discussed in the above. So, it partially
+implies a taxonomy. In general, a new term is rarely totally new.
+Rather, it is usually coined by extending existing terms. The term
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">ontology</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+is not an exceptional case. It is a new term and concept including
+existing concepts such as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">taxonomy</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">common
+vocabulary</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">upper
+model</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">, etc. by adding
+formality, richer relations, explicit representation of stuff usually
+left implicit.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(4)Are upper model and domain
+ontology compatible with each other?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology should be
+use-specific in engineering settings. People believe that a general
+and neutral ontology is of useless. A typical example is task
+ontology&#91;Mizoguchi, 92, 95a, 95b&#93; where domain knowledge has
+to be organized so as to fit into the task model the task ontology
+specifies. In such cases, neutral domain ontology cannot apply to any
+problem without adjusting to the task structure. This discrepancy
+suggests us a potential difficulty which we might face with. People
+involved in upper ontology development advocate the importance of
+general and use-neutral ontology which is hard to be accepted by
+people who have to treat real world problems. Ideally, however, many
+use-specific ontology could find some of the essential concepts in
+use-independent ontology which should be inherited. We need more
+effort to harmonize the both activities believing we will come up
+with several possible upper ontologies one of which is really
+agreeable.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(5) What is the computational
+semantics of an ontology? Is it just a set of labels?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">This is one of the most
+crucial points of the roles an ontology plays. Contrary to that an
+ontology sometimes looks just a set of labels, it has deeper
+computational semantics. I have proposed the following three levels
+of ontologies.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Level 1: A structured
+collection of terms. The most fundamental task in ontology
+development is articulation of the world of interest, that is,
+elicitation of concepts and identifying so-called is-a hierarchy
+among them. These are indispensable to things to be an ontology.
+Typical examples of ontologies at this level include topic
+hierarchies found in internet search engines and tags used for
+metadata description. Little definitions of the concepts are
+made.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Level 2: In addition to that
+at the level 1 ontology, we can add formal definitions to prevent
+unexpected interpretation of the concepts and necessary relations and
+constraints also formally defined as a set of axioms. Relations are
+much richer than those at the level one. Definitions are declarative
+and formal to enable computers to interpret. The interpretability of
+an ontology at this level enables computers to answer questions about
+the models built based on the ontology. Many of the ontology building
+efforts aim at those at this level.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Level 3: The ontology at this
+level is executable in the sense that models built based on the
+ontology run using modules provided by some of the abstract codes
+associated with concepts in the ontology. Thus, it can answer
+questions about runtime performance of the models. Typical examples
+of this type are found in task ontologies&#91;Mizoguchi,
+92&#93;&#91;Breuker94&#93;&#91;Seta96&#93;&#91;Chandra
+98&#93;.</FONT>Å@</P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">(6) What are the concrete
+merits an ontology can provide?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">This question is also very
+important. The following is an enumeration of the merits we can enjoy
+from an ontology:</FONT></P>
+
+<OL type=a>
+   <LI TYPE="a"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A common
+   vocabulary.</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The description of
+   the target world needs a vocabulary agreed among people involved.
+   The fundamental role of an ontology contributes to it.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Explication of what is
+   left implicit.</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In all of the human
+   activities, we find presuppositions/assumptions which are left
+   implicit. Typical examples include definitions of common and basic
+   terms, relations and constraints among them, and viewpoints for
+   interpreting the phenomena and target structure common to the
+   tasks they are usually engaged in. Any knowledge base built is
+   based on a conceptualization possessed by the builder and is
+   usually implicit. An ontology is an explication of the very
+   implicit knowledge. Such an explicit representation of assumptions
+   and conceptualization is more than a simple explication. Although
+   it might be hard to be properly appreciated by people who have no
+   experience in such representation, its contribution to knowledge
+   reuse and sharing is more than expectation considering that the
+   implicitness has been one of the crucial causes of preventing
+   knowledge sharing and reuse.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Data structure</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology in a
+   database is the conceptual schema. In this sense, an ontology
+   provides us with a data structure appropriate for information
+   description and exchange.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Systematization of
+   knowledge</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge
+   systematization requires well-established vocabulary/concepts in
+   terms of which people describe phenomena, theories and target
+   things under consideration. An ontology thus contributes to
+   providing backbone of systematization of knowledge. Actually, I
+   have been involved in a project on Knowledge systematization of
+   production knowledge under the umbrella of IMS: Intelligent
+   Manufacturing Systems project&#91;IMS 97&#93;&#91;Ueda
+   97&#93;.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Standardization</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The success of the
+   modern industries has been achieved thanks to standardization of
+   various components. We cannot avoid standardization in the
+   successful knowledge processing research and activities in the
+   real world. We do need something compatible to
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">bolts</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   and </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">nuts</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   in our community.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Design rationale</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Typical examples to
+   be explicated include intention of the designers of artifacts,
+   that is, part of design rationale. An ontology contributes to
+   explication of assumptions, implicit preconditions required by the
+   problems to solve as well as the conceptualization of the target
+   object which reflects those assumptions. In the case of diagnostic
+   systems, fault classes diagnosed and range of the diagnostic
+   inference, in the case of qualitative reasoning systems, classes
+   of causal relations derived, and so on.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Meta-model function</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A model is usually
+   built in the computer as an abstraction of the real target. And,
+   an ontology provides us with concepts and relations among them
+   which are used as building blocks of the model. Thus, an ontology
+   specifies the models to build by giving guidelines and constraints
+   which should be satisfied. This function is viewed as that at the
+   metalevel.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Theory of
+   content</FONT></LI>
+</OL>
+
+<DIR>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In summary, an ontology
+   provides us with </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">a
+   theory of content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> to
+   enable research results to accumulate like form-oriented research
+   avoiding ad-hoc methodologies which the conventional
+   content-centered activities have been suffering from. This topic
+   is discussed in 5.1 again later.</FONT></LI>
+</DIR>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The following is an
+enumeration of the merits of the systems built based on an
+ontology:</FONT></P>
+
+<OL type=a>
+   <LI TYPE="a"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Reusability</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The explicit
+   description about assumptions of the world the system is
+   interested in contributes to making the system understandable and
+   transparent, and hence its reusability increases. Further, the
+   level 2 ontology enables us to build a guidance system for
+   identifying reusable modules for specific purpose. Needless to
+   say, we need more to attain satisfactory reusability of
+   modules.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Interoperability</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology helps us
+   specify functions of the system and communication protocol among
+   systems, it thus increase the interoperability of the
+   systems.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ease of
+   implementation</FONT>
+   
+   <P type=a><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An explicit
+   specification of the assumptions, functions, and constraints of
+   the modules make it easier to implement the system.</FONT></P>
+   
+   <P type=a>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Intelligent
+   tools</FONT></LI>
+</OL>
+
+<DIR>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Tools should have the
+   knowledge about the model on which the systems it is going to
+   build is expected to be based. The knowledge plays the role that a
+   meta model of the systems usually plays. The meta-model like
+   function of an ontology exists for this very end. Such a tool that
+   is aware of what it is going to build can behave intelligently. An
+   ontology thus enables us to develop an intelligent
+   tool.</FONT></LI>
+</DIR>
+
+<P>4. <FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A brief survey of the
+research on ontology</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.1 Theory</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">N. Guarino and J. Sowa have
+been independently conducting research on theories of ontology. The
+both share the attitude towards philosophy. They both incorporate the
+results obtained in philosophy as principles to design the top-level
+ontology. Many of the practitioners have negative attitude to the
+top-level ontology under which they are required to put their
+ontology because they believe no use-independent ontology is useful.
+In the case of building an ontology for a large scale knowledge base,
+however, the validity of the knowledge base necessarily be justified
+in terms of wider rage of tasks, that is, it needs to show its
+generality rather than task-specific utility. Compliance with the
+principled top-level ontology provides a good justification. Thus,
+top-level ontology is important.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Sowa</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+ontology is based on J. S. Peirce</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+idea of the firstness which is defined without assuming any other
+things like human, iron, etc., the secondness which is defined
+depending on other things like wife, teacher, etc., and thirdness
+which provides an environment or context where the secondness works
+like family, school, etc. He introduces two important concepts,
+continuant and occurrent in addition to the three and obtains 12 top
+level categories by combining the seven primitive properties&#91;Sowa
+95, 98&#93;.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Guarino</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+top level ontology is more extensively incorporates philosophical
+consideration. It is designed based on mereology(theory of parts),
+theory of identity, and theory of dependency. His ontology consists
+of two world: An ontology of Particulars such as things which exist
+in the world and Universals which include concepts we need when we
+describe Particulars&#91;Guarino 97&#93;.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.2 Machine readable
+dictionary: MRD</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Development of
+machine-readable dictionaries has been done extensively in natural
+language processing community where ontology has also been discussed
+as the upper level model of the words/concepts structure. Typical
+examples include WordNet
+&#91;Miller93&#93;Å@&#91;WordNet&#93;,Å@EDR&#91;Yokoi,
+95&#93;,Å@EuroWordNet&#91;EWN&#93;, Generalized Upper
+Model&#91;GUM&#93;. Cyc is not a dictionary, but is a huge common
+sense knowledge base whose upper level structure is an ontology. One
+thing to note here is the activity done in the ad hoc committee in
+ANSI where they intend to design a reference ontology(RO)
+(http://ksl-web.stanford.edu/onto-std/) by aligning the upper level
+model of each of WordNet, Cyc and EDR. It is not easy to attain the
+goal, but it is of worth to try, I think.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.3 Metadata, XML, Tag, and
+intelligent player</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Another activity to note is
+that about standardization about metadata such as Dublin Core&#91;DC
+97&#93;, MCF: Meta Content Framework &#91;MCF 97&#93; and RDF:
+Resource Description Framework &#91;RDF 97&#93; in W3C. Dublin Core
+is the first de facto standard of the metadata descriptors. MCF was
+proposed to W3C as a candidate of the framework for metadata
+representation and extended and elaborated into RDF which is becoming
+as a standard. RDF introduces XML for its syntax.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">XML&#91;XML&#93; is a
+simplified version of SGML which is a powerful markup language
+definition language and has been widely used in document description
+for years. XML is equipped with several powerful hyper-reference
+functions to fit the internet environment. The good things of XML is
+that the users can define their own tags which shows not only
+structure information of the document but also its semantic
+information for various uses of the document to enable semantic
+interoperation. For example, we can design an intelligent
+instructional player of a teaching material as an XML document by
+sharing a set of tags for explicating the roles of the portion of
+document and controlling the interpretation. It can
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Play</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+the XML document adaptively to the performance of the learners.
+Further, we could formalize the set of tags to specify the
+performance of such instructional players. While tags in metadata
+description generally form a level one ontology, such tags can be
+those at the second level. Intelligent players with plug &amp; play
+capability with shared XML tags is expected to be promising with Java
+implementation.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.4 Developing
+methodology</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We here present some of the
+developing methodologies and environments.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.4.1
+IDEF5&#91;IDEF5&#93;</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">KBSI: Knowledge Based Systems
+Inc. has developed a comprehensive methodology for developing an
+ontology, IDEF5, especially for enterprise modeling together with
+graphical and representation languages. IDEF5 tries to follow the
+normal and typical methodology and adopts the steps such as term
+extraction, term definition, relation among terms extraction followed
+by formalization of them. Documentation is well done and contains
+helpful guidelines to follow.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.4.2
+TOVE&#91;Tove&#93;</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">TOVE is also one for
+enterprise ontology like IDEF5. Its remarkable characteristics
+include:</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Requirements to the
+   ontology are formulated as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Competency
+   questions</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> which the
+   resulting model based on the ontology has to answer. Thus,
+   competence of the ontology is formally specified.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In TOVE, axioms are
+   represented in Prolog and answer the competency
+   questions.</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The approach is thus very
+formal and follows the standard approach in software engineering. The
+typical questions include:</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">What activities have to be
+   performed to achieve a goal?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Given some activities at
+   time points in the future, what characteristics do the resource
+   and activities have at time points other than those given.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">What if a task is shifted
+   backward(forward).</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">TOVE thus axiomatizes time and
+activity to be able to investigate many characteristics of the model
+through conceptual-level execution.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">4.4.3 DODDLE, Aspect theory
+and CLEPE&amp;AFM</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">There are several activities
+also in Japan. DODDLE(A Domain Ontology rapiD DeveLopment
+Environment) &#91;Yamaguchi 97&#93; is an environment for ontology
+development which has been used to build a legal ontology. Its
+characteristics is that WordNet is incorporated in the environment as
+the upper model to give the users guidelines for identifying and
+defining domain-specific concepts.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Aspect theory &#91;Takeda
+95&#93; is a framework for combining several ontologies built based
+on different viewpoints. An ontology is called an Aspect and a set of
+logical operation among them are defined to form a theory. ASPECTROL
+is a language to implement the theory. The ontologies built by the
+above two environment are those at level 1 mentioned in
+3.2.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">CLEPE&#91;Seta 97&#93; is an
+environment for task ontology&#91;Mizoguchi, 93&#93;, a level 3
+ontology,</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Development. It is designed
+assuming three kinds of users such as basic ontology authors, task
+ontology authors and task model authors. Models are built under the
+guide of task ontology to maintain their consistency. Such models are
+able to answer the competency questions like TOVE.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">AFM: Activity-First
+Method&#91;Mizoguchi, 95&#93; is an environment for ontology building
+where task analysis is first done to elicit verbs which specify
+objects necessary for performing the task of interest. Nouns used as
+objects of the verbs are then extracted with the roles played by
+them. The building process begins by document analysis managing
+several intermediate products obtained during the course of ontology
+building to enable sophisticated support. The ontology built by AFM
+is of the level 2. AFM is going to be augmented to enable users
+compare multiple ontologies built by different persons to come up
+with a partial agreement of them and to build a maximally agreed
+ontology.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5. Ontological
+Engineering</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We here try to answer several
+questions about what an ontological engineering is.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.1 What do I mean by
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology is a theory
+of content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Observation of physics tells
+us mathematics have played a critical role in establishing it as a
+beautiful science. Mathematics provides us with:</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">the concepts of natural
+   number, real number, continuous function, analytical function,
+   etc. which are well-formalized and rigorously defined, and</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">the classes of operations
+   on them and relations among them such as four rules of arithmetic,
+   derivation, group, linearity, orthogonality, etc.</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">These concepts successfully
+cover what physics needs to explain phenomena it is interested in,
+which enables physics to be a theoretical science. That is, physics
+has a firm theoretical foundation supporting its activity in dealing
+with </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content</FONT>Åh</P>
+
+<P>Å@</P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Then, how about knowledge
+processing research? Does it have a similar theoretical foundation
+for </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content-directed
+research</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">?
+Let</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s take
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Logic</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+as an example. Viewing logic as a theory of knowledge representation,
+it treats </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+as a predicate which takes a truth value, true or false neglecting
+all the other characteristics of the rich meaning. In return of the
+simplification, logic succeeds in getting generality and beauty of
+the theory. A predicate P in P(X) means it is </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">something</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+taking true or false about an object X, nothing other. It does NOT
+tell X is red, heavy, a non-animate, a human, a student, a husband, X
+moves, walks, etc. In short, logic gives us nothing about meaning
+about the world.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An ontology provides us with a
+set of concepts(vocabulary) used as predicates we need to describe
+the world knowledge. It specifies what meaning and constrains each
+concept has other than taking a truth value. For example, it reveals
+the four predicates tall(X), human(X), student(X), move(X) are very
+different from each other by specifying them as </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">tall</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+is an attribute without identity, </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">human</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+is a category X belongs to by its inherent property with identity,
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">student</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+is a role concept which does not represent X</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+inherent property and is not persistent like the process
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">move</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+The four predicates thus have their own properties and constraints
+associated with the categories they belong to. An ontology explicates
+such content-related information in the form of axioms, that is, an
+ontology provides us with a theory of content.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The remarkable progress of
+physics have been attained by describing and accumulating knowledge
+in various domains thanks to exploitation of mathematical concepts
+and formalism. On the other hand, knowledge processing researchers
+have never tried accumulation of knowledge by saying
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">content of each piece of
+knowledge is too domain-specific</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+<SUP>* </SUP>Including the discussion about up to what abstraction
+level from the top we can accept as a common theory of content,
+taxonomy in an ontology contributes to construction of the theory of
+content and to knowledge accumulation. Recognizing the fact that it
+is unlikely to have a powerful theory with small amount of concepts
+and operations like physics, we need to make an effort to establish
+the theory of content with a longer term perspective.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">* The only exception of this
+is Cyc project&#91;Lenat, 1995&#93;.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.2 What topics does ontology
+engineering cover?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">At least the following topics
+should be investigated.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Basic topics</FONT></P>
+
+<BLOCKQUOTE><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Metaphysics(Ontology)</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Metaphysics of
+   science</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge
+   representation</FONT></P></BLOCKQUOTE>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontology
+development</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Common sense base</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Methodology of ontology
+development</FONT></P>
+
+<BLOCKQUOTE><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Description language,
+   Methodology, Environment</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontology comparison,
+   alignment and unification</FONT></P></BLOCKQUOTE>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontology
+application</FONT></P>
+
+<BLOCKQUOTE><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge sharing and
+   reuse</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge
+   management</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Corporate
+   knowledge</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">EDI/CALS/STEP</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Business process
+   modeling</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Systematization of domain
+   knowledge</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Internet information
+   retrieval</FONT></P></BLOCKQUOTE>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Standardization</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Evaluation</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Media processing</FONT></P>
+
+<BLOCKQUOTE><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Media ontology</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Common ontology for
+   knowledge media</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Media
+   integration</FONT></P></BLOCKQUOTE>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.3 Does ontological
+engineering have a methodology?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">While methodologies and
+environments for ontology development have been proposed as described
+above, we cannot say we have one for ontological engineering. It
+should be what we need to explore during the course of daily
+activities towards our goal. The following is just my personal view
+of a guideline.</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Investigate even what you
+   have thought as a matter of course.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Uncover hidden
+   assumptions</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Formulate and formalize
+   the fundamental concepts</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Formulate and formalize
+   relations among concepts</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Conceptualize the process
+   of the system itself</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Formulate and formalize
+   the system in terms of what you explicate</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Etc.</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.3.1 What are implicit
+assumptions?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We cannot state anything
+without implicit assumptions. A typical case includes the situation
+where we build a model of a target object. In such a case, we
+find</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Viewpoints set according
+   to the use of model</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Assumptions dependent on
+   the viewpoints and</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Fundamental concepts and
+   relations among them</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In most of the cases, however,
+these kinds of assumptions are kept hidden and what is represented is
+only the model built in terms of the fundamental vocabulary. Even
+worse, the basic terms in the vocabulary are seldom defined
+explicitly and we are often surprised to find there is little
+consensus about the definitions of them, say, </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">behavior</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">function</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+or </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">model</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+Thus, a model is usually so incomplete as an explicit
+description.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.3.2 Isn</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">t
+there any concrete example?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We sometimes find we do not
+know what a term, we think as a matter of course, exactly means. The
+following is my colleague, Kitamura</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+and my experience in the research of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontology
+of fault</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Kitamura
+98&#93;.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">What is a cause of a fault? At
+the first glance, it seems to be a very trivial question. But, the
+reality is not so. Let me take a fault of a TV set. Imagine, you are
+told by the engineer you asked to fix it </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Sir,
+this condenser was broken, so I replaced it with the new
+one.</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> Even if you do not
+understand the causal relation from the condenser to the symptom you
+initially found, you easily accept that the condenser is
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">the
+cause</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> of the fault. If
+the TV set was very new, however, you might start to suspect
+another(deeper) reason which caused to break the condenser. An
+excessive current might have flown through the condenser because of a
+short in somewhere or a lot of heat might have been radiated by a
+device near it, etc.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The above two ways of
+understanding causes of a fault are different from each other. The
+former is based on the na</FONT>Ô<FONT FACE="ÇlÇr
+Çoñæí©,HGê≥û≤èëëÃ"&gt;ve idea that a malfunction of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">the
+whole(TV set)</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> must have
+been induced by </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">a
+fault</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> of its
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">part</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+and the latter based on the more physical causal understanding. In
+fact, the former needs only subsumption relation among parts to trace
+the causal chain, the latter needs deeper causal relations in
+physical processes.</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">How do we conceptualize
+   the multiple candidates of fault hypotheses appearing in the
+   causal chain?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Can we define so called
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">the ultimate
+   cause</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ"> of a fault? If
+   so, what is it?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">If we define a cause as
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">something which
+   explains a symptom</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+   then how many meaningful categories(levels) of
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">causes</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   do we have?</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">What type of knowledge do
+   we need to identify what category(level) of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">causes</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.</FONT>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">How many terms do we need
+   to successfully characterize all the diagnostic systems developed
+   to date?</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We could come up with so many
+questions about the seemingly well-understood topic,
+</FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">fault</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+My group have investigated the topic and identified and formulated
+tens of such concepts to build an innovative diagnostic system as
+well as characterization of typical type of diagnostic
+systems.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">5.4 How can ontological
+engineering cope with the variety of models?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">I have declared that the
+ultimate goal of Ontological engineering is to establish the
+foundation for modeling all the objects, strictly speaking what the
+computer science needs to tackle, existing in the world. This
+statement needs some additional explanations to make it
+convincing.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The issue here is the
+diversity of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">objects</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+In the example of diagnostic tasks, the possible objects include a
+motor, TV set, car, electric plant, chemical plant, telephone
+network, etc. which varies in domains and size. And, further, tasks
+performed in each of the domains require the models tailored to them.
+In summary, theory of models, and hence ontological engineering
+should cope with the great variety of models.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The above is only concerned
+with the models of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">things</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+We have another type of objects which need to model, Problem solving
+process or </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">tasks</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+What is a diagnostic task? What is design? Business process is also a
+target of modeling. And the last and biggest </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">object</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+is </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+What is the model of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Knowledge</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">?</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Model building requires a set
+of building blocks and specifications or theories of the composition
+of them. It is true that concrete building blocks are heavily
+domain-dependent. But the exhaustiveness or completeness is not the
+goal of the highest priority. Rather, we can stay at the right
+abstraction level at which we can find sizable classes of models.
+Each of them allows us to build an ontology by concentrating the
+hierarchical structure of concepts to find the class-wide common
+characteristics among concepts. Ontological engineering also
+contributes to formation of theories of model building
+domain-independently by building methodologies for building and
+utilizing ontologies, description language, etc.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">The more important issue here
+is the class of computational level of an ontology, that is, the
+three-level architecture of an ontology mentioned earlier. I have to
+admit an ontology at the level 3 is not easy to design for various
+objects. But, one at the level 2 can be reasonably general and
+effective in forming a theory for various objects.</FONT></P>
+
+<P>5. <FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Conclusions</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">We have made a comprehensive
+discussion on an ontology together with trends in ontology research.
+Let us pick some topics again before closing this article.</FONT></P>
+
+<OL>
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Standardization of an
+   ontology</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Standardization has both of
+   good and bad sides. Some people tend to stress the bad side. And
+   others tend to think Ontology should exist as the universal one
+   considering its original meaning in philosophy and say it is
+   almost impossible for all the people to agree on
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A universal
+   ontology</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">. I
+   understand such speculations, but still want to take the position
+   that we easily find the more in good side than those in bad side
+   of an ontology. Knowledge sharing and reuse and semantic
+   interoperability of documents, models and systems do requires
+   standard ontology, at least, shared common ontology.</FONT></P>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">An agreement of what an
+   ontology is</FONT>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">It is pity that we still do
+   not come to an agreement of what an ontology is. Rather, ontology
+   researchers seem to have come to an agreement that
+   </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Let</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">s
+   not discuss the definition of an ontology</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.
+   I can see at least three different kinds of attitudes towards an
+   ontology: (a) Natural language processing, (b) Knowledge-based
+   systems, and (c) Philosophical modeling of the world. NL people
+   would like to discuss </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">vocabulary</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   and </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Lexicon</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+   together with the meaning of each term in it keeping tasks such as
+   text understanding in their mind. The KBS people, on the other
+   hand, tend to stress the executability of components included in
+   the ontology as building blocks of the knowledge
+   </FONT>Å\<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">based systems. People
+   taking the philosophical attitude would like to think of rather
+   universal upper model designed intended to govern the
+   domain-specific ontologies. Each of them has reasonable
+   justifications, which makes it difficult to come to an agreement
+   in the near future.</FONT></P>
+   
+   <P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Further, it is interesting
+   to view the differences in terms of cultural perspectives. US
+   people tend to be pragmatic and hence they put reusability or
+   interoperability as a primarily important criterion in ontology
+   design. People in Europe would like to be more philosophical than
+   US people and we Japanese stay in the middle and to nicely
+   compromise the advantages of both.</FONT></P>
+   
+   <P>Å@</P></LI>
+   
+   <LI><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">A step towards ontological
+   engineering</FONT></LI>
+</OL>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">In spite of the situation
+where we lack common understanding about an ontology, it is definite
+that we agree on the importance of an ontology in advanced knowledge
+processing technology. What we should do is to concentrate on what we
+have been doing based on our own belief avoiding the discussion on
+what an ontology is under the umbrella of </FONT>Åg<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Ontological
+engineering</FONT>Åh<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&lt;Acknowledgement&gt;</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">I am grateful to Mitsuru Ikeda
+and Yoshinobu Kitamura who have been discussing on the topic for
+years. My thanks also go to the member of the Ontological engineering
+committee sponsored by JIPDEC.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&lt;References&gt;</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Breuker94&#93; J.Breuker
+and W.V.de Velde: The Common KADS Library for Expertise Modelling,
+IOS Press, Amsterdam, 1994.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Chandra 98&#93; B.
+Chandrasekaran, J. R. Josephson and Richard Benjamins, Ontology of
+tasks and methods, ECAI98 Workshop Notes on Applications of
+Ontologies and Problem-Solving Methods, 1998.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Cyc&#93; </FONT><A HREF="http://www.cyc.com/puhlic.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.cyc.com/public.html</FONT></A></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;EWN&#93;
+http://www.let.uva.nl/~ewn/</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;DC97&#93; Dublin core
+metadata; </FONT><A HREF="http://purl.org/metadata/dublin_core"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://purl.org/metadata/dublin_core</FONT></A><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Gruber&#93;
+</FONT><A HREF="http://www-ksl.stanford.edu/kst/what-is-an-ontology.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www-ksl.stanford.edu/kst/what-is-an-ontology.html</FONT></A><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Genesereth and Nilsson,
+1987&#93; Genesereth and Nilsson, Foundation of Artificial
+Intelligence, 1987.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Guarino 97&#93;
+N.Guarino: Some organizing principles for a unified top-level
+ontology, Working Notes of AAAI Spring Symposium on Ontological
+Engineering, Stanford, 1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;GUM&#93;</FONT><A HREF="http://www.darmstadt.gmd.de/publish/komet/gen-um/newUM.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.darmstadt.gmd.de/publish/komet/gen-um/newUM.html</FONT></A></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;IDEF5&#93;
+</FONT><A HREF="http://www.kbsi.com/idef/idef5.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.kbsi.com/idef/idef5.html</FONT></A></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Ikeda 97&#93; M. Ikeda,
+K.Seta et al., Task Ontology Makes It Easier To Use Authoring Tools,
+Proc. of IJCAI-97, pp.342-347, 1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Ikeda 98&#93; M. Ikeda:
+Ontology as the foundation of knowledge engineering, J. of Artificial
+Intelligence of Japan, Vol.13, No.1, pp.11-13, 1996(in
+Japanese)ÅD</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;IMS 97&#93; (IMS9717)
+Research report on knowledge systematization for design and
+productrion systmes, IMS Center, 1998(in Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;JIPDEC 98&#93; Report on
+large-scale knowledge bases</FONT>_<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Investigation
+of ontological engineering, JIPDEC, 1998(in Japanese)ÅD</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Kitamura 98&#93;
+Y.Kitamura, et al.ÅFDevelopment of ontology of faultÅCJSAI
+SIG-IES-9703-5, 1998(in Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Kubo 98&#93; Kubo, et
+al.ÅFConceptual design of an environment of ontology designÅCThe
+12<SUP>th</SUP> National Conf. Of JSAI,1998(in Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;MCF97&#93; Meta Content
+Framework using XML; </FONT><A HREF="http://www.w3.org/TR/NOTE-NCF-XML-870624"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.w3.org/TR/NOTE-MCF-XML-970624</FONT></A><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Miller93&#93; G.Miller,
+et al.: Five papers on WordNet, CSL Report 43, Cognitive Science
+Laboratory, Princeton University, 1993.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Mizoguchi 95a&#93; R.
+Mizoguchi, et al.: Ontology for Modeling the World from Problem
+Solving Perspectives, Proc. of IJCAI-95 Workshop on Basic Ontological
+Issues in Knowledge Sharing, pp.1-12, 1995</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Mizoguchi 95b&#93; R.
+Mizoguchi, et al., Task ontology for reuse of problem sloving
+knowledge, Proc. KB&amp;KS95, Enshede, The Netherland,
+1995.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Mizoguchi 96&#93; R.
+Mizoguchi, Form vs. Content </FONT>Å\<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">
+Content-oriented AI research, J. of JSAI, Vol.11, No.1, pp.50-59,
+1996(in Japanese)ÅD</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Mizoguchi 97&#93; R.
+Mizoguchi, Ontology Engineering, Towarad establishment of theories
+and fundamental technologies for content-orietned research, J. of
+JSAI, Vol.12, No.4, pp.559-569, 1997(in Japanese)</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Ogino et al.97&#93;
+Takano Ogino, et al.: An Experiment on Matching EDR Concept
+Classification Dictionary with WordNet, IJCAI-97 Workshop on
+Ontologies and Multilingual NLP, pp.23-27(1997)</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;RDF97&#93; Introduction
+to RDF Metadata; </FONT><A HREF="http://www.w3.org/TR/NOTE-rdf-simple-intro-971113.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.w3.org
+/TR/NOTE-rdf-simple-intro-971113.html</FONT></A><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">,
+1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Seta 97&#93; K. Seta, et
+al.: Capturing a Conceptual Model for End-user Programming -Task
+Ontology as a Static User Model-, Proc of UM'97; </FONT><A HREF="%20http://www.ei.sanken.osaka-u.ac.jp/pub/seta/seta-um97.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.ei.sanken.osaka-u.ac.jp/pub/seta/seta-um97.html</FONT></A><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Seta 98&#93; K. Seta, et
+al.: Organization of problem solving ontology</FONT>_<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">Scheduling
+task ontology, J. of JSAIÅCVol.13,No.4, 1998Åito be published in
+JapaneseÅjÅD</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Sowa 95&#93; J.Sowa:
+Distinction, combination, and constraints, Proc. of IJCAI-95 Workshop
+on Basic Ontological Issues in Knowledge Sharing, 1995.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Sowa 98&#93; J.Sowa:
+Knowledge representation: logical, philosophical and computational
+foundation, PWS Publishing Comp, Boston (to be published in
+1998).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Takeda 95&#93; H.Takeda,
+et al.: Agent organization and communication with multiple
+ontologies, International Journal of Cooperative Information Systems,
+Vol.4, No.4, pp.321-337, 1995.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;TOVE&#93;
+</FONT><A HREF="http://www.ie.utoronto.ca/EIL/tove/toveont.html"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.ie.utoronto.ca/EIL/tove/toveont.html</FONT></A></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Tejerino 93&#93; Y.
+Tejerino, et al., A methodology for building expert systems based on
+task ontology, J. of JSAI, Vol.8, No.4, pp.476-487, 1993(in
+Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Ueda 97&#93; T.Ueda, et
+al.ÅFA consideration on production line redesign system using design
+rationale, The 11<SUP>th</SUP> National Conf. Of JSAI, 29-01, 1997(in
+Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;WordNet&#93;
+</FONT><A HREF="http://www.cogsci.princeton.edu/ÅPwn/"><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">http://www.cogsci.princeton.edu/~wn/</FONT></A></P>
+
+<P>Å@</P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Yamaguchi 97&#93;
+T.Ymaguchi, et al.: A legal ontology rapid development environment
+using a mechine-readable dictionary, LEGONT</FONT>Åf<FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">97,
+pp.69-73, 1997.</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Yamaguchi 98&#93; T.
+YamaguchiÅFLegal Ontology, J. of JSAI, Vol.13,No.2, pp.189-196,
+1998(in Japanese).</FONT></P>
+
+<P><FONT FACE="ÇlÇr Çoñæí©,HGê≥û≤èëëÃ">&#91;Yokoi 97&#93; T. Yokoi,
+et al., Conceptual structure of EDR, J. of Information Processing,
+IPSJ, Vol.38, No.1, pp.32-43, 1997(in Japanese).</FONT></P>
+</BODY>
+</HTML>

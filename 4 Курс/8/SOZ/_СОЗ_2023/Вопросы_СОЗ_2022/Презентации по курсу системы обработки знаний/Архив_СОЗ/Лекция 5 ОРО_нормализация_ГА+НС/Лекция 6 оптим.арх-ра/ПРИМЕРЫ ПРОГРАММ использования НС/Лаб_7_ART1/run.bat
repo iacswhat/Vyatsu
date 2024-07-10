@@ -1,0 +1,1 @@
+java -jar ART_1.jar

@@ -1,0 +1,13 @@
+﻿  my_mpi.cpp
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Isend в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Irecv в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Waitall в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Barrier в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_size в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_rank в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Wtime в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Init в функции main.
+my_mpi.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Finalize в функции main.
+C:\Program Files (x86)\MPICH2\lib\cxx.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Program Files (x86)\MPICH2\lib\mpi.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\test\my_mpi\x64\Debug\my_mpi.exe : fatal error LNK1120: неразрешенных внешних элементов: 9

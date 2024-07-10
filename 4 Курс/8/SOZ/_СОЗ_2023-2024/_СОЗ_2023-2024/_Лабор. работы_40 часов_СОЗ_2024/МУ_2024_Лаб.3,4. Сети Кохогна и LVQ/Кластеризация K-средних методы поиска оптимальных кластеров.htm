@@ -1,0 +1,590 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Кластеризация K-средних: методы поиска оптимальных кластеров</title>
+<meta name="description" content="Найдите оптимальный кластер в кластеризации K-средних, используя метод локтя, оценку силуэта и статистику разрыва.">
+    <link rel="canonical" href="https://skine.ru/articles/43267/">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Bootstrap core CSS -->
+
+    <link href="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/bootstrap.min.css" rel="stylesheet">
+    <link href="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/icon.css" rel="stylesheet">
+    <script src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/jquery-3.5.1.slim.min.js"></script>
+
+
+
+  
+    <script src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/popper.min.js"></script>
+    <script src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/bootstrap.min.js"></script>
+
+
+
+    <link href="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/icon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/style.css">
+    <link rel="icon" href="https://skine.ru/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://skine.ru/assets/favicon.ico" type="image/x-icon">
+    <!-- Yandex.RTB -->
+    <script>window.yaContextCb=window.yaContextCb||[]</script>
+    <script src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/context.js" async=""></script><link rel="preconnect" href="https://yastatic.net/"><link rel="preconnect" href="https://avatars.mds.yandex.net/"><link rel="preconnect" href="https://mc.yandex.ru/"><link rel="preconnect" href="https://ads.adfox.ru/"><link rel="preload" href="https://yastatic.net/s3/home/fonts/ys/3/text-variable-full.woff2" type="font/woff2" as="font" crossorigin="anonymous"><style id="ysTextCssRule">@font-face {
+        font-family: "YS Text Variable";
+        src: url("https://yastatic.net/s3/home/fonts/ys/3/text-variable-full.woff2") format("woff2");
+        font-weight: 400 700;
+        font-display: optional;
+    }</style><script async="" crossorigin="anonymous" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/host.js"></script><script async="" crossorigin="anonymous" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/watch.js"></script><style nonce="">#1cd1fcdc58{width:1px;height:1px;position:relative;}</style><style nonce="">#id2769{width:1px;height:1px;top:0px;left:0px;position:absolute;}</style></head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a aria-current="page" class="navbar-brand active" href="https://skine.ru/"><img style="height:35px;width:165px;margin:0px 10px;" alt="logo" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/logo.svg"></a>
+        <button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler" data-toggle="collapse" data-target="#responsive-navbar-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="responsive-navbar-nav">
+            <div class="mr-auto navbar-nav">
+                <a href="https://skine.ru/" data-rb-event-key="#features" class="nav-link">Главная</a>
+                <a href="https://skine.ru/articles/" class="nav-link">Публикации</a>
+                <a href="https://skine.ru/questions/" class="nav-link">Вопросы</a>
+                <a href="https://skine.ru/tags/" class="nav-link">Теги</a>
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+            <form action="/search/" class="form-inline mt-2 mt-md-0" style="width: 600px;margin: 0px;">
+                <input name="q" class="form-control mr-sm-4" type="text" placeholder="Поиск" aria-label="Поиск" style="width: 300px;">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="">Искать</button>
+            </form>
+
+
+            <div class="navbar-nav">
+
+                <a class="nav-link" href="https://skine.ru/sign-up">Регистрация</a>
+                <a class="nav-link" href="https://skine.ru/sign-in">Войти</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="sidebar-left" class="col-sm-2">
+
+
+
+                <div class="sidebar-block">
+                    <a class="sidebar-title" href="https://skine.ru/tags/">Теги</a>
+                    <ul class="sidebar-left-list">
+                                                    <li><a href="https://skine.ru/tag/machine-learning/">Machine Learning</a></li>
+                                                    <li><a href="https://skine.ru/tag/javascript/">JavaScript</a></li>
+                                                    <li><a href="https://skine.ru/tag/data-science/">Data Science</a></li>
+                                                    <li><a href="https://skine.ru/tag/artificial-intelligence/">Artificial Intelligence</a></li>
+                                                    <li><a href="https://skine.ru/tag/web-development/">Web Development</a></li>
+                                                    <li><a href="https://skine.ru/tag/software-development/">Software Development</a></li>
+                                                    <li><a href="https://skine.ru/tag/python/">Python</a></li>
+                                                    <li><a href="https://skine.ru/tag/coding/">Coding</a></li>
+                                                    <li><a href="https://skine.ru/tag/deep-learning/">Deep Learning</a></li>
+                                                    <li><a href="https://skine.ru/tag/react/">React</a></li>
+                                                    <li><a href="https://skine.ru/tag/ai/">AI</a></li>
+                                                    <li><a href="https://skine.ru/tag/software-engineering/">Software Engineering</a></li>
+                                                    <li><a href="https://skine.ru/tag/nodejs/">Nodejs</a></li>
+                                                    <li><a href="https://skine.ru/tag/java/">Java</a></li>
+                                                    <li><a href="https://skine.ru/tag/front-end-development/">Front End Development</a></li>
+                                                    <li><a href="https://skine.ru/tag/tech/">Tech</a></li>
+                                                    <li><a href="https://skine.ru/tag/computer-science/">Computer Science</a></li>
+                                                    <li><a href="https://skine.ru/tag/algorithms/">Algorithms</a></li>
+                                                    <li><a href="https://skine.ru/tag/typescript/">Typescript</a></li>
+                                                    <li><a href="https://skine.ru/tag/development/">Development</a></li>
+                                                    <li><a href="https://skine.ru/tag/angular/">Angular</a></li>
+                                                    <li><a href="https://skine.ru/tag/nlp/">NLP</a></li>
+                                                    <li><a href="https://skine.ru/tag/neural-networks/">Neural Networks</a></li>
+                                                    <li><a href="https://skine.ru/tag/data/">Data</a></li>
+                                                    <li><a href="https://skine.ru/tag/startup/">Startup</a></li>
+                                                    <li><a href="https://skine.ru/tag/css/">CSS</a></li>
+                                                    <li><a href="https://skine.ru/tag/reactjs/">Reactjs</a></li>
+                                                    <li><a href="https://skine.ru/tag/education/">Education</a></li>
+                                                    <li><a href="https://skine.ru/tag/computer-vision/">Computer Vision</a></li>
+                                                    <li><a href="https://skine.ru/tag/programming-languages/">Programming Languages</a></li>
+                                                    <li><a href="https://skine.ru/tag/tutorial/">Tutorial</a></li>
+                                                    <li><a href="https://skine.ru/tag/productivity/">Productivity</a></li>
+                                                    <li><a href="https://skine.ru/tag/learning-to-code/">Learning To Code</a></li>
+                                                    <li><a href="https://skine.ru/tag/html/">HTML</a></li>
+                                                    <li><a href="https://skine.ru/tag/learning/">Learning</a></li>
+                                                    <li><a href="https://skine.ru/tag/code/">Code</a></li>
+                                                    <li><a href="https://skine.ru/tag/open-source/">Open Source</a></li>
+                                                    <li><a href="https://skine.ru/tag/javascript-tips/">Javascript Tips</a></li>
+                        
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="sidebar-block">
+                    <a class="sidebar-title" href="https://skine.ru/questions/">Вопросы</a>
+                    <ul class="sidebar-left-list">
+                        <li><a href="https://skine.ru/questions/new/">Новые</a></li>
+                        <li><a href="https://skine.ru/questions/popular/">Популярные</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-sm-8">
+
+                <div id="content" class="container1">
+                    <div id="post">
+
+    <h1>Кластеризация K-средних: методы поиска оптимальных кластеров</h1>
+
+
+    <nav style="font-size:0.9em;margin:25px 0px 0px 0px;" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://skine.ru/">Home</a></li>
+            <li class="breadcrumb-item"><a href="https://skine.ru/articles/">Публикации</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Кластеризация K-средних: методы поиска оптимальных кластеров</li>
+        </ol>
+    </nav>
+
+    <div class="post-content">
+                <!-- Yandex.RTB R-A-3919073-1 -->
+<div id="yandex_rtb_R-A-3919073-1-1"><div></div></div>
+<script>
+window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-3919073-1",
+		"renderTo": "yandex_rtb_R-A-3919073-1-1"
+	})
+})
+</script><h4>"Машинное обучение"</h4>
+<h3>Кластеризация K-средних: методы поиска оптимальных кластеров</h3>
+<h4>Найдите оптимальный кластер в кластеризации K-средних, используя метод локтя, оценку силуэта и статистику разрыва.</h4>
+<p>В этой статье вы получите представление о</p>
+<ul><li>Что такое кластеризация K-средних?</li><li>Как работают К-средние?</li><li>Приложения кластеризации K-средних</li><li>Реализация кластеризации K-средних в Python</li><li>Поиск оптимальных кластеров с использованием метода локтя, оценки силуэта и статистики зазоров</li></ul>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20dUdeLbEguDm3W6Abl5DA3g.webp"></p> <!-- Yandex.RTB R-A-3919073-1 -->
+<div id="yandex_rtb_R-A-3919073-1-2"><div></div></div>
+<script>
+window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-3919073-1",
+		"renderTo": "yandex_rtb_R-A-3919073-1-2"
+	})
+})
+</script>
+<blockquote><p style="font-size:1.4em;">Кластеризация K-средних - это простой, популярный, но мощный алгоритм неконтролируемого машинного обучения.  <strong>Итерационный алгоритм для поиска групп данных со схожими характеристиками для немаркированного набора данных в кластеры</strong>.</p></blockquote>
+<p><strong>Алгоритм K-средних нацелен на создание сплоченных кластеров 
+на основе определенного количества кластеров K. Он создает сплоченные 
+компактные кластеры, минимизируя</strong> общее внутрикластерное изменение, называемое <strong>внутрикластерным  сумма квадратов</strong> (WCSS).</p>
+<p>Алгоритм K-средних <strong>начинается со случайно выбранных центроидов для указанного количества кластеров</strong>.  Центроиды являются центром кластеров.  <strong>Центроиды следует выбирать стратегически</strong>, поскольку разные местоположения дадут разные результаты.</p>
+<p>Затем <strong>алгоритм итеративно уточняет местоположения центроидов,
+ назначая каждую точку данных кластеру на основе ее близости к 
+определенному кластеру по сравнению со всеми другими кластерами</strong>.  Близость точки данных к центроиду основана на их евклидовом квадрате расстояния.</p>
+<p>Кластеризация K-средних может использовать любую из следующих мер расстояния</p>
+<ul><li>Евклидово расстояние</li><li>Манхэттенское расстояние</li><li>Квадрат евклидова расстояния</li><li>Косинусное расстояние</li></ul>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20p02g9UDbXXUHUnYkk_ThFA.webp"></p> <!-- Yandex.RTB R-A-3919073-1 -->
+<div id="yandex_rtb_R-A-3919073-1-3"><div></div></div>
+<script>
+window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-3919073-1",
+		"renderTo": "yandex_rtb_R-A-3919073-1-3"
+	})
+})
+</script>
+<p>После того, как все точки данных назначены кластеру, вычислите новый 
+центроид и поместите его в каждый кластер.  На основе нового центроида 
+найдите, нужно ли переназначить какие-либо точки данных новому кластеру 
+на основе его близости к центроидам.</p>
+<p><strong>Метод K-средних итеративно находит лучшие центроиды для кластера, чередуя их</strong></p>
+<ul><li><strong>Назначение точек данных кластерам на основе их близости к текущим центроидам и</strong></li><li><strong>Повторное вычисление центроидов на основе текущего назначения точек данных кластерам.</strong></li></ul>
+<p>Алгоритм K-средних останавливает уточнение кластера, когда</p>
+<ul><li><strong>Центроиды кластера стабилизировались, когда больше нет изменений в точке данных кластера или</strong></li><li><strong>Алгоритм выполнил указанное количество итераций.</strong></li></ul>
+<p>Алгоритм K-средних используется для</p>
+<ul><li><strong>Обнаружение аномалий, таких как обнаружение мошенничества</strong></li><li><strong>Сегментация, такая как сегментация клиентов, сегментация изображений</strong></li><li><strong>Интеллектуальный анализ данных</strong></li></ul>
+<h4><strong>Внедрение K-средних</strong></h4>
+<p><a target="_blank" href="https://www.kaggle.com/shwetabh123/mall-customers">Набор данных клиентов торгового центра</a></p>
+<p>Прочтите файл CSV во фрейме данных, преобразуйте категориальную 
+переменную в числовой тип данных, а затем уменьшите размер с помощью PCA
+ (анализ главных компонентов)</p>
+<pre># Import the required libraries
+<strong>import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import LabelBinarizer
+from sklearn.decomposition import PCA</strong>
+# Read he dataset into a dataframe
+<strong>dataset = pd.read_csv('Mall_Customers.csv',index_col='CustomerID')</strong>
+# Drop duplicates
+<strong>dataset.drop_duplicates(inplace=True)</strong>
+# Converting categorical column Genre to onehot vector
+<strong>label_binarizer = LabelBinarizer()</strong>
+  
+#use LabelBinarizer for gender
+<strong>label_binarizer_output = label_binarizer.fit_transform( dataset['Genre'])</strong>
+#Adding the categorical and the main dataframe into one dataframe
+<strong>result_df = pd.DataFrame(label_binarizer_output, columns=['Gender_1'])
+dataset_1= pd.concat([dataset, result_df], axis=1, join='inner')</strong>
+# Creating the input variable
+<strong>X= dataset_1.iloc[:, [1,2,3,4]].values</strong>
+# reducing the input dimension using PCA
+<strong>reduced_data = PCA(n_components=2).fit_transform(X)</strong></pre>
+<p>Когда мы запускаем KMeans, нам необходимо предоставить <strong>n_clusters, которые представляют собой оптимальное количество кластеров</strong>, которые необходимо сформировать, и количество центроидов, которые необходимо сгенерировать для набора данных.</p>
+<pre><strong>kmeans = KMeans(init="k-means++", n_clusters=5, n_init=4)
+kmeans.fit(X)</strong></pre>
+<p><strong><em>Как лучше всего найти оптимальные кластеры?</em></strong></p>
+<p>Существует 3 популярных метода поиска оптимального кластера для алгоритма кластеризации KMeans.</p>
+<h4><strong>Метод локтя</strong></h4>
+<p>В методе локтя алгоритм K-средних запускается для разного количества 
+кластеров, чтобы найти сумму квадратов расстояний каждой точки данных от
+ центроида кластера, также называемую <strong>суммой квадратов внутри кластера</strong>.</p>
+<p>Постройте WCSS вместе с количеством кластеров K.  <strong>Выберите 
+значение K на графике, где WCSS начинает сглаживаться или внезапно 
+падает, а добавление еще одного кластера не приводит к значительному 
+улучшению, образуя изгиб</strong>.  Изгиб считается индикатором оптимального кластера для набора данных.</p>
+<pre># Using the elbow method to find the optimal number of clusters
+<strong>max_k=11 </strong># max no. of clusters to be evaluated
+<strong>wcss = []
+for i in range(1, max_k):
+    kmeans = KMeans(n_clusters = i, init = 'k-means++', random_state = 42)
+    kmeans.fit(reduced_data)</strong>
+    # inertia method returns wcss for that model
+    <strong>wcss.append(kmeans.inertia_)</strong>
+#plotting the data 
+<strong>plt.figure(figsize=(5,3))
+sns.lineplot(range(1, max_k), wcss,marker='o',color='red')
+plt.title('The Elbow Method')
+plt.xlabel('Number of clusters')
+plt.ylabel('WCSS')
+plt.show()</strong></pre>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20UcMav0-T9vj7s7N8_CZ1aA.webp"></p>
+<h4><strong>Оценка силуэта</strong></h4>
+<p><strong>Оценка силуэта - это еще один показатель, позволяющий 
+проверить компактность кластера, чтобы определить, является ли кластер 
+хорошим</strong>.</p>
+<p>Оценка силуэта <strong>вычисляет среднее расстояние внутри кластера</strong>, как метод локтя, а также <strong>среднее значение ближайшего кластера</strong>.
+  Это показывает, насколько точка данных похожа на ее собственный 
+кластер по сравнению со всеми другими центроидами кластера.  
+Следовательно, <strong>показатель силуэта измеряет как компактность одного и того же кластера, так и разделение с другими кластерами</strong>.</p>
+<p><strong>Если значение показателя силуэта для всех точек данных значительно велико, это дает оптимальное значение для кластеров</strong>.  Оценка силуэта использует расстояние Минковского или евклидово расстояние, и его значение находится в диапазоне [-1, 1].</p>
+<p>Приведенный ниже код адаптирован из <a target="_blank" href="https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html#">https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_sil Silhouette_analysis.html#</a>.</p>
+<p>Код модифицирован для использования сокращенного измерения данных с помощью PCA.</p>
+<pre><strong>from sklearn.metrics import silhouette_samples, silhouette_score
+import matplotlib.cm as cm
+for n_clusters in range(2, max_k):</strong>
+    # Create a subplot with 1 row and 2 columns
+    <strong>fig, (ax1, ax2) = plt.subplots(1, 2)
+    fig.set_size_inches(18, 7)</strong>
+# The 1st subplot is the silhouette plot
+    # The silhouette coefficient can range from -1, 1 but in this example all
+    # lie within [-0.1, 1]
+    <strong>ax1.set_xlim([-0.1, 1])</strong>
+    # The (n_clusters+1)*10 is for inserting blank space between silhouette
+    # plots of individual clusters, to demarcate them clearly.
+    <strong>ax1.set_ylim([0, len(reduced_data) + (n_clusters + 1) * 10])</strong>
+# Initialize the clusterer with n_clusters value and a random generator
+    # seed of 10 for reproducibility.
+    <strong>clusterer = KMeans(n_clusters=n_clusters, random_state=10)
+    cluster_labels = clusterer.fit_predict(reduced_data)</strong>
+# The silhouette_score gives the average value for all the samples.
+    # This gives a perspective into the density and separation of the formed
+    # clusters
+    <strong>silhouette_avg = silhouette_score(reduced_data, cluster_labels)</strong>
+   <strong> print("For n_clusters =", n_clusters,"The average silhouette_score is :", silhouette_avg)</strong>
+# Compute the silhouette scores for each sample
+    <strong>sample_silhouette_values = silhouette_samples(reduced_data, cluster_labels)</strong>
+<strong>y_lower = 10</strong>
+    <strong>for i in range(n_clusters):</strong>
+        # Aggregate the silhouette scores for samples belonging to
+        # cluster i, and sort them
+        <strong>ith_cluster_silhouette_values = \
+            sample_silhouette_values[cluster_labels == i]</strong>
+<strong>ith_cluster_silhouette_values.sort()</strong>
+<strong>size_cluster_i = ith_cluster_silhouette_values.shape[0]
+        y_upper = y_lower + size_cluster_i</strong>
+<strong>color = cm.nipy_spectral(float(i) / n_clusters)
+        ax1.fill_betweenx(np.arange(y_lower, y_upper),
+                          0, ith_cluster_silhouette_values,
+                          facecolor=color, edgecolor=color, alpha=0.7)</strong>
+# Label the silhouette plots with their cluster numbers at the middle
+       <strong> ax1.text(-0.05, y_lower + 0.5 * size_cluster_i, str(i))</strong>
+# Compute the new y_lower for next plot
+      <strong>  y_lower = y_upper + 10</strong>  # 10 for the 0 samples
+<strong>ax1.set_title("The silhouette plot for the various clusters.")
+    ax1.set_xlabel("The silhouette coefficient values")
+    ax1.set_ylabel("Cluster label")</strong>
+# The vertical line for average silhouette score of all the values
+   <strong> ax1.axvline(x=silhouette_avg, color="red", linestyle="--")</strong>
+<strong>ax1.set_yticks([])  # Clear the yaxis labels / ticks
+    ax1.set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])</strong>
+# 2nd Plot showing the actual clusters formed
+    <strong>colors = cm.nipy_spectral(cluster_labels.astype(float) / n_clusters)
+    ax2.scatter(reduced_data[:, 0], reduced_data[:, 1], marker='.', s=30, lw=0, alpha=0.7,
+                c=colors, edgecolor='k')</strong>
+# Labeling the clusters
+   <strong> centers = clusterer.cluster_centers_</strong>
+    # Draw white circles at cluster centers
+   <strong> ax2.scatter(centers[:, 0], centers[:, 1], marker='o',
+                c="white", alpha=1, s=200, edgecolor='k')</strong>
+<strong>for i, c in enumerate(centers):
+        ax2.scatter(c[0], c[1], marker='$%d$' % i, alpha=1,
+                    s=50, edgecolor='k')</strong>
+<strong>ax2.set_title("The visualization of the clustered data.")
+    ax2.set_xlabel("Feature space for the 1st feature")
+    ax2.set_ylabel("Feature space for the 2nd feature")</strong>
+<strong>plt.suptitle(("Silhouette analysis for KMeans clustering on sample data "
+                  "with n_clusters = %d" % n_clusters),
+                 fontsize=14, fontweight='bold')</strong>
+<strong>plt.show()</strong></pre>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20BoCJze8lLJ-JunLdA_SydQ.webp"></p>
+<p>График силуэта предполагает, что 5 является хорошим выбором для 
+оптимального кластера для заданных данных.  Оптимальные кластеры 
+оцениваются по наличию кластеров с оценкой силуэта выше среднего и 
+соответствующими колебаниями в размере участков силуэта.</p>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20OVoUe8rJVf-1A9OvM9Lbtw.webp"></p>
+<p><strong><em>И метод локтя, и оценка по силуэту дают оптимальные кластеры 5</em></strong></p>
+<p>Запуск KMeans с оптимальным кластером, равным 5, а затем построение 
+диаграммы рассеяния с использованием оптимальных кластеров по 
+уменьшенным_data для визуализации кластера</p>
+<pre># Fitting K-Means to the dataset
+<strong>kmeans = KMeans(n_clusters = 5, init = 'k-means++', random_state = 42)
+y_kmeans = kmeans.fit_predict(reduced_data)</strong>
+#Visualising the clusters
+<strong>plt.figure(figsize=(15,7))
+sns.scatterplot(reduced_data[y_kmeans == 0, 0], reduced_data[y_kmeans == 0, 1], color = 'yellow', label = 'Cluster 1',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 1, 0], reduced_data[y_kmeans == 1, 1], color = 'blue', label = 'Cluster 2',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 2, 0], reduced_data[y_kmeans == 2, 1], color = 'green', label = 'Cluster 3',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 3, 0], reduced_data[y_kmeans == 3, 1], color = 'grey', label = 'Cluster 4',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 4, 0], reduced_data[y_kmeans == 4, 1], color = 'orange', label = 'Cluster 5',s=50)</strong>
+<strong>sns.scatterplot(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], color = 'red', 
+                label = 'Centroids',s=300,marker=',')
+plt.grid(False)
+plt.title('Clusters of customers')
+plt.xlabel('PC-1')
+plt.ylabel('PC-2')
+plt.legend()
+plt.show()</strong></pre>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%200jqDOgu4M4g1MdHjVa80-Q.webp"></p>
+<h4><strong>Статистика разрывов</strong></h4>
+<p>Статистика разрыва - еще один популярный метод определения 
+оптимального количества кластеров, который можно применить к любому 
+методу кластеризации.</p>
+<p><strong>Идея статистики разрыва состоит в том, чтобы сравнить инерцию
+ кластера в отношении данных с ее ожиданием в соответствующем наборе 
+данных с нулевой ссылкой.</strong> Наборы данных с нулевой ссылкой могут быть взяты из нормального или равномерного распределения.  <strong>Оптимальный
+ выбор K - это значение, которое максимизирует статистику разрыва между 
+внутрикластерной инерцией набора данных и набором данных с нулевой 
+ссылкой</strong>.</p>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20OQHmo0_pDIkNNKfquYGM9w.webp"></p>
+<p><strong><em>Статистика разрыва - это разница между E ₙ, который 
+представляет собой ожидание данных с нулевой ссылкой, вычисленное как 
+логарифм общей внутрикластерной вариации и итоговой внутрикластерной 
+вариации для набора данных </em></strong></p>
+<p>Приведенный ниже код вдохновлен и адаптирован из <a target="_blank" href="https://glowingpython.blogspot.com/2019/01/a-visual-introduction-to-gap-statistics.html">https://glowingpython.blogspot.com/2019/01/a-visual-introduction-to-gap-statistics.html</a></p>
+<p>Набор данных с нулевой ссылкой - это равномерно распределенный набор точек.</p>
+<pre><strong>from sklearn.datasets import make_blobs
+from sklearn.metrics import pairwise_distances</strong>
+# creating a uniform distributed null refernced dataset
+<strong>reference = np.random.rand(100, 2)
+plt.figure(figsize=(12, 3))
+for k in range(1,6):
+    kmeans = KMeans(n_clusters=k)
+    a = kmeans.fit_predict(reference)
+    plt.subplot(1,5,k)
+    plt.scatter(reference[:, 0], reference[:, 1], c=a)
+    plt.xlabel('k='+str(k))
+plt.tight_layout()
+plt.show()</strong></pre>
+<p>Поскольку точки распределены равномерно, алгоритм KMeans равномерно 
+разбивает точки на K кластеров, даже если между ними нет разделения.</p>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%203TVY2M5zIeVRpPd2SdKNLw.webp"></p>
+<pre><strong>def compute_inertia(a, X):
+    W = [np.mean(pairwise_distances(X[a == c, :])) for c in np.unique(a)]
+    return np.mean(W)</strong>
+<strong>def compute_gap(clustering, data, k_max=5, n_references=5):
+    if len(data.shape) == 1:
+        data = data.reshape(-1, 1)</strong>
+    # The Null Reference dataset that is uniformly distributed
+   <strong> reference = np.random.rand(*data.shape)
+    reference_inertia = []</strong>
+    
+    # Calculate the WCSS for the null refrenced data
+   <strong> for k in range(1, k_max+1):
+        local_inertia = []
+        for _ in range(n_references):
+            clustering.n_clusters = k
+            assignments = clustering.fit_predict(reference)
+            local_inertia.append(compute_inertia(assignments, reference))
+        reference_inertia.append(np.mean(local_inertia))
+    </strong>
+    # Calculate the WCSS for the data
+    <strong>ondata_inertia = []
+    for k in range(1, k_max+1):
+        clustering.n_clusters = k
+        assignments = clustering.fit_predict(data)
+        ondata_inertia.append(compute_inertia(assignments, data))</strong>
+        
+    # Calculate the gao statistics between the WCSS for the null referenced data and the WCSS for the data
+   <strong> gap = np.log(reference_inertia)-np.log(ondata_inertia)
+    return gap, np.log(reference_inertia), np.log(ondata_inertia)</strong>
+
+<strong>gap, reference_inertia, ondata_inertia = compute_gap(KMeans(), reduced_data, k_max)</strong>
+<strong>plt.plot(range(1, k_max+1), gap, '-o')
+plt.ylabel('gap')
+plt.xlabel('k')</strong></pre>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20-mX8tF6PNH5F5jNvcwQ8mA.webp"></p>
+<p>Статистика разрывов дает оптимальное количество кластеров, равное 10, на основе максимального разрыва между <strong>инерцией кластера данных</strong> и данными с нулевой ссылкой.</p>
+<p>Запуск KMeans для 10 кластеров, а затем визуализация кластеров на диаграмме рассеяния.</p>
+<pre># Visualising the clusters
+<strong>plt.figure(figsize=(15,7))
+sns.scatterplot(reduced_data[y_kmeans == 0, 0], reduced_data[y_kmeans == 0, 1], color = 'yellow', label = 'Cluster 1',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 1, 0], reduced_data[y_kmeans == 1, 1], color = 'blue', label = 'Cluster 2',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 2, 0], reduced_data[y_kmeans == 2, 1], color = 'green', label = 'Cluster 3',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 3, 0], reduced_data[y_kmeans == 3, 1], color = 'grey', label = 'Cluster 4',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 4, 0], reduced_data[y_kmeans == 4, 1], color = 'orange', label = 'Cluster 5',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 5, 0], reduced_data[y_kmeans == 5, 1], color = 'pink', label = 'Cluster 6',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 6, 0], reduced_data[y_kmeans == 6, 1], color = 'magenta', label = 'Cluster 7',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 7, 0], reduced_data[y_kmeans == 7, 1], color = 'cyan', label = 'Cluster 8',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 8, 0], reduced_data[y_kmeans == 8, 1], color = 'purple', label = 'Cluster 9',s=50)
+sns.scatterplot(reduced_data[y_kmeans == 9, 0], reduced_data[y_kmeans == 9, 1], color = 'brown', label = 'Cluster 10',s=50)
+sns.scatterplot(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], color = 'red', 
+                label = 'Centroids',s=300,marker=',')
+plt.grid(False)
+plt.title('Clusters of customers')
+plt.xlabel('PC-1')
+plt.ylabel('PC-2')
+plt.legend()
+plt.show()</strong></pre>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%20C0fKvkHJmZfgFQ7L3eZERQ.webp"></p>
+<p><img loading="lazy" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/1%204dNNcjkzHeSUVKITzDO_xw.webp"></p>
+<h4>Вывод:</h4>
+<p>Кластеризация K-средних - это</p>
+<ul><li><strong>Алгоритм машинного обучения без учителя</strong></li><li><strong>Итерационный алгоритм для поиска групп данных со схожими характеристиками для немаркированного набора данных</strong></li></ul>
+<p>Популярные методы определения оптимальных кластеров</p>
+<ul><li><strong>Метод изгиба</strong>: когда WCSS внезапно начинает сглаживаться, <strong></strong> и добавление еще одного кластера не приводит к значительному улучшению, образуя изгиб.</li><li><strong>Оценка силуэта</strong>: измеряет как компактность с одним и тем же кластером, так и разделение с другими кластерами.</li><li><strong>Статистика разрыва.</strong>
+ Максимальный разрыв между внутрикластерной инерцией набора данных и 
+набором данных, на который имеется ссылка на null, распределяется 
+равномерно.</li></ul>
+<h4>Использованная литература:</h4>
+<p><a target="_blank" href="https://stanford.edu/~cpiech/cs221/handouts/kmeans.html">Https://stanford.edu/~cpiech/cs221/handouts/kmeans.html</a></p>
+<br><div class="card"><br>
+                    <div class="card-body"><p><a target="_blank" href="https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/k-means-clustering"><strong>Кластеризация K-средних: Справочник по модулю - Машинное обучение Azure</strong> <br><em>В
+ этой статье описывается, как использовать модуль кластеризации 
+K-средних в конструкторе машинного обучения Azure для создания… </em> docs.microsoft.com </a></p></div><br>
+                </div><br>
+<p><a target="_blank" href="https://arxiv.org/ftp/arxiv/papers/1912/1912.00643.pdf">Https://arxiv.org/ftp/arxiv/papers/1912/1912.00643.pdf</a></p>
+<br><div class="card"><br>
+                    <div class="card-body"><p><a target="_blank" href="https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html"><strong>Выбор количества кластеров с помощью анализа силуэта в кластеризации KMeans - scikit-learn…</strong> <br><em>Анализ силуэта можно использовать для изучения расстояния разделения между результирующими кластерами.  Сюжет силуэта…</em> scikit-learn.org </a></p></div><br>
+                </div><br>
+<p><a target="_blank" href="https://statweb.stanford.edu/~gwalther/gap">Оценка количества кластеров в наборе данных с помощью статистики разрывов</a> <a target="_blank" href="http://web.stanford.edu/~hastie/Papers/gap.pdf">Р.  Тибширани, Г. Вальтер и Т. Хасти (Стэндфордский университет, 2001 г.) </a>.</p>
+<p><a target="_blank" href="https://glowingpython.blogspot.com/2019/01/a-visual-introduction-to-gap-statistics.html">Https://glowingpython.blogspot.com/2019/01/a-visual-introduction-to-gap-statistics.html</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <a class="btn btn-primary btn-sm" href="https://skine.ru/tag/machine-learning/">Machine Learning</a> <a class="btn btn-primary btn-sm" href="https://skine.ru/tag/k-means/">K Means</a> <a class="btn btn-primary btn-sm" href="https://skine.ru/tag/elbow-method/">Elbow Method</a> <a class="btn btn-primary btn-sm" href="https://skine.ru/tag/silhouette-score/">Silhouette Score</a> <a class="btn btn-primary btn-sm" href="https://skine.ru/tag/unsupervised-learning/">Unsupervised Learning</a> 
+        </div>
+        <div class="col-sm-6 text-right">
+            <i style="font-size: 20px;" class="material-icons inline-icon">schedule</i>
+            <span style="font-size:0.9em;">22.09.2022</span>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+                </div>
+
+            </div>
+            <div id="sidebar-right" class="col-sm-2">
+
+                <div class="sidebar-block">
+                    <ul class="related-questions">
+                        <h4>Вопросы по теме</h4>
+                                                    <li><a href="https://skine.ru/questions/62240484/">Как я могу найти все возможные координаты из списка значений x и y, используя python?</a></li>
+                                                    <li><a href="https://skine.ru/questions/23746135/">RabbitMQ: ошибка рукопожатия при попытке использовать SSL-сертификаты</a></li>
+                                                    <li><a href="https://skine.ru/questions/17324989/">Вставьте предложение WHERE в запрос CAML - используя SharePoint, SPServices, JavaScript и jQuery</a></li>
+                                                    <li><a href="https://skine.ru/questions/62767332/">Как создать ссылку для скачивания файла Excel</a></li>
+                                                    <li><a href="https://skine.ru/questions/3406033/">Htaccess 301 работает только часть редиректа</a></li>
+                                                    <li><a href="https://skine.ru/questions/24911021/">Поврежденный индексный файл Vagrant C:\Users\USERNAME\.vagrant.d/data/machine-index/index</a></li>
+                                                    <li><a href="https://skine.ru/questions/9759291/">Паническая ошибка при попытке запустить программу Hello world с помощью Android SDK</a></li>
+                                                    <li><a href="https://skine.ru/questions/11018234/">Как мне создать объект списка, который содержит список другого типа объекта, используя изнутри запроса, используя linq и С#</a></li>
+                                                    <li><a href="https://skine.ru/questions/23084431/">linux bash sed поиск и замена символов sed</a></li>
+                                                    <li><a href="https://skine.ru/questions/9668322/">Rails 3.2.2 — правильное место для настроек конфигурации Mail на производстве</a></li>
+                                                    <li><a href="https://skine.ru/questions/68073028/">Ошибка
+ Bizzare при загрузке в AWS -&gt; TypeError: не удалось выполнить 
+«добавить» к «заголовкам»: недопустимое значение при размещении объекта</a></li>
+                                                    <li><a href="https://skine.ru/questions/66499229/">вызов объекта javascript из ClojureScript</a></li>
+                                                    <li><a href="https://skine.ru/questions/16811219/">запись видео изображений глубины с использованием opencv</a></li>
+                                                    <li><a href="https://skine.ru/questions/30589364/">Блокнот для подписи - Тип не работает</a></li>
+                                                    <li><a href="https://skine.ru/questions/11396779/">Проблема контроля проверки ASP.NET Internet Explorer?</a></li>
+                                                    <li><a href="https://skine.ru/questions/47628477/">Проблемы конфигурации инициализации для интеграции pyodbc с MSSQL Server через веб-браузер</a></li>
+                                                    <li><a href="https://skine.ru/questions/35264461/">Как загрузить метаданные STANDARD-XML из RETS с помощью PHRETS</a></li>
+                                                    <li><a href="https://skine.ru/questions/27136376/">Изменение целевой платформы MVC 5 и .NET</a></li>
+                                                    <li><a href="https://skine.ru/questions/63580452/">запуск алгоритма над несколькими файлами с использованием нескольких входных файлов в Linux</a></li>
+                                                    <li><a href="https://skine.ru/questions/53888323/">Как я могу построить графики профессионального качества в Matlab?</a></li>
+                        
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div id="footer">
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+
+
+            (c) 2024 - skine.ru
+            
+        </div>
+
+        <div class="col-sm-2 text-center">
+            
+                <!--LiveInternet counter--><a href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt555B" style="border:0" title="LiveInternet" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/hit.gif" alt="" width="88" height="31"></a><script>(function(d,s){d.getElementById("licnt555B").src=
+                    "https://counter.yadro.ru/hit?t57.6;r"+escape(d.referrer)+
+                    ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                        (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                    ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+                (document,screen)</script><!--/LiveInternet-->
+            
+            <br><br>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<div style="position: fixed; left: -99px;"><div id="1cd1fcdc58"><iframe scrolling="no" allowtransparency="true" hidefocus="true" tabindex="-1" marginwidth="0" marginheight="0" style="opacity: 1;" src="%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20K-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2_files/render.htm" id="id2769" frameborder="no"></iframe></div></div></body></html>

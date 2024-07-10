@@ -1,0 +1,19 @@
+main
+	__CC2D
+	init
+		DelayMs
+		outcw
+		outd
+			translate
+	clear_lcd
+		outcw
+		outd
+			translate
+	outd
+		translate
+	ScanKbd
+	show
+		DelayMs
+	changeProgram
+	getRandProg
+	DelayMs

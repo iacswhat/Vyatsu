@@ -1,0 +1,1 @@
+D:\test\my_mpi\Debug\my_mpi.exe

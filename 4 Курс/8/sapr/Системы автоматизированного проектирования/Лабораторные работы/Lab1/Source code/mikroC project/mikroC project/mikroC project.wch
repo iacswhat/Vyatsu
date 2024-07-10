@@ -1,0 +1,34 @@
+<WCH v="2">
+  <item n="FARG_changeProgram_key" r="4" s="False" e="False" i="185"/>
+  <item n="_key" r="4" s="False" e="False" i="163"/>
+  <item n="ScanKbd_kp_L0" r="0" s="False" e="False" i="195"/>
+  <item n="FARG_show_len" r="0" s="True" e="False" i="187"/>
+  <item n="FARG_DelayMs_m" r="0" s="False" e="False" i="183"/>
+  <item n="_ms" r="0" s="False" e="False" i="161"/>
+  <item n="FARG_show_speed" r="0" s="False" e="False" i="188"/>
+  <item n="_speed" r="0" s="False" e="False" i="165"/>
+  <item n="_state" r="0" s="False" e="False" i="162"/>
+  <item n="FARG_show_str" r="1" s="False" e="True" i="186">
+    <item n="" r="1" s="False" e="False" i="0"/>
+  </item>
+  <item n="_t" r="0" s="False" e="False" i="164"/>
+  <item n="_zero_flag" r="0" s="False" e="False" i="166"/>
+  <item n="P1_0_bit" r="0" s="False" e="False" i="135"/>
+  <item n="P1_1_bit" r="0" s="False" e="False" i="136"/>
+  <item n="P1_2_bit" r="0" s="False" e="False" i="137"/>
+  <item n="P1_3_bit" r="0" s="False" e="False" i="138"/>
+  <item n="show_j_L0" r="0" s="False" e="False" i="190"/>
+  <item n="FARG_show_len" r="0" s="True" e="False" i="187"/>
+  <item n="FARG_show_str" r="1" s="False" e="True" i="186">
+    <item n="" r="1" s="False" e="True" i="0">
+      <item n="" r="0" s="False" e="False" i="0"/>
+    </item>
+  </item>
+  <item n="FARG_outd_c" r="0" s="False" e="False" i="201"/>
+  <item n="FARG_translate_c" r="0" s="False" e="False" i="196"/>
+  <item n="show_i_L0" r="0" s="False" e="False" i="189"/>
+  <item n="P0_0_bit" r="0" s="False" e="False" i="126"/>
+  <item n="P0_1_bit" r="0" s="False" e="False" i="127"/>
+  <item n="P0_2_bit" r="0" s="False" e="False" i="128"/>
+  <item n="P0_3_bit" r="0" s="False" e="False" i="129"/>
+</WCH>

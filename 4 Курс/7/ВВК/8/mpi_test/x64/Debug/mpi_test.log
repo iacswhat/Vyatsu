@@ -1,0 +1,9 @@
+﻿  mpi_test.cpp
+mpi_test.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_size в функции main.
+mpi_test.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_rank в функции main.
+mpi_test.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Get_processor_name в функции main.
+mpi_test.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Init в функции main.
+mpi_test.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Finalize в функции main.
+C:\Program Files (x86)\MPICH2\lib\mpi.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Program Files (x86)\MPICH2\lib\cxx.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\ЛЕКЦИИ\LP\4\ВВК\8\mpi_test\x64\Debug\mpi_test.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
