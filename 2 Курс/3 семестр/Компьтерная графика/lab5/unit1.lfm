@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 473
+  Height = 572
+  Top = 107
+  Width = 688
+  Caption = 'Form1'
+  ClientHeight = 572
+  ClientWidth = 688
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 96
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'Отрезать'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'Рандом'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 184
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'Очистить'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object PaintBox1: TPaintBox
+    Left = 0
+    Height = 528
+    Top = 0
+    Width = 689
+    OnMouseDown = PaintBox1MouseDown
+    OnMouseUp = PaintBox1MouseUp
+    OnPaint = PaintBox1Paint
+  end
+end

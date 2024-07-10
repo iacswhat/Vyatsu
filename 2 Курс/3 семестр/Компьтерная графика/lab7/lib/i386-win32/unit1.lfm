@@ -1,0 +1,217 @@
+object Form1: TForm1
+  Left = 1217
+  Height = 654
+  Top = 267
+  Width = 575
+  Caption = 'Form1'
+  ClientHeight = 654
+  ClientWidth = 575
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 136
+    Caption = 'Начальное положение'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button3: TButton
+    Left = 48
+    Height = 25
+    Top = 280
+    Width = 34
+    Caption = 'OY'
+    OnClick = Button3Click
+    TabOrder = 1
+  end
+  object Button4: TButton
+    Left = 88
+    Height = 25
+    Top = 280
+    Width = 35
+    Caption = 'OZ'
+    OnClick = Button4Click
+    TabOrder = 2
+  end
+  object Button5: TButton
+    Left = 8
+    Height = 25
+    Top = 280
+    Width = 35
+    Caption = 'OX'
+    OnClick = Button5Click
+    TabOrder = 3
+  end
+  object Button6: TButton
+    Left = 6
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'Увеличить'
+    OnClick = Button6Click
+    TabOrder = 4
+  end
+  object Button7: TButton
+    Left = 6
+    Height = 25
+    Top = 384
+    Width = 75
+    Caption = 'Уменьшить'
+    OnClick = Button7Click
+    TabOrder = 5
+  end
+  object Button8: TButton
+    Left = 8
+    Height = 25
+    Top = 456
+    Width = 34
+    Caption = 'OX'
+    OnClick = Button8Click
+    TabOrder = 6
+  end
+  object Button9: TButton
+    Left = 48
+    Height = 25
+    Top = 456
+    Width = 35
+    Caption = 'OY'
+    OnClick = Button9Click
+    TabOrder = 7
+  end
+  object Button10: TButton
+    Left = 88
+    Height = 25
+    Top = 456
+    Width = 35
+    Caption = 'OZ'
+    OnClick = Button10Click
+    TabOrder = 8
+  end
+  object Button11: TButton
+    Left = 7
+    Height = 25
+    Top = 504
+    Width = 74
+    Caption = 'Анимация'
+    OnClick = Button11Click
+    TabOrder = 9
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 48
+    Width = 91
+    Caption = 'Сместить по X    '
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 72
+    Width = 34
+    Caption = '-'
+    OnClick = Button2Click
+    TabOrder = 10
+  end
+  object Button15: TButton
+    Left = 48
+    Height = 25
+    Top = 72
+    Width = 34
+    Caption = '+'
+    OnClick = Button15Click
+    TabOrder = 11
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 112
+    Width = 91
+    Caption = 'Сместить по Z    '
+    ParentColor = False
+  end
+  object Button13: TButton
+    Left = 6
+    Height = 25
+    Top = 136
+    Width = 36
+    Caption = '-'
+    OnClick = Button13Click
+    TabOrder = 12
+  end
+  object Button16: TButton
+    Left = 48
+    Height = 25
+    Top = 136
+    Width = 34
+    Caption = '+'
+    OnClick = Button16Click
+    TabOrder = 13
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 176
+    Width = 88
+    Caption = 'Сместить по Y   '
+    ParentColor = False
+  end
+  object Button17: TButton
+    Left = 8
+    Height = 25
+    Top = 200
+    Width = 34
+    Caption = '-'
+    OnClick = Button17Click
+    TabOrder = 14
+  end
+  object Button14: TButton
+    Left = 48
+    Height = 25
+    Top = 200
+    Width = 34
+    Caption = '+'
+    OnClick = Button14Click
+    TabOrder = 15
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 15
+    Top = 248
+    Width = 79
+    Caption = 'Отражения по'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 15
+    Top = 432
+    Width = 74
+    Caption = 'Повороты по'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 15
+    Top = 328
+    Width = 54
+    Caption = 'Растянуть'
+    ParentColor = False
+  end
+  object Button12: TButton
+    Left = 6
+    Height = 25
+    Top = 544
+    Width = 75
+    Caption = 'Button12'
+    OnClick = Button12Click
+    TabOrder = 16
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    Left = 160
+    Top = 8
+  end
+end

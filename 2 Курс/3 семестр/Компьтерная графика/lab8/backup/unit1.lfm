@@ -1,0 +1,103 @@
+object Form1: TForm1
+  Left = 1271
+  Height = 900
+  Top = 325
+  Width = 900
+  Caption = 'Form1'
+  ClientHeight = 880
+  ClientWidth = 900
+  Color = clWhite
+  Menu = MainMenu1
+  OnKeyDown = FormKeyDown
+  LCLVersion = '2.0.12.0'
+  WindowState = wsFullScreen
+  object B3: TButton
+    Left = 1416
+    Height = 25
+    Top = 584
+    Width = 43
+    Caption = 'Bлево'
+    Enabled = False
+    OnClick = B3Click
+    TabOrder = 0
+    Visible = False
+  end
+  object B4: TButton
+    Left = 1560
+    Height = 25
+    Top = 584
+    Width = 43
+    Caption = 'Вправо'
+    Enabled = False
+    OnClick = B4Click
+    TabOrder = 1
+    Visible = False
+  end
+  object B2: TButton
+    Left = 1488
+    Height = 25
+    Top = 616
+    Width = 43
+    Caption = 'Вниз'
+    Enabled = False
+    OnClick = B2Click
+    TabOrder = 2
+    Visible = False
+  end
+  object B1: TButton
+    Left = 1488
+    Height = 25
+    Top = 552
+    Width = 43
+    Caption = 'Вверх'
+    Enabled = False
+    OnClick = B1Click
+    TabOrder = 3
+    Visible = False
+  end
+  object Button30: TButton
+    Left = 1472
+    Height = 25
+    Top = 584
+    Width = 75
+    Caption = 'Повернуть'
+    Enabled = False
+    OnClick = Button30Click
+    TabOrder = 4
+    Visible = False
+  end
+  object Button21: TButton
+    Left = 1384
+    Height = 25
+    Top = 616
+    Width = 75
+    Caption = 'Размер -'
+    Enabled = False
+    OnClick = Button21Click
+    TabOrder = 5
+    Visible = False
+  end
+  object Button20: TButton
+    Left = 1560
+    Height = 25
+    Top = 616
+    Width = 75
+    Caption = 'Размер +'
+    Enabled = False
+    OnClick = Button20Click
+    TabOrder = 6
+    Visible = False
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 32
+    Top = 16
+  end
+  object MainMenu1: TMainMenu
+    Left = 240
+    Top = 8
+    object MenuItem1: TMenuItem
+      Caption = 'Загрузить'
+      OnClick = MenuItem1Click
+    end
+  end
+end

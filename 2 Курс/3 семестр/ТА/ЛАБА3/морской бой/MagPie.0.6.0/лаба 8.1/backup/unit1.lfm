@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 162
+  Height = 900
+  Top = 110
+  Width = 900
+  Caption = 'Form1'
+  ClientHeight = 880
+  ClientWidth = 900
+  Menu = MainMenu1
+  LCLVersion = '2.0.10.0'
+  object Button20: TButton
+    Left = 488
+    Height = 25
+    Top = 848
+    Width = 75
+    Caption = 'Размер +'
+    OnClick = Button20Click
+    TabOrder = 0
+  end
+  object Button21: TButton
+    Left = 312
+    Height = 25
+    Top = 848
+    Width = 75
+    Caption = 'Размер -'
+    OnClick = Button21Click
+    TabOrder = 1
+  end
+  object Button30: TButton
+    Left = 400
+    Height = 25
+    Top = 816
+    Width = 75
+    Caption = 'Повернуть'
+    OnClick = Button30Click
+    TabOrder = 2
+  end
+  object B1: TButton
+    Left = 416
+    Height = 25
+    Top = 784
+    Width = 43
+    Caption = 'Вверх'
+    OnClick = B1Click
+    TabOrder = 3
+  end
+  object B2: TButton
+    Left = 416
+    Height = 25
+    Top = 848
+    Width = 43
+    Caption = 'Вниз'
+    OnClick = B2Click
+    TabOrder = 4
+  end
+  object B4: TButton
+    Left = 488
+    Height = 25
+    Top = 816
+    Width = 43
+    Caption = 'Вправо'
+    OnClick = B4Click
+    TabOrder = 5
+  end
+  object B3: TButton
+    Left = 344
+    Height = 25
+    Top = 816
+    Width = 43
+    Caption = 'Bлево'
+    OnClick = B3Click
+    TabOrder = 6
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 32
+    Top = 16
+  end
+  object MainMenu1: TMainMenu
+    Left = 240
+    Top = 8
+    object MenuItem1: TMenuItem
+      Caption = 'Загрузить'
+      OnClick = MenuItem1Click
+    end
+  end
+end

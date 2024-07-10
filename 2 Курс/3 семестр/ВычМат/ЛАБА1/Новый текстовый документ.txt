@@ -1,0 +1,58 @@
+procedure komb(a, b, e: real);
+
+var
+  x11, x12: real;
+  m, mm: real;
+
+begin
+  writeln('Исходное уравнение x+ln(x)-0,5=0; Интервал [',a,';',b,']');
+  writeln('f`(x)=1+1/x; f`(',a,')=', f1(a), '; f`(',b,')=', f1(b), ';');
+  writeln('f``(x)=-1/x^2; f``(',a,')=', f2(a), '; f``(',b,')=', f2(b), ';');
+  m := min(abs(f1(a)), abs(f1(b)));
+  mm := max(abs(f2(a)), abs(f2(b)));
+  ostanov(m, mm);
+  writeln('------------------------------------------------------------');
+  writeln('n |    Bn    |    f(Bn)   |  f(An)-f(Bn)  |  f(An)*(An-Bn)  |      h      |    Bn+1   ');
+  
+  if f(a) * f2(a) > 0 then begin
+    
+    x12 := b - f(b) / f1(b);
+    x11 := a - ((a - b) * f(a) / (f(a) - f(b)));
+    
+    writeln(p, ' | ', b:6:5, '  |  ', f(b):6:5, '  |    ', f(a) - f(b):6:5, '    |     ', f(a) * (a - b):6:5, '     |   ', (f(a) * (a - b)) / (f(a) - f(b)):6:5, '  | ', x12:6:5, '   |  ', abs(x12 - x11):6:9);
+    inc(p);
+    while abs(x12 - x11) >= e do
+    begin
+      a := x11;
+      b := x12;
+      
+      x12 := b - f(b) / f1(b);
+      x11 := a - ((a - b) * f(a) / (f(a) - f(b)));
+      
+      writeln(p, ' | ', b:6:5, '  |  ', f(b):6:5, '  |    ', f(a) - f(b):6:5, '    |     ', f(a) * (a - b):6:5, '     |   ', (f(a) * (a - b)) / (f(a) - f(b)):6:5, '  | ', x12:6:5, '   |  ', abs(x12 - x11):6:9);
+      inc(p);
+    end;
+    writeln('Корень: ', x12:6:5)
+  end
+  else
+    if f(b) * f2(a) > 0 then begin
+    
+    x11 := a - f(a) / f1(a);
+    x12 := b - ((b - a) * f(b) / (f(b) - f(a)));
+    
+    writeln(p, ' | ', a:6:5, '  |  ', f(a):6:5, '  |    ', f(b) - f(a):6:5, '    |     ', f(b) * (b - a):6:5, '     |   ', (f(b) * (b- a)) / (f(b) - f(a)):6:5, '  | ', x12:6:5, '   |  ', abs(x12 - x11):6:9);
+    inc(p);
+    while abs(x12 - x11) >= e do
+    begin
+      a := x11;
+      b := x12;
+      
+      x12 := b - f(b) / f1(b);
+      x11 := a - ((a - b) * f(a) / (f(a) - f(b)));
+      
+      writeln(p, ' | ', a:6:5, '  |  ', f(a):6:5, '  |    ', f(b) - f(a):6:5, '    |     ', f(b) * (b - a):6:5, '     |   ', (f(b) * (b- a)) / (f(b) - f(a)):6:5, '  | ', x12:6:5, '   |  ', abs(x12 - x11):6:9);
+      inc(p);
+    end;
+    writeln('Корень: ', x12:6:5)
+  end;
+end;
